@@ -241,6 +241,18 @@
         .swipe-card.swipe-up {
             transform: translateY(-100%) scale(0.9); opacity: 0;
         }
+        .swipe-card.dragging {
+            transition: none;
+            cursor: grabbing;
+        }
+        .swipe-overlay {
+            position: absolute; top: 0; left: 0; right: 0; bottom: 0;
+            border-radius: 16px; display: flex; align-items: center; justify-content: center;
+            font-size: 1.4rem; font-weight: 800; pointer-events: none;
+            opacity: 0; transition: opacity 0.1s;
+        }
+        .swipe-overlay-yes { background: rgba(194,255,102,0.3); color: #3a7a00; }
+        .swipe-overlay-no { background: rgba(255,131,131,0.3); color: #a00; }
         .swipe-text {
             font-size: 1.05rem; line-height: 1.7; margin-bottom: 1.2rem;
             font-weight: 400;
@@ -331,6 +343,14 @@
         <!-- DASHBOARD -->
         <div class="tab-panel active" id="panel-dashboard">
             <div class="stats-grid" id="statsGrid"></div>
+
+            <div class="generate-section" id="importSection">
+                <h2>Importera befintliga fakta</h2>
+                <p>Lägg alla <span id="importableCount">0</span> befintliga fakta från facts.js som utkast, så du kan granska dem i swipe-vyn.</p>
+                <button class="btn btn-primary" id="importCuratedBtn" style="padding: 0.7rem 2rem; font-size: 0.88rem;">Importera till utkast</button>
+                <div id="importStatus" style="font-size: 0.75rem; color: var(--text-secondary); margin-top: 0.5rem; min-height: 1.2em;"></div>
+            </div>
+
             <div class="generate-section">
                 <h2>Snabbgenerering</h2>
                 <p>Generera nya fakta med AI som hamnar i utkast-listan för granskning.</p>
@@ -392,9 +412,11 @@
             <div class="bulk-bar">
                 <span class="count" id="approvedCount">0 godkända</span>
                 <div class="bulk-actions">
-                    <button class="btn btn-sm btn-primary" id="exportBtn">Exportera till facts.js</button>
+                    <button class="btn btn-sm btn-approve" id="publishBtn" style="font-size: 0.78rem; padding: 0.45rem 1.2rem;">🚀 Publicera alla</button>
+                    <button class="btn btn-sm btn-primary" id="exportBtn">Exportera facts.js</button>
                 </div>
             </div>
+            <div id="publishStatus" style="font-size: 0.75rem; color: var(--text-secondary); margin-bottom: 0.6rem; min-height: 1.2em;"></div>
             <div class="review-list" id="approvedList"></div>
         </div>
 
@@ -459,6 +481,8 @@
         const APPROVED_KEY = "smartass_approved";
         const CURATED_EDITS_KEY = "smartass_curated_edits";     // { index: { text, category, ... } }
         const CURATED_DELETED_KEY = "smartass_curated_deleted";  // [index, index, ...]
+        const PUBLISHED_KEY = "smartass_published";             // published facts visible on public site
+        const IMPORTED_KEY = "smartass_imported_curated";       // flag: curated facts already imported
 
         function getDrafts() { try { return JSON.parse(localStorage.getItem(DRAFT_KEY) || "[]"); } catch { return []; } }
         function saveDrafts(d) { localStorage.setItem(DRAFT_KEY, JSON.stringify(d)); }
@@ -536,14 +560,15 @@
             const totalActive = getActiveCurated().length;
             const totalApproved = getApproved().length;
             const totalDrafts = getDrafts().length;
-            const totalAll = totalActive + totalApproved;
+            const totalPublished = getPublished().length;
+            const totalAll = totalActive + totalApproved + totalPublished;
             const deletedCount = getCuratedDeleted().length;
             const editedCount = Object.keys(getCuratedEdits()).length;
 
             let html = `
                 <div class="stat-card stat-total" onclick="openTab('published')">
                     <div class="stat-number">${totalAll}</div>
-                    <div class="stat-label">Totalt publicerade</div>
+                    <div class="stat-label">Totalt fakta</div>
                     <span class="arrow">→</span>
                 </div>
                 <div class="stat-card stat-draft" onclick="openTab('drafts')">
@@ -553,8 +578,12 @@
                 </div>
                 <div class="stat-card stat-approved" onclick="openTab('approved')">
                     <div class="stat-number">${totalApproved}</div>
-                    <div class="stat-label">Godkända (admin)</div>
+                    <div class="stat-label">Godkända</div>
                     <span class="arrow">→</span>
+                </div>
+                <div class="stat-card" style="border-left: 3px solid var(--green); cursor: default;">
+                    <div class="stat-number">${totalPublished}</div>
+                    <div class="stat-label">Live på sidan</div>
                 </div>`;
 
             const sorted = Object.entries(counts).filter(([,v]) => v > 0).sort((a,b) => b[1] - a[1]);
@@ -1076,6 +1105,139 @@
         document.getElementById("exportBtn").addEventListener("click", exportFactsJs);
         document.getElementById("exportBtnBottom").addEventListener("click", exportFactsJs);
 
+        // ========== IMPORT CURATED TO DRAFTS ==========
+        function updateImportSection() {
+            const alreadyImported = localStorage.getItem(IMPORTED_KEY) === "true";
+            const section = document.getElementById("importSection");
+            const count = FACTS_DB ? FACTS_DB.length : 0;
+            document.getElementById("importableCount").textContent = count;
+            if (alreadyImported || count === 0) {
+                section.style.display = "none";
+            }
+        }
+
+        document.getElementById("importCuratedBtn").addEventListener("click", () => {
+            const count = FACTS_DB ? FACTS_DB.length : 0;
+            if (!confirm(`Importera alla ${count} befintliga fakta som utkast? Du kan sedan granska dem en och en.`)) return;
+            const d = getDrafts();
+            FACTS_DB.forEach(f => {
+                d.push({
+                    text: f.text,
+                    keywords: f.keywords || [],
+                    sourceName: f.sourceName || "",
+                    sourceUrl: f.sourceUrl || "",
+                    related: f.related || [],
+                    category: guessCategory(f),
+                    _importedFrom: "curated",
+                    _createdAt: Date.now()
+                });
+            });
+            saveDrafts(d);
+            localStorage.setItem(IMPORTED_KEY, "true");
+            document.getElementById("importStatus").textContent = `✓ ${count} fakta importerade som utkast!`;
+            document.getElementById("importStatus").style.color = "#38a169";
+            updateImportSection();
+            refreshAll();
+            setTimeout(() => { openTab("drafts"); }, 800);
+        });
+
+        // ========== PUBLISH ==========
+        function getPublished() { try { return JSON.parse(localStorage.getItem(PUBLISHED_KEY) || "[]"); } catch { return []; } }
+        function savePublished(p) { localStorage.setItem(PUBLISHED_KEY, JSON.stringify(p)); }
+
+        document.getElementById("publishBtn").addEventListener("click", () => {
+            const approved = getApproved();
+            if (approved.length === 0) { alert("Inga godkända fakta att publicera."); return; }
+            if (!confirm(`Publicera ${approved.length} godkända fakta? De blir synliga på den publika sidan.`)) return;
+
+            const published = getPublished();
+            approved.forEach(f => {
+                published.push({
+                    text: f.text,
+                    keywords: f.keywords || [],
+                    sourceName: f.sourceName || "",
+                    sourceUrl: f.sourceUrl || "",
+                    related: f.related || [],
+                    category: f.category || guessCategory(f)
+                });
+            });
+            savePublished(published);
+            saveApproved([]); // Clear approved after publishing
+
+            const statusEl = document.getElementById("publishStatus");
+            statusEl.textContent = `🚀 ${approved.length} fakta publicerade! De syns nu på den publika sidan.`;
+            statusEl.style.color = "#38a169";
+            refreshAll();
+            setTimeout(() => { statusEl.textContent = ""; }, 5000);
+        });
+
+        // ========== TOUCH SWIPE ==========
+        function initSwipeTouch() {
+            const container = document.getElementById("swipeContainer");
+            let startX = 0, startY = 0, currentX = 0, isDragging = false;
+
+            container.addEventListener("touchstart", (e) => {
+                if (swipeEditing) return;
+                const card = document.getElementById("swipeCard");
+                if (!card) return;
+                startX = e.touches[0].clientX;
+                startY = e.touches[0].clientY;
+                currentX = 0;
+                isDragging = true;
+                card.classList.add("dragging");
+            }, { passive: true });
+
+            container.addEventListener("touchmove", (e) => {
+                if (!isDragging || swipeEditing) return;
+                const card = document.getElementById("swipeCard");
+                if (!card) return;
+                const dx = e.touches[0].clientX - startX;
+                const dy = e.touches[0].clientY - startY;
+                // Only horizontal swipe
+                if (Math.abs(dx) < Math.abs(dy) && Math.abs(dx) < 10) return;
+                e.preventDefault();
+                currentX = dx;
+                const rotate = dx * 0.08;
+                card.style.transform = `translateX(${dx}px) rotate(${rotate}deg)`;
+
+                // Show overlay
+                let overlayYes = card.querySelector(".swipe-overlay-yes");
+                let overlayNo = card.querySelector(".swipe-overlay-no");
+                if (!overlayYes) {
+                    overlayYes = document.createElement("div");
+                    overlayYes.className = "swipe-overlay swipe-overlay-yes";
+                    overlayYes.textContent = "GODKÄNN ✓";
+                    card.appendChild(overlayYes);
+                }
+                if (!overlayNo) {
+                    overlayNo = document.createElement("div");
+                    overlayNo.className = "swipe-overlay swipe-overlay-no";
+                    overlayNo.textContent = "SLÄNG ✗";
+                    card.appendChild(overlayNo);
+                }
+                overlayYes.style.opacity = dx > 40 ? Math.min((dx - 40) / 60, 1) : 0;
+                overlayNo.style.opacity = dx < -40 ? Math.min((-dx - 40) / 60, 1) : 0;
+            }, { passive: false });
+
+            container.addEventListener("touchend", () => {
+                if (!isDragging || swipeEditing) return;
+                isDragging = false;
+                const card = document.getElementById("swipeCard");
+                if (!card) return;
+                card.classList.remove("dragging");
+
+                if (currentX > 100) {
+                    swipeApprove();
+                } else if (currentX < -100) {
+                    swipeReject();
+                } else {
+                    card.style.transform = "";
+                    const overlays = card.querySelectorAll(".swipe-overlay");
+                    overlays.forEach(o => o.style.opacity = 0);
+                }
+            }, { passive: true });
+        }
+
         // ========== TAB NAVIGATION ==========
         function openTab(tabName) {
             document.querySelectorAll(".tab").forEach(t => t.classList.remove("active"));
@@ -1228,6 +1390,7 @@ Svara i JSON-format (inget annat, bara JSON-arrayen):
             renderDrafts();
             renderApproved();
             renderFilters();
+            updateImportSection();
             if (draftViewMode === "swipe") renderSwipeCard();
         }
 
@@ -1235,6 +1398,7 @@ Svara i JSON-format (inget annat, bara JSON-arrayen):
         getAllCategories().forEach(c => { const o = document.createElement("option"); o.value = c; o.textContent = c; genCatSelect.appendChild(o); });
 
         refreshAll();
+        initSwipeTouch();
     </script>
 </body>
 </html>

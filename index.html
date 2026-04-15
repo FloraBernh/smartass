@@ -645,11 +645,18 @@
             return div.innerHTML;
         }
 
+        // Combine hardcoded facts with admin-published facts from localStorage
+        function getAllFacts() {
+            const published = (() => { try { return JSON.parse(localStorage.getItem("smartass_published") || "[]"); } catch { return []; } })();
+            return [...FACTS_DB, ...published];
+        }
+
         function searchCuratedFacts(topic) {
             const query = topic.toLowerCase().trim();
             const queryWords = query.split(/\s+/);
+            const allFacts = getAllFacts();
 
-            const scored = FACTS_DB.map(fact => {
+            const scored = allFacts.map(fact => {
                 let score = 0;
                 for (const word of queryWords) {
                     for (const kw of fact.keywords) {
@@ -924,8 +931,9 @@
             }
 
             if (!fact) {
-                const unseen = FACTS_DB.filter(f => !isFactSeen(f));
-                const pool = unseen.length > 0 ? unseen : FACTS_DB;
+                const allFacts = getAllFacts();
+                const unseen = allFacts.filter(f => !isFactSeen(f));
+                const pool = unseen.length > 0 ? unseen : allFacts;
                 const randomFact = pool[Math.floor(Math.random() * pool.length)];
                 fact = { ...randomFact, credibility: "high" };
             }
