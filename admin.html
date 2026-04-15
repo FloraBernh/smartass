@@ -669,27 +669,78 @@
                 </div>
             </div>`;
 
-            // === CATEGORY STATS ===
+            // === CATEGORY STATS (card grid with mini bar charts) ===
             const sorted = Object.entries(counts).filter(([,v]) => v > 0).sort((a,b) => b[1] - a[1]);
-            const maxCount = sorted.length > 0 ? sorted[0][1] : 1;
+            const allCatsSorted = getAllCategories().map(c => [c, counts[c] || 0]).sort((a,b) => b[1] - a[1]);
+            const maxCount = allCatsSorted.length > 0 ? Math.max(...allCatsSorted.map(x => x[1]), 1) : 1;
+            const totalPub = getPublished().length;
+
+            // Color palette for categories
+            const catColors = ["#6C5CE7","#00B894","#E17055","#0984E3","#FDCB6E","#E84393","#00CEC9","#636E72","#D63031","#A29BFE","#55EFC4","#FAB1A0","#74B9FF","#FFEAA7","#FD79A8","#81ECEC","#B2BEC3","#FF7675","#DFE6E9","#2D3436","#FC427B","#EAB543"];
 
             html += `<div>
-                <h3 style="font-size:0.75rem;font-weight:700;text-transform:uppercase;letter-spacing:0.5px;color:var(--text-secondary);margin-bottom:0.6rem;">Kategorier (publicerade)</h3>`;
+                <h3 style="font-size:0.75rem;font-weight:700;text-transform:uppercase;letter-spacing:0.5px;color:var(--text-secondary);margin-bottom:0.6rem;">Kategorier</h3>`;
 
-            if (sorted.length === 0) {
+            if (totalPub === 0) {
                 html += `<p style="font-size:0.8rem;color:var(--text-secondary);">Inga publicerade fakta ännu.</p>`;
             } else {
-                html += `<div style="display:flex;flex-direction:column;gap:0.4rem;">`;
-                for (const [cat, count] of sorted) {
-                    const pct = Math.round((count / maxCount) * 100);
-                    html += `
-                        <div onclick="openPublishedWithFilter('${escapeHtml(cat)}')" style="cursor:pointer;display:flex;align-items:center;gap:0.6rem;padding:0.45rem 0.6rem;background:var(--card-bg);border:1px solid var(--border);border-radius:8px;transition:border-color 0.15s;" onmouseover="this.style.borderColor='var(--text)'" onmouseout="this.style.borderColor='var(--border)'">
-                            <span style="font-size:0.78rem;font-weight:600;min-width:2.2rem;text-align:right;">${count}</span>
-                            <div style="flex:1;height:6px;background:var(--border);border-radius:3px;overflow:hidden;">
-                                <div style="height:100%;width:${pct}%;background:var(--text);border-radius:3px;transition:width 0.3s;"></div>
-                            </div>
-                            <span style="font-size:0.75rem;font-weight:500;min-width:6rem;">${escapeHtml(cat)}</span>
-                        </div>`;
+                // Overview card with all bars
+                html += `<div style="background:var(--card-bg);border:1px solid var(--border);border-radius:var(--radius);padding:1.2rem 1.4rem;margin-bottom:1rem;">
+                    <div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:0.2rem;">
+                        <span style="font-size:0.82rem;font-weight:700;">Fördelning</span>
+                        <span style="font-size:0.7rem;color:var(--text-secondary);">${totalPub} publicerade totalt</span>
+                    </div>
+                    <div style="display:flex;align-items:flex-end;gap:3px;height:80px;margin-top:0.8rem;">`;
+
+                for (let i = 0; i < allCatsSorted.length; i++) {
+                    const [cat, count] = allCatsSorted[i];
+                    if (count === 0) continue;
+                    const h = Math.max(8, Math.round((count / maxCount) * 72));
+                    const color = catColors[i % catColors.length];
+                    html += `<div onclick="openPublishedWithFilter('${escapeHtml(cat)}')" title="${cat}: ${count}" style="flex:1;height:${h}px;background:${color};border-radius:3px 3px 0 0;cursor:pointer;transition:opacity 0.15s;min-width:8px;max-width:40px;" onmouseover="this.style.opacity='0.7'" onmouseout="this.style.opacity='1'"></div>`;
+                }
+
+                html += `</div>
+                    <div style="display:flex;flex-wrap:wrap;gap:0.5rem 1rem;margin-top:0.8rem;">`;
+                for (let i = 0; i < allCatsSorted.length; i++) {
+                    const [cat, count] = allCatsSorted[i];
+                    if (count === 0) continue;
+                    const color = catColors[i % catColors.length];
+                    html += `<div onclick="openPublishedWithFilter('${escapeHtml(cat)}')" style="display:flex;align-items:center;gap:0.3rem;cursor:pointer;font-size:0.7rem;" onmouseover="this.style.opacity='0.6'" onmouseout="this.style.opacity='1'">
+                        <span style="width:8px;height:8px;border-radius:2px;background:${color};display:inline-block;"></span>
+                        <span style="font-weight:500;">${escapeHtml(cat)}</span>
+                        <span style="color:var(--text-secondary);">${count}</span>
+                    </div>`;
+                }
+                html += `</div></div>`;
+
+                // Individual category cards (2-column grid)
+                html += `<div style="display:grid;grid-template-columns:repeat(auto-fill, minmax(250px, 1fr));gap:0.6rem;">`;
+                for (let i = 0; i < allCatsSorted.length; i++) {
+                    const [cat, count] = allCatsSorted[i];
+                    if (count === 0) continue;
+                    const color = catColors[i % catColors.length];
+                    const pct = Math.round((count / totalPub) * 100);
+                    // Determine status: low/medium/high
+                    let statusText = "", statusColor = "";
+                    if (count <= 3) { statusText = "Behöver fler"; statusColor = "var(--red)"; }
+                    else if (count <= 8) { statusText = "Okej"; statusColor = "var(--yellow)"; }
+                    else { statusText = "Bra"; statusColor = "var(--green)"; }
+
+                    html += `<div onclick="openPublishedWithFilter('${escapeHtml(cat)}')" style="background:var(--card-bg);border:1px solid var(--border);border-radius:var(--radius);padding:0.9rem 1rem;cursor:pointer;transition:border-color 0.15s;" onmouseover="this.style.borderColor='var(--text)'" onmouseout="this.style.borderColor='var(--border)'">
+                        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:0.5rem;">
+                            <span style="font-size:0.78rem;font-weight:600;display:flex;align-items:center;gap:0.35rem;">
+                                <span style="width:10px;height:10px;border-radius:2px;background:${color};display:inline-block;"></span>
+                                ${escapeHtml(cat)}
+                            </span>
+                            <span style="font-size:0.65rem;font-weight:600;color:${statusColor};background:${statusColor}18;padding:0.1rem 0.4rem;border-radius:10px;">${statusText}</span>
+                        </div>
+                        <div style="font-size:1.5rem;font-weight:800;line-height:1;">${count}</div>
+                        <div style="font-size:0.65rem;color:var(--text-secondary);margin-top:0.15rem;">${pct}% av totalt</div>
+                        <div style="height:4px;background:var(--border);border-radius:2px;margin-top:0.5rem;overflow:hidden;">
+                            <div style="height:100%;width:${pct}%;background:${color};border-radius:2px;"></div>
+                        </div>
+                    </div>`;
                 }
                 html += `</div>`;
             }
