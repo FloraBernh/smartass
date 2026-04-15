@@ -29,6 +29,7 @@
             min-height: 100vh;
             min-height: 100dvh;
             display: flex;
+            flex-direction: column;
             align-items: center;
             justify-content: flex-end;
             -webkit-font-smoothing: antialiased;
@@ -639,13 +640,7 @@
         // Get active facts — if admin has imported curated facts for review,
         // only show admin-published facts (not raw FACTS_DB)
         function getAllFacts() {
-            const published = (() => { try { return JSON.parse(localStorage.getItem("smartass_published") || "[]"); } catch { return []; } })();
-            const adminActive = localStorage.getItem("smartass_imported_curated") === "true";
-            if (adminActive) {
-                // Admin pipeline is active — only show facts that passed review
-                return published.length > 0 ? published : FACTS_DB; // fallback if nothing published yet
-            }
-            return [...FACTS_DB, ...published];
+            try { return JSON.parse(localStorage.getItem("smartass_published") || "[]"); } catch { return []; }
         }
 
         function searchCuratedFacts(topic) {
