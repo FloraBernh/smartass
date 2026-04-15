@@ -866,11 +866,10 @@
             const cat = f.category || guessCategory(f);
             const allCats = getAllCategories();
 
-            // Check for duplicates against existing facts
+            // Check for duplicates against published + approved facts only
             const published = getPublished();
-            const curated = getActiveCurated();
             const approved = getApproved();
-            const allExisting = [...published, ...curated, ...approved];
+            const allExisting = [...published, ...approved];
             let dupWarning = "";
             for (const ex of allExisting) {
                 const sim = similarity(f.text, ex.text);
@@ -1217,60 +1216,51 @@
         }
 
         function findDuplicates() {
-            // Compare approved facts against published + curated facts
+            // Only compare against published (live) and approved facts — NOT facts.js
             const approved = getApproved();
             const published = getPublished();
-            const curated = getActiveCurated();
-            const existing = [...published, ...curated];
-
+            const drafts = getDrafts();
             const pairs = [];
 
+            // Approved vs published
             for (let i = 0; i < approved.length; i++) {
-                for (let j = 0; j < existing.length; j++) {
-                    const sim = similarity(approved[i].text, existing[j].text);
+                for (let j = 0; j < published.length; j++) {
+                    const sim = similarity(approved[i].text, published[j].text);
                     if (sim >= 0.5) {
                         pairs.push({
-                            approvedIdx: i,
-                            approvedFact: approved[i],
-                            existingFact: existing[j],
-                            existingSource: j < published.length ? "publicerad" : "facts.js",
+                            approvedIdx: i, approvedFact: approved[i],
+                            existingFact: published[j], existingSource: "publicerad",
                             similarity: sim
                         });
                     }
                 }
             }
 
-            // Also check approved vs approved
+            // Approved vs approved
             for (let i = 0; i < approved.length; i++) {
                 for (let j = i + 1; j < approved.length; j++) {
                     const sim = similarity(approved[i].text, approved[j].text);
                     if (sim >= 0.5) {
                         pairs.push({
-                            approvedIdx: i,
-                            approvedFact: approved[i],
-                            existingFact: approved[j],
-                            existingIdx: j,
-                            existingSource: "godkänd",
-                            similarity: sim
+                            approvedIdx: i, approvedFact: approved[i],
+                            existingFact: approved[j], existingIdx: j,
+                            existingSource: "godkänd", similarity: sim
                         });
                     }
                 }
             }
 
-            // Also check drafts against everything
-            const drafts = getDrafts();
-            const allExisting = [...existing, ...approved];
+            // Drafts vs published + approved (not drafts vs drafts, that's too noisy)
+            const liveAndApproved = [...published, ...approved];
             for (let i = 0; i < drafts.length; i++) {
-                for (let j = 0; j < allExisting.length; j++) {
-                    const sim = similarity(drafts[i].text, allExisting[j].text);
+                for (let j = 0; j < liveAndApproved.length; j++) {
+                    const sim = similarity(drafts[i].text, liveAndApproved[j].text);
                     if (sim >= 0.5) {
                         pairs.push({
-                            draftIdx: i,
-                            approvedFact: drafts[i],
-                            existingFact: allExisting[j],
-                            existingSource: j < existing.length ? (j < published.length ? "publicerad" : "facts.js") : "godkänd",
-                            similarity: sim,
-                            isDraft: true
+                            draftIdx: i, approvedFact: drafts[i],
+                            existingFact: liveAndApproved[j],
+                            existingSource: j < published.length ? "publicerad" : "godkänd",
+                            similarity: sim, isDraft: true
                         });
                     }
                 }
