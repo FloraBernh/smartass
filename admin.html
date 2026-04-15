@@ -197,14 +197,6 @@
         .progress-fill { height: 100%; background: var(--green); border-radius: 2px; transition: width 0.3s ease; width: 0%; }
         .generate-status { font-size: 0.75rem; color: var(--text-secondary); margin-top: 0.5rem; min-height: 1.2em; }
 
-        /* EXPORT */
-        .export-section {
-            background: var(--card-bg); border: 1px solid var(--border);
-            border-radius: var(--radius); padding: 1.2rem; margin-top: 1.5rem; text-align: center;
-        }
-        .export-section h3 { font-size: 0.88rem; font-weight: 700; margin-bottom: 0.3rem; }
-        .export-section p { font-size: 0.75rem; color: var(--text-secondary); margin-bottom: 0.8rem; }
-
         /* PAGINATION */
         .pagination { display: flex; justify-content: center; gap: 0.3rem; margin-top: 1rem; }
         .page-btn {
@@ -484,7 +476,6 @@
                 <div class="bulk-actions">
                     <button class="btn btn-sm btn-edit" id="verifyAllBtn" style="font-size: 0.78rem; padding: 0.45rem 1rem;">🔍 Verifiera alla</button>
                     <button class="btn btn-sm btn-approve" id="publishBtn" style="font-size: 0.78rem; padding: 0.45rem 1.2rem;">🚀 Publicera alla</button>
-                    <button class="btn btn-sm btn-primary" id="exportBtn">Exportera facts.js</button>
                 </div>
             </div>
             <div id="publishStatus" style="font-size: 0.75rem; color: var(--text-secondary); margin-bottom: 0.6rem; min-height: 1.2em;"></div>
@@ -532,11 +523,6 @@
             <div class="review-list" id="trashList"></div>
         </div>
 
-        <div class="export-section">
-            <h3>Exportera godkända fakta</h3>
-            <p>Ladda ner alla godkända + publicerade fakta som en ny facts.js-fil (med alla redigeringar och borttagningar).</p>
-            <button class="btn btn-primary" id="exportBtnBottom">Ladda ner facts.js</button>
-        </div>
     </div>
 
     <script src="https://js.puter.com/v2/"></script>
@@ -654,43 +640,60 @@
             const totalApproved = getApproved().length;
             const totalDrafts = getDrafts().length;
             const totalPublished = getPublished().length;
-            const totalAll = totalPublished;
-
-            let html = `
-                <div class="stat-card stat-total" onclick="openTab('published')">
-                    <div class="stat-number">${totalPublished}</div>
-                    <div class="stat-label">Publicerade</div>
-                    <span class="arrow">→</span>
-                </div>
-                <div class="stat-card stat-draft" onclick="openTab('drafts')">
-                    <div class="stat-number">${totalDrafts}</div>
-                    <div class="stat-label">Utkast</div>
-                    <span class="arrow">→</span>
-                </div>
-                <div class="stat-card stat-approved" onclick="openTab('approved')">
-                    <div class="stat-number">${totalApproved}</div>
-                    <div class="stat-label">Godkända</div>
-                    <span class="arrow">→</span>
-                </div>`;
-
-            const sorted = Object.entries(counts).filter(([,v]) => v > 0).sort((a,b) => b[1] - a[1]);
-            for (const [cat, count] of sorted) {
-                html += `
-                    <div class="stat-card" onclick="openPublishedWithFilter('${escapeHtml(cat)}')">
-                        <div class="stat-number">${count}</div>
-                        <div class="stat-label">${cat}</div>
-                        <span class="arrow">→</span>
-                    </div>`;
-            }
-
             const trashCount = getTrash().length;
-            if (trashCount > 0) {
-                html += `<div class="stat-card" onclick="openTab('trash')" style="border-left: 3px solid var(--red);">
-                    <div class="stat-number">${trashCount}</div>
-                    <div class="stat-label">I papperskorgen</div>
-                    <span class="arrow">→</span>
-                </div>`;
+
+            // === STATUS ROW ===
+            let html = `<div style="margin-bottom:1.2rem;">
+                <h3 style="font-size:0.75rem;font-weight:700;text-transform:uppercase;letter-spacing:0.5px;color:var(--text-secondary);margin-bottom:0.6rem;">Status</h3>
+                <div class="stats-grid">
+                    <div class="stat-card stat-total" onclick="openTab('published')">
+                        <div class="stat-number">${totalPublished}</div>
+                        <div class="stat-label">Publicerade</div>
+                        <span class="arrow">→</span>
+                    </div>
+                    <div class="stat-card stat-draft" onclick="openTab('drafts')">
+                        <div class="stat-number">${totalDrafts}</div>
+                        <div class="stat-label">Utkast</div>
+                        <span class="arrow">→</span>
+                    </div>
+                    <div class="stat-card stat-approved" onclick="openTab('approved')">
+                        <div class="stat-number">${totalApproved}</div>
+                        <div class="stat-label">Godkända</div>
+                        <span class="arrow">→</span>
+                    </div>
+                    ${trashCount > 0 ? `<div class="stat-card" onclick="openTab('trash')" style="border-left: 3px solid var(--red);">
+                        <div class="stat-number">${trashCount}</div>
+                        <div class="stat-label">Papperskorg</div>
+                        <span class="arrow">→</span>
+                    </div>` : ""}
+                </div>
+            </div>`;
+
+            // === CATEGORY STATS ===
+            const sorted = Object.entries(counts).filter(([,v]) => v > 0).sort((a,b) => b[1] - a[1]);
+            const maxCount = sorted.length > 0 ? sorted[0][1] : 1;
+
+            html += `<div>
+                <h3 style="font-size:0.75rem;font-weight:700;text-transform:uppercase;letter-spacing:0.5px;color:var(--text-secondary);margin-bottom:0.6rem;">Kategorier (publicerade)</h3>`;
+
+            if (sorted.length === 0) {
+                html += `<p style="font-size:0.8rem;color:var(--text-secondary);">Inga publicerade fakta ännu.</p>`;
+            } else {
+                html += `<div style="display:flex;flex-direction:column;gap:0.4rem;">`;
+                for (const [cat, count] of sorted) {
+                    const pct = Math.round((count / maxCount) * 100);
+                    html += `
+                        <div onclick="openPublishedWithFilter('${escapeHtml(cat)}')" style="cursor:pointer;display:flex;align-items:center;gap:0.6rem;padding:0.45rem 0.6rem;background:var(--card-bg);border:1px solid var(--border);border-radius:8px;transition:border-color 0.15s;" onmouseover="this.style.borderColor='var(--text)'" onmouseout="this.style.borderColor='var(--border)'">
+                            <span style="font-size:0.78rem;font-weight:600;min-width:2.2rem;text-align:right;">${count}</span>
+                            <div style="flex:1;height:6px;background:var(--border);border-radius:3px;overflow:hidden;">
+                                <div style="height:100%;width:${pct}%;background:var(--text);border-radius:3px;transition:width 0.3s;"></div>
+                            </div>
+                            <span style="font-size:0.75rem;font-weight:500;min-width:6rem;">${escapeHtml(cat)}</span>
+                        </div>`;
+                }
+                html += `</div>`;
             }
+            html += `</div>`;
 
             document.getElementById("statsGrid").innerHTML = html;
         }
@@ -1419,29 +1422,6 @@ Svara i detta format (BARA JSON, inget annat):
             saveDrafts([]); refreshAll();
         });
 
-        // ========== EXPORT ==========
-        function exportFactsJs() {
-            const activeCurated = getActiveCurated();
-            const approved = getApproved();
-            const allFacts = [...activeCurated, ...approved].map(f => ({
-                text: f.text, keywords: f.keywords || [], sourceName: f.sourceName || "",
-                sourceUrl: f.sourceUrl || "", related: f.related || []
-            }));
-
-            if (allFacts.length === 0) { alert("Inga fakta att exportera."); return; }
-
-            const lines = allFacts.map(f =>
-                `    { text: ${JSON.stringify(f.text)}, keywords: ${JSON.stringify(f.keywords)}, sourceName: ${JSON.stringify(f.sourceName)}, sourceUrl: ${JSON.stringify(f.sourceUrl)}, related: ${JSON.stringify(f.related)} }`
-            );
-
-            const content = `// ========== SmartAss CURATED FUN FACTS DATABASE ==========\n// ${allFacts.length} verified facts\n// Auto-generated by SmartAss Admin on ${new Date().toISOString().slice(0, 10)}\n\nconst FACTS_DB = [\n${lines.join(",\n")}\n];\n`;
-
-            const blob = new Blob([content], { type: "application/javascript" });
-            const a = document.createElement("a"); a.href = URL.createObjectURL(blob); a.download = "facts.js"; a.click();
-        }
-
-        document.getElementById("exportBtn").addEventListener("click", exportFactsJs);
-        document.getElementById("exportBtnBottom").addEventListener("click", exportFactsJs);
 
         document.getElementById("verifyAllBtn").addEventListener("click", async () => {
             const a = getApproved();
@@ -1574,14 +1554,16 @@ Svara i detta format (BARA JSON, inget annat):
         }
 
         function findDuplicates() {
-            // Only compare against published (live) and approved facts — NOT facts.js
             const approved = getApproved();
             const published = getPublished();
             const drafts = getDrafts();
+            const dismissed = new Set(getDismissedDups());
             const pairs = [];
+            function isDismissed(text) { return dismissed.has(normalizeText(text)); }
 
             // Approved vs published
             for (let i = 0; i < approved.length; i++) {
+                if (isDismissed(approved[i].text)) continue;
                 for (let j = 0; j < published.length; j++) {
                     const sim = similarity(approved[i].text, published[j].text);
                     if (sim >= 0.5) {
@@ -1596,6 +1578,7 @@ Svara i detta format (BARA JSON, inget annat):
 
             // Approved vs approved
             for (let i = 0; i < approved.length; i++) {
+                if (isDismissed(approved[i].text)) continue;
                 for (let j = i + 1; j < approved.length; j++) {
                     const sim = similarity(approved[i].text, approved[j].text);
                     if (sim >= 0.5) {
@@ -1608,9 +1591,10 @@ Svara i detta format (BARA JSON, inget annat):
                 }
             }
 
-            // Drafts vs published + approved (not drafts vs drafts, that's too noisy)
+            // Drafts vs published + approved
             const liveAndApproved = [...published, ...approved];
             for (let i = 0; i < drafts.length; i++) {
+                if (isDismissed(drafts[i].text)) continue;
                 for (let j = 0; j < liveAndApproved.length; j++) {
                     const sim = similarity(drafts[i].text, liveAndApproved[j].text);
                     if (sim >= 0.5) {
@@ -1655,8 +1639,10 @@ Svara i detta format (BARA JSON, inget annat):
                         <div class="dup-item-meta">
                             <span class="badge badge-category">${escapeHtml(p.approvedFact.category || guessCategory(p.approvedFact))}</span>
                             ${p.isDraft
-                                ? `<button class="btn btn-sm btn-delete" onclick="deleteDraft(${p.draftIdx})">Släng utkastet</button>`
-                                : `<button class="btn btn-sm btn-delete" onclick="removeApproved(${p.approvedIdx})">Ta bort godkänd</button>`
+                                ? `<button class="btn btn-sm btn-approve" onclick="dismissDuplicate(${p.draftIdx}, 'draft')">Inte en dublett</button>
+                                   <button class="btn btn-sm btn-delete" onclick="deleteDraft(${p.draftIdx})">Släng</button>`
+                                : `<button class="btn btn-sm btn-approve" onclick="dismissDuplicate(${p.approvedIdx}, 'approved')">Inte en dublett</button>
+                                   <button class="btn btn-sm btn-delete" onclick="removeApproved(${p.approvedIdx})">Ta bort</button>`
                             }
                         </div>
                     </div>
@@ -1664,7 +1650,6 @@ Svara i detta format (BARA JSON, inget annat):
                         <div><strong>${escapeHtml(p.existingSource)}:</strong> ${escapeHtml(p.existingFact.text)}</div>
                         <div class="dup-item-meta">
                             <span class="badge badge-category">${escapeHtml(p.existingFact.category || guessCategory(p.existingFact))}</span>
-                            ${p.existingIdx !== undefined ? `<button class="btn btn-sm btn-delete" onclick="removeApproved(${p.existingIdx})">Ta bort</button>` : ""}
                         </div>
                     </div>
                 </div>`;
@@ -1676,6 +1661,21 @@ Svara i detta format (BARA JSON, inget annat):
             const removed = a.splice(i, 1)[0];
             if (removed) moveToTrash(removed);
             saveApproved(a);
+            refreshAll();
+        }
+
+        // Mark a fact as "not a duplicate" so it's excluded from future checks
+        const DISMISSED_DUPS_KEY = "smartass_dismissed_dups";
+        function getDismissedDups() { try { return JSON.parse(localStorage.getItem(DISMISSED_DUPS_KEY) || "[]"); } catch { return []; } }
+        function saveDismissedDups(d) { localStorage.setItem(DISMISSED_DUPS_KEY, JSON.stringify(d)); }
+
+        function dismissDuplicate(idx, type) {
+            const list = type === "draft" ? getDrafts() : getApproved();
+            if (!list[idx]) return;
+            const textHash = normalizeText(list[idx].text);
+            const dismissed = getDismissedDups();
+            if (!dismissed.includes(textHash)) dismissed.push(textHash);
+            saveDismissedDups(dismissed);
             refreshAll();
         }
 
