@@ -216,6 +216,97 @@
         .page-btn.active { background: var(--text); color: white; border-color: var(--text); }
         .page-btn:disabled { opacity: 0.3; cursor: default; }
 
+        /* SWIPE VIEW */
+        .swipe-container {
+            display: flex; flex-direction: column; align-items: center;
+            padding: 1rem 0;
+        }
+        .swipe-counter {
+            font-size: 0.75rem; color: var(--text-secondary); font-weight: 500;
+            margin-bottom: 1rem;
+        }
+        .swipe-card {
+            background: var(--card-bg); border: 1px solid var(--border);
+            border-radius: 16px; padding: 2rem 1.8rem; width: 100%; max-width: 500px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.06);
+            transition: transform 0.35s cubic-bezier(.4,0,.2,1), opacity 0.35s ease;
+            position: relative;
+        }
+        .swipe-card.swipe-left {
+            transform: translateX(-120%) rotate(-8deg); opacity: 0;
+        }
+        .swipe-card.swipe-right {
+            transform: translateX(120%) rotate(8deg); opacity: 0;
+        }
+        .swipe-card.swipe-up {
+            transform: translateY(-100%) scale(0.9); opacity: 0;
+        }
+        .swipe-text {
+            font-size: 1.05rem; line-height: 1.7; margin-bottom: 1.2rem;
+            font-weight: 400;
+        }
+        .swipe-text[contenteditable="true"] {
+            outline: 2px solid var(--yellow); border-radius: 6px;
+            padding: 0.5rem; background: #FFFDF5;
+        }
+        .swipe-meta {
+            display: flex; gap: 0.5rem; flex-wrap: wrap; align-items: center;
+            margin-bottom: 1.2rem; font-size: 0.75rem;
+        }
+        .swipe-category-row {
+            display: flex; gap: 0.5rem; align-items: center; margin-bottom: 1.5rem;
+        }
+        .swipe-category-select {
+            flex: 1; padding: 0.5rem 0.7rem; border: 1.5px solid var(--border);
+            border-radius: 8px; font-size: 0.82rem; font-family: 'Inter', sans-serif;
+            outline: none; background: white; cursor: pointer;
+        }
+        .swipe-category-select:focus { border-color: var(--text); }
+        .swipe-actions {
+            display: flex; gap: 0.6rem; justify-content: center;
+        }
+        .swipe-btn {
+            flex: 1; padding: 0.9rem 1rem; border: none; border-radius: 12px;
+            font-size: 0.88rem; font-weight: 700; font-family: 'Inter', sans-serif;
+            cursor: pointer; transition: all 0.15s; max-width: 160px;
+        }
+        .swipe-btn:active { transform: scale(0.95); }
+        .swipe-btn-no { background: var(--red); color: white; }
+        .swipe-btn-no:hover { background: #e06060; }
+        .swipe-btn-edit { background: var(--yellow); color: var(--text); }
+        .swipe-btn-edit:hover { background: #f0c830; }
+        .swipe-btn-yes { background: var(--green); color: var(--text); }
+        .swipe-btn-yes:hover { background: #b0f050; }
+        .swipe-btn-save { background: var(--text); color: white; }
+        .swipe-btn-save:hover { background: #444; }
+        .swipe-empty {
+            text-align: center; padding: 3rem; color: var(--text-secondary);
+        }
+        .swipe-empty p { font-size: 0.9rem; margin-bottom: 0.5rem; }
+        .view-toggle {
+            display: flex; gap: 0; background: var(--card-bg); border: 1.5px solid var(--border);
+            border-radius: 8px; overflow: hidden; margin-bottom: 1rem;
+        }
+        .view-toggle-btn {
+            padding: 0.4rem 0.9rem; font-size: 0.72rem; font-weight: 600;
+            font-family: 'Inter', sans-serif; border: none; background: transparent;
+            cursor: pointer; color: var(--text-secondary); transition: all 0.15s;
+        }
+        .view-toggle-btn.active { background: var(--text); color: white; }
+        .view-toggle-btn:hover:not(.active) { color: var(--text); }
+
+        /* NEW CATEGORY INPUT */
+        .new-cat-row {
+            display: flex; gap: 0.4rem; align-items: center; margin-top: 0.5rem;
+        }
+        .new-cat-input {
+            flex: 1; padding: 0.4rem 0.6rem; border: 1.5px solid var(--border);
+            border-radius: 6px; font-size: 0.75rem; font-family: 'Inter', sans-serif;
+            outline: none;
+        }
+        .new-cat-input:focus { border-color: var(--text); }
+        .new-cat-input::placeholder { color: #ccc; }
+
         @media (max-width: 600px) {
             .stats-grid { grid-template-columns: repeat(2, 1fr); }
             .main { padding: 1rem; }
@@ -269,15 +360,30 @@
 
         <!-- DRAFTS -->
         <div class="tab-panel" id="panel-drafts">
-            <div class="filter-bar" id="draftFilters"><label>Filtrera:</label><button class="filter-pill active" data-filter="all">Alla</button></div>
-            <div class="bulk-bar">
-                <span class="count" id="draftCount">0 utkast</span>
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem;">
+                <div class="view-toggle">
+                    <button class="view-toggle-btn active" onclick="setDraftView('swipe')">Granska</button>
+                    <button class="view-toggle-btn" onclick="setDraftView('list')">Lista</button>
+                </div>
                 <div class="bulk-actions">
                     <button class="btn btn-sm btn-approve" id="approveAllBtn">Godkänn alla</button>
                     <button class="btn btn-sm btn-delete" id="deleteAllDraftsBtn">Radera alla</button>
                 </div>
             </div>
-            <div class="review-list" id="draftList"></div>
+
+            <!-- SWIPE VIEW -->
+            <div id="draftSwipeView">
+                <div class="swipe-container" id="swipeContainer"></div>
+            </div>
+
+            <!-- LIST VIEW -->
+            <div id="draftListView" style="display: none;">
+                <div class="filter-bar" id="draftFilters"><label>Filtrera:</label><button class="filter-pill active" data-filter="all">Alla</button></div>
+                <div class="bulk-bar">
+                    <span class="count" id="draftCount">0 utkast</span>
+                </div>
+                <div class="review-list" id="draftList"></div>
+            </div>
         </div>
 
         <!-- APPROVED -->
@@ -324,12 +430,29 @@
     <script src="facts.js"></script>
     <script>
         // ========== CATEGORIES ==========
-        const CATEGORIES = [
+        const DEFAULT_CATEGORIES = [
             "Rymden", "Djur", "Mat", "Historia", "Vetenskap", "Natur",
             "Kroppen", "Musik", "Sport", "Konst & Kultur", "Film",
             "Mode", "Gaming", "Geografi", "Teknologi", "Litteratur",
             "Matematik", "Språk", "Sverige", "Psykologi", "Popkultur", "Ekonomi"
         ];
+        const CUSTOM_CATS_KEY = "smartass_custom_categories";
+        function getCustomCategories() { try { return JSON.parse(localStorage.getItem(CUSTOM_CATS_KEY) || "[]"); } catch { return []; } }
+        function saveCustomCategories(c) { localStorage.setItem(CUSTOM_CATS_KEY, JSON.stringify(c)); }
+        function addCustomCategory(name) {
+            name = name.trim();
+            if (!name) return false;
+            // Capitalize first letter
+            name = name.charAt(0).toUpperCase() + name.slice(1);
+            const custom = getCustomCategories();
+            if (DEFAULT_CATEGORIES.includes(name) || custom.includes(name)) return false;
+            custom.push(name);
+            saveCustomCategories(custom);
+            return name;
+        }
+        function getAllCategories() { return [...DEFAULT_CATEGORIES, ...getCustomCategories()].sort(); }
+        // Alias for backward compat
+        const CATEGORIES = DEFAULT_CATEGORIES; // initial, but use getAllCategories() in renders
 
         // ========== LOCAL STORAGE ==========
         const DRAFT_KEY = "smartass_drafts";
@@ -402,7 +525,7 @@
         // ========== STATS ==========
         function getCategoryCounts() {
             const counts = {};
-            CATEGORIES.forEach(c => counts[c] = 0);
+            getAllCategories().forEach(c => counts[c] = 0);
             getActiveCurated().forEach(f => { const c = guessCategory(f); counts[c] = (counts[c] || 0) + 1; });
             getApproved().forEach(f => { const c = f.category || guessCategory(f); counts[c] = (counts[c] || 0) + 1; });
             return counts;
@@ -514,7 +637,7 @@
                         </div>
                         <div class="review-actions">
                             <select class="category-select" onchange="editCuratedCategory(${idx}, this.value)">
-                                ${CATEGORIES.map(c => `<option value="${c}" ${c === cat ? 'selected' : ''}>${c}</option>`).join("")}
+                                ${getAllCategories().map(c => `<option value="${c}" ${c === cat ? 'selected' : ''}>${c}</option>`).join("")}
                             </select>
                             ${isEditing
                                 ? `<button class="btn btn-sm btn-primary" onclick="saveCuratedEdit(${idx})">Spara</button>
@@ -660,6 +783,166 @@
         // Replace getActiveCurated reference in renderPublished scope
         // (handled inline in renderPublished via localEditingSet check)
 
+        // ========== SWIPE VIEW ==========
+        let draftViewMode = "swipe";
+        let swipeIndex = 0;
+        let swipeEditing = false;
+
+        function setDraftView(mode) {
+            draftViewMode = mode;
+            document.querySelectorAll(".view-toggle-btn").forEach(b => b.classList.remove("active"));
+            document.querySelector(`.view-toggle-btn[onclick="setDraftView('${mode}')"]`).classList.add("active");
+            document.getElementById("draftSwipeView").style.display = mode === "swipe" ? "block" : "none";
+            document.getElementById("draftListView").style.display = mode === "list" ? "block" : "none";
+            if (mode === "swipe") renderSwipeCard();
+            if (mode === "list") renderDrafts();
+        }
+
+        function renderSwipeCard() {
+            const drafts = getDrafts();
+            const container = document.getElementById("swipeContainer");
+
+            if (drafts.length === 0) {
+                container.innerHTML = `<div class="swipe-empty">
+                    <p>🎉 Inga utkast att granska!</p>
+                    <p style="font-size: 0.78rem;">Generera nya fakta för att komma igång.</p>
+                </div>`;
+                return;
+            }
+
+            if (swipeIndex >= drafts.length) swipeIndex = 0;
+            const f = drafts[swipeIndex];
+            const cat = f.category || guessCategory(f);
+            const allCats = getAllCategories();
+
+            container.innerHTML = `
+                <div class="swipe-counter">${swipeIndex + 1} av ${drafts.length} utkast</div>
+                <div class="swipe-card" id="swipeCard">
+                    <div class="swipe-text" id="swipeText" ${swipeEditing ? 'contenteditable="true"' : ''}>${escapeHtml(f.text)}</div>
+                    <div class="swipe-meta">
+                        ${f.sourceName ? `<span class="badge badge-source">${escapeHtml(f.sourceName)}</span>` : ""}
+                        ${f.sourceUrl ? `<a href="${escapeHtml(f.sourceUrl)}" target="_blank" style="font-size: 0.72rem; color: #5588cc;">Källa ↗</a>` : ""}
+                    </div>
+                    <div class="swipe-category-row">
+                        <select class="swipe-category-select" id="swipeCatSelect" onchange="swipeChangeCategory(this.value)">
+                            ${allCats.map(c => `<option value="${c}" ${c === cat ? 'selected' : ''}>${c}</option>`).join("")}
+                            <option value="__new__" style="color: #888;">+ Ny kategori...</option>
+                        </select>
+                    </div>
+                    <div id="swipeNewCatRow" class="new-cat-row" style="display: none; margin-bottom: 1rem;">
+                        <input type="text" class="new-cat-input" id="swipeNewCatInput" placeholder="Skriv ny kategori...">
+                        <button class="btn btn-sm btn-primary" onclick="swipeAddNewCategory()">Lägg till</button>
+                        <button class="btn btn-sm btn-outline" onclick="swipeCancelNewCategory()">Avbryt</button>
+                    </div>
+                    ${swipeEditing
+                        ? `<div class="swipe-actions">
+                            <button class="swipe-btn swipe-btn-save" onclick="swipeSaveEdit()">Spara</button>
+                            <button class="swipe-btn" style="background: var(--border); color: var(--text);" onclick="swipeCancelEdit()">Avbryt</button>
+                        </div>`
+                        : `<div class="swipe-actions">
+                            <button class="swipe-btn swipe-btn-no" onclick="swipeReject()">Släng</button>
+                            <button class="swipe-btn swipe-btn-edit" onclick="swipeEdit()">Redigera</button>
+                            <button class="swipe-btn swipe-btn-yes" onclick="swipeApprove()">Godkänn</button>
+                        </div>`
+                    }
+                </div>`;
+
+            if (swipeEditing) {
+                setTimeout(() => { const el = document.getElementById("swipeText"); if (el) el.focus(); }, 50);
+            }
+        }
+
+        function swipeChangeCategory(val) {
+            if (val === "__new__") {
+                document.getElementById("swipeNewCatRow").style.display = "flex";
+                setTimeout(() => document.getElementById("swipeNewCatInput").focus(), 50);
+                return;
+            }
+            const d = getDrafts();
+            if (d[swipeIndex]) { d[swipeIndex].category = val; saveDrafts(d); }
+        }
+
+        function swipeAddNewCategory() {
+            const input = document.getElementById("swipeNewCatInput");
+            const name = addCustomCategory(input.value);
+            if (name) {
+                const d = getDrafts();
+                if (d[swipeIndex]) { d[swipeIndex].category = name; saveDrafts(d); }
+                renderSwipeCard();
+            } else {
+                input.style.borderColor = "var(--red)";
+                setTimeout(() => input.style.borderColor = "", 1000);
+            }
+        }
+
+        function swipeCancelNewCategory() {
+            document.getElementById("swipeNewCatRow").style.display = "none";
+            const d = getDrafts();
+            const cat = d[swipeIndex]?.category || guessCategory(d[swipeIndex]);
+            document.getElementById("swipeCatSelect").value = cat;
+        }
+
+        function swipeApprove() {
+            const d = getDrafts();
+            const f = d.splice(swipeIndex, 1)[0];
+            if (!f) return;
+            f.category = f.category || guessCategory(f);
+            delete f._editing;
+            const a = getApproved();
+            a.push(f);
+            saveDrafts(d);
+            saveApproved(a);
+            // Animate
+            const card = document.getElementById("swipeCard");
+            if (card) card.classList.add("swipe-right");
+            if (swipeIndex >= d.length) swipeIndex = Math.max(0, d.length - 1);
+            setTimeout(() => { refreshAll(); renderSwipeCard(); }, 350);
+        }
+
+        function swipeReject() {
+            const d = getDrafts();
+            d.splice(swipeIndex, 1);
+            saveDrafts(d);
+            const card = document.getElementById("swipeCard");
+            if (card) card.classList.add("swipe-left");
+            if (swipeIndex >= d.length) swipeIndex = Math.max(0, d.length - 1);
+            setTimeout(() => { refreshAll(); renderSwipeCard(); }, 350);
+        }
+
+        function swipeEdit() {
+            swipeEditing = true;
+            renderSwipeCard();
+        }
+
+        function swipeSaveEdit() {
+            const el = document.getElementById("swipeText");
+            if (!el) return;
+            const d = getDrafts();
+            d[swipeIndex].text = el.textContent.trim();
+            delete d[swipeIndex]._editing;
+            saveDrafts(d);
+            swipeEditing = false;
+            renderSwipeCard();
+        }
+
+        function swipeCancelEdit() {
+            swipeEditing = false;
+            renderSwipeCard();
+        }
+
+        // Keyboard shortcuts for swipe view
+        document.addEventListener("keydown", (e) => {
+            if (draftViewMode !== "swipe") return;
+            const activeTab = document.querySelector(".tab.active");
+            if (!activeTab || activeTab.dataset.tab !== "drafts") return;
+            if (swipeEditing) return;
+            if (e.target.tagName === "INPUT" || e.target.tagName === "TEXTAREA" || e.target.contentEditable === "true") return;
+
+            if (e.key === "ArrowLeft" || e.key === "d") { e.preventDefault(); swipeReject(); }
+            else if (e.key === "ArrowRight" || e.key === "a") { e.preventDefault(); swipeApprove(); }
+            else if (e.key === "e") { e.preventDefault(); swipeEdit(); }
+        });
+
         // ========== DRAFT ACTIONS ==========
         let draftFilter = "all";
 
@@ -689,7 +972,7 @@
                         </div>
                         <div class="review-actions">
                             <select class="category-select" onchange="changeDraftCategory(${realIndex}, this.value)">
-                                ${CATEGORIES.map(c => `<option value="${c}" ${c === cat ? 'selected' : ''}>${c}</option>`).join("")}
+                                ${getAllCategories().map(c => `<option value="${c}" ${c === cat ? 'selected' : ''}>${c}</option>`).join("")}
                             </select>
                             <button class="btn btn-sm btn-approve" onclick="approveDraft(${realIndex})">Godkänn</button>
                             ${isEditing
@@ -724,7 +1007,7 @@
                         </div>
                         <div class="review-actions">
                             <select class="category-select" onchange="changeApprovedCategory(${realIndex}, this.value)">
-                                ${CATEGORIES.map(c => `<option value="${c}" ${c === cat ? 'selected' : ''}>${c}</option>`).join("")}
+                                ${getAllCategories().map(c => `<option value="${c}" ${c === cat ? 'selected' : ''}>${c}</option>`).join("")}
                             </select>
                             <button class="btn btn-sm btn-delete" onclick="unapprove(${realIndex})">Flytta till utkast</button>
                         </div>
@@ -829,13 +1112,16 @@
                 ? "Blanda olika kategorier: rymden, djur, mat, historia, vetenskap, natur, kroppen, musik, sport, konst, film, mode, gaming, geografi, teknologi, litteratur, matematik, språk, sverige, psykologi, ekonomi."
                 : `Fokusera på kategorin: ${category}.`;
 
+            const allCats = getAllCategories().join(", ");
             const prompt = `Du är en faktaredaktör för appen SmartAss. Generera exakt ${count} roliga och korta fakta på svenska.
 
 REGLER:
 - Varje fakta ska vara MAX 2 meningar
 - Ska vara intressant, överraskande, kul att berätta vidare
 - Citera ALLTID en trovärdig institutionell källa (NASA, Smithsonian, WHO, universitet, museum, etc.)
-- Ange kategori för varje fakta
+- Ange en passande kategori för varje fakta. VIKTIGT: välj den kategori som BÄST matchar faktans innehåll. Tillgängliga kategorier: ${allCats}
+- Om ingen kategori passar, skriv "Övrigt"
+- VARIERA kategorierna — inte alla ska ha samma kategori
 - ${catInstruction}
 
 Svara i JSON-format (inget annat, bara JSON-arrayen):
@@ -942,10 +1228,11 @@ Svara i JSON-format (inget annat, bara JSON-arrayen):
             renderDrafts();
             renderApproved();
             renderFilters();
+            if (draftViewMode === "swipe") renderSwipeCard();
         }
 
         const genCatSelect = document.getElementById("genCategory");
-        CATEGORIES.forEach(c => { const o = document.createElement("option"); o.value = c; o.textContent = c; genCatSelect.appendChild(o); });
+        getAllCategories().forEach(c => { const o = document.createElement("option"); o.value = c; o.textContent = c; genCatSelect.appendChild(o); });
 
         refreshAll();
     </script>
