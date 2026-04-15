@@ -482,6 +482,7 @@
             <div class="bulk-bar">
                 <span class="count" id="approvedCount">0 godkända</span>
                 <div class="bulk-actions">
+                    <button class="btn btn-sm btn-edit" id="verifyAllBtn" style="font-size: 0.78rem; padding: 0.45rem 1rem;">🔍 Verifiera alla</button>
                     <button class="btn btn-sm btn-approve" id="publishBtn" style="font-size: 0.78rem; padding: 0.45rem 1.2rem;">🚀 Publicera alla</button>
                     <button class="btn btn-sm btn-primary" id="exportBtn">Exportera facts.js</button>
                 </div>
@@ -1383,11 +1384,33 @@ Svara i detta format (BARA JSON, inget annat):
             refreshAll();
         }
 
-        document.getElementById("approveAllBtn").addEventListener("click", () => {
+        document.getElementById("approveAllBtn").addEventListener("click", async () => {
             const d = getDrafts(); if (!d.length) return;
-            if (!confirm(`Godkänn alla ${d.length} utkast?`)) return;
-            const a = getApproved(); d.forEach(f => { f.category = f.category || guessCategory(f); delete f._editing; a.push(f); });
+            if (!confirm(`Godkänn alla ${d.length} utkast och faktagranska? Detta kan ta en stund.`)) return;
+            const a = getApproved();
+            const toVerify = d.map(f => { f.category = f.category || guessCategory(f); delete f._editing; f._verification = { status: "checking" }; return f; });
+            a.push(...toVerify);
             saveDrafts([]); saveApproved(a); refreshAll();
+
+            // Verify each in background
+            for (let i = a.length - toVerify.length; i < a.length; i++) {
+                try {
+                    const result = await verifyFact(a[i]);
+                    const a2 = getApproved();
+                    if (a2[i]) {
+                        a2[i]._verification = result;
+                        if (result.verified) {
+                            const pub = getPublished();
+                            pub.push({ ...a2[i] });
+                            savePublished(pub);
+                            a2.splice(i, 1); i--;
+                        }
+                        saveApproved(a2);
+                        refreshAll();
+                    }
+                } catch (err) { console.warn("Verify failed for index", i, err); }
+            }
+            refreshAll();
         });
 
         document.getElementById("deleteAllDraftsBtn").addEventListener("click", () => {
@@ -1419,6 +1442,66 @@ Svara i detta format (BARA JSON, inget annat):
 
         document.getElementById("exportBtn").addEventListener("click", exportFactsJs);
         document.getElementById("exportBtnBottom").addEventListener("click", exportFactsJs);
+
+        document.getElementById("verifyAllBtn").addEventListener("click", async () => {
+            const a = getApproved();
+            const unverified = a.filter(f => !f._verification || f._verification.status === "error" || f._verification.sourceCount === undefined);
+            if (unverified.length === 0) { alert("Alla fakta är redan verifierade."); return; }
+            if (!confirm(`Verifiera ${unverified.length} fakta? Detta kan ta en stund.`)) return;
+
+            // Mark all as checking
+            a.forEach(f => {
+                if (!f._verification || f._verification.status === "error" || f._verification.sourceCount === undefined) {
+                    f._verification = { status: "checking" };
+                }
+            });
+            saveApproved(a);
+            renderApproved();
+
+            const statusEl = document.getElementById("publishStatus");
+            let verified = 0, autoPublished = 0;
+
+            for (let i = 0; i < a.length; i++) {
+                const a2 = getApproved();
+                if (!a2[i] || (a2[i]._verification && a2[i]._verification.status !== "checking")) continue;
+
+                statusEl.textContent = `🔍 Verifierar ${++verified}/${unverified.length}...`;
+                statusEl.style.color = "";
+
+                try {
+                    const result = await verifyFact(a2[i]);
+                    const a3 = getApproved();
+                    if (a3[i]) {
+                        a3[i]._verification = result;
+                        if (result.verified) {
+                            const pub = getPublished();
+                            pub.push({ ...a3[i] });
+                            savePublished(pub);
+                            a3.splice(i, 1);
+                            saveApproved(a3);
+                            i--;
+                            autoPublished++;
+                        } else {
+                            saveApproved(a3);
+                        }
+                        renderApproved();
+                        renderStats();
+                    }
+                } catch (err) {
+                    console.warn("Verify failed:", err);
+                    const a3 = getApproved();
+                    if (a3[i]) {
+                        a3[i]._verification = { status: "error", sourceCount: 0, sources: [], verified: false, error: err.message };
+                        saveApproved(a3);
+                    }
+                }
+            }
+
+            statusEl.textContent = `✓ Klart! ${autoPublished} auto-publicerade, ${getApproved().length} kvar för granskning.`;
+            statusEl.style.color = "#38a169";
+            refreshAll();
+            setTimeout(() => { statusEl.textContent = ""; }, 6000);
+        });
 
         // ========== TRASH ==========
         function renderTrash() {
