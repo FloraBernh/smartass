@@ -718,39 +718,8 @@
             }
 
             factArea.innerHTML = `
-                <div class="loading-text">
-                    <div class="spinner"></div>
-                    Letar efter fakta om "${escapeHtml(topic)}"...
-                </div>`;
-
-            const apiFacts = await fetchTopicApiFacts(topic);
-
-            if (apiFacts.length > 0) {
-                const pick = apiFacts.filter(f => !isFactSeen(f))[0] || apiFacts[0];
-                currentFacts = [pick];
-                currentRelated = pick.related || [];
-                currentIndex = 0;
-                currentIsApi = true;
-                markFactSeen(pick);
-                renderSingleFact();
-                return;
-            }
-
-            const wikiData = await fetchWikipediaFacts(topic);
-            if (wikiData.facts.length > 0) {
-                const pick = wikiData.facts[0];
-                currentFacts = [pick];
-                currentRelated = wikiData.related;
-                currentIndex = 0;
-                currentIsApi = true;
-                markFactSeen(pick);
-                renderSingleFact();
-                return;
-            }
-
-            factArea.innerHTML = `
                 <div class="error-msg">
-                    Hmm, hittade inget om "${escapeHtml(topic)}". Testa ett annat ämne!
+                    Hmm, hittade inget om "${escapeHtml(topic)}" bland publicerade fakta. Testa ett annat ämne!
                 </div>`;
         }
 
@@ -895,40 +864,17 @@
             if (topic) searchFacts(topic);
         });
 
-        let apiFactCache = [];
-        let cacheLoading = false;
-
-        async function prefetchApiCache() {
-            if (cacheLoading) return;
-            cacheLoading = true;
-            try {
-                const facts = await fetchRandomApiFact();
-                apiFactCache.push(...facts.filter(f => !isFactSeen(f)));
-            } catch {}
-            cacheLoading = false;
-        }
-
-        prefetchApiCache();
-
         document.getElementById("randomBtn").addEventListener("click", async () => {
-            let fact;
-
-            const useApi = Math.random() < 0.2 && apiFactCache.length > 0;
-
-            if (useApi) {
-                while (apiFactCache.length > 0) {
-                    const candidate = apiFactCache.shift();
-                    if (!isFactSeen(candidate)) { fact = candidate; break; }
-                }
+            const allFacts = getAllFacts();
+            if (allFacts.length === 0) {
+                document.getElementById("factArea").innerHTML = `
+                    <div class="error-msg">Inga publicerade fakta ännu. Godkänn och publicera fakta via admin-panelen!</div>`;
+                return;
             }
-
-            if (!fact) {
-                const allFacts = getAllFacts();
-                const unseen = allFacts.filter(f => !isFactSeen(f));
-                const pool = unseen.length > 0 ? unseen : allFacts;
-                const randomFact = pool[Math.floor(Math.random() * pool.length)];
-                fact = { ...randomFact, credibility: "high" };
-            }
+            const unseen = allFacts.filter(f => !isFactSeen(f));
+            const pool = unseen.length > 0 ? unseen : allFacts;
+            const randomFact = pool[Math.floor(Math.random() * pool.length)];
+            const fact = { ...randomFact, credibility: "high" };
 
             currentFacts = [fact];
             currentRelated = fact.related || [];
@@ -937,8 +883,6 @@
             document.getElementById("searchInput").value = "";
             markFactSeen(fact);
             renderSingleFact();
-
-            if (apiFactCache.length < 5) prefetchApiCache();
         });
     </script>
 </body>
