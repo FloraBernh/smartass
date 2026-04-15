@@ -319,6 +319,43 @@
         .new-cat-input:focus { border-color: var(--text); }
         .new-cat-input::placeholder { color: #ccc; }
 
+        /* VERIFICATION */
+        .verify-status {
+            padding: 0.6rem 0.8rem; border-radius: 8px; margin-bottom: 0.7rem;
+            font-size: 0.78rem; line-height: 1.5;
+        }
+        .verify-checking {
+            background: #F5F5FF; border: 1px solid #DDD;
+            color: var(--text-secondary);
+        }
+        .verify-checking::before { content: "⏳ "; }
+        .verify-pass {
+            background: #F0FFF0; border: 1px solid #C2FF66;
+            color: #2a6a00;
+        }
+        .verify-pass::before { content: "✅ "; }
+        .verify-warn {
+            background: #FFF8F0; border: 1px solid #FFB84D;
+            color: #8a5a00;
+        }
+        .verify-warn::before { content: "⚠️ "; }
+        .verify-fail {
+            background: #FFF0F0; border: 1px solid #FF8383;
+            color: #a00;
+        }
+        .verify-fail::before { content: "❌ "; }
+        .verify-sources {
+            margin-top: 0.4rem; font-size: 0.7rem;
+        }
+        .verify-sources a {
+            color: #5588cc; text-decoration: none; display: block;
+            padding: 0.15rem 0; word-break: break-all;
+        }
+        .verify-sources a:hover { text-decoration: underline; }
+        .swipe-verify {
+            margin-bottom: 1rem; min-height: 2rem;
+        }
+
         /* DUPLICATE CARDS */
         .dup-pair {
             background: var(--card-bg); border: 1px solid var(--border);
@@ -834,6 +871,189 @@
             refreshAll();
         }
 
+        // ========== FACT VERIFICATION ==========
+        async function searchWikipedia(query, lang = "sv") {
+            try {
+                const url = `https://${lang}.wikipedia.org/w/api.php?action=query&list=search&srsearch=${encodeURIComponent(query)}&format=json&origin=*&srlimit=3`;
+                const resp = await fetch(url, { signal: AbortSignal.timeout(5000) });
+                const data = await resp.json();
+                const results = data?.query?.search || [];
+                return results.map(r => ({
+                    title: r.title,
+                    url: `https://${lang}.wikipedia.org/wiki/${encodeURIComponent(r.title)}`,
+                    source: `Wikipedia (${lang.toUpperCase()})`
+                }));
+            } catch { return []; }
+        }
+
+        async function searchWikidata(query) {
+            try {
+                const url = `https://www.wikidata.org/w/api.php?action=wbsearchentities&search=${encodeURIComponent(query)}&language=sv&format=json&origin=*&limit=3`;
+                const resp = await fetch(url, { signal: AbortSignal.timeout(5000) });
+                const data = await resp.json();
+                return (data?.search || []).map(r => ({
+                    title: r.label,
+                    url: `https://www.wikidata.org/wiki/${r.id}`,
+                    source: "Wikidata"
+                }));
+            } catch { return []; }
+        }
+
+        async function verifyWithAI(factText) {
+            try {
+                const prompt = `Faktagranska följande påstående. Svara ENBART i JSON-format.
+
+Påstående: "${factText}"
+
+Analysera om påståendet stämmer och lista VERKLIGA, existerande webbsidor där detta kan verifieras.
+
+Svara i detta format (BARA JSON, inget annat):
+{
+  "verdict": "true" eller "false" eller "partly_true",
+  "confidence": 1-10,
+  "sources": [
+    {"name": "Källans namn", "url": "https://verklig-url.com/..."},
+  ],
+  "explanation": "Kort förklaring på svenska"
+}`;
+
+                const response = await withTimeout(
+                    puter.ai.chat(prompt, { model: "gpt-4o-mini" }),
+                    20000,
+                    "fact-check"
+                );
+
+                let text = response?.message?.content || "";
+                if (typeof text !== "string") text = JSON.stringify(text);
+                const jsonMatch = text.match(/\{[\s\S]*\}/);
+                if (!jsonMatch) return null;
+                return JSON.parse(jsonMatch[0]);
+            } catch (err) {
+                console.warn("AI verification failed:", err);
+                return null;
+            }
+        }
+
+        async function verifyFact(fact) {
+            // Extract key terms for searching
+            const text = fact.text;
+            const keywords = fact.keywords || [];
+            const searchQuery = keywords.length > 0
+                ? keywords.slice(0, 3).join(" ")
+                : text.split(/[.!?]/)[0].substring(0, 80);
+
+            const sources = [];
+            const seenDomains = new Set();
+
+            function addSource(s) {
+                try {
+                    const domain = new URL(s.url).hostname.replace("www.", "");
+                    if (!seenDomains.has(domain)) {
+                        seenDomains.add(domain);
+                        sources.push(s);
+                    }
+                } catch {
+                    // Invalid URL, skip
+                }
+            }
+
+            // 1. Search Wikipedia Swedish
+            const wikiSv = await searchWikipedia(searchQuery, "sv");
+            wikiSv.forEach(addSource);
+
+            // 2. Search Wikipedia English
+            const wikiEn = await searchWikipedia(searchQuery, "en");
+            wikiEn.forEach(addSource);
+
+            // 3. Search Wikidata
+            const wikidata = await searchWikidata(searchQuery);
+            wikidata.forEach(addSource);
+
+            // 4. AI verification (finds additional sources)
+            const aiResult = await verifyWithAI(text);
+            if (aiResult?.sources) {
+                aiResult.sources.forEach(s => {
+                    if (s.url && s.url.startsWith("http")) {
+                        addSource({ ...s, source: s.name || "AI-källa" });
+                    }
+                });
+            }
+
+            return {
+                sourceCount: sources.length,
+                sources: sources.slice(0, 8),
+                aiVerdict: aiResult?.verdict || "unknown",
+                aiConfidence: aiResult?.confidence || 0,
+                aiExplanation: aiResult?.explanation || "",
+                verified: sources.length >= 3,
+                verifiedAt: Date.now()
+            };
+        }
+
+        async function approveWithVerification(draftIndex, fromSwipe = false) {
+            const d = getDrafts();
+            const f = d.splice(draftIndex, 1)[0];
+            if (!f) return;
+            f.category = f.category || guessCategory(f);
+            delete f._editing;
+
+            // Show checking status
+            if (fromSwipe) {
+                const card = document.getElementById("swipeCard");
+                if (card) card.classList.add("swipe-up");
+            }
+
+            saveDrafts(d);
+            if (fromSwipe) {
+                if (draftIndex >= d.length) swipeIndex = Math.max(0, d.length - 1);
+            }
+
+            // Add to approved immediately with "checking" status
+            f._verification = { status: "checking" };
+            const a = getApproved();
+            const approvedIdx = a.length;
+            a.push(f);
+            saveApproved(a);
+            refreshAll();
+
+            // Run verification in background
+            try {
+                const result = await verifyFact(f);
+                // Re-read approved in case it changed
+                const a2 = getApproved();
+                if (a2[approvedIdx] && a2[approvedIdx].text === f.text) {
+                    a2[approvedIdx]._verification = result;
+
+                    if (result.verified) {
+                        // 3+ sources — auto-publish!
+                        const published = getPublished();
+                        const toPublish = { ...a2[approvedIdx] };
+                        published.push(toPublish);
+                        savePublished(published);
+                        a2.splice(approvedIdx, 1);
+                        saveApproved(a2);
+                    } else {
+                        saveApproved(a2);
+                    }
+                }
+            } catch (err) {
+                console.error("Verification error:", err);
+                const a2 = getApproved();
+                if (a2[approvedIdx]) {
+                    a2[approvedIdx]._verification = {
+                        status: "error",
+                        sourceCount: 0,
+                        sources: [],
+                        verified: false,
+                        error: err.message
+                    };
+                    saveApproved(a2);
+                }
+            }
+
+            refreshAll();
+        }
+
         // ========== SWIPE VIEW ==========
         let draftViewMode = "swipe";
         let swipeIndex = 0;
@@ -951,20 +1171,8 @@
         }
 
         function swipeApprove() {
-            const d = getDrafts();
-            const f = d.splice(swipeIndex, 1)[0];
-            if (!f) return;
-            f.category = f.category || guessCategory(f);
-            delete f._editing;
-            const a = getApproved();
-            a.push(f);
-            saveDrafts(d);
-            saveApproved(a);
-            // Animate
-            const card = document.getElementById("swipeCard");
-            if (card) card.classList.add("swipe-right");
-            if (swipeIndex >= d.length) swipeIndex = Math.max(0, d.length - 1);
-            setTimeout(() => { refreshAll(); renderSwipeCard(); }, 350);
+            approveWithVerification(swipeIndex, true);
+            setTimeout(() => renderSwipeCard(), 400);
         }
 
         function swipeReject() {
@@ -1066,8 +1274,31 @@
             document.getElementById("approvedList").innerHTML = filtered.map((f, i) => {
                 const realIndex = filter === "all" ? i : approved.indexOf(f);
                 const cat = f.category || guessCategory(f);
+                const v = f._verification || {};
+                let verifyHtml = "";
+
+                if (v.status === "checking") {
+                    verifyHtml = `<div class="verify-status verify-checking">Faktagranskas... söker källor</div>`;
+                } else if (v.status === "error") {
+                    verifyHtml = `<div class="verify-status verify-fail">Kunde inte verifiera: ${escapeHtml(v.error || "okänt fel")}</div>`;
+                } else if (v.sourceCount !== undefined) {
+                    if (v.sourceCount >= 3) {
+                        verifyHtml = `<div class="verify-status verify-pass">Verifierad — ${v.sourceCount} källor hittade${v.aiExplanation ? ". " + escapeHtml(v.aiExplanation) : ""}</div>`;
+                    } else if (v.sourceCount >= 1) {
+                        verifyHtml = `<div class="verify-status verify-warn">Bara ${v.sourceCount} käll${v.sourceCount === 1 ? "a" : "or"} hittade — behöver manuell granskning${v.aiExplanation ? ". " + escapeHtml(v.aiExplanation) : ""}</div>`;
+                    } else {
+                        verifyHtml = `<div class="verify-status verify-fail">Inga källor hittade — behöver manuell granskning${v.aiExplanation ? ". " + escapeHtml(v.aiExplanation) : ""}</div>`;
+                    }
+                    if (v.sources && v.sources.length > 0) {
+                        verifyHtml += `<div class="verify-sources">${v.sources.map(s =>
+                            `<a href="${escapeHtml(s.url)}" target="_blank">📎 ${escapeHtml(s.source || s.name || s.title)} ↗</a>`
+                        ).join("")}</div>`;
+                    }
+                }
+
                 return `
                     <div class="review-card" data-index="${realIndex}" data-type="approved">
+                        ${verifyHtml}
                         <div class="review-text">${escapeHtml(f.text)}</div>
                         <div class="review-meta">
                             <span class="badge badge-approved">Godkänd</span>
@@ -1078,6 +1309,8 @@
                             <select class="category-select" onchange="changeApprovedCategory(${realIndex}, this.value)">
                                 ${getAllCategories().map(c => `<option value="${c}" ${c === cat ? 'selected' : ''}>${c}</option>`).join("")}
                             </select>
+                            <button class="btn btn-sm btn-approve" onclick="forcePublish(${realIndex})">Publicera ändå</button>
+                            <button class="btn btn-sm btn-edit" onclick="reverifyApproved(${realIndex})">Verifiera igen</button>
                             <button class="btn btn-sm btn-delete" onclick="unapprove(${realIndex})">Flytta till utkast</button>
                         </div>
                     </div>`;
@@ -1100,13 +1333,55 @@
         function filterDrafts(f, btn) { document.querySelectorAll("#draftFilters .filter-pill").forEach(p => p.classList.remove("active")); btn.classList.add("active"); renderDrafts(f); }
         function filterApproved(f, btn) { document.querySelectorAll("#approvedFilters .filter-pill").forEach(p => p.classList.remove("active")); btn.classList.add("active"); renderApproved(f); }
 
-        function approveDraft(i) { const d = getDrafts(); const f = d.splice(i, 1)[0]; if (!f) return; f.category = f.category || guessCategory(f); delete f._editing; const a = getApproved(); a.push(f); saveDrafts(d); saveApproved(a); refreshAll(); }
+        function approveDraft(i) { approveWithVerification(i, false); }
         function deleteDraft(i) { const d = getDrafts(); const removed = d.splice(i, 1)[0]; if (removed) moveToTrash(removed); saveDrafts(d); refreshAll(); }
         function editDraft(i) { const d = getDrafts(); d[i]._editing = true; saveDrafts(d); renderDrafts(); }
         function saveEdit(i) { const d = getDrafts(); const card = document.querySelector(`.review-card[data-index="${i}"][data-type="draft"]`); if (card) d[i].text = card.querySelector('.review-text').textContent.trim(); delete d[i]._editing; saveDrafts(d); renderDrafts(); }
         function changeDraftCategory(i, c) { const d = getDrafts(); d[i].category = c; saveDrafts(d); }
         function changeApprovedCategory(i, c) { const a = getApproved(); a[i].category = c; saveApproved(a); }
-        function unapprove(i) { const a = getApproved(); const f = a.splice(i, 1)[0]; if (!f) return; const d = getDrafts(); d.unshift(f); saveDrafts(d); saveApproved(a); refreshAll(); }
+        function unapprove(i) { const a = getApproved(); const f = a.splice(i, 1)[0]; if (!f) return; delete f._verification; const d = getDrafts(); d.unshift(f); saveDrafts(d); saveApproved(a); refreshAll(); }
+
+        function forcePublish(i) {
+            const a = getApproved();
+            const f = a.splice(i, 1)[0];
+            if (!f) return;
+            const published = getPublished();
+            published.push(f);
+            savePublished(published);
+            saveApproved(a);
+            refreshAll();
+        }
+
+        async function reverifyApproved(i) {
+            const a = getApproved();
+            if (!a[i]) return;
+            a[i]._verification = { status: "checking" };
+            saveApproved(a);
+            renderApproved();
+
+            try {
+                const result = await verifyFact(a[i]);
+                const a2 = getApproved();
+                if (a2[i]) {
+                    a2[i]._verification = result;
+                    if (result.verified) {
+                        // Auto-publish
+                        const published = getPublished();
+                        published.push({ ...a2[i] });
+                        savePublished(published);
+                        a2.splice(i, 1);
+                    }
+                    saveApproved(a2);
+                }
+            } catch (err) {
+                const a2 = getApproved();
+                if (a2[i]) {
+                    a2[i]._verification = { status: "error", sourceCount: 0, sources: [], verified: false, error: err.message };
+                    saveApproved(a2);
+                }
+            }
+            refreshAll();
+        }
 
         document.getElementById("approveAllBtn").addEventListener("click", () => {
             const d = getDrafts(); if (!d.length) return;
@@ -1364,24 +1639,40 @@
         document.getElementById("publishBtn").addEventListener("click", () => {
             const approved = getApproved();
             if (approved.length === 0) { alert("Inga godkända fakta att publicera."); return; }
-            if (!confirm(`Publicera ${approved.length} godkända fakta? De blir synliga på den publika sidan.`)) return;
+
+            const verified = approved.filter(f => f._verification?.verified);
+            const unverified = approved.filter(f => !f._verification?.verified);
+
+            let msg = "";
+            if (unverified.length > 0 && verified.length > 0) {
+                msg = `${verified.length} verifierade fakta publiceras.\n${unverified.length} overifierade blir kvar.\n\nFortsätt?`;
+            } else if (unverified.length > 0) {
+                msg = `Alla ${unverified.length} fakta saknar tillräcklig verifiering.\nVill du publicera dem ändå?`;
+            } else {
+                msg = `Publicera ${verified.length} verifierade fakta?`;
+            }
+            if (!confirm(msg)) return;
 
             const published = getPublished();
-            approved.forEach(f => {
+            const toPublish = unverified.length > 0 && verified.length > 0 ? verified : approved;
+            toPublish.forEach(f => {
                 published.push({
-                    text: f.text,
-                    keywords: f.keywords || [],
-                    sourceName: f.sourceName || "",
-                    sourceUrl: f.sourceUrl || "",
-                    related: f.related || [],
-                    category: f.category || guessCategory(f)
+                    text: f.text, keywords: f.keywords || [],
+                    sourceName: f.sourceName || "", sourceUrl: f.sourceUrl || "",
+                    related: f.related || [], category: f.category || guessCategory(f)
                 });
             });
             savePublished(published);
-            saveApproved([]); // Clear approved after publishing
+
+            // Keep unverified in approved (unless we're force-publishing all)
+            if (unverified.length > 0 && verified.length > 0) {
+                saveApproved(unverified);
+            } else {
+                saveApproved([]);
+            }
 
             const statusEl = document.getElementById("publishStatus");
-            statusEl.textContent = `🚀 ${approved.length} fakta publicerade! De syns nu på den publika sidan.`;
+            statusEl.textContent = `🚀 ${toPublish.length} fakta publicerade!`;
             statusEl.style.color = "#38a169";
             refreshAll();
             setTimeout(() => { statusEl.textContent = ""; }, 5000);
