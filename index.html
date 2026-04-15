@@ -662,7 +662,7 @@
             });
 
             return scored
-                .filter(s => s.score > 0)
+                .filter(s => s.score >= 3)
                 .sort((a, b) => b.score - a.score)
                 .map(s => s.fact);
         }
@@ -696,6 +696,28 @@
             return [];
         }
 
+        // ========== SEARCH TRACKING ==========
+        function trackSearch(topic, foundResult) {
+            try {
+                const searches = JSON.parse(localStorage.getItem("smartass_searches") || "[]");
+                const existing = searches.find(s => s.query.toLowerCase() === topic.toLowerCase());
+                if (existing) {
+                    existing.count++;
+                    existing.lastSearched = new Date().toISOString();
+                    existing.hadResult = foundResult;
+                } else {
+                    searches.push({
+                        query: topic,
+                        count: 1,
+                        firstSearched: new Date().toISOString(),
+                        lastSearched: new Date().toISOString(),
+                        hadResult: foundResult
+                    });
+                }
+                localStorage.setItem("smartass_searches", JSON.stringify(searches));
+            } catch {}
+        }
+
         // ========== SEARCH & DISPLAY ==========
         async function searchFacts(topic) {
             const factArea = document.getElementById("factArea");
@@ -713,13 +735,17 @@
                 currentIndex = 0;
                 currentIsApi = false;
                 markFactSeen(currentFacts[0]);
+                trackSearch(topic, true);
                 renderSingleFact();
                 return;
             }
 
+            trackSearch(topic, false);
             factArea.innerHTML = `
-                <div class="error-msg">
-                    Hmm, hittade inget om "${escapeHtml(topic)}" bland publicerade fakta. Testa ett annat ämne!
+                <div class="fact-card" style="text-align:center; padding: 2rem 1.5rem;">
+                    <p style="font-size:1rem; margin-bottom:0.5rem;">😕</p>
+                    <p style="font-size:0.95rem; font-weight:500; margin-bottom:0.75rem;">Tyvärr har vi ingen info om "${escapeHtml(topic)}" ännu</p>
+                    <p style="font-size:0.82rem; color:var(--text-secondary); line-height:1.5;">Vi bygger ut vår faktabank varje dag! Testa att söka på något annat eller tryck på knappen nedan för en slumpmässig fakta.</p>
                 </div>`;
         }
 

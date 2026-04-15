@@ -402,6 +402,7 @@
             <button class="tab" data-tab="approved">Godkända</button>
             <button class="tab" data-tab="duplicates">Dubletter <span id="dupBadge" style="background:#FF8383;color:white;border-radius:10px;padding:0 5px;font-size:0.6rem;margin-left:2px;display:none;">0</span></button>
             <button class="tab" data-tab="trash">Papperskorg</button>
+            <button class="tab" data-tab="searches">Sökningar</button>
             <button class="tab" data-tab="generate">Generera</button>
         </div>
 
@@ -499,6 +500,18 @@
             </div>
             <p style="font-size: 0.78rem; color: var(--text-secondary); margin-bottom: 1rem;">Fakta som är väldigt lika varandra. Granska och ta bort den som inte behövs.</p>
             <div class="review-list" id="dupList"></div>
+        </div>
+
+        <!-- SEARCHES -->
+        <div class="tab-panel" id="panel-searches">
+            <div class="bulk-bar">
+                <span class="count" id="searchCount">0 sökningar</span>
+                <div class="bulk-actions">
+                    <button class="btn btn-sm" id="clearSearchesBtn" style="background:var(--red);color:#fff;">Rensa alla</button>
+                </div>
+            </div>
+            <p style="font-size: 0.78rem; color: var(--text-secondary); margin-bottom: 1rem;">Alla sökningar som gjorts på den publika sidan. Röda = hittade inga fakta. Använd detta för att se vad folk vill veta mer om!</p>
+            <div id="searchesList"></div>
         </div>
 
         <!-- TRASH -->
@@ -630,6 +643,8 @@
             const totalDrafts = getDrafts().length;
             const totalPublished = getPublished().length;
             const trashCount = getTrash().length;
+            const searchStats = (() => { try { return JSON.parse(localStorage.getItem("smartass_searches") || "[]"); } catch { return []; } })();
+            const missedSearches = searchStats.filter(s => !s.hadResult).length;
 
             // Soft pastel color palette
             const catColors = [
@@ -644,6 +659,7 @@
                 { n: totalApproved, label: "Godkända", tab: "approved", border: "var(--green)" },
             ];
             if (trashCount > 0) statusCards.push({ n: trashCount, label: "Papperskorg", tab: "trash", border: "var(--red)" });
+            if (searchStats.length > 0) statusCards.push({ n: searchStats.length, label: `Sökningar${missedSearches > 0 ? ' (' + missedSearches + ' utan träff)' : ''}`, tab: "searches", border: "#60A8F0" });
 
             let html = `<div style="display:grid;grid-template-columns:repeat(${statusCards.length}, 1fr);gap:0.6rem;margin-bottom:2rem;">`;
             for (const s of statusCards) {
@@ -1861,7 +1877,94 @@ Svara i detta format (BARA JSON, inget annat):
             tab.addEventListener("click", () => {
                 openTab(tab.dataset.tab);
                 if (tab.dataset.tab === "published") { renderPublishedFilters(); renderPublished(); }
+                if (tab.dataset.tab === "searches") { renderSearches(); }
             });
+        });
+
+        // ========== SEARCH STATISTICS ==========
+        function getSearches() {
+            try { return JSON.parse(localStorage.getItem("smartass_searches") || "[]"); } catch { return []; }
+        }
+
+        function renderSearches() {
+            const searches = getSearches();
+            const container = document.getElementById("searchesList");
+            document.getElementById("searchCount").textContent = `${searches.length} unika sökningar`;
+
+            if (searches.length === 0) {
+                container.innerHTML = `<p style="color:var(--text-secondary); text-align:center; padding:2rem;">Inga sökningar ännu.</p>`;
+                return;
+            }
+
+            // Sort: most searched first
+            const sorted = [...searches].sort((a, b) => b.count - a.count);
+
+            container.innerHTML = `
+                <div style="display:flex; gap:0.5rem; margin-bottom:1rem; flex-wrap:wrap;">
+                    <button class="btn btn-sm search-filter-btn active" data-filter="all" style="font-size:0.75rem;">Alla (${searches.length})</button>
+                    <button class="btn btn-sm search-filter-btn" data-filter="miss" style="font-size:0.75rem; background:var(--red); color:#fff;">Utan resultat (${searches.filter(s => !s.hadResult).length})</button>
+                    <button class="btn btn-sm search-filter-btn" data-filter="hit" style="font-size:0.75rem; background:var(--green); color:#222;">Med resultat (${searches.filter(s => s.hadResult).length})</button>
+                </div>
+                <table style="width:100%; border-collapse:collapse; font-size:0.82rem;">
+                    <thead>
+                        <tr style="text-align:left; border-bottom:2px solid var(--border);">
+                            <th style="padding:0.5rem;">Sökterm</th>
+                            <th style="padding:0.5rem; text-align:center;">Antal</th>
+                            <th style="padding:0.5rem;">Senast</th>
+                            <th style="padding:0.5rem; text-align:center;">Resultat</th>
+                            <th style="padding:0.5rem;"></th>
+                        </tr>
+                    </thead>
+                    <tbody id="searchTableBody">
+                        ${sorted.map((s, i) => renderSearchRow(s, i)).join("")}
+                    </tbody>
+                </table>
+            `;
+
+            // Filter buttons
+            container.querySelectorAll(".search-filter-btn").forEach(btn => {
+                btn.addEventListener("click", () => {
+                    container.querySelectorAll(".search-filter-btn").forEach(b => b.classList.remove("active"));
+                    btn.classList.add("active");
+                    const filter = btn.dataset.filter;
+                    const rows = container.querySelectorAll("tbody tr");
+                    rows.forEach(row => {
+                        if (filter === "all") row.style.display = "";
+                        else if (filter === "miss") row.style.display = row.dataset.had === "false" ? "" : "none";
+                        else row.style.display = row.dataset.had === "true" ? "" : "none";
+                    });
+                });
+            });
+        }
+
+        function renderSearchRow(s, idx) {
+            const date = new Date(s.lastSearched);
+            const dateStr = date.toLocaleDateString("sv-SE", { day: "numeric", month: "short" });
+            const statusDot = s.hadResult
+                ? `<span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:var(--green);"></span>`
+                : `<span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:var(--red);"></span>`;
+
+            return `<tr data-had="${s.hadResult}" style="border-bottom:1px solid var(--border);">
+                <td style="padding:0.5rem; font-weight:500;">${escapeHtml(s.query)}</td>
+                <td style="padding:0.5rem; text-align:center;">${s.count}</td>
+                <td style="padding:0.5rem; color:var(--text-secondary);">${dateStr}</td>
+                <td style="padding:0.5rem; text-align:center;">${statusDot}</td>
+                <td style="padding:0.5rem;"><button class="btn btn-sm" onclick="deleteSearch(${idx})" style="font-size:0.7rem; padding:0.2rem 0.5rem;">✕</button></td>
+            </tr>`;
+        }
+
+        function deleteSearch(idx) {
+            const searches = getSearches();
+            searches.splice(idx, 1);
+            localStorage.setItem("smartass_searches", JSON.stringify(searches));
+            renderSearches();
+        }
+
+        document.getElementById("clearSearchesBtn").addEventListener("click", () => {
+            if (confirm("Rensa all sökstatistik?")) {
+                localStorage.removeItem("smartass_searches");
+                renderSearches();
+            }
         });
 
         // ========== AI GENERATION ==========
