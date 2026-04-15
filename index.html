@@ -1,0 +1,945 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartAss</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #ffffff;
+            --card-bg: #ffffff;
+            --text: #222222;
+            --text-secondary: #999999;
+            --green: #C2FF66;
+            --yellow: #FFDB77;
+            --red: #FF8383;
+            --border: #e8e8e8;
+            --radius: 12px;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Inter', -apple-system, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            min-height: 100dvh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 460px;
+            padding: 2rem 1.5rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2.4rem;
+            font-weight: 700;
+            font-style: italic;
+            letter-spacing: -0.03em;
+            line-height: 1;
+        }
+
+        .search-section {
+            width: 100%;
+            margin-top: 2.5rem;
+            display: flex;
+            flex-direction: column;
+            gap: 0.6rem;
+        }
+
+        .search-bar {
+            display: flex;
+            gap: 0;
+            width: 100%;
+            border: 1.5px solid var(--border);
+            border-radius: var(--radius);
+            overflow: hidden;
+            transition: border-color 0.2s;
+        }
+
+        .search-bar:focus-within { border-color: #bbb; }
+
+        .search-bar input {
+            flex: 1;
+            padding: 0.75rem 1rem;
+            border: none;
+            font-size: 0.88rem;
+            font-family: 'Inter', sans-serif;
+            outline: none;
+            background: var(--bg);
+            color: var(--text);
+        }
+
+        .search-bar input::placeholder { color: #bbb; }
+
+        .search-btn {
+            padding: 0.75rem 1.3rem;
+            background: var(--text);
+            color: var(--bg);
+            border: none;
+            font-size: 0.82rem;
+            font-weight: 600;
+            font-family: 'Inter', sans-serif;
+            cursor: pointer;
+            transition: background 0.15s;
+        }
+
+        .search-btn:hover { background: #444; }
+
+        .random-btn {
+            width: 100%;
+            padding: 0.85rem 1.2rem;
+            background: var(--text);
+            color: var(--bg);
+            border: none;
+            border-radius: var(--radius);
+            font-size: 0.88rem;
+            font-weight: 600;
+            font-family: 'Inter', sans-serif;
+            cursor: pointer;
+            transition: all 0.15s;
+        }
+
+        .random-btn:hover { background: #444; }
+        .random-btn:active { transform: scale(0.98); }
+
+        .fact-area {
+            width: 100%;
+            margin-top: 1.6rem;
+        }
+
+        .fact-card {
+            background: var(--card-bg);
+            border-radius: var(--radius);
+            padding: 1.4rem 1.3rem;
+            text-align: left;
+            animation: fadeIn 0.3s ease both;
+            border: 1.5px solid var(--border);
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(8px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .fact-text {
+            font-size: 0.92rem;
+            line-height: 1.65;
+            margin-bottom: 1.1rem;
+            color: var(--text);
+        }
+
+        .fact-footer {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+
+        .credibility {
+            display: flex;
+            align-items: center;
+            gap: 0.35rem;
+            font-size: 0.75rem;
+            color: var(--text-secondary);
+        }
+
+        .cred-dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            flex-shrink: 0;
+        }
+
+        .cred-high .cred-dot { background: var(--green); }
+        .cred-medium .cred-dot { background: var(--yellow); }
+        .cred-low .cred-dot { background: var(--red); }
+        .cred-high .cred-label { font-weight: 600; }
+        .cred-medium .cred-label { font-weight: 600; }
+        .cred-low .cred-label { font-weight: 600; }
+
+        .source-link {
+            color: #5588cc;
+            text-decoration: none;
+            font-size: 0.75rem;
+            font-weight: 500;
+            transition: opacity 0.15s;
+        }
+
+        .source-link:hover { opacity: 0.7; text-decoration: underline; }
+
+        .related-section {
+            margin-top: 1.2rem;
+            text-align: center;
+        }
+
+        .related-label {
+            font-size: 0.68rem;
+            color: var(--text-secondary);
+            margin-bottom: 0.4rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.06em;
+        }
+
+        .related-topics {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 0.3rem;
+        }
+
+        .topic-pill {
+            background: var(--bg);
+            border: 1.5px solid var(--border);
+            padding: 0.25rem 0.7rem;
+            border-radius: 20px;
+            font-size: 0.73rem;
+            font-family: 'Inter', sans-serif;
+            font-weight: 500;
+            color: var(--text);
+            cursor: pointer;
+            transition: all 0.15s;
+        }
+
+        .topic-pill:hover { background: var(--text); color: var(--bg); border-color: var(--text); }
+
+        .loading-text {
+            color: var(--text-secondary);
+            font-size: 0.85rem;
+            padding: 2rem 0;
+        }
+
+        .spinner {
+            width: 22px;
+            height: 22px;
+            border: 2.5px solid var(--border);
+            border-top-color: var(--text);
+            border-radius: 50%;
+            animation: spin 0.7s linear infinite;
+            margin: 0 auto 0.8rem;
+        }
+
+        @keyframes spin { to { transform: rotate(360deg); } }
+
+        .error-msg {
+            color: var(--text-secondary);
+            font-size: 0.88rem;
+            padding: 1.5rem 0;
+        }
+
+        .wiki-note {
+            font-size: 0.7rem;
+            color: var(--text-secondary);
+            background: #FFF8EC;
+            border: 1px solid var(--yellow);
+            border-radius: var(--radius);
+            padding: 0.5rem 0.8rem;
+            margin-bottom: 0.8rem;
+            line-height: 1.4;
+            text-align: left;
+        }
+
+        @media (max-width: 500px) {
+            h1 { font-size: 2rem; }
+            .fact-footer { flex-direction: column; align-items: flex-start; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>SmartAss</h1>
+
+        <div class="search-section">
+            <form class="search-bar" id="searchForm">
+                <input type="text" id="searchInput" placeholder="Jag vill veta något kul om..." autocomplete="off">
+                <button type="submit" class="search-btn">Sök</button>
+            </form>
+            <button type="button" class="random-btn" id="randomBtn">Berätta något jag inte vet</button>
+        </div>
+
+        <div class="fact-area" id="factArea"></div>
+    </div>
+
+    <script src="facts.js"></script>
+    <script>
+        // ========== SEEN FACTS TRACKER (localStorage) ==========
+        const SEEN_KEY = "smartass_seen";
+        const SEEN_EXPIRY_DAYS = 7;
+
+        function getSeenFacts() {
+            try {
+                const data = JSON.parse(localStorage.getItem(SEEN_KEY) || "{}");
+                const now = Date.now();
+                const cutoff = now - SEEN_EXPIRY_DAYS * 24 * 60 * 60 * 1000;
+                const cleaned = {};
+                for (const [key, ts] of Object.entries(data)) {
+                    if (ts > cutoff) cleaned[key] = ts;
+                }
+                if (Object.keys(cleaned).length !== Object.keys(data).length) {
+                    localStorage.setItem(SEEN_KEY, JSON.stringify(cleaned));
+                }
+                return cleaned;
+            } catch { return {}; }
+        }
+
+        function markFactSeen(fact) {
+            try {
+                const data = getSeenFacts();
+                data[factId(fact)] = Date.now();
+                localStorage.setItem(SEEN_KEY, JSON.stringify(data));
+            } catch {}
+        }
+
+        function factId(fact) {
+            return (fact.text || "").slice(0, 80);
+        }
+
+        function isFactSeen(fact) {
+            return !!getSeenFacts()[factId(fact)];
+        }
+
+        // ========== INSTITUTIONAL API SOURCES ==========
+        const API_SOURCES = {
+            async nasaApod() {
+                const res = await fetchWithTimeout(`https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&count=5`);
+                if (!res.ok) throw new Error(`NASA APOD: ${res.status}`);
+                const data = await res.json();
+                return data.filter(d => d.explanation).map(d => ({
+                    text: d.explanation.split('. ').find(s => s.length > 40 && s.length < 200) || d.explanation.split('. ').slice(0, 1).join('. ') + ".",
+                    sourceName: "NASA (APOD)",
+                    sourceUrl: d.url || "https://apod.nasa.gov/",
+                    credibility: "high",
+                    keywords: ["rymden", "astronomi", "nasa", "foto"],
+                    related: ["rymden", "stjärnor", "galaxer", "solsystemet"]
+                }));
+            },
+
+            async nasaAsteroids() {
+                const today = new Date().toISOString().slice(0, 10);
+                const res = await fetchWithTimeout(`https://api.nasa.gov/neo/rest/v1/feed?start_date=${today}&end_date=${today}&api_key=DEMO_KEY`);
+                if (!res.ok) throw new Error(`NASA NEO: ${res.status}`);
+                const data = await res.json();
+                const neos = Object.values(data.near_earth_objects || {}).flat();
+                return neos.slice(0, 5).map(neo => {
+                    const diam = neo.estimated_diameter?.meters;
+                    const minD = Math.round(diam?.estimated_diameter_min || 0);
+                    const maxD = Math.round(diam?.estimated_diameter_max || 0);
+                    const speed = Math.round(parseFloat(neo.close_approach_data?.[0]?.relative_velocity?.kilometers_per_hour || 0));
+                    const missLunar = parseFloat(neo.close_approach_data?.[0]?.miss_distance?.lunar || 0).toFixed(1);
+                    const danger = neo.is_potentially_hazardous_asteroid ? "Klassad som potentiellt farlig!" : "Helt ofarlig för oss.";
+                    return {
+                        text: `Asteroiden ${neo.name.replace(/[()]/g, '')} passerar jorden idag! Den är ${minD}–${maxD} meter i diameter, färdas i ${speed.toLocaleString('sv')} km/h och passerar ${missLunar} månavstånd bort. ${danger}`,
+                        sourceName: "NASA Center for Near Earth Object Studies",
+                        sourceUrl: neo.nasa_jpl_url || "https://cneos.jpl.nasa.gov/",
+                        credibility: "high",
+                        keywords: ["asteroid", "rymden", "nasa", "jorden"],
+                        related: ["asteroider", "rymden", "dinosaurier", "solsystemet"]
+                    };
+                });
+            },
+
+            async nobelPrize() {
+                const catSv = {physics:"fysik",chemistry:"kemi","economic sciences":"ekonomi","physiology or medicine":"medicin",literature:"litteratur",peace:"fred"};
+                const res = await fetchWithTimeout("https://api.nobelprize.org/2.1/laureates?limit=25&offset=" + Math.floor(Math.random() * 900));
+                if (!res.ok) throw new Error(`Nobel: ${res.status}`);
+                const data = await res.json();
+                return (data.laureates || []).filter(l => l.nobelPrizes?.length && (l.fullName?.en || l.orgName?.en)).slice(0, 5).map(l => {
+                    const prize = l.nobelPrizes[0];
+                    const fullName = l.fullName?.en || l.orgName?.en;
+                    const nameParts = fullName.split(" ");
+                    const name = nameParts.length > 2 ? `${nameParts[0]} ${nameParts[nameParts.length-1]}` : fullName;
+                    const year = prize.awardYear;
+                    const cat = catSv[(prize.category?.en || "").toLowerCase()] || prize.category?.en || "";
+                    const age = l.birth?.date ? (year - parseInt(l.birth.date)) : null;
+                    const country = l.birth?.place?.country?.en || "";
+                    let text = `${name}${country ? ` från ${country}` : ""} fick Nobelpriset i ${cat} ${year}.`;
+                    if (age && age < 35) text += ` Bara ${age} år gammal — genialitet har ingen åldersgräns!`;
+                    else if (age && age > 85) text += ` Vid ${age} års ålder — bevis på att det aldrig är för sent!`;
+                    return {
+                        text,
+                        sourceName: "Nobelprize.org",
+                        sourceUrl: `https://www.nobelprize.org/prizes/${cat.toLowerCase().replace(/\s/g, '-')}/${year}/`,
+                        credibility: "high",
+                        keywords: ["nobelpris", "nobel", cat.toLowerCase(), "vetenskap", "historia"],
+                        related: ["Nobelpriset", "vetenskap", "Stockholm", "historia"]
+                    };
+                });
+            },
+
+            async usgsEarthquakes() {
+                const res = await fetchWithTimeout("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_week.geojson");
+                if (!res.ok) throw new Error(`USGS: ${res.status}`);
+                const data = await res.json();
+                const q = (data.features || [])[0];
+                if (!q) return [];
+                const total = data.features.length;
+                return [{
+                    text: `Bara den senaste veckan har det skett ${total} jordbävningar över 4.5 på Richterskalan runt om i världen. Den senaste var på ${q.properties.mag} ${q.properties.place}. Jorden skakar bokstavligen hela tiden!`,
+                    sourceName: "U.S. Geological Survey (USGS)",
+                    sourceUrl: q.properties.url || "https://earthquake.usgs.gov/",
+                    credibility: "high",
+                    keywords: ["jordbävning", "geologi", "tektonik", "natur"],
+                    related: ["vulkaner", "tektonik", "geologi", "tsunamier"]
+                }];
+            },
+
+            async restCountries() {
+                const res = await fetchWithTimeout("https://restcountries.com/v3.1/all?fields=name,capital,population,area,region,subregion,languages,currencies,maps,landlocked,car");
+                if (!res.ok) throw new Error(`REST Countries: ${res.status}`);
+                const countries = await res.json();
+                return countries.sort(() => Math.random() - 0.5).slice(0, 5).map(c => {
+                    const name = c.name?.common || "Okänt land";
+                    const langs = Object.values(c.languages || {});
+                    const pop = c.population || 0;
+                    const area = c.area || 0;
+                    const capital = c.capital?.[0] || "";
+                    const region = c.subregion || c.region || "";
+                    const angles = [];
+                    if (langs.length >= 8) angles.push(`I ${name} talas hela ${langs.length} officiella språk. Det mest talade är ${langs[0]}. Att beställa kaffe måste vara en upplevelse!`);
+                    else if (langs.length >= 4) angles.push(`${name} har ${langs.length} officiella språk — bland annat ${langs.slice(0, 3).join(", ")}. Flerspråkig flex!`);
+                    if (pop > 0 && area > 0) {
+                        const density = Math.round(pop / area);
+                        if (density > 1000) angles.push(`${name} har ${density.toLocaleString('sv')} invånare per km² — ett av världens mest tätbefolkade ställen. Personligt utrymme? Aldrig hört talas om.`);
+                        else if (density < 5 && area > 10000) angles.push(`${name} har bara ${density} invånare per km². Perfekt för dig som gillar att vara ifred.`);
+                    }
+                    if (area < 2 && area > 0) angles.push(`${name} är bara ${area} km² stort — du kan bokstavligen promenera genom hela landet på en eftermiddag.`);
+                    if (c.landlocked) angles.push(`${name} har ingen kust alls — det är helt omgivet av andra länder. Strandsemester kräver lite planering.`);
+                    if (c.car?.side === "left") angles.push(`I ${name} kör man på vänster sida av vägen. Ungefär 35% av världens länder gör det — ett arv från den brittiska tiden.`);
+                    if (angles.length === 0) angles.push(`${name} ligger i ${region}${capital ? ` med huvudstad ${capital}` : ""}. Ett land värt att lära sig mer om!`);
+                    return {
+                        text: angles[Math.floor(Math.random() * angles.length)],
+                        sourceName: "REST Countries (open data)",
+                        sourceUrl: c.maps?.googleMaps || "https://restcountries.com/",
+                        credibility: "high",
+                        keywords: ["geografi", "länder", name.toLowerCase(), region.toLowerCase()],
+                        related: ["geografi", "länder", region, capital]
+                    };
+                });
+            },
+
+            async metMuseum() {
+                const searches = ["painting", "sculpture", "photograph", "drawing", "ceramic", "gold"];
+                const term = searches[Math.floor(Math.random() * searches.length)];
+                const searchRes = await fetchWithTimeout(`https://collectionapi.metmuseum.org/public/collection/v1/search?hasImages=true&q=${term}`);
+                if (!searchRes.ok) throw new Error(`Met Museum: ${searchRes.status}`);
+                const searchData = await searchRes.json();
+                const ids = (searchData.objectIDs || []).sort(() => Math.random() - 0.5).slice(0, 3);
+                const facts = [];
+                for (const id of ids) {
+                    try {
+                        const res = await fetchWithTimeout(`https://collectionapi.metmuseum.org/public/collection/v1/objects/${id}`);
+                        const obj = await res.json();
+                        if (!obj.title || !obj.artistDisplayName) continue;
+                        const funFacts = [
+                            `"${obj.title}" av ${obj.artistDisplayName} skapades ${obj.objectDate || "för länge sedan"} och finns idag på Met i New York.`,
+                            `Visste du att ${obj.artistDisplayName} skapade "${obj.title}"? Det finns på Met Museum i New York — gratis att besöka!`,
+                            `${obj.artistDisplayName}s "${obj.title}" (${obj.objectDate || "?"}) är ett av över 1,5 miljoner konstverk på Metropolitan Museum.`
+                        ];
+                        facts.push({
+                            text: funFacts[Math.floor(Math.random() * funFacts.length)],
+                            sourceName: "The Metropolitan Museum of Art",
+                            sourceUrl: obj.objectURL || "https://www.metmuseum.org/",
+                            credibility: "high",
+                            keywords: ["konst", "museum", "met", "målning", "skulptur"],
+                            related: ["konst", "museum", "New York", obj.artistDisplayName?.split(" ").pop() || "konst"]
+                        });
+                    } catch {}
+                }
+                return facts;
+            },
+
+            async peopleInSpace() {
+                const res = await fetchWithTimeout("http://api.open-notify.org/astros.json");
+                if (!res.ok) throw new Error(`Open Notify: ${res.status}`);
+                const data = await res.json();
+                if (!data.number) return [];
+                const names = data.people.map(p => p.name).join(", ");
+                const crafts = [...new Set(data.people.map(p => p.craft))].join(" och ");
+                return [{
+                    text: `Just nu befinner sig ${data.number} personer i rymden ombord på ${crafts}: ${names}. De kretsar runt jorden var 90:e minut i ungefär 408 km höjd.`,
+                    sourceName: "Open Notify / NASA",
+                    sourceUrl: "https://www.nasa.gov/international-space-station/",
+                    credibility: "high",
+                    keywords: ["rymden", "iss", "astronaut", "rymdstation"],
+                    related: ["ISS", "rymden", "NASA", "astronauter"]
+                }];
+            },
+
+            async europeana() {
+                const queries = ["viking", "renaissance", "medieval", "ancient", "baroque", "impressionism", "sculpture", "mosaic", "fresco", "portrait"];
+                const q = queries[Math.floor(Math.random() * queries.length)];
+                const res = await fetchWithTimeout(`https://api.europeana.eu/record/v2/search.json?query=${q}&rows=10&wskey=apidemo`);
+                if (!res.ok) throw new Error(`Europeana: ${res.status}`);
+                const data = await res.json();
+                return (data.items || []).filter(i => i.title?.[0]?.length > 3 && i.dcCreator?.[0]).slice(0, 5).map(item => {
+                    const title = item.title[0].length > 60 ? item.title[0].slice(0, 57) + "..." : item.title[0];
+                    const creator = item.dcCreator[0];
+                    const year = item.year?.[0] || "";
+                    return {
+                        text: `"${title}" av ${creator}${year ? ` (${year})` : ""} är bevarat som en del av Europas gemensamma kulturarv via Europeana.`,
+                        sourceName: "Europeana",
+                        sourceUrl: item.guid || "https://www.europeana.eu/",
+                        credibility: "high",
+                        keywords: ["konst", "kulturarv", "europa", "museum", "historia"],
+                        related: ["kulturarv", "Europa", "museum", "historia"]
+                    };
+                });
+            },
+
+            async gbif() {
+                const animals = ["Panthera", "Ursus", "Aquila", "Delphinus", "Corvus", "Canis", "Vulpes", "Balaenoptera", "Gorilla", "Elephas", "Puma", "Lynx", "Cervus", "Lutra", "Falco"];
+                const genus = animals[Math.floor(Math.random() * animals.length)];
+                const res = await fetchWithTimeout(`https://api.gbif.org/v1/species/search?q=${genus}&limit=10&rank=SPECIES`);
+                if (!res.ok) throw new Error(`GBIF: ${res.status}`);
+                const data = await res.json();
+                return (data.results || []).filter(s => s.vernacularName && s.canonicalName).slice(0, 5).map(species => ({
+                    text: `${species.vernacularName} (${species.canonicalName}) tillhör familjen ${species.family || "okänd"}. Det finns ${(species.numDescendants || "tusentals").toLocaleString('sv')} registrerade observationer i GBIF:s globala databas — biodiversitet på riktigt!`,
+                    sourceName: "GBIF (Global Biodiversity Information Facility)",
+                    sourceUrl: `https://www.gbif.org/species/${species.key}`,
+                    credibility: "high",
+                    keywords: ["djur", "biologi", "arter", "natur", "biodiversitet"],
+                    related: ["djur", "natur", "evolution", "arter"]
+                }));
+            },
+
+            async openLibrary() {
+                const authors = ["Shakespeare", "Tolkien", "Austen", "Hemingway", "Kafka", "Dostoevsky", "Orwell", "Woolf", "Márquez", "Lagerlöf", "Strindberg", "Lindgren", "Dickens", "Twain", "Poe"];
+                const author = authors[Math.floor(Math.random() * authors.length)];
+                const res = await fetchWithTimeout(`https://openlibrary.org/search.json?author=${encodeURIComponent(author)}&limit=10&sort=editions`);
+                if (!res.ok) throw new Error(`Open Library: ${res.status}`);
+                const data = await res.json();
+                return (data.docs || []).filter(d => d.title && d.first_publish_year).slice(0, 5).map(book => {
+                    const editions = book.edition_count || 0;
+                    const langs = book.language?.length || 0;
+                    let extra = "";
+                    if (editions > 100) extra = ` Den har getts ut i hela ${editions} upplagor — en riktig klassiker!`;
+                    else if (langs > 10) extra = ` Översatt till ${langs} språk — hela världen har läst den.`;
+                    return {
+                        text: `"${book.title}" av ${book.author_name?.[0] || author} publicerades första gången ${book.first_publish_year}.${extra}`,
+                        sourceName: "Open Library (Internet Archive)",
+                        sourceUrl: `https://openlibrary.org${book.key}`,
+                        credibility: "high",
+                        keywords: ["böcker", "litteratur", "författare", author.toLowerCase()],
+                        related: ["böcker", "litteratur", "författare", "bibliotek"]
+                    };
+                });
+            },
+
+            async pokeApi() {
+                const id = Math.floor(Math.random() * 898) + 1;
+                const res = await fetchWithTimeout(`https://pokeapi.co/api/v2/pokemon/${id}`);
+                if (!res.ok) throw new Error(`PokéAPI: ${res.status}`);
+                const pokemon = await res.json();
+                const specRes = await fetchWithTimeout(`https://pokeapi.co/api/v2/pokemon-species/${id}`);
+                const species = specRes.ok ? await specRes.json() : {};
+                const flavor = (species.flavor_text_entries || []).find(f => f.language?.name === "en")?.flavor_text?.replace(/\n|\f/g, ' ') || "";
+                const types = pokemon.types.map(t => t.type.name).join("/");
+                return [{
+                    text: `${pokemon.name.charAt(0).toUpperCase() + pokemon.name.slice(1)} (#${pokemon.id}) är en ${types}-typ Pokémon. Den är ${pokemon.height / 10} m hög och väger ${pokemon.weight / 10} kg.${flavor ? ` "${flavor}"` : ""}`,
+                    sourceName: "PokéAPI (officiell Pokémon-data)",
+                    sourceUrl: `https://pokemondb.net/pokedex/${pokemon.name}`,
+                    credibility: "high",
+                    keywords: ["pokémon", "pokemon", "spel", "gaming", "popkultur"],
+                    related: ["Pokémon", "Nintendo", "spel", "anime"]
+                }];
+            },
+
+            async frankfurter() {
+                const res = await fetchWithTimeout("https://api.frankfurter.app/latest?from=SEK");
+                if (!res.ok) throw new Error(`Frankfurter: ${res.status}`);
+                const data = await res.json();
+                const currencies = Object.entries(data.rates || {});
+                const pick = currencies[Math.floor(Math.random() * currencies.length)];
+                if (!pick) return [];
+                const currencyNames = {USD:"amerikanska dollar",EUR:"euro",GBP:"brittiska pund",JPY:"japanska yen",CHF:"schweiziska franc",AUD:"australiensiska dollar",CAD:"kanadensiska dollar",NOK:"norska kronor",DKK:"danska kronor",CNY:"kinesiska yuan",INR:"indiska rupier",BRL:"brasilianska real",KRW:"sydkoreanska won",MXN:"mexikanska pesos",TRY:"turkiska lira",ZAR:"sydafrikanska rand"};
+                const name = currencyNames[pick[0]] || pick[0];
+                return [{
+                    text: `Just nu är 1 svensk krona värd ${pick[1].toFixed(4)} ${name} (${pick[0]}). Växelkurser ändras varje dag baserat på global handel, räntor och ekonomisk politik. Datum: ${data.date}.`,
+                    sourceName: "Europeiska Centralbanken (via Frankfurter)",
+                    sourceUrl: "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/",
+                    credibility: "high",
+                    keywords: ["valuta", "ekonomi", "växelkurs", "pengar", "kronor"],
+                    related: ["ekonomi", "valuta", "handel", "Riksbanken"]
+                }];
+            },
+
+            async worldBank() {
+                const indicators = [
+                    { id: "SP.POP.TOTL", label: "befolkning", unit: "" },
+                    { id: "NY.GDP.PCAP.CD", label: "BNP per capita", unit: " USD" },
+                    { id: "SP.DYN.LE00.IN", label: "medellivslängd", unit: " år" },
+                    { id: "SE.ADT.LITR.ZS", label: "läskunnighet", unit: "%" }
+                ];
+                const ind = indicators[Math.floor(Math.random() * indicators.length)];
+                const countries = ["SWE","USA","JPN","BRA","IND","CHN","DEU","FRA","NGA","AUS","KEN","MEX","EGY","ARG","THA","CAN","KOR","ZAF","GBR","NOR"];
+                const cc = countries[Math.floor(Math.random() * countries.length)];
+                const res = await fetchWithTimeout(`https://api.worldbank.org/v2/country/${cc}/indicator/${ind.id}?format=json&per_page=1&date=2020:2023`);
+                if (!res.ok) throw new Error(`World Bank: ${res.status}`);
+                const data = await res.json();
+                const entry = data?.[1]?.[0];
+                if (!entry?.value) return [];
+                const val = ind.unit === "%" ? Math.round(entry.value) + "%" : Number(entry.value).toLocaleString('sv-SE') + ind.unit;
+                return [{
+                    text: `${entry.country.value} hade en ${ind.label} på ${val} (${entry.date}). Världsbankens data täcker 217 länder och används av forskare, journalister och beslutsfattare världen över.`,
+                    sourceName: "Världsbanken (World Bank Open Data)",
+                    sourceUrl: `https://data.worldbank.org/indicator/${ind.id}?locations=${cc}`,
+                    credibility: "high",
+                    keywords: ["ekonomi", "statistik", "världen", "data", "befolkning"],
+                    related: ["ekonomi", "statistik", "geografi", "utveckling"]
+                }];
+            },
+
+            async kSamsok() {
+                const queries = ["viking", "runsten", "medeltid", "slott", "kyrka", "järnålder", "bronsålder", "skeppssättning", "hällristning"];
+                const q = queries[Math.floor(Math.random() * queries.length)];
+                const res = await fetchWithTimeout(`https://kulturarvsdata.se/ksamsok/api?method=search&query=text%3D${encodeURIComponent(q)}&recordSchema=presentation&startRecord=${Math.floor(Math.random()*50)+1}&maximumRecords=5`);
+                if (!res.ok) throw new Error(`K-Samsök: ${res.status}`);
+                const text = await res.text();
+                const parser = new DOMParser();
+                const xml = parser.parseFromString(text, "text/xml");
+                const records = xml.querySelectorAll("record");
+                const facts = [];
+                records.forEach(rec => {
+                    const pres = rec.querySelector("pres\\:item, item");
+                    if (!pres) return;
+                    const label = pres.querySelector("pres\\:itemLabel, itemLabel")?.textContent || "";
+                    const desc = pres.querySelector("pres\\:description, description")?.textContent || "";
+                    const type = pres.querySelector("pres\\:type, type")?.textContent || "";
+                    if (!label && !desc) return;
+                    facts.push({
+                        text: `${label || "Kulturarvsföremål"}${type ? ` (${type})` : ""}: ${desc || "Ett svenskt kulturarvsföremål registrerat i Riksantikvarieämbetets databas K-Samsök."}`.slice(0, 300),
+                        sourceName: "Riksantikvarieämbetet (K-Samsök)",
+                        sourceUrl: "https://www.raa.se/hitta-information/k-samsok/",
+                        credibility: "high",
+                        keywords: ["kulturarv", "sverige", "historia", "arkeologi", q],
+                        related: ["kulturarv", "Sverige", "historia", "vikingarna"]
+                    });
+                });
+                return facts;
+            }
+        };
+
+        // ========== HELPER FUNCTIONS ==========
+        function credibilityLabel(level) {
+            return level === "high" ? "Hög" : level === "medium" ? "Medel" : "Låg";
+        }
+
+        function escapeHtml(str) {
+            const div = document.createElement("div");
+            div.textContent = str;
+            return div.innerHTML;
+        }
+
+        function searchCuratedFacts(topic) {
+            const query = topic.toLowerCase().trim();
+            const queryWords = query.split(/\s+/);
+
+            const scored = FACTS_DB.map(fact => {
+                let score = 0;
+                for (const word of queryWords) {
+                    for (const kw of fact.keywords) {
+                        if (kw === query) score += 10;
+                        else if (kw.includes(word) || word.includes(kw)) score += 5;
+                        else if (kw.startsWith(word.slice(0, 3)) && word.length >= 3) score += 2;
+                    }
+                    if (fact.text.toLowerCase().includes(word)) score += 1;
+                }
+                return { fact, score };
+            });
+
+            return scored
+                .filter(s => s.score > 0)
+                .sort((a, b) => b.score - a.score)
+                .map(s => s.fact);
+        }
+
+        let currentFacts = [];
+        let currentIndex = 0;
+        let currentRelated = [];
+        let currentTopic = "";
+        let currentIsApi = false;
+
+        // ========== API HELPERS ==========
+        function fetchWithTimeout(url, timeoutMs = 5000) {
+            return Promise.race([
+                fetch(url),
+                new Promise((_, reject) => setTimeout(() => reject(new Error("Timeout")), timeoutMs))
+            ]);
+        }
+
+        async function fetchRandomApiFact() {
+            const sourceNames = Object.keys(API_SOURCES).sort(() => Math.random() - 0.5).slice(0, 3);
+            const results = await Promise.allSettled(
+                sourceNames.map(name => API_SOURCES[name]())
+            );
+            for (const r of results) {
+                if (r.status === "fulfilled" && r.value.length > 0) {
+                    const unseen = r.value.filter(f => !isFactSeen(f));
+                    if (unseen.length > 0) return unseen;
+                    return r.value;
+                }
+            }
+            return [];
+        }
+
+        // ========== SEARCH & DISPLAY ==========
+        async function searchFacts(topic) {
+            const factArea = document.getElementById("factArea");
+            document.getElementById("searchInput").value = topic;
+            currentTopic = topic;
+
+            const curated = searchCuratedFacts(topic);
+
+            if (curated.length > 0) {
+                const unseen = curated.filter(f => !isFactSeen(f));
+                const pick = unseen.length > 0 ? unseen[0] : curated[0];
+
+                currentFacts = [{ ...pick, credibility: "high" }];
+                currentRelated = (pick.related || []).filter(r => r.toLowerCase() !== topic.toLowerCase()).slice(0, 6);
+                currentIndex = 0;
+                currentIsApi = false;
+                markFactSeen(currentFacts[0]);
+                renderSingleFact();
+                return;
+            }
+
+            factArea.innerHTML = `
+                <div class="loading-text">
+                    <div class="spinner"></div>
+                    Letar efter fakta om "${escapeHtml(topic)}"...
+                </div>`;
+
+            const apiFacts = await fetchTopicApiFacts(topic);
+
+            if (apiFacts.length > 0) {
+                const pick = apiFacts.filter(f => !isFactSeen(f))[0] || apiFacts[0];
+                currentFacts = [pick];
+                currentRelated = pick.related || [];
+                currentIndex = 0;
+                currentIsApi = true;
+                markFactSeen(pick);
+                renderSingleFact();
+                return;
+            }
+
+            const wikiData = await fetchWikipediaFacts(topic);
+            if (wikiData.facts.length > 0) {
+                const pick = wikiData.facts[0];
+                currentFacts = [pick];
+                currentRelated = wikiData.related;
+                currentIndex = 0;
+                currentIsApi = true;
+                markFactSeen(pick);
+                renderSingleFact();
+                return;
+            }
+
+            factArea.innerHTML = `
+                <div class="error-msg">
+                    Hmm, hittade inget om "${escapeHtml(topic)}". Testa ett annat ämne!
+                </div>`;
+        }
+
+        async function fetchWikipediaFacts(topic) {
+            try {
+                const searchUrl = `https://sv.wikipedia.org/w/api.php?action=opensearch&search=${encodeURIComponent(topic)}&limit=1&format=json&origin=*`;
+                const searchRes = await fetch(searchUrl);
+                const searchData = await searchRes.json();
+
+                let title, lang;
+                if (searchData[1]?.length > 0) {
+                    title = searchData[1][0];
+                    lang = "sv";
+                } else {
+                    const enRes = await fetch(`https://en.wikipedia.org/w/api.php?action=opensearch&search=${encodeURIComponent(topic)}&limit=1&format=json&origin=*`);
+                    const enData = await enRes.json();
+                    if (!enData[1]?.length) return { facts: [], related: [] };
+                    title = enData[1][0];
+                    lang = "en";
+                }
+
+                const base = `https://${lang}.wikipedia.org`;
+                const [summaryRes, linksRes] = await Promise.all([
+                    fetch(`${base}/api/rest_v1/page/summary/${encodeURIComponent(title)}`),
+                    fetch(`${base}/w/api.php?action=query&titles=${encodeURIComponent(title)}&prop=links&pllimit=20&format=json&origin=*`)
+                ]);
+
+                const summary = await summaryRes.json();
+                const linksData = await linksRes.json();
+
+                const facts = [];
+                if (summary.extract) {
+                    summary.extract.split(/(?<=[.!?])\s+/).filter(s => s.length > 30).forEach(text => {
+                        facts.push({
+                            text,
+                            sourceName: "Wikipedia",
+                            sourceUrl: summary.content_urls?.desktop?.page || `${base}/wiki/${encodeURIComponent(title)}`,
+                            credibility: "medium"
+                        });
+                    });
+                }
+
+                const related = [];
+                const pages = linksData.query?.pages;
+                if (pages) {
+                    const page = Object.values(pages)[0];
+                    page?.links?.filter(l => l.ns === 0 && !l.title.includes(":")).slice(0, 10).forEach(l => related.push(l.title));
+                }
+
+                return { facts, related };
+            } catch (e) {
+                console.error("Wikipedia error:", e);
+                return { facts: [], related: [] };
+            }
+        }
+
+        const TOPIC_API_MAP = [
+            { keywords: ["rymd", "nasa", "astro", "planet", "stjärn", "galax", "sol", "mars", "jupiter", "saturn", "asteroid", "meteor", "teleskop", "komet", "iss", "rymdstation", "astronaut"], apis: ["nasaApod", "nasaAsteroids", "peopleInSpace"] },
+            { keywords: ["nobel", "pris", "vetenskap", "fysik", "kemi", "medicin", "fred"], apis: ["nobelPrize"] },
+            { keywords: ["jordbävning", "geologi", "tektonik", "vulkan", "seism", "richter", "tsunami"], apis: ["usgsEarthquakes"] },
+            { keywords: ["geografi", "land", "länder", "kontinent", "huvudstad", "befolkning", "europa", "afrika", "asien", "amerika", "oceanien"], apis: ["restCountries", "worldBank"] },
+            { keywords: ["konst", "museum", "målning", "skulptur", "tavla", "konstnär", "met", "renässans", "mode", "design"], apis: ["metMuseum", "europeana"] },
+            { keywords: ["bok", "böcker", "litteratur", "författare", "roman", "poesi", "bibliotek"], apis: ["openLibrary"] },
+            { keywords: ["pokémon", "pokemon", "pikachu", "nintendo"], apis: ["pokeApi"] },
+            { keywords: ["valuta", "kronor", "dollar", "euro", "växelkurs", "pengar"], apis: ["frankfurter"] },
+            { keywords: ["ekonomi", "bnp", "statistik", "befolkning", "utveckling", "fattigdom"], apis: ["worldBank"] },
+            { keywords: ["djur", "arter", "biologi", "natur", "biodiversitet", "fågel", "däggdjur", "fisk", "insekt"], apis: ["gbif"] },
+            { keywords: ["kulturarv", "viking", "runsten", "arkeologi", "fornfynd", "medeltid", "järnålder", "bronsålder", "hällristning"], apis: ["kSamsok", "europeana"] },
+            { keywords: ["europa", "kultur", "historia", "antik", "barock", "gotik"], apis: ["europeana"] }
+        ];
+
+        async function fetchTopicApiFacts(topic) {
+            const q = topic.toLowerCase();
+            const apiSet = new Set();
+
+            for (const mapping of TOPIC_API_MAP) {
+                if (mapping.keywords.some(k => q.includes(k))) {
+                    mapping.apis.forEach(a => apiSet.add(a));
+                }
+            }
+
+            if (apiSet.size === 0) {
+                ["nobelPrize", "restCountries", "europeana", "gbif", "openLibrary"].forEach(a => apiSet.add(a));
+            }
+
+            const facts = [];
+            try {
+                const results = await Promise.allSettled(
+                    [...apiSet].map(name => API_SOURCES[name]?.() || Promise.resolve([]))
+                );
+                results.forEach(r => {
+                    if (r.status === "fulfilled") facts.push(...r.value);
+                });
+            } catch (e) {
+                console.warn("API topic search error:", e);
+            }
+
+            const unseen = facts.filter(f => !isFactSeen(f));
+            return unseen.length > 0 ? unseen : facts;
+        }
+
+        function renderSingleFact() {
+            const factArea = document.getElementById("factArea");
+            const fact = currentFacts[currentIndex];
+            const credClass = `cred-${fact.credibility}`;
+            const label = credibilityLabel(fact.credibility);
+
+            const sourceHtml = fact.sourceName
+                ? `<a href="${escapeHtml(fact.sourceUrl || '#')}" target="_blank" rel="noopener" class="source-link">Källa: ${escapeHtml(fact.sourceName)}</a>`
+                : "";
+
+            let html = `
+                <div class="fact-card">
+                    <div class="fact-text">${escapeHtml(fact.text)}</div>
+                    <div class="fact-footer">
+                        <div class="credibility ${credClass}">
+                            <span class="cred-dot"></span>
+                            <span>Trovärdighet: </span>
+                            <span class="cred-label">${label}</span>
+                        </div>
+                        ${sourceHtml}
+                    </div>
+                </div>`;
+
+            if (currentRelated.length > 0) {
+                html += `
+                    <div class="related-section">
+                        <div class="related-label">Utforska vidare</div>
+                        <div class="related-topics">
+                            ${currentRelated.map(t => `<button class="topic-pill" onclick="searchFacts('${escapeHtml(t.replace(/'/g, "\\'"))}')">${escapeHtml(t)}</button>`).join("")}
+                        </div>
+                    </div>`;
+            }
+
+            factArea.innerHTML = html;
+        }
+
+        // ========== EVENT LISTENERS ==========
+        document.getElementById("searchForm").addEventListener("submit", (e) => {
+            e.preventDefault();
+            const topic = document.getElementById("searchInput").value.trim();
+            if (topic) searchFacts(topic);
+        });
+
+        let apiFactCache = [];
+        let cacheLoading = false;
+
+        async function prefetchApiCache() {
+            if (cacheLoading) return;
+            cacheLoading = true;
+            try {
+                const facts = await fetchRandomApiFact();
+                apiFactCache.push(...facts.filter(f => !isFactSeen(f)));
+            } catch {}
+            cacheLoading = false;
+        }
+
+        prefetchApiCache();
+
+        document.getElementById("randomBtn").addEventListener("click", async () => {
+            let fact;
+
+            const useApi = Math.random() < 0.2 && apiFactCache.length > 0;
+
+            if (useApi) {
+                while (apiFactCache.length > 0) {
+                    const candidate = apiFactCache.shift();
+                    if (!isFactSeen(candidate)) { fact = candidate; break; }
+                }
+            }
+
+            if (!fact) {
+                const unseen = FACTS_DB.filter(f => !isFactSeen(f));
+                const pool = unseen.length > 0 ? unseen : FACTS_DB;
+                const randomFact = pool[Math.floor(Math.random() * pool.length)];
+                fact = { ...randomFact, credibility: "high" };
+            }
+
+            currentFacts = [fact];
+            currentRelated = fact.related || [];
+            currentIndex = 0;
+            currentTopic = fact.keywords?.[0] || "";
+            document.getElementById("searchInput").value = "";
+            markFactSeen(fact);
+            renderSingleFact();
+
+            if (apiFactCache.length < 5) prefetchApiCache();
+        });
+    </script>
+</body>
+</html>
