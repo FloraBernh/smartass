@@ -49,7 +49,7 @@
         }
         .topbar-links a:hover { color: var(--text); }
 
-        .main { max-width: 900px; margin: 0 auto; padding: 1.5rem; }
+        .main { max-width: 1100px; margin: 0 auto; padding: 1.5rem; }
 
         /* TABS */
         .tabs {
@@ -642,109 +642,82 @@
             const totalPublished = getPublished().length;
             const trashCount = getTrash().length;
 
-            // === STATUS ROW ===
-            let html = `<div style="margin-bottom:1.2rem;">
-                <h3 style="font-size:0.75rem;font-weight:700;text-transform:uppercase;letter-spacing:0.5px;color:var(--text-secondary);margin-bottom:0.6rem;">Status</h3>
-                <div class="stats-grid">
-                    <div class="stat-card stat-total" onclick="openTab('published')">
-                        <div class="stat-number">${totalPublished}</div>
-                        <div class="stat-label">Publicerade</div>
-                        <span class="arrow">→</span>
-                    </div>
-                    <div class="stat-card stat-draft" onclick="openTab('drafts')">
-                        <div class="stat-number">${totalDrafts}</div>
-                        <div class="stat-label">Utkast</div>
-                        <span class="arrow">→</span>
-                    </div>
-                    <div class="stat-card stat-approved" onclick="openTab('approved')">
-                        <div class="stat-number">${totalApproved}</div>
-                        <div class="stat-label">Godkända</div>
-                        <span class="arrow">→</span>
-                    </div>
-                    ${trashCount > 0 ? `<div class="stat-card" onclick="openTab('trash')" style="border-left: 3px solid var(--red);">
-                        <div class="stat-number">${trashCount}</div>
-                        <div class="stat-label">Papperskorg</div>
-                        <span class="arrow">→</span>
-                    </div>` : ""}
-                </div>
-            </div>`;
+            // Soft pastel color palette (from user's inspo)
+            const catColors = [
+                "#F87171","#F0A0A0","#F5C seventeen8A","#E2F0A0","#A0F0E8","#60A8F0","#A8A0F0","#A855F4","#EC4899","#F9A8D4",
+                "#FB923C","#86EFAC","#67E8F9","#C084FC","#FBBF24","#34D399","#38BDF8","#E879F9","#F472B6","#A3E635","#818CF8","#FB7185"
+            ];
 
-            // === CATEGORY STATS (card grid with mini bar charts) ===
-            const sorted = Object.entries(counts).filter(([,v]) => v > 0).sort((a,b) => b[1] - a[1]);
+            // === STATUS ROW (horizontal) ===
+            const statusCards = [
+                { n: totalPublished, label: "Publicerade", tab: "published", bg: "var(--text)", color: "white", labelColor: "rgba(255,255,255,0.6)" },
+                { n: totalDrafts, label: "Utkast", tab: "drafts", border: "var(--yellow)" },
+                { n: totalApproved, label: "Godkända", tab: "approved", border: "var(--green)" },
+            ];
+            if (trashCount > 0) statusCards.push({ n: trashCount, label: "Papperskorg", tab: "trash", border: "var(--red)" });
+
+            let html = `<div style="display:grid;grid-template-columns:repeat(${statusCards.length}, 1fr);gap:0.6rem;margin-bottom:2rem;">`;
+            for (const s of statusCards) {
+                const bgStyle = s.bg ? `background:${s.bg};color:${s.color};` : `background:var(--card-bg);border-left:3px solid ${s.border};`;
+                html += `<div onclick="openTab('${s.tab}')" style="${bgStyle}border:1px solid var(--border);border-radius:var(--radius);padding:1.2rem;cursor:pointer;transition:transform 0.15s;text-align:center;" onmouseover="this.style.transform='translateY(-2px)'" onmouseout="this.style.transform=''">
+                    <div style="font-size:2rem;font-weight:800;line-height:1;">${s.n}</div>
+                    <div style="font-size:0.75rem;font-weight:500;margin-top:0.3rem;${s.labelColor ? 'color:' + s.labelColor : 'color:var(--text-secondary)'}">${s.label}</div>
+                </div>`;
+            }
+            html += `</div>`;
+
+            // === CATEGORY CHART ===
             const allCatsSorted = getAllCategories().map(c => [c, counts[c] || 0]).sort((a,b) => b[1] - a[1]);
-            const maxCount = allCatsSorted.length > 0 ? Math.max(...allCatsSorted.map(x => x[1]), 1) : 1;
-            const totalPub = getPublished().length;
+            const activeCats = allCatsSorted.filter(([,v]) => v > 0);
+            const maxCount = activeCats.length > 0 ? activeCats[0][1] : 1;
+            const totalPub = totalPublished;
 
-            // Color palette for categories
-            const catColors = ["#6C5CE7","#00B894","#E17055","#0984E3","#FDCB6E","#E84393","#00CEC9","#636E72","#D63031","#A29BFE","#55EFC4","#FAB1A0","#74B9FF","#FFEAA7","#FD79A8","#81ECEC","#B2BEC3","#FF7675","#DFE6E9","#2D3436","#FC427B","#EAB543"];
-
-            html += `<div>
-                <h3 style="font-size:0.75rem;font-weight:700;text-transform:uppercase;letter-spacing:0.5px;color:var(--text-secondary);margin-bottom:0.6rem;">Kategorier</h3>`;
-
-            if (totalPub === 0) {
-                html += `<p style="font-size:0.8rem;color:var(--text-secondary);">Inga publicerade fakta ännu.</p>`;
-            } else {
-                // Overview card with all bars
-                html += `<div style="background:var(--card-bg);border:1px solid var(--border);border-radius:var(--radius);padding:1.2rem 1.4rem;margin-bottom:1rem;">
-                    <div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:0.2rem;">
-                        <span style="font-size:0.82rem;font-weight:700;">Fördelning</span>
-                        <span style="font-size:0.7rem;color:var(--text-secondary);">${totalPub} publicerade totalt</span>
+            if (totalPub > 0) {
+                html += `<div style="background:var(--card-bg);border:1px solid var(--border);border-radius:var(--radius);padding:1.5rem;margin-bottom:1.2rem;">
+                    <div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:1.2rem;">
+                        <span style="font-size:0.95rem;font-weight:700;">Kategorier</span>
+                        <span style="font-size:0.75rem;color:var(--text-secondary);">${totalPub} publicerade</span>
                     </div>
-                    <div style="display:flex;align-items:flex-end;gap:3px;height:80px;margin-top:0.8rem;">`;
+                    <div style="display:flex;align-items:flex-end;gap:4px;height:120px;">`;
 
-                for (let i = 0; i < allCatsSorted.length; i++) {
-                    const [cat, count] = allCatsSorted[i];
-                    if (count === 0) continue;
-                    const h = Math.max(8, Math.round((count / maxCount) * 72));
+                for (let i = 0; i < activeCats.length; i++) {
+                    const [cat, count] = activeCats[i];
+                    const h = Math.max(12, Math.round((count / maxCount) * 108));
                     const color = catColors[i % catColors.length];
-                    html += `<div onclick="openPublishedWithFilter('${escapeHtml(cat)}')" title="${cat}: ${count}" style="flex:1;height:${h}px;background:${color};border-radius:3px 3px 0 0;cursor:pointer;transition:opacity 0.15s;min-width:8px;max-width:40px;" onmouseover="this.style.opacity='0.7'" onmouseout="this.style.opacity='1'"></div>`;
+                    html += `<div onclick="openPublishedWithFilter('${escapeHtml(cat)}')" title="${cat}: ${count}" style="flex:1;display:flex;flex-direction:column;align-items:center;gap:4px;cursor:pointer;" onmouseover="this.querySelector('.bar').style.opacity='0.7'" onmouseout="this.querySelector('.bar').style.opacity='1'">
+                        <span style="font-size:0.65rem;font-weight:700;color:var(--text);">${count}</span>
+                        <div class="bar" style="width:100%;height:${h}px;background:${color};border-radius:6px 6px 4px 4px;transition:opacity 0.15s;"></div>
+                    </div>`;
                 }
 
                 html += `</div>
-                    <div style="display:flex;flex-wrap:wrap;gap:0.5rem 1rem;margin-top:0.8rem;">`;
-                for (let i = 0; i < allCatsSorted.length; i++) {
-                    const [cat, count] = allCatsSorted[i];
-                    if (count === 0) continue;
-                    const color = catColors[i % catColors.length];
-                    html += `<div onclick="openPublishedWithFilter('${escapeHtml(cat)}')" style="display:flex;align-items:center;gap:0.3rem;cursor:pointer;font-size:0.7rem;" onmouseover="this.style.opacity='0.6'" onmouseout="this.style.opacity='1'">
-                        <span style="width:8px;height:8px;border-radius:2px;background:${color};display:inline-block;"></span>
-                        <span style="font-weight:500;">${escapeHtml(cat)}</span>
-                        <span style="color:var(--text-secondary);">${count}</span>
-                    </div>`;
+                    <div style="display:flex;gap:4px;margin-top:6px;">`;
+                for (let i = 0; i < activeCats.length; i++) {
+                    const [cat] = activeCats[i];
+                    html += `<div style="flex:1;text-align:center;font-size:0.6rem;color:var(--text-secondary);font-weight:500;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;" title="${escapeHtml(cat)}">${escapeHtml(cat)}</div>`;
                 }
                 html += `</div></div>`;
 
-                // Individual category cards (2-column grid)
-                html += `<div style="display:grid;grid-template-columns:repeat(auto-fill, minmax(250px, 1fr));gap:0.6rem;">`;
-                for (let i = 0; i < allCatsSorted.length; i++) {
-                    const [cat, count] = allCatsSorted[i];
-                    if (count === 0) continue;
+                // === CATEGORY CARDS GRID ===
+                html += `<div style="display:grid;grid-template-columns:repeat(auto-fill, minmax(160px, 1fr));gap:0.6rem;">`;
+                for (let i = 0; i < activeCats.length; i++) {
+                    const [cat, count] = activeCats[i];
                     const color = catColors[i % catColors.length];
                     const pct = Math.round((count / totalPub) * 100);
-                    // Determine status: low/medium/high
-                    let statusText = "", statusColor = "";
-                    if (count <= 3) { statusText = "Behöver fler"; statusColor = "var(--red)"; }
-                    else if (count <= 8) { statusText = "Okej"; statusColor = "var(--yellow)"; }
-                    else { statusText = "Bra"; statusColor = "var(--green)"; }
 
-                    html += `<div onclick="openPublishedWithFilter('${escapeHtml(cat)}')" style="background:var(--card-bg);border:1px solid var(--border);border-radius:var(--radius);padding:0.9rem 1rem;cursor:pointer;transition:border-color 0.15s;" onmouseover="this.style.borderColor='var(--text)'" onmouseout="this.style.borderColor='var(--border)'">
-                        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:0.5rem;">
-                            <span style="font-size:0.78rem;font-weight:600;display:flex;align-items:center;gap:0.35rem;">
-                                <span style="width:10px;height:10px;border-radius:2px;background:${color};display:inline-block;"></span>
-                                ${escapeHtml(cat)}
-                            </span>
-                            <span style="font-size:0.65rem;font-weight:600;color:${statusColor};background:${statusColor}18;padding:0.1rem 0.4rem;border-radius:10px;">${statusText}</span>
+                    html += `<div onclick="openPublishedWithFilter('${escapeHtml(cat)}')" style="background:var(--card-bg);border:1px solid var(--border);border-radius:var(--radius);padding:1rem;cursor:pointer;transition:border-color 0.15s,transform 0.15s;" onmouseover="this.style.borderColor='var(--text)';this.style.transform='translateY(-1px)'" onmouseout="this.style.borderColor='var(--border)';this.style.transform=''">
+                        <div style="display:flex;align-items:center;gap:0.4rem;margin-bottom:0.6rem;">
+                            <span style="width:12px;height:12px;border-radius:4px;background:${color};display:inline-block;flex-shrink:0;"></span>
+                            <span style="font-size:0.78rem;font-weight:600;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">${escapeHtml(cat)}</span>
                         </div>
-                        <div style="font-size:1.5rem;font-weight:800;line-height:1;">${count}</div>
-                        <div style="font-size:0.65rem;color:var(--text-secondary);margin-top:0.15rem;">${pct}% av totalt</div>
-                        <div style="height:4px;background:var(--border);border-radius:2px;margin-top:0.5rem;overflow:hidden;">
-                            <div style="height:100%;width:${pct}%;background:${color};border-radius:2px;"></div>
-                        </div>
+                        <div style="font-size:1.8rem;font-weight:800;line-height:1;">${count}</div>
+                        <div style="font-size:0.65rem;color:var(--text-secondary);margin-top:0.2rem;">${pct}% av totalt</div>
                     </div>`;
                 }
                 html += `</div>`;
+            } else {
+                html += `<p style="font-size:0.8rem;color:var(--text-secondary);text-align:center;padding:2rem;">Inga publicerade fakta ännu.</p>`;
             }
-            html += `</div>`;
 
             document.getElementById("statsGrid").innerHTML = html;
         }
