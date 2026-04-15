@@ -400,15 +400,12 @@
             </div>
         </div>
 
-        <!-- PUBLISHED (curated facts.js) -->
+        <!-- PUBLISHED (live on public site) -->
         <div class="tab-panel" id="panel-published">
             <input type="text" class="list-search" id="publishedSearch" placeholder="Sök bland publicerade fakta...">
             <div class="filter-bar" id="publishedFilters"></div>
             <div class="bulk-bar">
                 <span class="count" id="publishedCount">0 fakta</span>
-                <div class="bulk-actions">
-                    <button class="btn btn-sm btn-outline" id="resetEditsBtn" title="Återställ alla ändringar">Återställ ändringar</button>
-                </div>
             </div>
             <div class="review-list" id="publishedList"></div>
             <div class="pagination" id="publishedPagination"></div>
@@ -610,25 +607,21 @@
         function getCategoryCounts() {
             const counts = {};
             getAllCategories().forEach(c => counts[c] = 0);
-            getActiveCurated().forEach(f => { const c = guessCategory(f); counts[c] = (counts[c] || 0) + 1; });
-            getApproved().forEach(f => { const c = f.category || guessCategory(f); counts[c] = (counts[c] || 0) + 1; });
+            getPublished().forEach(f => { const c = f.category || guessCategory(f); counts[c] = (counts[c] || 0) + 1; });
             return counts;
         }
 
         function renderStats() {
             const counts = getCategoryCounts();
-            const totalActive = getActiveCurated().length;
             const totalApproved = getApproved().length;
             const totalDrafts = getDrafts().length;
             const totalPublished = getPublished().length;
-            const totalAll = totalActive + totalApproved + totalPublished;
-            const deletedCount = getCuratedDeleted().length;
-            const editedCount = Object.keys(getCuratedEdits()).length;
+            const totalAll = totalPublished;
 
             let html = `
                 <div class="stat-card stat-total" onclick="openTab('published')">
-                    <div class="stat-number">${totalAll}</div>
-                    <div class="stat-label">Totalt fakta</div>
+                    <div class="stat-number">${totalPublished}</div>
+                    <div class="stat-label">Publicerade</div>
                     <span class="arrow">→</span>
                 </div>
                 <div class="stat-card stat-draft" onclick="openTab('drafts')">
@@ -640,10 +633,6 @@
                     <div class="stat-number">${totalApproved}</div>
                     <div class="stat-label">Godkända</div>
                     <span class="arrow">→</span>
-                </div>
-                <div class="stat-card" style="border-left: 3px solid var(--green); cursor: default;">
-                    <div class="stat-number">${totalPublished}</div>
-                    <div class="stat-label">Live på sidan</div>
                 </div>`;
 
             const sorted = Object.entries(counts).filter(([,v]) => v > 0).sort((a,b) => b[1] - a[1]);
@@ -656,27 +645,29 @@
                     </div>`;
             }
 
-            if (deletedCount > 0 || editedCount > 0) {
-                html += `<div class="stat-card" style="border-left: 3px solid var(--yellow); cursor: default;">
-                    <div class="stat-number" style="font-size: 1rem;">${editedCount} redigerade, ${deletedCount} borttagna</div>
-                    <div class="stat-label">Osparade ändringar</div>
+            const trashCount = getTrash().length;
+            if (trashCount > 0) {
+                html += `<div class="stat-card" onclick="openTab('trash')" style="border-left: 3px solid var(--red);">
+                    <div class="stat-number">${trashCount}</div>
+                    <div class="stat-label">I papperskorgen</div>
+                    <span class="arrow">→</span>
                 </div>`;
             }
 
             document.getElementById("statsGrid").innerHTML = html;
         }
 
-        // ========== PUBLISHED FACTS (curated from facts.js) ==========
+        // ========== PUBLISHED FACTS (live on public site) ==========
         let publishedFilter = "all";
         let publishedSearchQuery = "";
         let publishedPage = 0;
         const ITEMS_PER_PAGE = 20;
 
         function getFilteredPublished() {
-            let facts = getActiveCurated();
+            let facts = getPublished().map((f, i) => ({ ...f, _pubIndex: i }));
 
             if (publishedFilter !== "all") {
-                facts = facts.filter(f => guessCategory(f) === publishedFilter);
+                facts = facts.filter(f => (f.category || guessCategory(f)) === publishedFilter);
             }
 
             if (publishedSearchQuery) {
@@ -704,37 +695,35 @@
 
             if (pageFacts.length === 0) {
                 document.getElementById("publishedList").innerHTML = `
-                    <div class="empty-state"><p>Inga fakta matchar filtret.</p></div>`;
+                    <div class="empty-state"><p>${getPublished().length === 0 ? 'Inga publicerade fakta ännu. Godkänn utkast och klicka "Publicera".' : 'Inga fakta matchar filtret.'}</p></div>`;
                 document.getElementById("publishedPagination").innerHTML = "";
                 return;
             }
 
             document.getElementById("publishedList").innerHTML = pageFacts.map(f => {
-                const idx = f._originalIndex;
-                const cat = guessCategory(f);
-                const isEditing = localEditingSet.has(idx);
+                const idx = f._pubIndex;
+                const cat = f.category || guessCategory(f);
+                const isEditing = localEditingSet.has("pub_" + idx);
 
                 return `
                     <div class="review-card" data-index="${idx}" data-type="published">
                         <div class="review-text" id="pub-text-${idx}" ${isEditing ? 'contenteditable="true"' : ''}>${escapeHtml(f.text)}</div>
                         <div class="review-meta">
-                            <span class="badge badge-curated">Publicerad</span>
-                            ${f._edited ? '<span class="badge badge-edited">Redigerad</span>' : ''}
+                            <span class="badge badge-approved">Live</span>
                             <span class="badge badge-category">${escapeHtml(cat)}</span>
                             ${f.sourceName ? `<span class="badge badge-source">${escapeHtml(f.sourceName)}</span>` : ""}
                             ${f.sourceUrl ? `<a href="${escapeHtml(f.sourceUrl)}" target="_blank" style="font-size: 0.68rem; color: #5588cc;">Källa ↗</a>` : ""}
                         </div>
                         <div class="review-actions">
-                            <select class="category-select" onchange="editCuratedCategory(${idx}, this.value)">
+                            <select class="category-select" onchange="editPublishedCategory(${idx}, this.value)">
                                 ${getAllCategories().map(c => `<option value="${c}" ${c === cat ? 'selected' : ''}>${c}</option>`).join("")}
                             </select>
                             ${isEditing
-                                ? `<button class="btn btn-sm btn-primary" onclick="saveCuratedEdit(${idx})">Spara</button>
-                                   <button class="btn btn-sm btn-outline" onclick="cancelCuratedEdit(${idx})">Avbryt</button>`
-                                : `<button class="btn btn-sm btn-edit" onclick="startCuratedEdit(${idx})">Redigera</button>`
+                                ? `<button class="btn btn-sm btn-primary" onclick="savePublishedEdit(${idx})">Spara</button>
+                                   <button class="btn btn-sm btn-outline" onclick="cancelPublishedEdit(${idx})">Avbryt</button>`
+                                : `<button class="btn btn-sm btn-edit" onclick="startPublishedEdit(${idx})">Redigera</button>`
                             }
-                            <button class="btn btn-sm btn-delete" onclick="deleteCurated(${idx})">Ta bort</button>
-                            ${f._edited ? `<button class="btn btn-sm btn-ghost" onclick="resetCurated(${idx})">Återställ</button>` : ''}
+                            <button class="btn btn-sm btn-delete" onclick="unpublish(${idx})">Avpublicera</button>
                         </div>
                     </div>`;
             }).join("");
@@ -758,12 +747,13 @@
 
         function renderPublishedFilters() {
             const cats = {};
-            getActiveCurated().forEach(f => {
-                const c = guessCategory(f);
+            const pub = getPublished();
+            pub.forEach(f => {
+                const c = f.category || guessCategory(f);
                 cats[c] = (cats[c] || 0) + 1;
             });
 
-            let html = `<label>Kategori:</label><button class="filter-pill ${publishedFilter === 'all' ? 'active' : ''}" onclick="setPublishedFilter('all', this)">Alla <span class="pill-count">(${getActiveCurated().length})</span></button>`;
+            let html = `<label>Kategori:</label><button class="filter-pill ${publishedFilter === 'all' ? 'active' : ''}" onclick="setPublishedFilter('all', this)">Alla <span class="pill-count">(${pub.length})</span></button>`;
             Object.entries(cats).sort((a,b) => b[1] - a[1]).forEach(([cat, count]) => {
                 html += `<button class="filter-pill ${publishedFilter === cat ? 'active' : ''}" onclick="setPublishedFilter('${escapeHtml(cat)}', this)">${cat} <span class="pill-count">(${count})</span></button>`;
             });
@@ -793,11 +783,11 @@
             renderPublished();
         });
 
-        // Curated edit actions
+        // Published edit actions
         let localEditingSet = new Set();
 
-        function startCuratedEdit(idx) {
-            localEditingSet.add(idx);
+        function startPublishedEdit(idx) {
+            localEditingSet.add("pub_" + idx);
             renderPublished();
             setTimeout(() => {
                 const el = document.getElementById(`pub-text-${idx}`);
@@ -805,72 +795,44 @@
             }, 50);
         }
 
-        function cancelCuratedEdit(idx) {
-            localEditingSet.delete(idx);
+        function cancelPublishedEdit(idx) {
+            localEditingSet.delete("pub_" + idx);
             renderPublished();
         }
 
-        function saveCuratedEdit(idx) {
+        function savePublishedEdit(idx) {
             const el = document.getElementById(`pub-text-${idx}`);
             if (!el) return;
-            const newText = el.textContent.trim();
-            const edits = getCuratedEdits();
-            edits[idx] = edits[idx] || {};
-            edits[idx].text = newText;
-            saveCuratedEdits(edits);
-            localEditingSet.delete(idx);
+            const pub = getPublished();
+            if (pub[idx]) {
+                pub[idx].text = el.textContent.trim();
+                savePublished(pub);
+            }
+            localEditingSet.delete("pub_" + idx);
             refreshAll();
         }
 
-        function editCuratedCategory(idx, category) {
-            const edits = getCuratedEdits();
-            edits[idx] = edits[idx] || {};
-            edits[idx].category = category;
-            saveCuratedEdits(edits);
-            // Don't re-render fully, just update stats
+        function editPublishedCategory(idx, category) {
+            const pub = getPublished();
+            if (pub[idx]) {
+                pub[idx].category = category;
+                savePublished(pub);
+            }
             renderStats();
         }
 
-        function deleteCurated(idx) {
-            if (!confirm("Ta bort detta fakta? (Kan återställas tills du exporterar.)")) return;
-            const deleted = getCuratedDeleted();
-            if (!deleted.includes(idx)) deleted.push(idx);
-            saveCuratedDeleted(deleted);
-            // Also remove any edits for this
-            const edits = getCuratedEdits();
-            delete edits[idx];
-            saveCuratedEdits(edits);
+        function unpublish(idx) {
+            if (!confirm("Avpublicera detta fakta? Det flyttas tillbaka till utkast.")) return;
+            const pub = getPublished();
+            const removed = pub.splice(idx, 1)[0];
+            savePublished(pub);
+            if (removed) {
+                const d = getDrafts();
+                d.unshift(removed);
+                saveDrafts(d);
+            }
             refreshAll();
         }
-
-        function resetCurated(idx) {
-            const edits = getCuratedEdits();
-            delete edits[idx];
-            saveCuratedEdits(edits);
-            refreshAll();
-        }
-
-        document.getElementById("resetEditsBtn").addEventListener("click", () => {
-            const editCount = Object.keys(getCuratedEdits()).length;
-            const deleteCount = getCuratedDeleted().length;
-            if (editCount === 0 && deleteCount === 0) { alert("Inga ändringar att återställa."); return; }
-            if (!confirm(`Återställ ${editCount} redigeringar och ${deleteCount} borttagningar?`)) return;
-            saveCuratedEdits({});
-            saveCuratedDeleted([]);
-            refreshAll();
-        });
-
-        // Override _localEditing for rendering
-        const originalGetActiveCurated = getActiveCurated;
-        // Monkey-patch to add editing state
-        function getActiveCuratedWithEditing() {
-            return originalGetActiveCurated().map(f => {
-                if (localEditingSet.has(f._originalIndex)) f._localEditing = true;
-                return f;
-            });
-        }
-        // Replace getActiveCurated reference in renderPublished scope
-        // (handled inline in renderPublished via localEditingSet check)
 
         // ========== SWIPE VIEW ==========
         let draftViewMode = "swipe";
