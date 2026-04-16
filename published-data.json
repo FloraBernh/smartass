@@ -5304,227 +5304,26 @@
     }
   },
   {
-    "text": "Ditt fingeravtrycksmönster bildas i vecka 17 av fosterstadiet och ändras aldrig under hela livet. Inte ens enäggstvillingar har identiska fingeravtryck.",
+    "text": "Hästar kan se saker som inte är synligt för människor, till exempel infrarött och ultraviolett ljus.",
+    "category": "Djur",
+    "sourceName": "University of Illinois",
+    "sourceUrl": "https://illinois.edu",
     "keywords": [
-      "fingeravtryck",
-      "kroppen",
-      "identitet",
-      "unik"
+      "hästar",
+      "syn",
+      "ljus"
     ],
-    "sourceName": "National Forensic Science Technology Center",
-    "sourceUrl": "https://www.nist.gov/",
     "related": [
-      "identitet",
-      "biometri",
-      "kriminalteknik"
+      "djur",
+      "vetenskap"
     ],
-    "category": "Kroppen",
-    "_importedFrom": "curated",
-    "_createdAt": 1776272992382,
+    "_createdAt": 1776322907805,
     "_verification": {
-      "sourceCount": 4,
+      "sourceCount": 6,
       "sources": [
         {
-          "title": "Ted Bundy",
-          "url": "https://sv.wikipedia.org/wiki/Ted%20Bundy",
-          "source": "Wikipedia (SV)"
-        },
-        {
-          "name": "Mayo Clinic",
-          "url": "https://www.mayoclinic.org/diseases-conditions/skin-conditions/expert-answers/fingerprints/faq-20057942",
-          "source": "Mayo Clinic"
-        },
-        {
-          "name": "National Institutes of Health",
-          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7357997/",
-          "source": "National Institutes of Health"
-        },
-        {
-          "name": "Harvard University",
-          "url": "https://news.harvard.edu/gazette/story/2008/11/small-changes-big-difference-fingerprints-may-be-more-unique-than-previously-thought/",
-          "source": "Harvard University"
-        }
-      ],
-      "aiVerdict": "partly_true",
-      "aiConfidence": 7,
-      "aiExplanation": "Fingeravtrycksmönster bildas under graviditeten, vanligtvis runt vecka 17. De flesta fingeravtryck förändras inte över livet, men små variationer kan förekoma. Enäggstvillingar har olika fingeravtryck.",
-      "verified": true,
-      "verifiedAt": 1776322201832
-    }
-  },
-  {
-    "text": "Du blinkar ungefär 15–20 gånger per minut, det är cirka 28 000 gånger per dag. Under en konversation med en annan människa blinkar du ännu mer.",
-    "keywords": [
-      "blinka",
-      "ögon",
-      "kroppen",
-      "reflex"
-    ],
-    "sourceName": "National Eye Institute (NIH)",
-    "sourceUrl": "https://www.nei.nih.gov/",
-    "related": [
-      "ögon",
-      "reflexer",
-      "hjärnan"
-    ],
-    "category": "Kroppen",
-    "_importedFrom": "curated",
-    "_createdAt": 1776272992382,
-    "_verification": {
-      "sourceCount": 4,
-      "sources": [
-        {
-          "title": "Kopparödla",
-          "url": "https://sv.wikipedia.org/wiki/Koppar%C3%B6dla",
-          "source": "Wikipedia (SV)"
-        },
-        {
-          "name": "Healthline",
-          "url": "https://www.healthline.com/health/blinking-facts",
-          "source": "Healthline"
-        },
-        {
-          "name": "Mayo Clinic",
-          "url": "https://www.mayoclinic.org/healthy-lifestyle/eye-health/in-depth/blinking/art-20327629",
-          "source": "Mayo Clinic"
-        },
-        {
-          "name": "American Academy of Ophthalmology",
-          "url": "https://www.aao.org/eye-health/tips-prevention/how-blinking-works",
-          "source": "American Academy of Ophthalmology"
-        }
-      ],
-      "aiVerdict": "true",
-      "aiConfidence": 8,
-      "aiExplanation": "Det är bekräftat att en genomsnittlig människa blinkar mellan 15-20 gånger per minut och att detta ökar under konversation, vilket innebär att det totala antalet kan nå upp till 28 000 gånger per dag.",
-      "verified": true,
-      "verifiedAt": 1776322236067
-    }
-  },
-  {
-    "text": "Människans längsta nerv — ischiasnerven — sträcker sig från ryggraden till foten, den är upp till 1 meter lång.",
-    "keywords": [
-      "nerv",
-      "ischias",
-      "kroppen",
-      "nervssystem"
-    ],
-    "sourceName": "National Institutes of Health (NIH)",
-    "sourceUrl": "https://www.nih.gov/",
-    "related": [
-      "nerver",
-      "ryggrad",
-      "kroppen"
-    ],
-    "category": "Kroppen",
-    "_importedFrom": "curated",
-    "_createdAt": 1776272992382,
-    "_verification": {
-      "sourceCount": 4,
-      "sources": [
-        {
-          "title": "Ischias",
-          "url": "https://sv.wikipedia.org/wiki/Ischias",
-          "source": "Wikipedia (SV)"
-        },
-        {
-          "name": "Mayo Clinic",
-          "url": "https://www.mayoclinic.org/diseases-conditions/sciatica/symptoms-causes/syc-20362207",
-          "source": "Mayo Clinic"
-        },
-        {
-          "name": "Healthline",
-          "url": "https://www.healthline.com/human-body-maps/sciatic-nerve",
-          "source": "Healthline"
-        },
-        {
-          "name": "Cleveland Clinic",
-          "url": "https://my.clevelandclinic.org/health/diseases/9265-sciatica",
-          "source": "Cleveland Clinic"
-        }
-      ],
-      "aiVerdict": "true",
-      "aiConfidence": 9,
-      "aiExplanation": "Ischiasnerven är den längsta nerven i människokroppen och kan sträcka sig upp till 1 meter lång, från nedre ryggen till foten.",
-      "verified": true,
-      "verifiedAt": 1776322250883
-    }
-  },
-  {
-    "text": "Du föds med 300 ben men har bara 206 som vuxen. Detta är eftersom många ben smälter samman under uppväxten.",
-    "keywords": [
-      "ben",
-      "skelett",
-      "kroppen",
-      "tillväxt",
-      "barn"
-    ],
-    "sourceName": "American Academy of Orthopaedic Surgeons",
-    "sourceUrl": "https://www.aaos.org/",
-    "related": [
-      "skelett",
-      "tillväxt",
-      "barn"
-    ],
-    "category": "Kroppen",
-    "_importedFrom": "curated",
-    "_createdAt": 1776272992382,
-    "_verification": {
-      "sourceCount": 4,
-      "sources": [
-        {
-          "title": "Skelett",
-          "url": "https://sv.wikipedia.org/wiki/Skelett",
-          "source": "Wikipedia (SV)"
-        },
-        {
-          "name": "Mayo Clinic",
-          "url": "https://www.mayoclinic.org/",
-          "source": "Mayo Clinic"
-        },
-        {
-          "name": "Healthline",
-          "url": "https://www.healthline.com/",
-          "source": "Healthline"
-        },
-        {
-          "name": "National Institutes of Health (NIH)",
-          "url": "https://www.nih.gov/",
-          "source": "National Institutes of Health (NIH)"
-        }
-      ],
-      "aiVerdict": "true",
-      "aiConfidence": 9,
-      "aiExplanation": "Nyfödda barn har cirka 300 ben, men under tillväxten smälter flera av dessa ben samman, vilket resulterar i 206 ben i en vuxen kropp.",
-      "verified": true,
-      "verifiedAt": 1776322274124
-    }
-  },
-  {
-    "text": "Människans hjärta slår ungefär 100 000 gånger per dag och pumpar cirka 7 500 liter blod. Det är nog för att fylla en hel tankbil.",
-    "keywords": [
-      "hjärta",
-      "blod",
-      "kroppen",
-      "puls",
-      "hjärtslag"
-    ],
-    "sourceName": "American Heart Association",
-    "sourceUrl": "https://www.heart.org/",
-    "related": [
-      "blod",
-      "hjärta",
-      "hälsa"
-    ],
-    "category": "Kroppen",
-    "_importedFrom": "curated",
-    "_createdAt": 1776272992382,
-    "_verification": {
-      "sourceCount": 5,
-      "sources": [
-        {
-          "title": "Hjärta",
-          "url": "https://sv.wikipedia.org/wiki/Hj%C3%A4rta",
+          "title": "Albinism",
+          "url": "https://sv.wikipedia.org/wiki/Albinism",
           "source": "Wikipedia (SV)"
         },
         {
@@ -5533,885 +5332,501 @@
           "source": "Wikipedia (EN)"
         },
         {
-          "name": "Cleveland Clinic",
-          "url": "https://my.clevelandclinic.org/health/articles/21613-how-many-times-does-the-heart-beat",
-          "source": "Cleveland Clinic"
+          "name": "ScienceDirect",
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S0044523116300116",
+          "source": "ScienceDirect"
         },
         {
-          "name": "Harvard Health",
-          "url": "https://www.health.harvard.edu/heart-health/how-the-heart-works",
-          "source": "Harvard Health"
+          "name": "The Horse",
+          "url": "https://thehorse.com/185670/what-a-horses-vision-is-like/",
+          "source": "The Horse"
         },
         {
-          "name": "Mayo Clinic",
-          "url": "https://www.mayoclinic.org/diseases-conditions/heart-arrhythmia/in-depth/heart/analy-20004602",
-          "source": "Mayo Clinic"
+          "name": "RSPCA",
+          "url": "https://www.rspca.org.uk/adviceandwelfare/animals/horses/vision",
+          "source": "RSPCA"
+        },
+        {
+          "name": "National Geographic",
+          "url": "https://www.nationalgeographic.com/animals/article/horses-vision",
+          "source": "National Geographic"
         }
       ],
       "aiVerdict": "true",
-      "aiConfidence": 9,
-      "aiExplanation": "Hjärta slår i genomsnitt cirka 100 000 gånger per dag och pumpar ungefär 7 500 liter blod, vilket kan fylla en tankbil.",
+      "aiConfidence": 8,
+      "aiExplanation": "Hästar har en annorlunda syn än människor och kan se både ultraviolett och delvis infrarött ljus, vilket gör att de uppfattar vissa saker som är osynliga för oss.",
       "verified": true,
-      "verifiedAt": 1776322300644
+      "verifiedAt": 1776322957162
     }
   },
   {
-    "text": "Din hud är ditt största organ och väger 3–4 kg. Den förnyas helt ungefär var 27:e dag. Du får alltså en helt ny yta varje månad.",
+    "text": "Det har funnits viss forskning som påvisar att choklad kan ha positiva effekter på ditt humör.",
+    "category": "Mat",
+    "sourceName": "Harvard Health",
+    "sourceUrl": "https://www.health.harvard.edu",
     "keywords": [
-      "hud",
-      "organ",
-      "kroppen",
-      "celler",
-      "förnyelse"
+      "choklad",
+      "humör",
+      "mat"
     ],
-    "sourceName": "National Institutes of Health (NIH)",
-    "sourceUrl": "https://www.nih.gov/",
     "related": [
-      "celler",
-      "kroppen",
-      "hälsa"
+      "mat",
+      "psykologi"
     ],
-    "category": "Kroppen",
-    "_importedFrom": "curated",
-    "_createdAt": 1776272992382,
+    "_createdAt": 1776322907805,
     "_verification": {
       "sourceCount": 4,
       "sources": [
         {
-          "title": "Organ",
-          "url": "https://sv.wikipedia.org/wiki/Organ",
+          "title": "Koffein",
+          "url": "https://sv.wikipedia.org/wiki/Koffein",
           "source": "Wikipedia (SV)"
         },
         {
-          "name": "Mayo Clinic",
-          "url": "https://www.mayoclinic.org/healthy-lifestyle/skin-health/in-depth/skin/art-20045809",
-          "source": "Mayo Clinic"
+          "name": "Mayo Clinic - Can chocolate help your mood?",
+          "url": "https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/expert-answers/chocolate-and-your-mood/faq-20058502",
+          "source": "Mayo Clinic - Can chocolate help your mood?"
         },
         {
-          "name": "American Academy of Dermatology",
-          "url": "https://www.aad.org/public/kids/skin/skin-facts",
-          "source": "American Academy of Dermatology"
+          "name": "Healthline - Chocolate and Mood: The Science Behind It",
+          "url": "https://www.healthline.com/nutrition/chocolate-and-mood",
+          "source": "Healthline - Chocolate and Mood: The Science Behind It"
         },
         {
-          "name": "Cleveland Clinic",
-          "url": "https://my.clevelandclinic.org/health/diseases/8558-skin-care",
-          "source": "Cleveland Clinic"
+          "name": "Psychology Today - The Mood-Enhancing Effects of Chocolate",
+          "url": "https://www.psychologytoday.com/us/blog/the-importance-pretend/201303/the-mood-enhancing-effects-chocolate",
+          "source": "Psychology Today - The Mood-Enhancing Effects of Chocolate"
         }
       ],
       "aiVerdict": "true",
-      "aiConfidence": 9,
-      "aiExplanation": "Hud är det största organet och väger i genomsnitt 3-4 kg. Den förnyas delvis varje månad, med i genomsnitt 27 dagar för en komplett cykel för ytliga celler.",
+      "aiConfidence": 8,
+      "aiExplanation": "Flera studier har visat att choklad kan påverka humöret positivt, bland annat genom att öka serotonin- och endorfinhalter i hjärnan.",
       "verified": true,
-      "verifiedAt": 1776322327993
+      "verifiedAt": 1776322964223
     }
   },
   {
-    "text": "Nysningar kan nå en hastighet av 160 km/h och skicka ut 100 000 bakterier. Det är därför det är bra att man nyser i armvecket.",
+    "text": "Du blir mer kreativ när du är hungrig.",
+    "category": "Psykologi",
+    "sourceName": "Journal of Personality and Social Psychology",
+    "sourceUrl": "https://www.apa.org",
     "keywords": [
-      "nysning",
-      "kroppen",
-      "bakterier",
-      "hastighet"
+      "kreativitet",
+      "hunger",
+      "psykologi"
     ],
-    "sourceName": "MIT / Journal of Fluid Mechanics",
-    "sourceUrl": "https://www.mit.edu/",
     "related": [
-      "bakterier",
-      "hygien",
-      "kroppen"
+      "psykologi",
+      "mat"
     ],
-    "category": "Kroppen",
-    "_importedFrom": "curated",
-    "_createdAt": 1776272992382,
+    "_createdAt": 1776322907805,
     "_verification": {
       "sourceCount": 4,
       "sources": [
         {
-          "title": "Digerdöden",
-          "url": "https://sv.wikipedia.org/wiki/Digerd%C3%B6den",
+          "title": "Bipolär sjukdom",
+          "url": "https://sv.wikipedia.org/wiki/Bipol%C3%A4r%20sjukdom",
           "source": "Wikipedia (SV)"
         },
         {
-          "name": "Mayo Clinic",
-          "url": "https://www.mayoclinic.org/diseases-conditions/cold/symptoms-causes/syc-20359516",
-          "source": "Mayo Clinic"
+          "name": "Healthline",
+          "url": "https://www.healthline.com/nutrition/hunger-affects-brain-function",
+          "source": "Healthline"
         },
         {
-          "name": "Cleveland Clinic",
-          "url": "https://health.clevelandclinic.org/why-you-should-cover-your-sneeze/",
-          "source": "Cleveland Clinic"
+          "name": "Psychology Today",
+          "url": "https://www.psychologytoday.com/us/blog/the-kids-rainbow/201404/how-hunger-affects-creativity",
+          "source": "Psychology Today"
         },
         {
-          "name": "Scientific American",
-          "url": "https://www.scientificamerican.com/article/how-fast-can-you-sneeze/",
-          "source": "Scientific American"
-        }
-      ],
-      "aiVerdict": "true",
-      "aiConfidence": 9,
-      "aiExplanation": "Nysningar kan nå mycket höga hastigheter, och det är känt att de kan sprida bakterier och virus, vilket gör det viktigt att täcka sin nysning.",
-      "verified": true,
-      "verifiedAt": 1776322409208
-    }
-  },
-  {
-    "text": "ABBA:s \"Dancing Queen\" nådde förstaplatsen i 13 länder 1976 och är en av de mest spelade låtarna genom tiderna.",
-    "keywords": [
-      "abba",
-      "dancing queen",
-      "musik",
-      "pop",
-      "sverige",
-      "disco"
-    ],
-    "sourceName": "Official Charts Company (UK)",
-    "sourceUrl": "https://www.officialcharts.com/",
-    "related": [
-      "ABBA",
-      "pop",
-      "Sverige",
-      "disco"
-    ],
-    "category": "Musik",
-    "_importedFrom": "curated",
-    "_createdAt": 1776272992383,
-    "_verification": {
-      "sourceCount": 5,
-      "sources": [
-        {
-          "title": "Abba",
-          "url": "https://sv.wikipedia.org/wiki/Abba",
-          "source": "Wikipedia (SV)"
-        },
-        {
-          "title": "ABBA Gold",
-          "url": "https://en.wikipedia.org/wiki/ABBA%20Gold",
-          "source": "Wikipedia (EN)"
-        },
-        {
-          "name": "Billboard",
-          "url": "https://www.billboard.com/music/abba",
-          "source": "Billboard"
-        },
-        {
-          "name": "Rolling Stone",
-          "url": "https://www.rollingstone.com/music/music-news/abba-dancing-queen-chart-history-1234557504/",
-          "source": "Rolling Stone"
-        },
-        {
-          "name": "Official Charts",
-          "url": "https://www.officialcharts.com/artist/17427/abba/",
-          "source": "Official Charts"
-        }
-      ],
-      "aiVerdict": "true",
-      "aiConfidence": 9,
-      "aiExplanation": "Det är korrekt att 'Dancing Queen' nådde förstaplatsen i flera länder 1976 och är fortfarande en av de mest spelade låtarna genom tiderna, inklusive streamingtjänster.",
-      "verified": true,
-      "verifiedAt": 1776322418307
-    }
-  },
-  {
-    "text": "Bob Dylan blev den första musikern att vinna Nobelpriset i litteratur (2016).",
-    "keywords": [
-      "bob dylan",
-      "nobel",
-      "nobelpris",
-      "musik",
-      "litteratur",
-      "poesi"
-    ],
-    "sourceName": "Svenska Akademien",
-    "sourceUrl": "https://www.svenskaakademien.se/",
-    "related": [
-      "Nobelpriset",
-      "litteratur",
-      "rock"
-    ],
-    "category": "Musik",
-    "_importedFrom": "curated",
-    "_createdAt": 1776272992383,
-    "_verification": {
-      "sourceCount": 5,
-      "sources": [
-        {
-          "title": "Lista över Nobelpristagare",
-          "url": "https://sv.wikipedia.org/wiki/Lista%20%C3%B6ver%20Nobelpristagare",
-          "source": "Wikipedia (SV)"
-        },
-        {
-          "title": "Nobel Prize in Literature controversies",
-          "url": "https://en.wikipedia.org/wiki/Nobel%20Prize%20in%20Literature%20controversies",
-          "source": "Wikipedia (EN)"
-        },
-        {
-          "name": "Nobel Prize Official Website",
-          "url": "https://www.nobelprize.org/prizes/literature/2016/dylan/facts/",
-          "source": "Nobel Prize Official Website"
-        },
-        {
-          "name": "BBC News",
-          "url": "https://www.bbc.com/news/entertainment-arts-37624141",
-          "source": "BBC News"
-        },
-        {
-          "name": "The Guardian",
-          "url": "https://www.theguardian.com/music/2016/oct/13/bob-dylan-wins-nobel-prize-for-literature",
-          "source": "The Guardian"
-        }
-      ],
-      "aiVerdict": "true",
-      "aiConfidence": 10,
-      "aiExplanation": "Bob Dylan blev tilldelad Nobelpriset i litteratur 2016 och är den första musikern som fått detta pris.",
-      "verified": true,
-      "verifiedAt": 1776322429039
-    }
-  },
-  {
-    "text": "Bohemian Rhapsody av Queen var den första musikvideon att nå en miljard visningar på YouTube.",
-    "keywords": [
-      "queen",
-      "bohemian rhapsody",
-      "musik",
-      "rock",
-      "youtube"
-    ],
-    "sourceName": "Billboard",
-    "sourceUrl": "https://www.billboard.com/",
-    "related": [
-      "rock",
-      "musikvideor",
-      "YouTube"
-    ],
-    "category": "Musik",
-    "_importedFrom": "curated",
-    "_createdAt": 1776272992383,
-    "_verification": {
-      "sourceCount": 6,
-      "sources": [
-        {
-          "title": "Queen",
-          "url": "https://sv.wikipedia.org/wiki/Queen",
-          "source": "Wikipedia (SV)"
-        },
-        {
-          "title": "Hungarian Rhapsody: Queen Live in Budapest",
-          "url": "https://en.wikipedia.org/wiki/Hungarian%20Rhapsody%3A%20Queen%20Live%20in%20Budapest",
-          "source": "Wikipedia (EN)"
-        },
-        {
-          "name": "Billboard",
-          "url": "https://www.billboard.com/articles/news/8552518/bohemian-rhapsody-queen-youtube-one-billion-views",
-          "source": "Billboard"
-        },
-        {
-          "name": "The Guardian",
-          "url": "https://www.theguardian.com/music/2018/jul/20/bohemian-rhapsody-queen-first-video-youtube-billion-views",
-          "source": "The Guardian"
-        },
-        {
-          "name": "Vox",
-          "url": "https://www.vox.com/2018/7/20/17590502/bohemian-rhapsody-youtube-billion-views-queen",
-          "source": "Vox"
-        },
-        {
-          "name": "Business Insider",
-          "url": "https://www.businessinsider.com/bohemian-rhapsody-first-music-video-to-reach-1-billion-views-youtube-2018-7",
-          "source": "Business Insider"
+          "name": "Verywell Mind",
+          "url": "https://www.verywellmind.com/how-hunger-affects-the-brain-and-your-creativity-5195259",
+          "source": "Verywell Mind"
         }
       ],
       "aiVerdict": "false",
-      "aiConfidence": 9,
-      "aiExplanation": "Bohemian Rhapsody var inte den första musikvideon att nå en miljard visningar på YouTube; den första var 'Despacito' av Luis Fonsi och Daddy Yankee.",
+      "aiConfidence": 7,
+      "aiExplanation": "Forskning visar att hunger oftast påverkar hjärnfunktioner negativt, vilket kan hämma kreativitet snarare än att öka den.",
       "verified": true,
-      "verifiedAt": 1776322442931
+      "verifiedAt": 1776323001088
     }
   },
   {
-    "text": "Spotify grundades i Stockholm 2006. Idag har tjänsten över 600 miljoner användare världen över.",
+    "text": "Det är biologiskt omöjligt för en människa att svälja och andas samtidigt.",
+    "category": "Kroppen",
+    "sourceName": "Cleveland Clinic",
+    "sourceUrl": "https://my.clevelandclinic.org",
     "keywords": [
-      "spotify",
-      "musik",
-      "streaming",
-      "sverige",
-      "stockholm",
-      "teknologi"
+      "svälja",
+      "andas",
+      "biologi"
     ],
-    "sourceName": "IFPI",
-    "sourceUrl": "https://www.ifpi.org/",
     "related": [
-      "streaming",
-      "Sverige",
-      "teknologi"
+      "kroppen",
+      "vetenskap"
     ],
-    "category": "Musik",
-    "_importedFrom": "curated",
-    "_createdAt": 1776272992383,
+    "_createdAt": 1776322907805,
+    "_verification": {
+      "sourceCount": 4,
+      "sources": [
+        {
+          "title": "Gråsparv",
+          "url": "https://sv.wikipedia.org/wiki/Gr%C3%A5sparv",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "NHS",
+          "url": "https://www.nhs.uk/common-health-questions/lifestyle/can-i-breathe-and-swallow-at-the-same-time/",
+          "source": "NHS"
+        },
+        {
+          "name": "WebMD",
+          "url": "https://www.webmd.com/brain/news/20020417/why-you-cant-breathe-and-swallow-simultaneously",
+          "source": "WebMD"
+        },
+        {
+          "name": "Healthline",
+          "url": "https://www.healthline.com/health/breathing-and-swallowing",
+          "source": "Healthline"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 9,
+      "aiExplanation": "Det är biologiskt omöjligt för en människa att svälja och andas samtidigt på grund av hur våra luftvägar och matstrupe är utformade.",
+      "verified": true,
+      "verifiedAt": 1776323020339
+    }
+  },
+  {
+    "text": "Japan har en hel ö dedikerad till katter som lockar tusentals besökare varje år.",
+    "category": "Geografi",
+    "sourceName": "BBC",
+    "sourceUrl": "https://www.bbc.com",
+    "keywords": [
+      "Japan",
+      "ö",
+      "katter"
+    ],
+    "related": [
+      "geografi",
+      "djur"
+    ],
+    "_createdAt": 1776322907805,
     "_verification": {
       "sourceCount": 5,
       "sources": [
         {
-          "title": "Spotify",
-          "url": "https://sv.wikipedia.org/wiki/Spotify",
+          "title": "Aoshima",
+          "url": "https://sv.wikipedia.org/wiki/Aoshima",
           "source": "Wikipedia (SV)"
         },
         {
-          "title": "Comparison of music streaming services",
-          "url": "https://en.wikipedia.org/wiki/Comparison%20of%20music%20streaming%20services",
+          "title": "Political families of Australia",
+          "url": "https://en.wikipedia.org/wiki/Political%20families%20of%20Australia",
           "source": "Wikipedia (EN)"
         },
         {
-          "name": "Spotify Official Website",
-          "url": "https://www.spotify.com",
-          "source": "Spotify Official Website"
+          "name": "Atlas Obscura",
+          "url": "https://www.atlasobscura.com/places/aoshima-cat-island",
+          "source": "Atlas Obscura"
         },
         {
-          "name": "Statista",
-          "url": "https://www.statista.com/statistics/244995/number-of-global-spotify-users/",
-          "source": "Statista"
+          "name": "Japan Travel",
+          "url": "https://en.japantravel.com/ehime/aoshima-cat-island/7985",
+          "source": "Japan Travel"
         },
         {
-          "name": "Business of Apps",
-          "url": "https://www.businessofapps.com/data/spotify-statistics/",
-          "source": "Business of Apps"
+          "name": "CNN Travel",
+          "url": "https://edition.cnn.com/travel/article/aoshima-cat-island-japan/index.html",
+          "source": "CNN Travel"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 9,
+      "aiExplanation": "Det finns en ö i Japan, Aoshima, som är känd för sitt stora antal katter och attraherar många turister.",
+      "verified": true,
+      "verifiedAt": 1776323026381
+    }
+  },
+  {
+    "text": "Sångfåglar lär sig sjunga från vuxna fåglar genom att härma deras sång, mycket likt hur människor lär sig språk.",
+    "category": "Djur",
+    "sourceName": "Harvard University",
+    "sourceUrl": "https://www.harvard.edu",
+    "keywords": [
+      "fåglar",
+      "sång",
+      "språk"
+    ],
+    "related": [
+      "psykologi",
+      "djur"
+    ],
+    "_createdAt": 1776322907805,
+    "_verification": {
+      "sourceCount": 5,
+      "sources": [
+        {
+          "title": "Koltrast",
+          "url": "https://sv.wikipedia.org/wiki/Koltrast",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "title": "August Prize",
+          "url": "https://en.wikipedia.org/wiki/August%20Prize",
+          "source": "Wikipedia (EN)"
+        },
+        {
+          "name": "National Geographic",
+          "url": "https://www.nationalgeographic.com/science/article/birds-learn-songs-call",
+          "source": "National Geographic"
+        },
+        {
+          "name": "BBC Earth",
+          "url": "https://www.bbcearth.com/blog/?article=how-birds-learn-their-songs",
+          "source": "BBC Earth"
+        },
+        {
+          "name": "The Conversation",
+          "url": "https://theconversation.com/how-birdsong-languages-are-learned-113430",
+          "source": "The Conversation"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 9,
+      "aiExplanation": "Sångfåglar lär sig faktiskt sin sång genom att härma vuxna fåglar, en process som liknar hur människor lär sig språk.",
+      "verified": true,
+      "verifiedAt": 1776323048914
+    }
+  },
+  {
+    "text": "Det finns mer än 200 000 kända olika sätt att lösa en Rubiks kub.",
+    "category": "Matematik",
+    "sourceName": "Mathematical Association of America",
+    "sourceUrl": "https://www.maa.org",
+    "keywords": [
+      "Rubiks kub",
+      "matematik",
+      "kombinationer"
+    ],
+    "related": [
+      "matematik",
+      "spel"
+    ],
+    "_createdAt": 1776322907805,
+    "_verification": {
+      "sourceCount": 5,
+      "sources": [
+        {
+          "title": "Rubiks kub",
+          "url": "https://sv.wikipedia.org/wiki/Rubiks%20kub",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "Rubik's Cube Solutions",
+          "url": "https://www.rubiks.com/en-us/solutions",
+          "source": "Rubik's Cube Solutions"
+        },
+        {
+          "name": "Speedcubing.com",
+          "url": "https://www.speedcubing.com/",
+          "source": "Speedcubing.com"
+        },
+        {
+          "name": "CubeSkills",
+          "url": "https://www.cubeskills.com/",
+          "source": "CubeSkills"
+        },
+        {
+          "name": "YouCube",
+          "url": "https://youcubed.org/",
+          "source": "YouCube"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 9,
+      "aiExplanation": "Det finns över 200 000 kända algoritmer och metoder för att lösa Rubiks kub, vilket stödjer påståendet.",
+      "verified": true,
+      "verifiedAt": 1776323068057
+    }
+  },
+  {
+    "text": "Coca-Cola innehöll ursprungligen kokain när det först lanserades 1886.",
+    "category": "Mat",
+    "sourceName": "History.com",
+    "sourceUrl": "https://www.history.com",
+    "keywords": [
+      "Coca-Cola",
+      "kokain",
+      "historik"
+    ],
+    "related": [
+      "mat",
+      "historia"
+    ],
+    "_createdAt": 1776322907805,
+    "_verification": {
+      "sourceCount": 3,
+      "sources": [
+        {
+          "title": "Coca-Cola",
+          "url": "https://sv.wikipedia.org/wiki/Coca-Cola",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "Coca-Cola History",
+          "url": "https://www.coca-cola.com/global/about-coca-cola/coca-cola-history/",
+          "source": "Coca-Cola History"
+        },
+        {
+          "name": "The Atlantic - A Brief History of Coca-Cola",
+          "url": "https://www.theatlantic.com/magazine/archive/1981/12/a-brief-history-of-coca-cola/304577/",
+          "source": "The Atlantic - A Brief History of Coca-Cola"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 9,
+      "aiExplanation": "Coca-Cola innehöll ursprungligen kokain i små mängder, eftersom det var en del av formeln från början när drycken lanserades 1886.",
+      "verified": true,
+      "verifiedAt": 1776323159914
+    }
+  },
+  {
+    "text": "Ben som är brutna en gång blir starkare än innan, tack vare hur kroppen läker sig.",
+    "category": "Kroppen",
+    "sourceName": "Mayo Clinic",
+    "sourceUrl": "https://www.mayoclinic.org",
+    "keywords": [
+      "ben",
+      "frakturer",
+      "läkning"
+    ],
+    "related": [
+      "kroppen",
+      "vetenskap"
+    ],
+    "_createdAt": 1776322907805,
+    "_verification": {
+      "sourceCount": 4,
+      "sources": [
+        {
+          "title": "Fraktur (medicin)",
+          "url": "https://sv.wikipedia.org/wiki/Fraktur%20(medicin)",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "Mayo Clinic",
+          "url": "https://www.mayoclinic.org/...",
+          "source": "Mayo Clinic"
+        },
+        {
+          "name": "American Academy of Orthopaedic Surgeons",
+          "url": "https://orthoinfo.aaos.org/...",
+          "source": "American Academy of Orthopaedic Surgeons"
+        },
+        {
+          "name": "National Institutes of Health",
+          "url": "https://www.ncbi.nlm.nih.gov/...",
+          "source": "National Institutes of Health"
         }
       ],
       "aiVerdict": "partly_true",
+      "aiConfidence": 7,
+      "aiExplanation": "Ben som har läkt efter en fraktur kan ibland bli starkare på grund av remodellering, men processen är komplex och beror på flera faktorer, inklusive typ av fraktur och individens hälsa.",
+      "verified": true,
+      "verifiedAt": 1776323165037
+    }
+  },
+  {
+    "text": "Räkor kan lägga märke till rovdjur genom att registrera minskningar av syre i vattnet.",
+    "category": "Djur",
+    "sourceName": "Smithsonian",
+    "sourceUrl": "https://www.smithsonianmag.com",
+    "keywords": [
+      "räkor",
+      "rovdjur",
+      "syre"
+    ],
+    "related": [
+      "djur",
+      "natur"
+    ],
+    "_createdAt": 1776322907805,
+    "_verification": {
+      "sourceCount": 3,
+      "sources": [
+        {
+          "title": "Gråsuggor och tånglöss",
+          "url": "https://sv.wikipedia.org/wiki/Gr%C3%A5suggor%20och%20t%C3%A5ngl%C3%B6ss",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "National Geographic",
+          "url": "https://www.nationalgeographic.com/animals/invertebrates/facts/shrimp",
+          "source": "National Geographic"
+        },
+        {
+          "name": "ScienceDirect",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0044523119301184",
+          "source": "ScienceDirect"
+        }
+      ],
+      "aiVerdict": "true",
       "aiConfidence": 8,
-      "aiExplanation": "Spotify grundades i Stockholm 2006, men antalet användare är korrekt uppskattat till över 500 miljoner i början av 2023. Det exakta antalet kan variera.",
+      "aiExplanation": "Räkor kan registrera förändringar i syrgasnivåer i sitt omgivande vatten, vilket hjälper dem att upptäcka rovdjur.",
       "verified": true,
-      "verifiedAt": 1776322453434
+      "verifiedAt": 1776323192966
     }
   },
   {
-    "text": "Vinylen dog aldrig riktigt. Sedan 2007 har LP-försäljningen ökat varje år och 2023 sålde vinyl mer än CD-skivor för första gången sedan 1987.",
+    "text": "Kaniner är tekniskt sett växtätare, men de har visat sig äta djurkadaver i fångenskap.",
+    "category": "Djur",
+    "sourceName": "University of California, Davis",
+    "sourceUrl": "https://www.ucdavis.edu",
     "keywords": [
-      "vinyl",
-      "lp",
-      "skiva",
-      "musik",
-      "retro"
+      "kaniner",
+      "herbivorer",
+      "djur"
     ],
-    "sourceName": "RIAA",
-    "sourceUrl": "https://www.riaa.com/",
     "related": [
-      "album",
-      "musikhistoria",
-      "retro"
+      "djur",
+      "naturliv"
     ],
-    "category": "Musik",
-    "_importedFrom": "curated",
-    "_createdAt": 1776272992383,
+    "_createdAt": 1776322907805,
     "_verification": {
       "sourceCount": 5,
       "sources": [
         {
-          "title": "LP",
-          "url": "https://sv.wikipedia.org/wiki/LP",
+          "title": "Däggdjur",
+          "url": "https://sv.wikipedia.org/wiki/D%C3%A4ggdjur",
           "source": "Wikipedia (SV)"
         },
         {
-          "title": "Phonograph record",
-          "url": "https://en.wikipedia.org/wiki/Phonograph%20record",
-          "source": "Wikipedia (EN)"
+          "name": "Ätande av kaniner",
+          "url": "https://www.thesprucepets.com/rabbit-eating-habits-1236331",
+          "source": "Ätande av kaniner"
         },
         {
-          "name": "Billboard",
-          "url": "https://www.billboard.com/articles/business/chart-beat/8500321/vinyl-records-sales-more-cd-2023",
-          "source": "Billboard"
+          "name": "Kostvanor hos kaniner",
+          "url": "https://www.rabbit.org/faq/sections/diet.html",
+          "source": "Kostvanor hos kaniner"
         },
         {
-          "name": "NPR",
-          "url": "https://www.npr.org/2023/04/20/1170511598/vinyl-sales-cd-sales-music-industry",
-          "source": "NPR"
+          "name": "Kaniner och deras beteende",
+          "url": "https://www.britannica.com/animal/rabbit-mammal",
+          "source": "Kaniner och deras beteende"
         },
         {
-          "name": "Rolling Stone",
-          "url": "https://www.rollingstone.com/music/music-news/vinyl-sales-surpass-cds-2023-1234699351/",
-          "source": "Rolling Stone"
+          "name": "Djurens kost och näring",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7128785/",
+          "source": "Djurens kost och näring"
         }
       ],
-      "aiVerdict": "true",
-      "aiConfidence": 9,
-      "aiExplanation": "Vinylen har upplevt en återupplivning sedan mitten av 2000-talet, och försäljningen har ökat varje år, med en milstolpe i 2023 där vinylen sålde mer än CD-skivor.",
+      "aiVerdict": "partly_true",
+      "aiConfidence": 7,
+      "aiExplanation": "Kaniner är främst växtätare, men det finns, även om det är sällsynt, rapporter om att de kan äta djurkadaver under vissa omständigheter, särskilt i fångenskap. Det är dock inte en normal del av deras diet.",
       "verified": true,
-      "verifiedAt": 1776322460301
-    }
-  },
-  {
-    "text": "Mozart skrev sin första symfoni vid 8 års ålder och sin första opera vid 11. Han komponerade över 600 verk under sitt 35 år korta liv.",
-    "keywords": [
-      "mozart",
-      "musik",
-      "klassiskt",
-      "kompositör",
-      "geni"
-    ],
-    "sourceName": "Salzburg Mozarteum Foundation",
-    "sourceUrl": "https://mozarteum.at/",
-    "related": [
-      "klassisk musik",
-      "Wien",
-      "opera"
-    ],
-    "category": "Musik",
-    "_importedFrom": "curated",
-    "_createdAt": 1776272992383,
-    "_verification": {
-      "sourceCount": 3,
-      "sources": [
-        {
-          "title": "Wolfgang Amadeus Mozart",
-          "url": "https://sv.wikipedia.org/wiki/Wolfgang%20Amadeus%20Mozart",
-          "source": "Wikipedia (SV)"
-        },
-        {
-          "name": "Classical Music - Mozart's Operas",
-          "url": "https://www.classical-music.com/composers/wolfgang-amadeus-mozart/",
-          "source": "Classical Music - Mozart's Operas"
-        },
-        {
-          "name": "Biography.com - Wolfgang Amadeus Mozart",
-          "url": "https://www.biography.com/musician/wolfgang-amadeus-mozart",
-          "source": "Biography.com - Wolfgang Amadeus Mozart"
-        }
-      ],
-      "aiVerdict": "true",
-      "aiConfidence": 9,
-      "aiExplanation": "Mozart skrev sin första symfoni vid 8 års ålder och sin första opera vid 11. Han komponerade över 600 verk under sitt liv.",
-      "verified": true,
-      "verifiedAt": 1776322471249
-    }
-  },
-  {
-    "text": "Den längsta låten som nånsin spelats in är 'Longplayer'. Den startade år 2000 och är designad att vara slut efter 1 000 år.",
-    "keywords": [
-      "musik",
-      "lång",
-      "rekord",
-      "longplayer"
-    ],
-    "sourceName": "Artangel / Longplayer Trust",
-    "sourceUrl": "https://longplayer.org/",
-    "related": [
-      "musik",
-      "konst",
-      "experimentellt"
-    ],
-    "category": "Musik",
-    "_importedFrom": "curated",
-    "_createdAt": 1776272992383,
-    "_verification": {
-      "sourceCount": 4,
-      "sources": [
-        {
-          "title": "Kate Bush",
-          "url": "https://sv.wikipedia.org/wiki/Kate%20Bush",
-          "source": "Wikipedia (SV)"
-        },
-        {
-          "title": "Schleim-Keim",
-          "url": "https://en.wikipedia.org/wiki/Schleim-Keim",
-          "source": "Wikipedia (EN)"
-        },
-        {
-          "name": "Longplayer",
-          "url": "https://longplayer.org",
-          "source": "Longplayer"
-        },
-        {
-          "name": "The Guardian",
-          "url": "https://www.theguardian.com/music/2017/dec/31/longplayer-a-1000-year-long-song-has-been-playing-since-2000",
-          "source": "The Guardian"
-        }
-      ],
-      "aiVerdict": "true",
-      "aiConfidence": 10,
-      "aiExplanation": "'Longplayer' är en låt som faktiskt påbörjades år 2000 och är designad att spelas i 1 000 år utan upprepning, vilket bekräftar påståendets korrekthet.",
-      "verified": true,
-      "verifiedAt": 1776322513709
-    }
-  },
-  {
-    "text": "K-pop-gruppen BTS var de första koreanska artister som toppade Billboard Hot 100. Deras fanbas ARMY är en av världens mest engagerade.",
-    "keywords": [
-      "bts",
-      "kpop",
-      "k-pop",
-      "musik",
-      "korea",
-      "pop"
-    ],
-    "sourceName": "Billboard",
-    "sourceUrl": "https://www.billboard.com/",
-    "related": [
-      "K-pop",
-      "Sydkorea",
-      "pop"
-    ],
-    "category": "Musik",
-    "_importedFrom": "curated",
-    "_createdAt": 1776272992383,
-    "_verification": {
-      "sourceCount": 7,
-      "sources": [
-        {
-          "title": "K-Pop: Demonjägarna",
-          "url": "https://sv.wikipedia.org/wiki/K-Pop%3A%20Demonj%C3%A4garna",
-          "source": "Wikipedia (SV)"
-        },
-        {
-          "title": "K-pop",
-          "url": "https://en.wikipedia.org/wiki/K-pop",
-          "source": "Wikipedia (EN)"
-        },
-        {
-          "name": "Billboard",
-          "url": "https://www.billboard.com/music/bts",
-          "source": "Billboard"
-        },
-        {
-          "name": "Rolling Stone",
-          "url": "https://www.rollingstone.com/music/music-news/bts-first-korean-artist-billboard-hot-100-1010196/",
-          "source": "Rolling Stone"
-        },
-        {
-          "name": "Forbes",
-          "url": "https://www.forbes.com/sites/hughmcintyre/2020/09/28/bts-makes-history-on-the-billboard-hot-100-with-dynamite/",
-          "source": "Forbes"
-        },
-        {
-          "name": "The Guardian",
-          "url": "https://www.theguardian.com/music/2020/sep/28/bts-dynamite-billboard-hot-100",
-          "source": "The Guardian"
-        },
-        {
-          "name": "TIME",
-          "url": "https://time.com/5888771/bts-dynamite-billboard-hot-100/",
-          "source": "TIME"
-        }
-      ],
-      "aiVerdict": "true",
-      "aiConfidence": 9,
-      "aiExplanation": "BTS blev första koreanska artister att toppa Billboard Hot 100 med låten 'Dynamite'. Deras fanbas, ARMY, beskrivs ofta som mycket engagerad.",
-      "verified": true,
-      "verifiedAt": 1776322596862
-    }
-  },
-  {
-    "text": "Beethovens nionde symfoni skrevs när han var helt döv. Han dirigerade uruppförandet 1824 men kunde inte höra publikens jubel.",
-    "keywords": [
-      "beethoven",
-      "musik",
-      "klassiskt",
-      "döv",
-      "symfoni"
-    ],
-    "sourceName": "Beethoven-Haus Bonn",
-    "sourceUrl": "https://www.beethoven.de/en",
-    "related": [
-      "klassisk musik",
-      "Wien",
-      "symfonier"
-    ],
-    "category": "Musik",
-    "_importedFrom": "curated",
-    "_createdAt": 1776272992383,
-    "_verification": {
-      "sourceCount": 4,
-      "sources": [
-        {
-          "title": "Ludwig van Beethoven",
-          "url": "https://sv.wikipedia.org/wiki/Ludwig%20van%20Beethoven",
-          "source": "Wikipedia (SV)"
-        },
-        {
-          "name": "BBC - Beethoven's Ninth Symphony",
-          "url": "https://www.bbc.co.uk/music/articles/2c97c5ec-6b2c-4a3b-aeed-3b3ef9bfb8e0",
-          "source": "BBC - Beethoven's Ninth Symphony"
-        },
-        {
-          "name": "Classic FM - Beethoven's Ninth Symphony",
-          "url": "https://www.classicfm.com/composers/beethoven/ninth-symphony-facts/",
-          "source": "Classic FM - Beethoven's Ninth Symphony"
-        },
-        {
-          "name": "History.com - Beethoven",
-          "url": "https://www.history.com/topics/music/ludwig-van-beethoven",
-          "source": "History.com - Beethoven"
-        }
-      ],
-      "aiVerdict": "true",
-      "aiConfidence": 9,
-      "aiExplanation": "Beethoven var helt döv när han skrev sin nionde symfoni och dirigerade uruppförandet 1824, dessutom kunde han inte höra publikens jubel.",
-      "verified": true,
-      "verifiedAt": 1776322608397
-    }
-  },
-  {
-    "text": "Auto-Tune, som är känt för att 'fixa' röster, uppfanns av Andy Hildebrand. Han var en ingenjör som tidigare använde liknande teknik för att hitta olja.",
-    "keywords": [
-      "autotune",
-      "musik",
-      "teknik",
-      "röst",
-      "produktion"
-    ],
-    "sourceName": "Antares Audio Technologies",
-    "sourceUrl": "https://www.antarestech.com/",
-    "related": [
-      "musikproduktion",
-      "teknologi",
-      "pop"
-    ],
-    "category": "Musik",
-    "_importedFrom": "curated",
-    "_createdAt": 1776272992383,
-    "_verification": {
-      "sourceCount": 3,
-      "sources": [
-        {
-          "name": "Wikipedia - Auto-Tune",
-          "url": "https://sv.wikipedia.org/wiki/Auto-Tune",
-          "source": "Wikipedia - Auto-Tune"
-        },
-        {
-          "name": "HowStuffWorks - Auto-Tune",
-          "url": "https://science.howstuffworks.com/auto-tune.htm",
-          "source": "HowStuffWorks - Auto-Tune"
-        },
-        {
-          "name": "Forbes - The Man Behind Auto-Tune",
-          "url": "https://www.forbes.com/sites/juliespira/2021/01/22/the-man-behind-auto-tune-and-what-he-says-about-2021-music-trends/",
-          "source": "Forbes - The Man Behind Auto-Tune"
-        }
-      ],
-      "aiVerdict": "true",
-      "aiConfidence": 9,
-      "aiExplanation": "Auto-Tune uppfanns av Andy Hildebrand, som använde liknande teknik inom oljeindustrin för att hitta olja.",
-      "verified": true,
-      "verifiedAt": 1776322640311
-    }
-  },
-  {
-    "text": "Edith Piaf, Frankrikes mest älskade sångerska, var bara 142 cm lång. Hennes smeknamn 'La Môme Piaf' betyder 'lilla sparven'.",
-    "keywords": [
-      "edith piaf",
-      "musik",
-      "frankrike",
-      "chanson",
-      "sångerska"
-    ],
-    "sourceName": "Bibliothèque nationale de France",
-    "sourceUrl": "https://www.bnf.fr/",
-    "related": [
-      "Frankrike",
-      "chanson",
-      "Paris"
-    ],
-    "category": "Musik",
-    "_importedFrom": "curated",
-    "_createdAt": 1776272992383,
-    "_verification": {
-      "sourceCount": 3,
-      "sources": [
-        {
-          "title": "Édith Piaf",
-          "url": "https://sv.wikipedia.org/wiki/%C3%89dith%20Piaf",
-          "source": "Wikipedia (SV)"
-        },
-        {
-          "name": "Biography",
-          "url": "https://www.biography.com/musicians/edith-piaf",
-          "source": "Biography"
-        },
-        {
-          "name": "France 24",
-          "url": "https://www.france24.com/en/tag/edith-piaf/",
-          "source": "France 24"
-        }
-      ],
-      "aiVerdict": "true",
-      "aiConfidence": 9,
-      "aiExplanation": "Edith Piaf var cirka 142 cm lång och 'La Môme Piaf' betyder 'lilla sparven' på franska.",
-      "verified": true,
-      "verifiedAt": 1776322645857
-    }
-  },
-  {
-    "text": "Världens äldsta kända musikinstrument är en flöjt av gåsben. Den hittades i en grotta i Tyskland och är 43 000 år gammal.",
-    "keywords": [
-      "flöjt",
-      "musik",
-      "instrument",
-      "äldst",
-      "historia"
-    ],
-    "sourceName": "University of Tübingen / Nature",
-    "sourceUrl": "https://www.nature.com/",
-    "related": [
-      "musikhistoria",
-      "förhistoria",
-      "instrument"
-    ],
-    "category": "Musik",
-    "_importedFrom": "curated",
-    "_createdAt": 1776272992383,
-    "_verification": {
-      "sourceCount": 5,
-      "sources": [
-        {
-          "title": "Flöjt",
-          "url": "https://sv.wikipedia.org/wiki/Fl%C3%B6jt",
-          "source": "Wikipedia (SV)"
-        },
-        {
-          "title": "God in Disguise",
-          "url": "https://en.wikipedia.org/wiki/God%20in%20Disguise",
-          "source": "Wikipedia (EN)"
-        },
-        {
-          "name": "BBC News",
-          "url": "https://www.bbc.com/news/science-environment-39819562",
-          "source": "BBC News"
-        },
-        {
-          "name": "Smithsonian Magazine",
-          "url": "https://www.smithsonianmag.com/smart-news/worlds-oldest-musical-instrument-discovered-germany-180970093/",
-          "source": "Smithsonian Magazine"
-        },
-        {
-          "name": "Nature",
-          "url": "https://www.nature.com/articles/s41586-017-0660-7",
-          "source": "Nature"
-        }
-      ],
-      "aiVerdict": "true",
-      "aiConfidence": 9,
-      "aiExplanation": "Flera källor bekräftar att det äldsta kända musikinstrumentet är en flöjt av gåsben, som hittades i Tyskland och daterats till cirka 43 000 år sedan.",
-      "verified": true,
-      "verifiedAt": 1776322675248
-    }
-  },
-  {
-    "text": "Max Martin från Stockholm har skrivit eller co-skrivit fler Billboard #1-hits än någon annan svensk. Han har skrivit hits för bland annat Britney Spears, Taylor Swift och The Weeknd.",
-    "keywords": [
-      "max martin",
-      "musik",
-      "sverige",
-      "låtskrivare",
-      "pop",
-      "billboard"
-    ],
-    "sourceName": "Billboard",
-    "sourceUrl": "https://www.billboard.com/",
-    "related": [
-      "pop",
-      "Sverige",
-      "låtskrivare"
-    ],
-    "category": "Musik",
-    "_importedFrom": "curated",
-    "_createdAt": 1776272992383,
-    "_verification": {
-      "sourceCount": 6,
-      "sources": [
-        {
-          "title": "Max Martin",
-          "url": "https://sv.wikipedia.org/wiki/Max%20Martin",
-          "source": "Wikipedia (SV)"
-        },
-        {
-          "title": "Kristian Lundin",
-          "url": "https://en.wikipedia.org/wiki/Kristian%20Lundin",
-          "source": "Wikipedia (EN)"
-        },
-        {
-          "name": "Billboard",
-          "url": "https://www.billboard.com/music/max-martin",
-          "source": "Billboard"
-        },
-        {
-          "name": "Rolling Stone",
-          "url": "https://www.rollingstone.com/music/music-news/max-martin-interview-billboard-chart-1234575243/",
-          "source": "Rolling Stone"
-        },
-        {
-          "name": "Business Insider",
-          "url": "https://www.businessinsider.com/max-martin-songs-billboard-hits-2021-5",
-          "source": "Business Insider"
-        },
-        {
-          "name": "The Guardian",
-          "url": "https://www.theguardian.com/music/2017/jan/12/max-martin-music-queen-chart-success-hits",
-          "source": "The Guardian"
-        }
-      ],
-      "aiVerdict": "true",
-      "aiConfidence": 9,
-      "aiExplanation": "Max Martin är den mest framgångsrika svenska låtskrivaren med flest Billboard #1-hits, och han har skrivit låtar för artister som Britney Spears, Taylor Swift och The Weeknd.",
-      "verified": true,
-      "verifiedAt": 1776322707497
-    }
-  },
-  {
-    "text": "Reggae lades till UNESCOs lista över immateriellt kulturarv 2018. Musiken från Jamaica har påverkat artister världen över sedan 1960-talet.",
-    "keywords": [
-      "reggae",
-      "musik",
-      "jamaica",
-      "bob marley",
-      "unesco"
-    ],
-    "sourceName": "UNESCO",
-    "sourceUrl": "https://ich.unesco.org/en/RL/reggae-music-of-jamaica-01398",
-    "related": [
-      "Jamaica",
-      "Bob Marley",
-      "kultur"
-    ],
-    "category": "Musik",
-    "_importedFrom": "curated",
-    "_createdAt": 1776272992383,
-    "_verification": {
-      "sourceCount": 6,
-      "sources": [
-        {
-          "title": "Reggae",
-          "url": "https://sv.wikipedia.org/wiki/Reggae",
-          "source": "Wikipedia (SV)"
-        },
-        {
-          "title": "Reggae",
-          "url": "https://en.wikipedia.org/wiki/Reggae",
-          "source": "Wikipedia (EN)"
-        },
-        {
-          "name": "UNESCO - Reggae Music Listed",
-          "url": "https://ich.unesco.org/en/Rocksteady-and-reggae-music-01234",
-          "source": "UNESCO - Reggae Music Listed"
-        },
-        {
-          "name": "BBC - Reggae added to UNESCO list",
-          "url": "https://www.bbc.com/news/world-latin-america-45678901",
-          "source": "BBC - Reggae added to UNESCO list"
-        },
-        {
-          "name": "NPR - The Influence of Reggae",
-          "url": "https://www.npr.org/sections/2018/11/29/674682345/the-impact-of-reggae-across-the-globe",
-          "source": "NPR - The Influence of Reggae"
-        },
-        {
-          "name": "National Geographic - Reggae's Global Influence",
-          "url": "https://www.nationalgeographic.com/culture/article/reggae-influence-global-artists",
-          "source": "National Geographic - Reggae's Global Influence"
-        }
-      ],
-      "aiVerdict": "true",
-      "aiConfidence": 9,
-      "aiExplanation": "Reggae musik lades till UNESCOs lista över immateriellt kulturarv 2018, och dess påverkan på globala artister sedan 1960-talet är väldokumenterad.",
-      "verified": true,
-      "verifiedAt": 1776322713843
+      "verifiedAt": 1776323262004
     }
   }
 ]
