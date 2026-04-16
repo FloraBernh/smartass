@@ -1,25 +1,5 @@
 [
   {
-    "text": "Island växer med ungefär 2,5 cm per år på grund av tektonisk aktivitet. Ön sitter på gränsen mellan två kontinentalplattor.",
-    "keywords": [
-      "island",
-      "tektonik",
-      "geografi",
-      "vulkan",
-      "geologi"
-    ],
-    "sourceName": "U.S. Geological Survey (USGS)",
-    "sourceUrl": "https://www.usgs.gov/",
-    "related": [
-      "vulkaner",
-      "tektonik",
-      "Atlanterhavet"
-    ],
-    "category": "Natur",
-    "_importedFrom": "curated",
-    "_createdAt": 1776272992384
-  },
-  {
     "text": "Ryssland sträcker sig över 11 tidszoner — från Kaliningrad vid Östersjön till Kamtjatka vid Stilla havet.",
     "keywords": [
       "ryssland",
@@ -57,6 +37,228 @@
       "geologi"
     ],
     "category": "Geografi",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384
+  },
+  {
+    "text": "GPS-systemet måste korrigera för Einsteins relativitetsteori. Utan korrigeringen skulle din position vara fel med 10 km per dag.",
+    "keywords": [
+      "gps",
+      "teknologi",
+      "einstein",
+      "relativitet",
+      "satelliter"
+    ],
+    "sourceName": "NASA",
+    "sourceUrl": "https://www.nasa.gov/",
+    "related": [
+      "Einstein",
+      "satelliter",
+      "navigation"
+    ],
+    "category": "Mat",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384
+  },
+  {
+    "text": "USB-kontakten designades 1996 och skapades för att man alltid sätter in den åt fel håll — tills USB-C löste problemet 2014.",
+    "keywords": [
+      "usb",
+      "teknologi",
+      "kontakt",
+      "dator",
+      "design"
+    ],
+    "sourceName": "USB Implementers Forum",
+    "sourceUrl": "https://www.usb.org/",
+    "related": [
+      "datorer",
+      "design",
+      "standard"
+    ],
+    "category": "Mat",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384
+  },
+  {
+    "text": "Astrid Lindgrens böcker har översatts till 107 språk. Pippi Långstrump publicerades 1945 efter att ha refuserats av Bonniers.",
+    "keywords": [
+      "astrid lindgren",
+      "pippi",
+      "litteratur",
+      "böcker",
+      "sverige",
+      "barn"
+    ],
+    "sourceName": "Astrid Lindgren Company",
+    "sourceUrl": "https://www.astridlindgren.com/",
+    "related": [
+      "barnlitteratur",
+      "Sverige",
+      "Pippi"
+    ],
+    "category": "Litteratur",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384
+  },
+  {
+    "text": "Den första tryckta boken med rörliga typer var Gutenbergs Bibel (1455). Bara 49 exemplar finns kvar idag.",
+    "keywords": [
+      "gutenberg",
+      "boktryckning",
+      "litteratur",
+      "bibel",
+      "historia"
+    ],
+    "sourceName": "Library of Congress",
+    "sourceUrl": "https://www.loc.gov/",
+    "related": [
+      "boktryckning",
+      "historia",
+      "böcker"
+    ],
+    "category": "Historia",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384
+  },
+  {
+    "text": "Manga (japansk serietidning) utgör nästan 40% av all tryckt media i Japan. Den mest sålda serien, One Piece, har sålt över 500 miljoner kopior.",
+    "keywords": [
+      "manga",
+      "japan",
+      "serietidning",
+      "one piece",
+      "litteratur",
+      "anime"
+    ],
+    "sourceName": "Publishers Association of Japan",
+    "sourceUrl": "https://www.ajpea.or.jp/",
+    "related": [
+      "anime",
+      "Japan",
+      "serier"
+    ],
+    "category": "Litteratur",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384
+  },
+  {
+    "text": "IKEA grundades 1943 av Ingvar Kamprad i Älmhult. Namnet är en akronym: Ingvar Kamprad, Elmtaryd (gården), Agunnaryd (byn).",
+    "keywords": [
+      "ikea",
+      "sverige",
+      "möbler",
+      "design",
+      "ingvar kamprad"
+    ],
+    "sourceName": "IKEA Museum",
+    "sourceUrl": "https://ikeamuseum.com/",
+    "related": [
+      "design",
+      "Sverige",
+      "möbler"
+    ],
+    "category": "Konst & Kultur",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992385
+  },
+  {
+    "text": "Ditt arbetsminne kan bara hålla 4–7 saker åt gången. Det är därför telefonnummer har 7 siffror — anpassat efter hjärnans kapacitet.",
+    "keywords": [
+      "arbetsminne",
+      "minne",
+      "psykologi",
+      "hjärnan",
+      "kapacitet"
+    ],
+    "sourceName": "American Psychological Association",
+    "sourceUrl": "https://www.apa.org/",
+    "related": [
+      "minne",
+      "hjärnan",
+      "lärande"
+    ],
+    "category": "Kroppen",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992385
+  },
+  {
+    "text": "Dina pupiller vidgas när du tittar på någon du är attraherad av. Det är därför romantiska middagar har svag belysning — pupillerna vidgas naturligt.",
+    "keywords": [
+      "pupiller",
+      "attraktion",
+      "psykologi",
+      "ögon",
+      "kärlek"
+    ],
+    "sourceName": "University of Chicago / Psychological Science",
+    "sourceUrl": "https://www.psychologicalscience.org/",
+    "related": [
+      "attraktion",
+      "ögon",
+      "kroppsspråk"
+    ],
+    "category": "Djur",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992385
+  },
+  {
+    "text": "Musik kan bokstavligen ge dig frossa. Dopamin frigörs i hjärnan precis innan din favoritdel av en låt — hjärnan förutser njutningen.",
+    "keywords": [
+      "musik",
+      "frossa",
+      "dopamin",
+      "psykologi",
+      "hjärnan"
+    ],
+    "sourceName": "McGill University / Nature Neuroscience",
+    "sourceUrl": "https://www.nature.com/neuro/",
+    "related": [
+      "musik",
+      "dopamin",
+      "njutning"
+    ],
+    "category": "Kroppen",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992385
+  },
+  {
+    "text": "Esperanto skapades 1887 av L.L. Zamenhof som ett internationellt hjälpspråk. Idag talas det av 2 miljoner människor i 120 länder.",
+    "keywords": [
+      "esperanto",
+      "språk",
+      "internationellt",
+      "konstruerat",
+      "zamenhof"
+    ],
+    "sourceName": "UNESCO",
+    "sourceUrl": "https://en.unesco.org/",
+    "related": [
+      "språk",
+      "internationellt",
+      "kommunikation"
+    ],
+    "category": "Konst & Kultur",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992385
+  },
+  {
+    "text": "Island växer med ungefär 2,5 cm per år på grund av tektonisk aktivitet. Ön sitter på gränsen mellan två kontinentalplattor.",
+    "keywords": [
+      "island",
+      "tektonik",
+      "geografi",
+      "vulkan",
+      "geologi"
+    ],
+    "sourceName": "U.S. Geological Survey (USGS)",
+    "sourceUrl": "https://www.usgs.gov/",
+    "related": [
+      "vulkaner",
+      "tektonik",
+      "Atlanterhavet"
+    ],
+    "category": "Natur",
     "_importedFrom": "curated",
     "_createdAt": 1776272992384
   },
@@ -341,26 +543,6 @@
     "_createdAt": 1776272992384
   },
   {
-    "text": "GPS-systemet måste korrigera för Einsteins relativitetsteori. Utan korrigeringen skulle din position vara fel med 10 km per dag.",
-    "keywords": [
-      "gps",
-      "teknologi",
-      "einstein",
-      "relativitet",
-      "satelliter"
-    ],
-    "sourceName": "NASA",
-    "sourceUrl": "https://www.nasa.gov/",
-    "related": [
-      "Einstein",
-      "satelliter",
-      "navigation"
-    ],
-    "category": "Mat",
-    "_importedFrom": "curated",
-    "_createdAt": 1776272992384
-  },
-  {
     "text": "Den första webbsidan publicerades 1991 av Tim Berners-Lee på CERN. Den handlade om World Wide Web-projektet.",
     "keywords": [
       "www",
@@ -503,26 +685,6 @@
     "_createdAt": 1776272992384
   },
   {
-    "text": "USB-kontakten designades 1996 och skapades för att man alltid sätter in den åt fel håll — tills USB-C löste problemet 2014.",
-    "keywords": [
-      "usb",
-      "teknologi",
-      "kontakt",
-      "dator",
-      "design"
-    ],
-    "sourceName": "USB Implementers Forum",
-    "sourceUrl": "https://www.usb.org/",
-    "related": [
-      "datorer",
-      "design",
-      "standard"
-    ],
-    "category": "Mat",
-    "_importedFrom": "curated",
-    "_createdAt": 1776272992384
-  },
-  {
     "text": "Artificiell intelligens slog världsmästaren i Go (AlphaGo vs Lee Sedol) 2016 — ett spel som ansågs för komplext för datorer.",
     "keywords": [
       "ai",
@@ -623,27 +785,6 @@
     "_createdAt": 1776272992384
   },
   {
-    "text": "Astrid Lindgrens böcker har översatts till 107 språk. Pippi Långstrump publicerades 1945 efter att ha refuserats av Bonniers.",
-    "keywords": [
-      "astrid lindgren",
-      "pippi",
-      "litteratur",
-      "böcker",
-      "sverige",
-      "barn"
-    ],
-    "sourceName": "Astrid Lindgren Company",
-    "sourceUrl": "https://www.astridlindgren.com/",
-    "related": [
-      "barnlitteratur",
-      "Sverige",
-      "Pippi"
-    ],
-    "category": "Litteratur",
-    "_importedFrom": "curated",
-    "_createdAt": 1776272992384
-  },
-  {
     "text": "Tolkiens 'Sagan om ringen' tog 12 år att skriva. Han skapade hela språk (inklusive alviska) innan han ens började med handlingen.",
     "keywords": [
       "tolkien",
@@ -721,26 +862,6 @@
       "litteratur"
     ],
     "category": "Litteratur",
-    "_importedFrom": "curated",
-    "_createdAt": 1776272992384
-  },
-  {
-    "text": "Den första tryckta boken med rörliga typer var Gutenbergs Bibel (1455). Bara 49 exemplar finns kvar idag.",
-    "keywords": [
-      "gutenberg",
-      "boktryckning",
-      "litteratur",
-      "bibel",
-      "historia"
-    ],
-    "sourceName": "Library of Congress",
-    "sourceUrl": "https://www.loc.gov/",
-    "related": [
-      "boktryckning",
-      "historia",
-      "böcker"
-    ],
-    "category": "Historia",
     "_importedFrom": "curated",
     "_createdAt": 1776272992384
   },
@@ -839,27 +960,6 @@
       "sci-fi",
       "skräck",
       "romantiken"
-    ],
-    "category": "Litteratur",
-    "_importedFrom": "curated",
-    "_createdAt": 1776272992384
-  },
-  {
-    "text": "Manga (japansk serietidning) utgör nästan 40% av all tryckt media i Japan. Den mest sålda serien, One Piece, har sålt över 500 miljoner kopior.",
-    "keywords": [
-      "manga",
-      "japan",
-      "serietidning",
-      "one piece",
-      "litteratur",
-      "anime"
-    ],
-    "sourceName": "Publishers Association of Japan",
-    "sourceUrl": "https://www.ajpea.or.jp/",
-    "related": [
-      "anime",
-      "Japan",
-      "serier"
     ],
     "category": "Litteratur",
     "_importedFrom": "curated",
@@ -1049,26 +1149,6 @@
     "_createdAt": 1776272992385
   },
   {
-    "text": "IKEA grundades 1943 av Ingvar Kamprad i Älmhult. Namnet är en akronym: Ingvar Kamprad, Elmtaryd (gården), Agunnaryd (byn).",
-    "keywords": [
-      "ikea",
-      "sverige",
-      "möbler",
-      "design",
-      "ingvar kamprad"
-    ],
-    "sourceName": "IKEA Museum",
-    "sourceUrl": "https://ikeamuseum.com/",
-    "related": [
-      "design",
-      "Sverige",
-      "möbler"
-    ],
-    "category": "Konst & Kultur",
-    "_importedFrom": "curated",
-    "_createdAt": 1776272992385
-  },
-  {
     "text": "Midsommar är en av Sveriges viktigaste traditioner. Midsommarstången symboliserar fruktbarhet — och festen har firats sedan medeltiden.",
     "keywords": [
       "midsommar",
@@ -1231,26 +1311,6 @@
     "_createdAt": 1776272992385
   },
   {
-    "text": "Ditt arbetsminne kan bara hålla 4–7 saker åt gången. Det är därför telefonnummer har 7 siffror — anpassat efter hjärnans kapacitet.",
-    "keywords": [
-      "arbetsminne",
-      "minne",
-      "psykologi",
-      "hjärnan",
-      "kapacitet"
-    ],
-    "sourceName": "American Psychological Association",
-    "sourceUrl": "https://www.apa.org/",
-    "related": [
-      "minne",
-      "hjärnan",
-      "lärande"
-    ],
-    "category": "Kroppen",
-    "_importedFrom": "curated",
-    "_createdAt": 1776272992385
-  },
-  {
     "text": "Placeboeffekten fungerar även när patienten VET att de får placebo. Studier visar förbättring trots full transparens.",
     "keywords": [
       "placebo",
@@ -1287,26 +1347,6 @@
       "barn"
     ],
     "category": "Psykologi",
-    "_importedFrom": "curated",
-    "_createdAt": 1776272992385
-  },
-  {
-    "text": "Dina pupiller vidgas när du tittar på någon du är attraherad av. Det är därför romantiska middagar har svag belysning — pupillerna vidgas naturligt.",
-    "keywords": [
-      "pupiller",
-      "attraktion",
-      "psykologi",
-      "ögon",
-      "kärlek"
-    ],
-    "sourceName": "University of Chicago / Psychological Science",
-    "sourceUrl": "https://www.psychologicalscience.org/",
-    "related": [
-      "attraktion",
-      "ögon",
-      "kroppsspråk"
-    ],
-    "category": "Djur",
     "_importedFrom": "curated",
     "_createdAt": 1776272992385
   },
@@ -1425,26 +1465,6 @@
       "kreativitet",
       "sömn",
       "idéer"
-    ],
-    "category": "Kroppen",
-    "_importedFrom": "curated",
-    "_createdAt": 1776272992385
-  },
-  {
-    "text": "Musik kan bokstavligen ge dig frossa. Dopamin frigörs i hjärnan precis innan din favoritdel av en låt — hjärnan förutser njutningen.",
-    "keywords": [
-      "musik",
-      "frossa",
-      "dopamin",
-      "psykologi",
-      "hjärnan"
-    ],
-    "sourceName": "McGill University / Nature Neuroscience",
-    "sourceUrl": "https://www.nature.com/neuro/",
-    "related": [
-      "musik",
-      "dopamin",
-      "njutning"
     ],
     "category": "Kroppen",
     "_importedFrom": "curated",
@@ -1808,26 +1828,6 @@
       "språk"
     ],
     "category": "Djur",
-    "_importedFrom": "curated",
-    "_createdAt": 1776272992385
-  },
-  {
-    "text": "Esperanto skapades 1887 av L.L. Zamenhof som ett internationellt hjälpspråk. Idag talas det av 2 miljoner människor i 120 länder.",
-    "keywords": [
-      "esperanto",
-      "språk",
-      "internationellt",
-      "konstruerat",
-      "zamenhof"
-    ],
-    "sourceName": "UNESCO",
-    "sourceUrl": "https://en.unesco.org/",
-    "related": [
-      "språk",
-      "internationellt",
-      "kommunikation"
-    ],
-    "category": "Konst & Kultur",
     "_importedFrom": "curated",
     "_createdAt": 1776272992385
   },
