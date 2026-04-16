@@ -252,12 +252,194 @@
             text-align: left;
         }
 
+        /* AUTH BAR */
+        .auth-bar {
+            position: fixed; top: 0; right: 0; left: 0;
+            padding: 0.6rem 1rem;
+            display: flex; justify-content: flex-end; align-items: center; gap: 0.5rem;
+            z-index: 100;
+        }
+        .auth-btn {
+            display: flex; align-items: center; gap: 0.4rem;
+            padding: 0.4rem 0.9rem; border-radius: 20px;
+            border: 1.5px solid var(--border); background: white;
+            font-size: 0.75rem; font-weight: 600; font-family: 'Inter', sans-serif;
+            cursor: pointer; transition: all 0.15s; color: var(--text);
+        }
+        .auth-btn:hover { border-color: var(--text); }
+        .auth-avatar {
+            width: 26px; height: 26px; border-radius: 50%;
+            cursor: pointer; border: 2px solid var(--border);
+            transition: border-color 0.15s;
+        }
+        .auth-avatar:hover { border-color: var(--text); }
+
+        /* FACT ACTION BUTTONS */
+        .fact-actions {
+            display: flex; gap: 0.4rem; margin-top: 0.8rem; padding-top: 0.8rem;
+            border-top: 1px solid var(--border);
+        }
+        .fact-action-btn {
+            display: flex; align-items: center; gap: 0.3rem;
+            padding: 0.3rem 0.7rem; border-radius: 20px;
+            border: 1.5px solid var(--border); background: white;
+            font-size: 0.72rem; font-weight: 500; font-family: 'Inter', sans-serif;
+            cursor: pointer; transition: all 0.15s; color: var(--text-secondary);
+        }
+        .fact-action-btn:hover { border-color: var(--text); color: var(--text); }
+        .fact-action-btn.saved { background: var(--green); border-color: var(--green); color: var(--text); }
+
+        /* PROFILE PANEL */
+        .profile-overlay {
+            position: fixed; top: 0; left: 0; right: 0; bottom: 0;
+            background: rgba(0,0,0,0.3); z-index: 200;
+            display: none; align-items: center; justify-content: center;
+            padding: 1rem;
+        }
+        .profile-overlay.open { display: flex; }
+        .profile-panel {
+            background: white; border-radius: 16px; width: 100%; max-width: 440px;
+            max-height: 85vh; overflow-y: auto; padding: 1.5rem;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.15);
+            animation: fadeIn 0.2s ease;
+        }
+        .profile-header {
+            display: flex; align-items: center; gap: 0.8rem;
+            margin-bottom: 1.5rem; padding-bottom: 1rem;
+            border-bottom: 1px solid var(--border);
+        }
+        .profile-photo {
+            width: 48px; height: 48px; border-radius: 50%;
+        }
+        .profile-name { font-size: 1rem; font-weight: 700; }
+        .profile-email { font-size: 0.75rem; color: var(--text-secondary); }
+        .profile-tab-bar {
+            display: flex; gap: 0; background: #f5f5f5; border-radius: 8px;
+            margin-bottom: 1rem; overflow: hidden;
+        }
+        .profile-tab {
+            flex: 1; padding: 0.5rem; font-size: 0.75rem; font-weight: 600;
+            text-align: center; border: none; background: transparent;
+            cursor: pointer; font-family: 'Inter', sans-serif;
+            color: var(--text-secondary); transition: all 0.15s;
+        }
+        .profile-tab.active { background: var(--text); color: white; border-radius: 8px; }
+        .profile-section { display: none; }
+        .profile-section.active { display: block; }
+        .saved-fact-item {
+            padding: 0.7rem; margin-bottom: 0.4rem;
+            border: 1px solid var(--border); border-radius: 8px;
+            font-size: 0.82rem; line-height: 1.5;
+            display: flex; gap: 0.5rem; align-items: flex-start;
+        }
+        .saved-fact-text { flex: 1; }
+        .saved-fact-remove {
+            background: none; border: none; cursor: pointer;
+            font-size: 0.8rem; color: var(--text-secondary); padding: 0.2rem;
+        }
+        .saved-fact-remove:hover { color: var(--red); }
+        .inbox-item {
+            padding: 0.8rem; margin-bottom: 0.5rem;
+            border: 1px solid var(--border); border-radius: 8px;
+            animation: fadeIn 0.2s ease;
+        }
+        .inbox-item.unread { border-left: 3px solid var(--green); background: #f9fff0; }
+        .inbox-from { font-size: 0.7rem; color: var(--text-secondary); margin-bottom: 0.3rem; font-weight: 600; }
+        .inbox-text { font-size: 0.82rem; line-height: 1.5; margin-bottom: 0.4rem; }
+        .inbox-actions { display: flex; gap: 0.3rem; }
+        .profile-close {
+            position: absolute; top: 1rem; right: 1rem;
+            background: none; border: none; font-size: 1.2rem;
+            cursor: pointer; color: var(--text-secondary); padding: 0.3rem;
+        }
+        .profile-close:hover { color: var(--text); }
+        .inbox-badge {
+            background: var(--red); color: white; border-radius: 10px;
+            font-size: 0.6rem; font-weight: 700; padding: 0.1rem 0.35rem;
+            min-width: 16px; text-align: center; line-height: 1.2;
+        }
+
+        /* SHARE MODAL */
+        .share-modal {
+            position: fixed; top: 0; left: 0; right: 0; bottom: 0;
+            background: rgba(0,0,0,0.3); z-index: 300;
+            display: none; align-items: center; justify-content: center;
+            padding: 1rem;
+        }
+        .share-modal.open { display: flex; }
+        .share-box {
+            background: white; border-radius: 12px; padding: 1.5rem;
+            width: 100%; max-width: 360px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.15);
+        }
+        .share-box h3 { font-size: 0.95rem; margin-bottom: 0.8rem; }
+        .share-input {
+            width: 100%; padding: 0.6rem 0.8rem; border: 1.5px solid var(--border);
+            border-radius: 8px; font-size: 0.82rem; font-family: 'Inter', sans-serif;
+            outline: none; margin-bottom: 0.6rem;
+        }
+        .share-input:focus { border-color: var(--text); }
+        .share-actions { display: flex; gap: 0.4rem; justify-content: flex-end; }
+        .share-status { font-size: 0.75rem; color: var(--text-secondary); margin-bottom: 0.5rem; min-height: 1.2em; }
+
         @media (max-width: 500px) {
             .fact-footer { flex-direction: column; align-items: flex-start; }
+            .profile-panel { max-height: 90vh; border-radius: 12px; }
         }
     </style>
 </head>
 <body>
+    <!-- AUTH BAR -->
+    <div class="auth-bar">
+        <div id="authArea">
+            <button class="auth-btn" id="loginBtn" onclick="googleLogin()">
+                <svg width="14" height="14" viewBox="0 0 24 24"><path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92a5.06 5.06 0 0 1-2.2 3.32v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.1z"/><path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/><path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/><path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/></svg>
+                Logga in
+            </button>
+        </div>
+    </div>
+
+    <!-- PROFILE PANEL -->
+    <div class="profile-overlay" id="profileOverlay" onclick="if(event.target===this)closeProfile()">
+        <div class="profile-panel" style="position:relative;">
+            <button class="profile-close" onclick="closeProfile()">✕</button>
+            <div class="profile-header">
+                <img class="profile-photo" id="profilePhoto" src="" alt="">
+                <div>
+                    <div class="profile-name" id="profileName"></div>
+                    <div class="profile-email" id="profileEmail"></div>
+                </div>
+            </div>
+            <div class="profile-tab-bar">
+                <button class="profile-tab active" data-ptab="saved" onclick="switchProfileTab('saved')">❤️ Sparade</button>
+                <button class="profile-tab" data-ptab="inbox" onclick="switchProfileTab('inbox')">📩 Inbox <span id="inboxBadge" class="inbox-badge" style="display:none;">0</span></button>
+            </div>
+            <div class="profile-section active" id="psec-saved">
+                <div id="savedList"></div>
+            </div>
+            <div class="profile-section" id="psec-inbox">
+                <div id="inboxList"></div>
+            </div>
+            <div style="margin-top:1.5rem; padding-top:1rem; border-top:1px solid var(--border); text-align:center;">
+                <button class="auth-btn" onclick="logOut()" style="color:var(--red); border-color:var(--red);">Logga ut</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- SHARE MODAL -->
+    <div class="share-modal" id="shareModal" onclick="if(event.target===this)closeShare()">
+        <div class="share-box">
+            <h3>📩 Skicka till en vän</h3>
+            <p style="font-size:0.78rem; color:var(--text-secondary); margin-bottom:0.8rem;" id="sharePreview"></p>
+            <input class="share-input" id="shareEmail" type="email" placeholder="Vännens e-postadress...">
+            <div class="share-status" id="shareStatus"></div>
+            <div class="share-actions">
+                <button class="auth-btn" onclick="closeShare()">Avbryt</button>
+                <button class="auth-btn" onclick="sendFact()" style="background:var(--text); color:white; border-color:var(--text);">Skicka</button>
+            </div>
+        </div>
+    </div>
+
     <div class="container">
         <div class="fact-area" id="factArea"></div>
 
@@ -269,6 +451,294 @@
             </form>
         </div>
     </div>
+
+    <!-- Firebase SDK -->
+    <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-auth-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore-compat.js"></script>
+    <script>
+        // ===== FIREBASE CONFIG — Fill in your project details =====
+        const firebaseConfig = {
+            apiKey: "PASTE_YOUR_API_KEY",
+            authDomain: "PASTE_YOUR_PROJECT.firebaseapp.com",
+            projectId: "PASTE_YOUR_PROJECT_ID",
+            storageBucket: "PASTE_YOUR_PROJECT.appspot.com",
+            messagingSenderId: "PASTE_YOUR_SENDER_ID",
+            appId: "PASTE_YOUR_APP_ID"
+        };
+
+        firebase.initializeApp(firebaseConfig);
+        const auth = firebase.auth();
+        const db = firebase.firestore();
+        let currentUser = null;
+
+        // ===== AUTH =====
+        function googleLogin() {
+            const provider = new firebase.auth.GoogleAuthProvider();
+            auth.signInWithPopup(provider).catch(e => {
+                console.error("Login error:", e);
+                alert("Inloggning misslyckades. Försök igen!");
+            });
+        }
+
+        function logOut() {
+            auth.signOut();
+            closeProfile();
+        }
+
+        auth.onAuthStateChanged(async (user) => {
+            currentUser = user;
+            const area = document.getElementById("authArea");
+
+            if (user) {
+                // Save/update user doc
+                await db.collection("users").doc(user.uid).set({
+                    name: user.displayName || "",
+                    email: user.email || "",
+                    photo: user.photoURL || "",
+                    lastLogin: firebase.firestore.FieldValue.serverTimestamp()
+                }, { merge: true });
+
+                area.innerHTML = `
+                    <span id="inboxDot" style="display:none;width:8px;height:8px;border-radius:50%;background:var(--red);"></span>
+                    <img class="auth-avatar" src="${user.photoURL || ''}" alt="${user.displayName || ''}"
+                         onclick="openProfile()" referrerpolicy="no-referrer">
+                `;
+                loadInboxCount();
+            } else {
+                area.innerHTML = `
+                    <button class="auth-btn" id="loginBtn" onclick="googleLogin()">
+                        <svg width="14" height="14" viewBox="0 0 24 24"><path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92a5.06 5.06 0 0 1-2.2 3.32v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.1z"/><path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/><path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/><path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/></svg>
+                        Logga in
+                    </button>
+                `;
+            }
+            // Re-render current fact if showing (to add/remove action buttons)
+            if (currentFacts.length > 0) renderSingleFact();
+        });
+
+        // ===== PROFILE =====
+        function openProfile() {
+            if (!currentUser) return;
+            document.getElementById("profilePhoto").src = currentUser.photoURL || "";
+            document.getElementById("profileName").textContent = currentUser.displayName || "Användare";
+            document.getElementById("profileEmail").textContent = currentUser.email || "";
+            document.getElementById("profileOverlay").classList.add("open");
+            loadSavedFacts();
+            loadInbox();
+        }
+
+        function closeProfile() {
+            document.getElementById("profileOverlay").classList.remove("open");
+        }
+
+        function switchProfileTab(tab) {
+            document.querySelectorAll(".profile-tab").forEach(t => t.classList.remove("active"));
+            document.querySelector(`[data-ptab="${tab}"]`).classList.add("active");
+            document.querySelectorAll(".profile-section").forEach(s => s.classList.remove("active"));
+            document.getElementById(`psec-${tab}`).classList.add("active");
+            if (tab === "inbox") loadInbox();
+            if (tab === "saved") loadSavedFacts();
+        }
+
+        // ===== SAVED FACTS =====
+        async function toggleSaveFact(fact) {
+            if (!currentUser) { googleLogin(); return; }
+            const ref = db.collection("users").doc(currentUser.uid).collection("saved");
+            const key = (fact.text || "").slice(0, 80);
+
+            const existing = await ref.where("key", "==", key).get();
+            if (!existing.empty) {
+                existing.forEach(doc => doc.ref.delete());
+            } else {
+                await ref.add({
+                    key,
+                    text: fact.text,
+                    category: fact.category || "",
+                    sourceName: fact.sourceName || "",
+                    sourceUrl: fact.sourceUrl || "",
+                    savedAt: firebase.firestore.FieldValue.serverTimestamp()
+                });
+            }
+            renderSingleFact();
+        }
+
+        async function isFactSavedByUser(fact) {
+            if (!currentUser) return false;
+            const key = (fact.text || "").slice(0, 80);
+            const snap = await db.collection("users").doc(currentUser.uid)
+                .collection("saved").where("key", "==", key).get();
+            return !snap.empty;
+        }
+
+        async function loadSavedFacts() {
+            if (!currentUser) return;
+            const snap = await db.collection("users").doc(currentUser.uid)
+                .collection("saved").orderBy("savedAt", "desc").get();
+
+            const list = document.getElementById("savedList");
+            if (snap.empty) {
+                list.innerHTML = `<p style="color:var(--text-secondary);text-align:center;padding:1.5rem;font-size:0.82rem;">Inga sparade fakta ännu. Tryck ❤️ på en fakta för att spara den!</p>`;
+                return;
+            }
+
+            list.innerHTML = snap.docs.map(doc => {
+                const d = doc.data();
+                return `<div class="saved-fact-item">
+                    <div class="saved-fact-text">${escapeHtml(d.text)}</div>
+                    <button class="saved-fact-remove" onclick="removeSaved('${doc.id}')" title="Ta bort">✕</button>
+                </div>`;
+            }).join("");
+        }
+
+        async function removeSaved(docId) {
+            if (!currentUser) return;
+            await db.collection("users").doc(currentUser.uid).collection("saved").doc(docId).delete();
+            loadSavedFacts();
+            if (currentFacts.length > 0) renderSingleFact();
+        }
+
+        // ===== SHARE / INBOX =====
+        let factToShare = null;
+
+        function openShare(fact) {
+            if (!currentUser) { googleLogin(); return; }
+            factToShare = fact;
+            document.getElementById("sharePreview").textContent = `"${(fact.text || "").slice(0, 120)}${fact.text.length > 120 ? '...' : ''}"`;
+            document.getElementById("shareEmail").value = "";
+            document.getElementById("shareStatus").textContent = "";
+            document.getElementById("shareModal").classList.add("open");
+            document.getElementById("shareEmail").focus();
+        }
+
+        function closeShare() {
+            document.getElementById("shareModal").classList.remove("open");
+            factToShare = null;
+        }
+
+        async function sendFact() {
+            if (!currentUser || !factToShare) return;
+            const email = document.getElementById("shareEmail").value.trim().toLowerCase();
+            const status = document.getElementById("shareStatus");
+
+            if (!email || !email.includes("@")) {
+                status.textContent = "Ange en giltig e-postadress.";
+                status.style.color = "var(--red)";
+                return;
+            }
+
+            // Find recipient by email
+            const userSnap = await db.collection("users").where("email", "==", email).get();
+            if (userSnap.empty) {
+                status.textContent = "Ingen användare med den adressen hittades. De måste logga in på SmartAss först!";
+                status.style.color = "var(--red)";
+                return;
+            }
+
+            const recipientId = userSnap.docs[0].id;
+            if (recipientId === currentUser.uid) {
+                status.textContent = "Du kan inte skicka till dig själv!";
+                status.style.color = "var(--red)";
+                return;
+            }
+
+            try {
+                await db.collection("users").doc(recipientId).collection("inbox").add({
+                    fromUid: currentUser.uid,
+                    fromName: currentUser.displayName || "Anonym",
+                    fromPhoto: currentUser.photoURL || "",
+                    text: factToShare.text,
+                    category: factToShare.category || "",
+                    sourceName: factToShare.sourceName || "",
+                    sourceUrl: factToShare.sourceUrl || "",
+                    read: false,
+                    sentAt: firebase.firestore.FieldValue.serverTimestamp()
+                });
+
+                status.textContent = "✅ Skickat!";
+                status.style.color = "var(--green)";
+                setTimeout(closeShare, 1500);
+            } catch (e) {
+                status.textContent = "Något gick fel. Försök igen!";
+                status.style.color = "var(--red)";
+            }
+        }
+
+        async function loadInbox() {
+            if (!currentUser) return;
+            const snap = await db.collection("users").doc(currentUser.uid)
+                .collection("inbox").orderBy("sentAt", "desc").get();
+
+            const list = document.getElementById("inboxList");
+            if (snap.empty) {
+                list.innerHTML = `<p style="color:var(--text-secondary);text-align:center;padding:1.5rem;font-size:0.82rem;">Ingen post ännu. Be en vän skicka en kul fakta!</p>`;
+                return;
+            }
+
+            list.innerHTML = snap.docs.map(doc => {
+                const d = doc.data();
+                const unread = !d.read;
+                return `<div class="inbox-item ${unread ? 'unread' : ''}">
+                    <div class="inbox-from">
+                        ${d.fromPhoto ? `<img src="${d.fromPhoto}" style="width:16px;height:16px;border-radius:50%;vertical-align:middle;margin-right:4px;" referrerpolicy="no-referrer">` : ''}
+                        ${escapeHtml(d.fromName)} skickade:
+                    </div>
+                    <div class="inbox-text">${escapeHtml(d.text)}</div>
+                    <div class="inbox-actions">
+                        <button class="fact-action-btn" onclick="saveFromInbox('${doc.id}')">❤️ Spara</button>
+                        <button class="fact-action-btn" onclick="deleteInbox('${doc.id}')">🗑 Ta bort</button>
+                    </div>
+                </div>`;
+            }).join("");
+
+            // Mark all as read
+            snap.docs.filter(d => !d.data().read).forEach(doc => {
+                doc.ref.update({ read: true });
+            });
+            updateInboxBadge(0);
+        }
+
+        async function loadInboxCount() {
+            if (!currentUser) return;
+            const snap = await db.collection("users").doc(currentUser.uid)
+                .collection("inbox").where("read", "==", false).get();
+            updateInboxBadge(snap.size);
+        }
+
+        function updateInboxBadge(count) {
+            const badge = document.getElementById("inboxBadge");
+            const dot = document.getElementById("inboxDot");
+            if (badge) {
+                badge.textContent = count;
+                badge.style.display = count > 0 ? "inline" : "none";
+            }
+            if (dot) dot.style.display = count > 0 ? "inline-block" : "none";
+        }
+
+        async function saveFromInbox(docId) {
+            if (!currentUser) return;
+            const doc = await db.collection("users").doc(currentUser.uid).collection("inbox").doc(docId).get();
+            if (!doc.exists) return;
+            const d = doc.data();
+            await db.collection("users").doc(currentUser.uid).collection("saved").add({
+                key: (d.text || "").slice(0, 80),
+                text: d.text,
+                category: d.category || "",
+                sourceName: d.sourceName || "",
+                sourceUrl: d.sourceUrl || "",
+                savedAt: firebase.firestore.FieldValue.serverTimestamp()
+            });
+            await doc.ref.delete();
+            loadInbox();
+            loadSavedFacts();
+        }
+
+        async function deleteInbox(docId) {
+            if (!currentUser) return;
+            await db.collection("users").doc(currentUser.uid).collection("inbox").doc(docId).delete();
+            loadInbox();
+        }
+    </script>
 
     <script src="facts.js"></script>
     <script>
@@ -856,7 +1326,7 @@
             return unseen.length > 0 ? unseen : facts;
         }
 
-        function renderSingleFact() {
+        async function renderSingleFact() {
             const factArea = document.getElementById("factArea");
             const fact = currentFacts[currentIndex];
             const credClass = `cred-${fact.credibility}`;
@@ -865,6 +1335,22 @@
             const sourceHtml = fact.sourceName
                 ? `<a href="${escapeHtml(fact.sourceUrl || '#')}" target="_blank" rel="noopener" class="source-link">Källa: ${escapeHtml(fact.sourceName)}</a>`
                 : "";
+
+            // Check if saved (async)
+            let isSaved = false;
+            if (currentUser) {
+                try { isSaved = await isFactSavedByUser(fact); } catch {}
+            }
+
+            const actionsHtml = `
+                <div class="fact-actions">
+                    <button class="fact-action-btn ${isSaved ? 'saved' : ''}" onclick="toggleSaveFact(currentFacts[currentIndex])">
+                        ${isSaved ? '❤️ Sparad' : '🤍 Spara'}
+                    </button>
+                    <button class="fact-action-btn" onclick="openShare(currentFacts[currentIndex])">
+                        📩 Skicka till vän
+                    </button>
+                </div>`;
 
             let html = `
                 <div class="fact-card">
@@ -877,6 +1363,7 @@
                         </div>
                         ${sourceHtml}
                     </div>
+                    ${actionsHtml}
                 </div>`;
 
             if (currentRelated.length > 0) {
