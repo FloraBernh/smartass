@@ -1,5 +1,2012 @@
 [
   {
+    "text": "Sverige har över 267 000 öar — fler än något annat land i världen. De flesta är obebodda klippor i skärgården.",
+    "keywords": [
+      "sverige",
+      "öar",
+      "skärgård",
+      "geografi",
+      "rekord"
+    ],
+    "sourceName": "SCB (Statistiska centralbyrån)",
+    "sourceUrl": "https://www.scb.se/",
+    "related": [
+      "skärgården",
+      "natur",
+      "geografi"
+    ],
+    "category": "Geografi",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_trashedAt": 1776328698990
+  },
+  {
+    "text": "Australien är bredare än månen. Australien mäter 4 000 km från kust till kust, medan månens diameter är 3 400 km.",
+    "keywords": [
+      "australien",
+      "månen",
+      "geografi",
+      "storlek",
+      "kontinent"
+    ],
+    "sourceName": "NASA",
+    "sourceUrl": "https://science.nasa.gov/moon/facts/",
+    "related": [
+      "Australien",
+      "månen",
+      "storlek"
+    ],
+    "category": "Rymden",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_trashedAt": 1776328698197
+  },
+  {
+    "text": "Allemansrätten ger alla rätt att vandra, tälta och plocka bär i naturen — oavsett vem som äger marken. Det finns i grundlagen.",
+    "keywords": [
+      "allemansrätten",
+      "sverige",
+      "natur",
+      "friluftsliv",
+      "lag"
+    ],
+    "sourceName": "Naturvårdsverket",
+    "sourceUrl": "https://www.naturvardsverket.se/",
+    "related": [
+      "friluftsliv",
+      "natur",
+      "Sverige"
+    ],
+    "category": "Natur",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_trashedAt": 1776328698004
+  },
+  {
+    "text": "Selma Lagerlöf var den första kvinnan att få Nobelpriset i litteratur (1909) och den första kvinnan invalds i Svenska Akademien.",
+    "keywords": [
+      "selma lagerlöf",
+      "nobel",
+      "litteratur",
+      "sverige",
+      "författare"
+    ],
+    "sourceName": "Nobelprize.org",
+    "sourceUrl": "https://www.nobelprize.org/prizes/literature/1909/",
+    "related": [
+      "Nobelpriset",
+      "Sverige",
+      "litteratur"
+    ],
+    "category": "Litteratur",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_trashedAt": 1776328697813
+  },
+  {
+    "text": "3D-skrivare kan numera skriva ut allt från proteser till hus. NASA testar att 3D-printa mat åt astronauter.",
+    "keywords": [
+      "3d-skrivare",
+      "teknologi",
+      "tillverkning",
+      "framtid",
+      "nasa"
+    ],
+    "sourceName": "NASA",
+    "sourceUrl": "https://www.nasa.gov/",
+    "related": [
+      "tillverkning",
+      "innovation",
+      "rymden"
+    ],
+    "category": "Rymden",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_trashedAt": 1776328697614
+  },
+  {
+    "text": "George Orwells '1984' säljer fortfarande hundratusentals kopior varje år. Försäljningen spikar varje gång en övervakningsskandal avslöjas.",
+    "keywords": [
+      "orwell",
+      "1984",
+      "litteratur",
+      "dystopi",
+      "övervakning"
+    ],
+    "sourceName": "British Library",
+    "sourceUrl": "https://www.bl.uk/",
+    "related": [
+      "dystopi",
+      "politik",
+      "övervakning"
+    ],
+    "category": "Litteratur",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_trashedAt": 1776328697424
+  },
+  {
+    "text": "Silbo Gomero på Kanarieöarna är ett 'visslat språk' — hela konversationer sker genom visslingar som kan höras 3 km bort.",
+    "keywords": [
+      "silbo gomero",
+      "språk",
+      "vissla",
+      "kanarieöarna",
+      "unesco"
+    ],
+    "sourceName": "UNESCO",
+    "sourceUrl": "https://ich.unesco.org/en/RL/silbo-gomero-the-whistled-language-of-the-island-of-la-gomera-canary-islands-00172",
+    "related": [
+      "Spanien",
+      "språk",
+      "UNESCO"
+    ],
+    "category": "Språk",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992385,
+    "_trashedAt": 1776328697091
+  },
+  {
+    "text": "Det mest använda engelska ordet i världen är 'OK'. Det dök upp första gången 1839 i en amerikansk tidning som en skämtakronym.",
+    "keywords": [
+      "ok",
+      "engelska",
+      "ord",
+      "språk",
+      "historia"
+    ],
+    "sourceName": "Oxford English Dictionary",
+    "sourceUrl": "https://www.oed.com/",
+    "related": [
+      "engelska",
+      "ordhistoria",
+      "USA"
+    ],
+    "category": "Historia",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992385,
+    "_trashedAt": 1776328696657
+  },
+  {
+    "text": "Svenskan har fler vokaler än de flesta europeiska språk — 9 stycken (a, e, i, o, u, y, å, ä, ö). Engelska har bara 5 bokstäver men minst 12 vokalljud.",
+    "keywords": [
+      "svenska",
+      "vokaler",
+      "språk",
+      "lingvistik",
+      "bokstäver"
+    ],
+    "sourceName": "Uppsala universitet / Språkrådet",
+    "sourceUrl": "https://www.sprakochfolkminnen.se/",
+    "related": [
+      "svenska",
+      "lingvistik",
+      "grammatik"
+    ],
+    "category": "Språk",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992385,
+    "_trashedAt": 1776328696229
+  },
+  {
+    "text": "Onomatopoetiska ord (ljudhärmande) skiljer sig mellan språk. En hund säger 'woof' på engelska, 'wan wan' på japanska och 'vov vov' på svenska.",
+    "keywords": [
+      "onomatopoesi",
+      "språk",
+      "ljud",
+      "hund",
+      "lingvistik"
+    ],
+    "sourceName": "Linguistic Society of America",
+    "sourceUrl": "https://www.linguisticsociety.org/",
+    "related": [
+      "lingvistik",
+      "ljud",
+      "språk"
+    ],
+    "category": "Djur",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992385,
+    "_trashedAt": 1776328695788
+  },
+  {
+    "text": "Isländska har knappt förändrats sedan vikingatiden. Islänningar kan fortfarande läsa 800 år gamla texter utan större problem.",
+    "keywords": [
+      "isländska",
+      "språk",
+      "vikingar",
+      "island",
+      "fornnordiska"
+    ],
+    "sourceName": "University of Iceland / Árni Magnússon Institute",
+    "sourceUrl": "https://www.arnastofnun.is/en",
+    "related": [
+      "Island",
+      "vikingarna",
+      "litteratur"
+    ],
+    "category": "Historia",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992385,
+    "_trashedAt": 1776328695163
+  },
+  {
+    "text": "Ordet 'emoji' kommer från japanska: e (bild) + moji (tecken). Det har inget med 'emotion' att göra — det är en ren slump.",
+    "keywords": [
+      "emoji",
+      "språk",
+      "japanska",
+      "tecken",
+      "kommunikation"
+    ],
+    "sourceName": "Oxford English Dictionary",
+    "sourceUrl": "https://www.oed.com/",
+    "related": [
+      "kommunikation",
+      "Japan",
+      "teknologi"
+    ],
+    "category": "Språk",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992385,
+    "_trashedAt": 1776328694972
+  },
+  {
+    "text": "Pirahã, ett språk i Amazonas, har inga ord för siffror, färger eller tid. Talarna klarar sig ändå utmärkt.",
+    "keywords": [
+      "pirahã",
+      "språk",
+      "amazonas",
+      "siffror",
+      "lingvistik"
+    ],
+    "sourceName": "MIT / Language",
+    "sourceUrl": "https://www.linguisticsociety.org/",
+    "related": [
+      "lingvistik",
+      "Amazonas",
+      "kultur"
+    ],
+    "category": "Språk",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992385,
+    "_trashedAt": 1776328694699
+  },
+  {
+    "text": "Kinesiska mandarin är världens mest talade modersmål med 920 miljoner talare. Engelska kommer på tredje plats efter spanska.",
+    "keywords": [
+      "mandarin",
+      "kinesiska",
+      "språk",
+      "talare",
+      "världen"
+    ],
+    "sourceName": "Ethnologue",
+    "sourceUrl": "https://www.ethnologue.com/",
+    "related": [
+      "Kina",
+      "språk",
+      "kommunikation"
+    ],
+    "category": "Mode",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992385,
+    "_trashedAt": 1776328694255
+  },
+  {
+    "text": "Det finns över 7 000 språk i världen, men hälften av dem beräknas dö ut inom detta sekel. Varje vecka dör i genomsnitt ett språk.",
+    "keywords": [
+      "språk",
+      "utdöende",
+      "lingvistik",
+      "kultur",
+      "mångfald"
+    ],
+    "sourceName": "UNESCO",
+    "sourceUrl": "https://en.unesco.org/themes/linguistic-diversity-and-multilingualism",
+    "related": [
+      "språk",
+      "kultur",
+      "UNESCO"
+    ],
+    "category": "Språk",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992385,
+    "_trashedAt": 1776328694047
+  },
+  {
+    "text": "En shufflad kortlek har aldrig haft samma ordning förut. Antalet möjliga ordningar (52!) är större än antalet atomer på jorden.",
+    "keywords": [
+      "kortlek",
+      "matematik",
+      "sannolikhet",
+      "kombinatorik",
+      "statistik"
+    ],
+    "sourceName": "American Mathematical Society",
+    "sourceUrl": "https://www.ams.org/",
+    "related": [
+      "sannolikhet",
+      "statistik",
+      "spel"
+    ],
+    "category": "Vetenskap",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992385,
+    "_trashedAt": 1776328693855
+  },
+  {
+    "text": "Oändlighet finns i olika storlekar. Georg Cantor bevisade 1891 att det finns fler reella tal än heltal — trots att båda är oändliga.",
+    "keywords": [
+      "oändlighet",
+      "cantor",
+      "matematik",
+      "bevis",
+      "tal"
+    ],
+    "sourceName": "American Mathematical Society",
+    "sourceUrl": "https://www.ams.org/",
+    "related": [
+      "matematik",
+      "logik",
+      "filosofi"
+    ],
+    "category": "Matematik",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992385,
+    "_trashedAt": 1776328693383
+  },
+  {
+    "text": "Den gyllene snittet (1,618...) ansågs av antikens greker vara det mest estetiskt tilltalande proportionsförhållandet. Det finns i konst, arkitektur och natur.",
+    "keywords": [
+      "gyllene snittet",
+      "matematik",
+      "proportion",
+      "konst",
+      "estetik"
+    ],
+    "sourceName": "American Mathematical Society",
+    "sourceUrl": "https://www.ams.org/",
+    "related": [
+      "konst",
+      "arkitektur",
+      "natur"
+    ],
+    "category": "Historia",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992385,
+    "_trashedAt": 1776328692729
+  },
+  {
+    "text": "Primtal — tal som bara är delbara med 1 och sig själva — utgör grunden för all digital kryptering. Din bank-app beror på dem.",
+    "keywords": [
+      "primtal",
+      "matematik",
+      "kryptering",
+      "säkerhet",
+      "tal"
+    ],
+    "sourceName": "American Mathematical Society",
+    "sourceUrl": "https://www.ams.org/",
+    "related": [
+      "kryptering",
+      "datorer",
+      "säkerhet"
+    ],
+    "category": "Matematik",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992385,
+    "_trashedAt": 1776328692530
+  },
+  {
+    "text": "Det finns 43 252 003 274 489 856 000 möjliga kombinationer på en Rubiks kub. Men den kan alltid lösas på max 20 drag.",
+    "keywords": [
+      "rubiks kub",
+      "matematik",
+      "kombinationer",
+      "pussel",
+      "algoritm"
+    ],
+    "sourceName": "MIT",
+    "sourceUrl": "https://www.mit.edu/",
+    "related": [
+      "pussel",
+      "matematik",
+      "algoritmer"
+    ],
+    "category": "Matematik",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992385,
+    "_trashedAt": 1776328692280
+  },
+  {
+    "text": "Om du viker ett papper 42 gånger når det till månen. Varje vikning fördubblar tjockleken — exponentiell tillväxt är kraftfull.",
+    "keywords": [
+      "papper",
+      "vikning",
+      "matematik",
+      "exponentiell",
+      "månen"
+    ],
+    "sourceName": "MIT / American Journal of Physics",
+    "sourceUrl": "https://www.aapt.org/",
+    "related": [
+      "matematik",
+      "exponentiell",
+      "rymden"
+    ],
+    "category": "Rymden",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992385,
+    "_trashedAt": 1776328691830
+  },
+  {
+    "text": "Ett Googol är 10^100 — en etta följd av 100 nollor. Google fick sitt namn som en felstavning av 'Googol'.",
+    "keywords": [
+      "googol",
+      "google",
+      "matematik",
+      "tal",
+      "stort"
+    ],
+    "sourceName": "American Mathematical Society",
+    "sourceUrl": "https://www.ams.org/",
+    "related": [
+      "Google",
+      "stora tal",
+      "teknologi"
+    ],
+    "category": "Matematik",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992385,
+    "_trashedAt": 1776328691555
+  },
+  {
+    "text": "Fibonaccis talföljd (1, 1, 2, 3, 5, 8, 13...) syns överallt i naturen — i solrosors spiraler, snäckor, ananasmönster och galaxers armar.",
+    "keywords": [
+      "fibonacci",
+      "matematik",
+      "natur",
+      "talföljd",
+      "spiral"
+    ],
+    "sourceName": "American Mathematical Society",
+    "sourceUrl": "https://www.ams.org/",
+    "related": [
+      "natur",
+      "matematik",
+      "mönster"
+    ],
+    "category": "Rymden",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992385,
+    "_trashedAt": 1776328691005
+  },
+  {
+    "text": "Noll (0) uppfanns oberoende i Indien, Maya-civilisationen och Mesopotamien. Utan noll hade modern matematik, datorer och fysik aldrig existerat.",
+    "keywords": [
+      "noll",
+      "matematik",
+      "tal",
+      "uppfinning",
+      "indien",
+      "maya"
+    ],
+    "sourceName": "Smithsonian National Museum of the American Indian",
+    "sourceUrl": "https://americanindian.si.edu/",
+    "related": [
+      "matematik",
+      "historia",
+      "datorer"
+    ],
+    "category": "Vetenskap",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992385,
+    "_trashedAt": 1776328690797
+  },
+  {
+    "text": "Pi (π) har beräknats till över 100 biljoner decimaler, men du behöver bara 39 decimaler för att beräkna universums omkrets med atomnoggrannhet.",
+    "keywords": [
+      "pi",
+      "matematik",
+      "tal",
+      "cirkel",
+      "oändlig"
+    ],
+    "sourceName": "NASA Jet Propulsion Laboratory",
+    "sourceUrl": "https://www.jpl.nasa.gov/edu/news/2016/3/16/how-many-decimals-of-pi-do-we-really-need/",
+    "related": [
+      "matematik",
+      "geometri",
+      "datorer"
+    ],
+    "category": "Vetenskap",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992385,
+    "_trashedAt": 1776328690067
+  },
+  {
+    "text": "Den genomsnittliga uppmärksamheten hos en människa har sjunkit från 12 sekunder (2000) till 8 sekunder (2015) — kortare än en guldfisks.",
+    "keywords": [
+      "uppmärksamhet",
+      "psykologi",
+      "fokus",
+      "hjärnan",
+      "digital"
+    ],
+    "sourceName": "Microsoft Research Canada",
+    "sourceUrl": "https://www.microsoft.com/en-us/research/",
+    "related": [
+      "fokus",
+      "digital",
+      "sociala medier"
+    ],
+    "category": "Kroppen",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992385,
+    "_trashedAt": 1776328689846
+  },
+  {
+    "text": "Att prata med dig själv högt är inte galenskap — det förbättrar faktiskt koncentrationen och problemlösningsförmågan.",
+    "keywords": [
+      "självprat",
+      "psykologi",
+      "koncentration",
+      "hjärnan",
+      "fokus"
+    ],
+    "sourceName": "University of Wisconsin / Quarterly Journal of Experimental Psychology",
+    "sourceUrl": "https://journals.sagepub.com/home/qjp",
+    "related": [
+      "koncentration",
+      "hjärnan",
+      "lärande"
+    ],
+    "category": "Mat",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992385,
+    "_trashedAt": 1776328689622
+  },
+  {
+    "text": "Du är mer kreativ när du är trött. En trött hjärna har svårare att filtrera bort 'irrelevanta' idéer — och det är ibland precis vad kreativitet kräver.",
+    "keywords": [
+      "kreativitet",
+      "psykologi",
+      "hjärnan",
+      "trött",
+      "idéer"
+    ],
+    "sourceName": "Thinking & Reasoning / Taylor & Francis",
+    "sourceUrl": "https://www.tandfonline.com/",
+    "related": [
+      "kreativitet",
+      "sömn",
+      "idéer"
+    ],
+    "category": "Kroppen",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992385,
+    "_trashedAt": 1776328688359
+  },
+  {
+    "text": "Spegel-neutroner i hjärnan gör att du känner smärta när du ser någon annan skadas. Det är grunden för empati.",
+    "keywords": [
+      "spegelneuroner",
+      "empati",
+      "psykologi",
+      "hjärnan",
+      "smärta"
+    ],
+    "sourceName": "University of Parma / Nature Neuroscience",
+    "sourceUrl": "https://www.nature.com/neuro/",
+    "related": [
+      "empati",
+      "hjärnan",
+      "neuroner"
+    ],
+    "category": "Kroppen",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992385,
+    "_trashedAt": 1776328688151
+  },
+  {
+    "text": "Vi minns bättre om vi skriver för hand än om vi skriver på dator. Handskrift aktiverar fler områden i hjärnan.",
+    "keywords": [
+      "handskrift",
+      "minne",
+      "psykologi",
+      "lärande",
+      "hjärnan"
+    ],
+    "sourceName": "Princeton University / Psychological Science",
+    "sourceUrl": "https://www.psychologicalscience.org/",
+    "related": [
+      "lärande",
+      "minne",
+      "studieteknik"
+    ],
+    "category": "Kroppen",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992385,
+    "_trashedAt": 1776328687933
+  },
+  {
+    "text": "Färger påverkar hur vi beter oss. Rött ökar puls och aptit (därför har McDonald's röd logga), medan blått lugnar.",
+    "keywords": [
+      "färg",
+      "psykologi",
+      "beteende",
+      "rött",
+      "blått"
+    ],
+    "sourceName": "University of Rochester / Psychological Science",
+    "sourceUrl": "https://www.psychologicalscience.org/",
+    "related": [
+      "färg",
+      "design",
+      "marknadsföring"
+    ],
+    "category": "Psykologi",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992385,
+    "_trashedAt": 1776328687400
+  },
+  {
+    "text": "Dröm-forskning visar att vi glömmer 95% av våra drömmar inom 5 minuter efter att vi vaknat. Hjärnan prioriterar helt enkelt inte att spara dem.",
+    "keywords": [
+      "drömmar",
+      "sömn",
+      "psykologi",
+      "hjärnan",
+      "glömma"
+    ],
+    "sourceName": "National Sleep Foundation",
+    "sourceUrl": "https://www.sleepfoundation.org/",
+    "related": [
+      "sömn",
+      "hjärnan",
+      "minne"
+    ],
+    "category": "Mat",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992385,
+    "_trashedAt": 1776328686592
+  },
+  {
+    "text": "Nostalgi var en gång klassificerat som en psykisk sjukdom. Schweiziska soldater i 1600-talet 'diagnosticerades' med nostalgi — hemlängtan.",
+    "keywords": [
+      "nostalgi",
+      "psykologi",
+      "historia",
+      "sjukdom",
+      "hemlängtan"
+    ],
+    "sourceName": "American Psychological Association",
+    "sourceUrl": "https://www.apa.org/",
+    "related": [
+      "psykologi",
+      "historia",
+      "minnen"
+    ],
+    "category": "Historia",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992385,
+    "_trashedAt": 1776328686376
+  },
+  {
+    "text": "Barn skrattar i genomsnitt 300 gånger om dagen. Vuxna bara 15–20 gånger. Vi förlorar bokstavligen vårt skratt med åren.",
+    "keywords": [
+      "skratt",
+      "psykologi",
+      "barn",
+      "humor",
+      "glädje"
+    ],
+    "sourceName": "American Psychological Association",
+    "sourceUrl": "https://www.apa.org/",
+    "related": [
+      "humor",
+      "hälsa",
+      "barn"
+    ],
+    "category": "Psykologi",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992385,
+    "_trashedAt": 1776328686134
+  },
+  {
+    "text": "Placeboeffekten fungerar även när patienten VET att de får placebo. Studier visar förbättring trots full transparens.",
+    "keywords": [
+      "placebo",
+      "psykologi",
+      "medicin",
+      "hjärnan",
+      "effekt"
+    ],
+    "sourceName": "Harvard Medical School",
+    "sourceUrl": "https://hms.harvard.edu/",
+    "related": [
+      "medicin",
+      "hjärnan",
+      "forskning"
+    ],
+    "category": "Kroppen",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992385,
+    "_trashedAt": 1776328685935
+  },
+  {
+    "text": "Dunning-Kruger-effekten innebär att personer med låg kompetens ofta överskattar sin förmåga, medan experter underskattar sin.",
+    "keywords": [
+      "dunning-kruger",
+      "psykologi",
+      "kompetens",
+      "bias",
+      "effekt"
+    ],
+    "sourceName": "Cornell University / Journal of Personality and Social Psychology",
+    "sourceUrl": "https://www.apa.org/",
+    "related": [
+      "psykologi",
+      "kognitiv bias",
+      "lärande"
+    ],
+    "category": "Psykologi",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992385,
+    "_trashedAt": 1776328685734
+  },
+  {
+    "text": "Din hjärna fattar de flesta beslut på under 7 sekunder. Mycket av det du tror är 'logiska beslut' är redan fattade av din undermedvetna.",
+    "keywords": [
+      "hjärnan",
+      "beslut",
+      "psykologi",
+      "undermedveten"
+    ],
+    "sourceName": "Max Planck Institute for Human Cognitive and Brain Sciences",
+    "sourceUrl": "https://www.cbs.mpg.de/",
+    "related": [
+      "hjärnan",
+      "beslutsfattande",
+      "medvetande"
+    ],
+    "category": "Kroppen",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992385,
+    "_trashedAt": 1776328685346
+  },
+  {
+    "text": "Abisko i Lappland är ett av världens bästa ställen att se norrsken. Tack vare 'Blue Hole of Abisko' är himlen ofta klar där även när det är molnigt runtomkring.",
+    "keywords": [
+      "abisko",
+      "norrsken",
+      "lappland",
+      "sverige",
+      "natur"
+    ],
+    "sourceName": "Swedish Institute for Space Physics",
+    "sourceUrl": "https://www.irf.se/",
+    "related": [
+      "norrsken",
+      "Lappland",
+      "natur"
+    ],
+    "category": "Natur",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992385,
+    "_trashedAt": 1776328684233
+  },
+  {
+    "text": "Vasaloppet, världens äldsta och längsta skidlopp, har körts sedan 1922. Banan är 90 km lång mellan Sälen och Mora.",
+    "keywords": [
+      "vasaloppet",
+      "skidor",
+      "sport",
+      "sverige",
+      "dalarna",
+      "lopp"
+    ],
+    "sourceName": "Vasaloppet",
+    "sourceUrl": "https://www.vasaloppet.se/",
+    "related": [
+      "skidor",
+      "Dalarna",
+      "vintersport"
+    ],
+    "category": "Mat",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992385,
+    "_trashedAt": 1776328683158
+  },
+  {
+    "text": "Dalahästen från Dalarna har tillverkats sedan 1600-talet. Skogsarbetare snidade dem som leksaker till barnen under långa vintrar.",
+    "keywords": [
+      "dalahäst",
+      "dalarna",
+      "sverige",
+      "hantverk",
+      "tradition",
+      "leksak"
+    ],
+    "sourceName": "Nordiska museet",
+    "sourceUrl": "https://www.nordiskamuseet.se/",
+    "related": [
+      "hantverk",
+      "Dalarna",
+      "tradition"
+    ],
+    "category": "Natur",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992385,
+    "_trashedAt": 1776328682851
+  },
+  {
+    "text": "Systembolaget har monopol på alkoholförsäljning i Sverige sedan 1955. Det är världens enda statliga alkoholkedja av detta slag.",
+    "keywords": [
+      "systembolaget",
+      "alkohol",
+      "sverige",
+      "monopol",
+      "stat"
+    ],
+    "sourceName": "Systembolaget",
+    "sourceUrl": "https://www.systembolaget.se/",
+    "related": [
+      "Sverige",
+      "alkoholpolitik",
+      "monopol"
+    ],
+    "category": "Sverige",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992385,
+    "_trashedAt": 1776328682684
+  },
+  {
+    "text": "Kiruna, Sveriges nordligaste stad, håller på att flyttas 3 km österut eftersom gruvan under staden gör marken instabil.",
+    "keywords": [
+      "kiruna",
+      "gruva",
+      "sverige",
+      "flytta",
+      "stad",
+      "lappland"
+    ],
+    "sourceName": "LKAB",
+    "sourceUrl": "https://www.lkab.com/",
+    "related": [
+      "Lappland",
+      "gruvindustri",
+      "infrastruktur"
+    ],
+    "category": "Mat",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992385,
+    "_trashedAt": 1776328682501
+  },
+  {
+    "text": "Midsommar är en av Sveriges viktigaste traditioner. Midsommarstången symboliserar fruktbarhet — och festen har firats sedan medeltiden.",
+    "keywords": [
+      "midsommar",
+      "tradition",
+      "sverige",
+      "sommar",
+      "fest"
+    ],
+    "sourceName": "Nordiska museet",
+    "sourceUrl": "https://www.nordiskamuseet.se/",
+    "related": [
+      "traditioner",
+      "sommar",
+      "kultur"
+    ],
+    "category": "Mat",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992385,
+    "_trashedAt": 1776328682325
+  },
+  {
+    "text": "Gotland har mer solsken per år än någon annan plats i Sverige — ungefär 1 800 timmar. Stockholm har bara 1 700.",
+    "keywords": [
+      "gotland",
+      "sol",
+      "väder",
+      "sverige",
+      "geografi"
+    ],
+    "sourceName": "SMHI",
+    "sourceUrl": "https://www.smhi.se/",
+    "related": [
+      "Gotland",
+      "väder",
+      "sommar"
+    ],
+    "category": "Rymden",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992385,
+    "_trashedAt": 1776328681542
+  },
+  {
+    "text": "Sverige har inte varit i krig sedan 1814 — över 200 år av fred. Det är den längsta oavbrutna fredsperioden för något europeiskt land.",
+    "keywords": [
+      "sverige",
+      "fred",
+      "krig",
+      "historia",
+      "neutral"
+    ],
+    "sourceName": "Riksdagen",
+    "sourceUrl": "https://www.riksdagen.se/",
+    "related": [
+      "fred",
+      "historia",
+      "neutralitet"
+    ],
+    "category": "Mat",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_trashedAt": 1776328681342
+  },
+  {
+    "text": "Alfred Nobel uppfann dynamiten 1867 i Stockholm. Han testamenterade sin förmögenhet till Nobelpriset — kanske av dåligt samvete.",
+    "keywords": [
+      "alfred nobel",
+      "dynamit",
+      "nobelpris",
+      "sverige",
+      "uppfinning"
+    ],
+    "sourceName": "Nobelprize.org",
+    "sourceUrl": "https://www.nobelprize.org/alfred-nobel/",
+    "related": [
+      "Nobelpriset",
+      "uppfinningar",
+      "Stockholm"
+    ],
+    "category": "Mat",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_trashedAt": 1776328681169
+  },
+  {
+    "text": "Fika — den svenska kafferasten — är så viktig att den anses öka produktiviteten. Svenska arbetsplatser har ofta schemalagda fikapauser.",
+    "keywords": [
+      "fika",
+      "kaffe",
+      "sverige",
+      "kultur",
+      "tradition",
+      "arbete"
+    ],
+    "sourceName": "Nordiska museet",
+    "sourceUrl": "https://www.nordiskamuseet.se/",
+    "related": [
+      "kaffe",
+      "kultur",
+      "arbetsplats"
+    ],
+    "category": "Mat",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_trashedAt": 1776328680908
+  },
+  {
+    "text": "Drottningholms slott utanför Stockholm är kungafamiljens permanenta bostad och ett UNESCO-världsarv sedan 1991.",
+    "keywords": [
+      "drottningholm",
+      "slott",
+      "kungligt",
+      "stockholm",
+      "sverige",
+      "unesco"
+    ],
+    "sourceName": "UNESCO World Heritage Centre",
+    "sourceUrl": "https://whc.unesco.org/en/list/559/",
+    "related": [
+      "kungafamiljen",
+      "Stockholm",
+      "arkitektur"
+    ],
+    "category": "Sverige",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_trashedAt": 1776328679397
+  },
+  {
+    "text": "Ishotellet i Jukkasjärvi har byggts om varje vinter sedan 1989. Allt smälter bort på våren och byggs igen nästa höst.",
+    "keywords": [
+      "ishotellet",
+      "jukkasjärvi",
+      "sverige",
+      "is",
+      "turism",
+      "lappland"
+    ],
+    "sourceName": "ICEHOTEL",
+    "sourceUrl": "https://www.icehotel.com/",
+    "related": [
+      "Lappland",
+      "turism",
+      "vinter"
+    ],
+    "category": "Sverige",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_trashedAt": 1776328678418
+  },
+  {
+    "text": "Världens mest översatta bok (efter Bibeln) är 'Den lille prinsen' av Antoine de Saint-Exupéry — översatt till över 500 språk och dialekter.",
+    "keywords": [
+      "lille prinsen",
+      "litteratur",
+      "översättning",
+      "böcker",
+      "frankrike"
+    ],
+    "sourceName": "UNESCO Index Translationum",
+    "sourceUrl": "https://www.unesco.org/xtrans/bsstatexp.aspx",
+    "related": [
+      "Frankrike",
+      "barnlitteratur",
+      "klassiker"
+    ],
+    "category": "Litteratur",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_trashedAt": 1776328676805
+  },
+  {
+    "text": "Mary Shelley skrev 'Frankenstein' när hon var bara 18 år. Den anses vara den första science fiction-romanen.",
+    "keywords": [
+      "frankenstein",
+      "shelley",
+      "litteratur",
+      "science fiction",
+      "skräck"
+    ],
+    "sourceName": "British Library",
+    "sourceUrl": "https://www.bl.uk/romantics-and-victorians/articles/mary-shelley-frankenstein-and-the-villa-diodati",
+    "related": [
+      "sci-fi",
+      "skräck",
+      "romantiken"
+    ],
+    "category": "Litteratur",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_trashedAt": 1776328676257
+  },
+  {
+    "text": "Hemingway vadslog att han kunde skriva en hel berättelse med bara sex ord: 'For sale: baby shoes, never worn.' Han vann.",
+    "keywords": [
+      "hemingway",
+      "litteratur",
+      "kort",
+      "författare",
+      "berättelse"
+    ],
+    "sourceName": "American National Biography / Smithsonian",
+    "sourceUrl": "https://www.si.edu/",
+    "related": [
+      "litteratur",
+      "USA",
+      "minimalism"
+    ],
+    "category": "Litteratur",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_trashedAt": 1776328675742
+  },
+  {
+    "text": "Japanska haiku-dikter har exakt 17 stavelser fördelade på tre rader (5-7-5). Bashō på 1600-talet anses vara mästaren.",
+    "keywords": [
+      "haiku",
+      "poesi",
+      "japan",
+      "litteratur",
+      "dikt"
+    ],
+    "sourceName": "British Library",
+    "sourceUrl": "https://www.bl.uk/",
+    "related": [
+      "Japan",
+      "poesi",
+      "dikt"
+    ],
+    "category": "Litteratur",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_trashedAt": 1776328675063
+  },
+  {
+    "text": "'Don Quijote' av Cervantes (1605) anses vara den första moderna romanen. Den har sålts i över 500 miljoner exemplar.",
+    "keywords": [
+      "don quijote",
+      "cervantes",
+      "litteratur",
+      "roman",
+      "spanien"
+    ],
+    "sourceName": "Biblioteca Nacional de España",
+    "sourceUrl": "https://www.bne.es/",
+    "related": [
+      "Spanien",
+      "romanhistoria",
+      "klassiker"
+    ],
+    "category": "Mat",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_trashedAt": 1776328674529
+  },
+  {
+    "text": "Franz Kafkas sista önskan var att alla hans manuskript skulle brännas. Lyckligtvis ignorerade hans vän Max Brod önskan — annars hade vi aldrig fått läsa 'Processen'.",
+    "keywords": [
+      "kafka",
+      "litteratur",
+      "böcker",
+      "författare",
+      "processen"
+    ],
+    "sourceName": "Bodleian Library, Oxford",
+    "sourceUrl": "https://www.bodleian.ox.ac.uk/",
+    "related": [
+      "litteratur",
+      "Prag",
+      "modernism"
+    ],
+    "category": "Litteratur",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_trashedAt": 1776328673455
+  },
+  {
+    "text": "Harry Potter-serien har sålt över 500 miljoner kopior på 80 språk. J.K. Rowling skrev första boken på kaféer i Edinburgh.",
+    "keywords": [
+      "harry potter",
+      "jk rowling",
+      "litteratur",
+      "böcker",
+      "fantasy",
+      "magi"
+    ],
+    "sourceName": "British Library",
+    "sourceUrl": "https://www.bl.uk/",
+    "related": [
+      "fantasy",
+      "film",
+      "barnlitteratur"
+    ],
+    "category": "Litteratur",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_trashedAt": 1776328672117
+  },
+  {
+    "text": "Tolkiens 'Sagan om ringen' tog 12 år att skriva. Han skapade hela språk (inklusive alviska) innan han ens började med handlingen.",
+    "keywords": [
+      "tolkien",
+      "sagan om ringen",
+      "litteratur",
+      "fantasy",
+      "alviska"
+    ],
+    "sourceName": "Bodleian Library, Oxford",
+    "sourceUrl": "https://www.bodleian.ox.ac.uk/",
+    "related": [
+      "fantasy",
+      "film",
+      "språk"
+    ],
+    "category": "Litteratur",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_trashedAt": 1776328671593
+  },
+  {
+    "text": "Agatha Christie är den mest sålda fiktionsförfattaren genom tiderna med över 2 miljarder sålda böcker — bara Bibeln och Shakespeare slår henne.",
+    "keywords": [
+      "agatha christie",
+      "litteratur",
+      "deckare",
+      "böcker",
+      "författare"
+    ],
+    "sourceName": "Guinness World Records",
+    "sourceUrl": "https://www.guinnessworldrecords.com/",
+    "related": [
+      "deckare",
+      "böcker",
+      "England"
+    ],
+    "category": "Litteratur",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_trashedAt": 1776328671046
+  },
+  {
+    "text": "Shakespeare uppfann över 1 700 engelska ord, bland annat 'lonely', 'generous', 'eyeball' och 'bedroom'.",
+    "keywords": [
+      "shakespeare",
+      "litteratur",
+      "ord",
+      "engelska",
+      "författare"
+    ],
+    "sourceName": "Oxford English Dictionary",
+    "sourceUrl": "https://www.oed.com/",
+    "related": [
+      "litteratur",
+      "engelska",
+      "teater"
+    ],
+    "category": "Litteratur",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_trashedAt": 1776328670525
+  },
+  {
+    "text": "Linux operativsystem skapades 1991 av finlandssvensken Linus Torvalds som student vid Helsingfors universitet. Det driver idag majoriteten av världens servrar.",
+    "keywords": [
+      "linux",
+      "operativsystem",
+      "teknologi",
+      "torvalds",
+      "öppen källkod"
+    ],
+    "sourceName": "Linux Foundation",
+    "sourceUrl": "https://www.linuxfoundation.org/",
+    "related": [
+      "öppen källkod",
+      "datorer",
+      "Finland"
+    ],
+    "category": "Teknologi",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_trashedAt": 1776328669412
+  },
+  {
+    "text": "Artificiell intelligens slog världsmästaren i Go (AlphaGo vs Lee Sedol) 2016 — ett spel som ansågs för komplext för datorer.",
+    "keywords": [
+      "ai",
+      "go",
+      "alphago",
+      "teknologi",
+      "artificiell intelligens"
+    ],
+    "sourceName": "DeepMind / Nature",
+    "sourceUrl": "https://www.nature.com/articles/nature16961",
+    "related": [
+      "AI",
+      "schack",
+      "deepmind"
+    ],
+    "category": "Gaming",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_trashedAt": 1776328667034
+  },
+  {
+    "text": "Ericsson i Stockholm byggde världens första kommersiella mobiltelefonsystem 1981 (NMT). Sverige var först i världen med mobiltelefoni.",
+    "keywords": [
+      "ericsson",
+      "mobil",
+      "teknologi",
+      "sverige",
+      "telefon",
+      "nmt"
+    ],
+    "sourceName": "Tekniska museet",
+    "sourceUrl": "https://www.tekniskamuseet.se/",
+    "related": [
+      "Sverige",
+      "telefon",
+      "Ericsson"
+    ],
+    "category": "Teknologi",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_trashedAt": 1776328665449
+  },
+  {
+    "text": "WiFi-symbolen med tre bågar representerar radiovågor som sprider sig från en central punkt. Tekniken lanserades 1997.",
+    "keywords": [
+      "wifi",
+      "internet",
+      "teknologi",
+      "trådlös",
+      "nätverk"
+    ],
+    "sourceName": "IEEE",
+    "sourceUrl": "https://www.ieee.org/",
+    "related": [
+      "internet",
+      "trådlöst",
+      "hem"
+    ],
+    "category": "Teknologi",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_trashedAt": 1776328664688
+  },
+  {
+    "text": "QR-koder uppfanns i Japan 1994 av Denso Wave för att spåra bildelar. Idag används de för allt från betalningar till restaurangmenyer.",
+    "keywords": [
+      "qr-kod",
+      "teknologi",
+      "japan",
+      "uppfinning",
+      "streckkod"
+    ],
+    "sourceName": "Denso Wave",
+    "sourceUrl": "https://www.denso-wave.com/en/",
+    "related": [
+      "Japan",
+      "uppfinningar",
+      "digital"
+    ],
+    "category": "Teknologi",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_trashedAt": 1776328664077
+  },
+  {
+    "text": "Första iPhonen presenterades av Steve Jobs 2007. Han sa: 'Idag uppfinner Apple telefonen på nytt.' Och det stämde.",
+    "keywords": [
+      "iphone",
+      "apple",
+      "teknologi",
+      "smartphone",
+      "steve jobs"
+    ],
+    "sourceName": "Computer History Museum",
+    "sourceUrl": "https://computerhistory.org/",
+    "related": [
+      "Apple",
+      "smartphones",
+      "innovation"
+    ],
+    "category": "Teknologi",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_trashedAt": 1776328663496
+  },
+  {
+    "text": "Moores lag förutspådde 1965 att antalet transistorer på ett chip fördubblas ungefär vartannat år. Det har stämt i nästan 60 år.",
+    "keywords": [
+      "moores lag",
+      "teknologi",
+      "chip",
+      "transistor",
+      "dator"
+    ],
+    "sourceName": "Intel / Computer History Museum",
+    "sourceUrl": "https://computerhistory.org/",
+    "related": [
+      "datorer",
+      "processorer",
+      "innovation"
+    ],
+    "category": "Teknologi",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_trashedAt": 1776328662955
+  },
+  {
+    "text": "Bluetooth-teknologin namngavs efter den danske vikingakungen Harald Blåtand (Harald Bluetooth), som enade Skandinavien.",
+    "keywords": [
+      "bluetooth",
+      "teknologi",
+      "vikingar",
+      "trådlös",
+      "namn"
+    ],
+    "sourceName": "IEEE / Bluetooth SIG",
+    "sourceUrl": "https://www.bluetooth.com/",
+    "related": [
+      "vikingar",
+      "trådlöst",
+      "kommunikation"
+    ],
+    "category": "Historia",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_trashedAt": 1776328661793
+  },
+  {
+    "text": "Den första webbsidan publicerades 1991 av Tim Berners-Lee på CERN. Den handlade om World Wide Web-projektet.",
+    "keywords": [
+      "www",
+      "webb",
+      "internet",
+      "teknologi",
+      "cern",
+      "berners-lee"
+    ],
+    "sourceName": "CERN",
+    "sourceUrl": "https://info.cern.ch/hypertext/WWW/TheProject.html",
+    "related": [
+      "internet",
+      "CERN",
+      "webben"
+    ],
+    "category": "Teknologi",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_trashedAt": 1776328660841
+  },
+  {
+    "text": "Det första e-postmeddelandet skickades 1971 av Ray Tomlinson. Han mindes inte vad det stod — troligen 'QWERTYUIOP' eller liknande.",
+    "keywords": [
+      "email",
+      "epost",
+      "teknologi",
+      "internet",
+      "historia"
+    ],
+    "sourceName": "Computer History Museum",
+    "sourceUrl": "https://computerhistory.org/",
+    "related": [
+      "internet",
+      "kommunikation",
+      "historia"
+    ],
+    "category": "Mat",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_trashedAt": 1776328659888
+  },
+  {
+    "text": "Mer än hälften av all internettrafik kommer från botar, inte människor.",
+    "keywords": [
+      "internet",
+      "botar",
+      "teknologi",
+      "webb"
+    ],
+    "sourceName": "Imperva (Thales Group)",
+    "sourceUrl": "https://www.imperva.com/resources/reports/2024-Imperva-Bad-Bot-Report.pdf",
+    "related": [
+      "AI",
+      "säkerhet",
+      "webben"
+    ],
+    "category": "Mat",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_trashedAt": 1776328659082
+  },
+  {
+    "text": "Den första datorn (ENIAC) vägde 27 ton och fyllde ett helt rum. Din mobil har miljontals gånger mer datorkraft.",
+    "keywords": [
+      "dator",
+      "teknologi",
+      "eniac",
+      "mobil",
+      "telefon"
+    ],
+    "sourceName": "University of Pennsylvania",
+    "sourceUrl": "https://www.seas.upenn.edu/~museum/",
+    "related": [
+      "internet",
+      "programmering",
+      "AI"
+    ],
+    "category": "Teknologi",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_trashedAt": 1776328658142
+  },
+  {
+    "text": "Nordkorea och Sydkorea befinner sig tekniskt sett fortfarande i krig. Vapenstilleståndet 1953 avslutade aldrig kriget formellt.",
+    "keywords": [
+      "nordkorea",
+      "sydkorea",
+      "krig",
+      "geografi",
+      "historia",
+      "korea"
+    ],
+    "sourceName": "United Nations",
+    "sourceUrl": "https://www.un.org/",
+    "related": [
+      "Korea",
+      "krig",
+      "Asien"
+    ],
+    "category": "Historia",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_trashedAt": 1776328656441
+  },
+  {
+    "text": "Japan består av 6 852 öar, men de flesta är obebodda. Bara 430 av öarna har invånare.",
+    "keywords": [
+      "japan",
+      "öar",
+      "geografi",
+      "asien",
+      "arkipelag"
+    ],
+    "sourceName": "Geospatial Information Authority of Japan",
+    "sourceUrl": "https://www.gsi.go.jp/ENGLISH/",
+    "related": [
+      "Japan",
+      "öar",
+      "Asien"
+    ],
+    "category": "Geografi",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_trashedAt": 1776328653549
+  },
+  {
+    "text": "Sahara är inte världens största öken — Antarktis är det. En öken definieras av låg nederbörd, inte sand.",
+    "keywords": [
+      "sahara",
+      "antarktis",
+      "öken",
+      "geografi",
+      "definition"
+    ],
+    "sourceName": "National Geographic",
+    "sourceUrl": "https://www.nationalgeographic.com/",
+    "related": [
+      "öknar",
+      "Antarktis",
+      "klimat"
+    ],
+    "category": "Mat",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_trashedAt": 1776328652632
+  },
+  {
+    "text": "Vatikanstaten är världens minsta land — bara 0,44 km². Det har egen järnvägsstation, postkontor och radiosändare.",
+    "keywords": [
+      "vatikanen",
+      "litet land",
+      "geografi",
+      "rom",
+      "europa"
+    ],
+    "sourceName": "UNESCO World Heritage Centre",
+    "sourceUrl": "https://whc.unesco.org/en/list/286/",
+    "related": [
+      "Rom",
+      "påven",
+      "Europa"
+    ],
+    "category": "Geografi",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_trashedAt": 1776328650756
+  },
+  {
+    "text": "Bhutan mäter sin framgång i Gross National Happiness (BNH) istället för BNP. Det är det enda landet som är koldioxidnegativt.",
+    "keywords": [
+      "bhutan",
+      "lycka",
+      "geografi",
+      "miljö",
+      "koldioxid"
+    ],
+    "sourceName": "United Nations Development Programme",
+    "sourceUrl": "https://www.undp.org/",
+    "related": [
+      "Bhutan",
+      "miljö",
+      "Asien"
+    ],
+    "category": "Konst & Kultur",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_trashedAt": 1776328649715
+  },
+  {
+    "text": "Finland har det högsta antalet bastuanläggningar per capita i världen — ungefär 3,3 miljoner bastur för 5,5 miljoner invånare.",
+    "keywords": [
+      "finland",
+      "bastu",
+      "geografi",
+      "kultur",
+      "tradition"
+    ],
+    "sourceName": "UNESCO",
+    "sourceUrl": "https://ich.unesco.org/en/RL/sauna-culture-in-finland-01596",
+    "related": [
+      "Finland",
+      "kultur",
+      "tradition"
+    ],
+    "category": "Geografi",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_trashedAt": 1776328647596
+  },
+  {
+    "text": "Nilen och Amazonas tävlar om titeln 'världens längsta flod'. Beroende på mätmetod är den ena eller andra längst — båda runt 6 650 km.",
+    "keywords": [
+      "nilen",
+      "amazonas",
+      "flod",
+      "geografi",
+      "längst"
+    ],
+    "sourceName": "National Geographic",
+    "sourceUrl": "https://www.nationalgeographic.com/",
+    "related": [
+      "floder",
+      "Afrika",
+      "Sydamerika"
+    ],
+    "category": "Geografi",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_trashedAt": 1776328646614
+  },
+  {
+    "text": "Monaco är världens mest tätbefolkade land med 26 000 invånare per km². Hela landet är mindre än Central Park i New York.",
+    "keywords": [
+      "monaco",
+      "litet land",
+      "geografi",
+      "tätbefolkat",
+      "europa"
+    ],
+    "sourceName": "United Nations Statistics Division",
+    "sourceUrl": "https://unstats.un.org/",
+    "related": [
+      "länder",
+      "Europa",
+      "storlek"
+    ],
+    "category": "Geografi",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_trashedAt": 1776328643549
+  },
+  {
+    "text": "Kanada har fler sjöar än alla andra länder i världen — tillsammans. Över 60% av världens sjöar finns i Kanada.",
+    "keywords": [
+      "kanada",
+      "sjöar",
+      "geografi",
+      "vatten",
+      "natur"
+    ],
+    "sourceName": "Natural Resources Canada",
+    "sourceUrl": "https://www.nrcan.gc.ca/",
+    "related": [
+      "sjöar",
+      "Kanada",
+      "natur"
+    ],
+    "category": "Vetenskap",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_trashedAt": 1776328641823
+  },
+  {
+    "text": "Amazonfloden har inget bro. Trots att den är 6 400 km lång har ingen bro någonsin byggts över den.",
+    "keywords": [
+      "amazonfloden",
+      "brasilien",
+      "geografi",
+      "flod",
+      "regnskog"
+    ],
+    "sourceName": "National Geographic",
+    "sourceUrl": "https://www.nationalgeographic.com/",
+    "related": [
+      "Amazonas",
+      "Brasilien",
+      "regnskog"
+    ],
+    "category": "Natur",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_trashedAt": 1776328640638
+  },
+  {
+    "text": "Island växer med ungefär 2,5 cm per år på grund av tektonisk aktivitet. Ön sitter på gränsen mellan två kontinentalplattor.",
+    "keywords": [
+      "island",
+      "tektonik",
+      "geografi",
+      "vulkan",
+      "geologi"
+    ],
+    "sourceName": "U.S. Geological Survey (USGS)",
+    "sourceUrl": "https://www.usgs.gov/",
+    "related": [
+      "vulkaner",
+      "tektonik",
+      "Atlanterhavet"
+    ],
+    "category": "Natur",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_trashedAt": 1776328638235
+  },
+  {
+    "text": "Akira Kurosawa, japansk filmregissör, inspirerade Star Wars, Lejonkungen och A Fistful of Dollars. Han kallas 'Västerns sensei'.",
+    "keywords": [
+      "kurosawa",
+      "film",
+      "japan",
+      "regissör",
+      "filmhistoria"
+    ],
+    "sourceName": "British Film Institute",
+    "sourceUrl": "https://www.bfi.org.uk/",
+    "related": [
+      "japansk film",
+      "filmhistoria",
+      "Star Wars"
+    ],
+    "category": "Historia",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992383,
+    "_trashedAt": 1776324659046
+  },
+  {
+    "text": "Vasamuseet i Stockholm är Nordens mest besökta museum. Regalskeppet Vasa sjönk 1628 på sin jungfruresa efter bara 1 300 meter.",
+    "keywords": [
+      "vasa",
+      "museum",
+      "stockholm",
+      "skepp",
+      "historia",
+      "sverige"
+    ],
+    "sourceName": "Vasamuseet",
+    "sourceUrl": "https://www.vasamuseet.se/",
+    "related": [
+      "Stockholm",
+      "sjöfart",
+      "Sverige"
+    ],
+    "category": "Historia",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992383,
+    "_trashedAt": 1776324326981
+  },
+  {
+    "text": "Nobelpriset i litteratur har delats ut sedan 1901. Gabriela Mistral (Chile) var den första latinamerikanska vinnaren.",
+    "keywords": [
+      "nobel",
+      "nobelpris",
+      "litteratur",
+      "böcker",
+      "författare",
+      "svenska akademien"
+    ],
+    "sourceName": "Svenska Akademien",
+    "sourceUrl": "https://www.svenskaakademien.se/",
+    "related": [
+      "böcker",
+      "poesi",
+      "Sverige"
+    ],
+    "category": "Mat",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992383,
+    "_trashedAt": 1776324202588
+  },
+  {
+    "text": "Zlatan Ibrahimovićs cykelspark mot England 2012 från 30 meter blev FIFA:s mål av året.",
+    "keywords": [
+      "zlatan",
+      "fotboll",
+      "sport",
+      "sverige",
+      "mål"
+    ],
+    "sourceName": "FIFA",
+    "sourceUrl": "https://www.fifa.com/",
+    "related": [
+      "fotboll",
+      "Sverige",
+      "serie A"
+    ],
+    "category": "Sport",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992383,
+    "_trashedAt": 1776324018408
+  },
+  {
+    "text": "Tre Kronor tog sitt första OS-guld i ishockey i Turin 2006.",
+    "keywords": [
+      "ishockey",
+      "hockey",
+      "os",
+      "sport",
+      "sverige",
+      "tre kronor"
+    ],
+    "sourceName": "IIHF",
+    "sourceUrl": "https://www.iihf.com/",
+    "related": [
+      "Tre Kronor",
+      "OS",
+      "NHL"
+    ],
+    "category": "Sport",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992383,
+    "_trashedAt": 1776323985015
+  },
+  {
+    "text": "Björn Borg vann Wimbledon fem gånger i rad (1976–1980). Hans rivalitet med John McEnroe är legendär.",
+    "keywords": [
+      "tennis",
+      "björn borg",
+      "wimbledon",
+      "sport",
+      "sverige"
+    ],
+    "sourceName": "International Tennis Hall of Fame",
+    "sourceUrl": "https://www.tennisfame.com/",
+    "related": [
+      "Wimbledon",
+      "McEnroe",
+      "Sverige"
+    ],
+    "category": "Sport",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992383,
+    "_trashedAt": 1776323903537
+  },
+  {
+    "text": "Chuck Berry, Little Richard och Elvis Presley valdes alla in i Rock & Roll Hall of Fame:s första klass 1986.",
+    "keywords": [
+      "rock",
+      "rock and roll",
+      "elvis",
+      "chuck berry",
+      "musik",
+      "hall of fame"
+    ],
+    "sourceName": "Rock & Roll Hall of Fame",
+    "sourceUrl": "https://www.rockhall.com/",
+    "related": [
+      "Elvis",
+      "musikhistoria",
+      "rock"
+    ],
+    "category": "Musik",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992383,
+    "_trashedAt": 1776322460289
+  },
+  {
+    "text": "Polarpriset — musikens Nobelpris — delas ut i Stockholm sedan 1992 och har gått till Paul McCartney, Joni Mitchell och Metallica.",
+    "keywords": [
+      "polarpriset",
+      "musik",
+      "pris",
+      "stockholm",
+      "sverige"
+    ],
+    "sourceName": "Polarpriset / Kungliga Musikaliska Akademien",
+    "sourceUrl": "https://www.polarmusicprize.org/",
+    "related": [
+      "ABBA",
+      "Nobelpriset",
+      "Stockholm"
+    ],
+    "category": "Mat",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992383,
+    "_trashedAt": 1776322432421
+  },
+  {
+    "text": "Människan delar 60% av sitt DNA med bananer och 98,7% med schimpanser. Genetiskt sett är vi mest frukt.",
+    "keywords": [
+      "dna",
+      "banan",
+      "schimpans",
+      "genetik",
+      "kroppen"
+    ],
+    "sourceName": "National Human Genome Research Institute (NIH)",
+    "sourceUrl": "https://www.genome.gov/",
+    "related": [
+      "DNA",
+      "evolution",
+      "genetik"
+    ],
+    "category": "Mat",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992382,
+    "_trashedAt": 1776322380036
+  },
+  {
+    "text": "Din magsäck byter ut sitt slemhinne var 3–4 dag. Annars skulle magsyran smälta magen själv.",
+    "keywords": [
+      "mage",
+      "magsyra",
+      "kroppen",
+      "matsmältning"
+    ],
+    "sourceName": "National Institutes of Health (NIH)",
+    "sourceUrl": "https://www.nih.gov/",
+    "related": [
+      "kroppen",
+      "matsmältning",
+      "celler"
+    ],
+    "category": "Kroppen",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992382,
+    "_trashedAt": 1776285170461
+  },
+  {
+    "text": "Supraledning (noll elektriskt motstånd) uppstår vid extremt låga temperaturer. Ett nytt material 2023 visade tecken på supraledning nära rumstemperatur.",
+    "keywords": [
+      "supraledning",
+      "fysik",
+      "vetenskap",
+      "elektricitet",
+      "material"
+    ],
+    "sourceName": "American Physical Society",
+    "sourceUrl": "https://www.aps.org/",
+    "related": [
+      "fysik",
+      "material",
+      "energi"
+    ],
+    "category": "Vetenskap",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992382,
+    "_trashedAt": 1776282206135
+  },
+  {
+    "text": "Det finns fler möjliga schackpartier än atomer i det observerbara universum. Shannon-talet uppskattar det till 10^120 möjliga partier.",
+    "keywords": [
+      "schack",
+      "matematik",
+      "vetenskap",
+      "möjligheter",
+      "universum"
+    ],
+    "sourceName": "Shannon / Bell Labs",
+    "sourceUrl": "https://www.bell-labs.com/",
+    "related": [
+      "matematik",
+      "schack",
+      "AI"
+    ],
+    "category": "Vetenskap",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992382,
+    "_trashedAt": 1776278342194
+  },
+  {
+    "text": "Mantisräkan har 16 typer av färgreceptorer — jämfört med människans 3. De kan se ultraviolett och infrarött ljus som vi inte ens kan föreställa oss.",
+    "keywords": [
+      "mantisräka",
+      "djur",
+      "hav",
+      "syn",
+      "färg"
+    ],
+    "sourceName": "Smithsonian Ocean",
+    "sourceUrl": "https://ocean.si.edu/ocean-life/invertebrates/mantis-shrimp",
+    "related": [
+      "havet",
+      "evolution",
+      "syn"
+    ],
+    "category": "Djur",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992382,
+    "_trashedAt": 1776275001579
+  },
+  {
     "text": "Japanska haiku-dikter har exakt 17 stavelser fördelade på tre rader (5-7-5). Bashō på 1600-talet anses vara mästaren.",
     "keywords": [
       "haiku",
@@ -908,91 +2915,6 @@
     "_trashedAt": 1776327846013
   },
   {
-    "text": "Den första tryckta boken med rörliga typer var Gutenbergs Bibel (1455). Bara 49 exemplar finns kvar idag.",
-    "keywords": [
-      "gutenberg",
-      "boktryckning",
-      "litteratur",
-      "bibel",
-      "historia"
-    ],
-    "sourceName": "Library of Congress",
-    "sourceUrl": "https://www.loc.gov/",
-    "related": [
-      "boktryckning",
-      "historia",
-      "böcker"
-    ],
-    "category": "Historia",
-    "_importedFrom": "curated",
-    "_createdAt": 1776272992384,
-    "_trashedAt": 1776327317551
-  },
-  {
-    "text": "Astrid Lindgrens böcker har översatts till 107 språk. Pippi Långstrump publicerades 1945 efter att ha refuserats av Bonniers.",
-    "keywords": [
-      "astrid lindgren",
-      "pippi",
-      "litteratur",
-      "böcker",
-      "sverige",
-      "barn"
-    ],
-    "sourceName": "Astrid Lindgren Company",
-    "sourceUrl": "https://www.astridlindgren.com/",
-    "related": [
-      "barnlitteratur",
-      "Sverige",
-      "Pippi"
-    ],
-    "category": "Litteratur",
-    "_importedFrom": "curated",
-    "_createdAt": 1776272992384,
-    "_trashedAt": 1776327227572
-  },
-  {
-    "text": "USB-kontakten designades 1996 och skapades för att man alltid sätter in den åt fel håll — tills USB-C löste problemet 2014.",
-    "keywords": [
-      "usb",
-      "teknologi",
-      "kontakt",
-      "dator",
-      "design"
-    ],
-    "sourceName": "USB Implementers Forum",
-    "sourceUrl": "https://www.usb.org/",
-    "related": [
-      "datorer",
-      "design",
-      "standard"
-    ],
-    "category": "Mat",
-    "_importedFrom": "curated",
-    "_createdAt": 1776272992384,
-    "_trashedAt": 1776327168649
-  },
-  {
-    "text": "GPS-systemet måste korrigera för Einsteins relativitetsteori. Utan korrigeringen skulle din position vara fel med 10 km per dag.",
-    "keywords": [
-      "gps",
-      "teknologi",
-      "einstein",
-      "relativitet",
-      "satelliter"
-    ],
-    "sourceName": "NASA",
-    "sourceUrl": "https://www.nasa.gov/",
-    "related": [
-      "Einstein",
-      "satelliter",
-      "navigation"
-    ],
-    "category": "Mat",
-    "_importedFrom": "curated",
-    "_createdAt": 1776272992384,
-    "_trashedAt": 1776327046256
-  },
-  {
     "text": "Den första datorn (ENIAC) vägde 27 ton och fyllde ett helt rum. Din mobil har miljontals gånger mer datorkraft.",
     "keywords": [
       "dator",
@@ -1012,49 +2934,6 @@
     "_importedFrom": "curated",
     "_createdAt": 1776272992384,
     "_trashedAt": 1776326998881
-  },
-  {
-    "text": "Döda havet är den lägsta punkten på jordens landyta — 430 meter under havsnivån. Salthalten är 34% — tio gånger saltare än havet.",
-    "keywords": [
-      "döda havet",
-      "salt",
-      "geografi",
-      "lägst",
-      "jordanien",
-      "israel"
-    ],
-    "sourceName": "UNESCO",
-    "sourceUrl": "https://whc.unesco.org/",
-    "related": [
-      "Mellanöstern",
-      "salt",
-      "geologi"
-    ],
-    "category": "Geografi",
-    "_importedFrom": "curated",
-    "_createdAt": 1776272992384,
-    "_trashedAt": 1776326694743
-  },
-  {
-    "text": "Ryssland sträcker sig över 11 tidszoner — från Kaliningrad vid Östersjön till Kamtjatka vid Stilla havet.",
-    "keywords": [
-      "ryssland",
-      "tidszoner",
-      "geografi",
-      "stort",
-      "land"
-    ],
-    "sourceName": "National Geographic",
-    "sourceUrl": "https://www.nationalgeographic.com/",
-    "related": [
-      "tidszoner",
-      "Asien",
-      "Europa"
-    ],
-    "category": "Natur",
-    "_importedFrom": "curated",
-    "_createdAt": 1776272992384,
-    "_trashedAt": 1776326686387
   },
   {
     "text": "Det finns mer stjärnor i universum än det finns sandkorn på alla jordens stränder sammanlagt.",
@@ -1091,27 +2970,6 @@
     "_trashedAt": 1776325779256
   },
   {
-    "text": "Sverige har över 267 000 öar — fler än något annat land i världen. De flesta är obebodda klippor i skärgården.",
-    "keywords": [
-      "sverige",
-      "öar",
-      "skärgård",
-      "geografi",
-      "rekord"
-    ],
-    "sourceName": "SCB (Statistiska centralbyrån)",
-    "sourceUrl": "https://www.scb.se/",
-    "related": [
-      "skärgården",
-      "natur",
-      "geografi"
-    ],
-    "category": "Geografi",
-    "_importedFrom": "curated",
-    "_createdAt": 1776272992384,
-    "_trashedAt": 1776325769265
-  },
-  {
     "text": "Bläckfiskar är det enda djuret som har tre hjärtan och blått blod.",
     "category": "Djur",
     "sourceName": "Smithsonian",
@@ -1127,281 +2985,5 @@
     ],
     "_createdAt": 1776272119835,
     "_trashedAt": 1776325712803
-  },
-  {
-    "text": "Akira Kurosawa, japansk filmregissör, inspirerade Star Wars, Lejonkungen och A Fistful of Dollars. Han kallas 'Västerns sensei'.",
-    "keywords": [
-      "kurosawa",
-      "film",
-      "japan",
-      "regissör",
-      "filmhistoria"
-    ],
-    "sourceName": "British Film Institute",
-    "sourceUrl": "https://www.bfi.org.uk/",
-    "related": [
-      "japansk film",
-      "filmhistoria",
-      "Star Wars"
-    ],
-    "category": "Historia",
-    "_importedFrom": "curated",
-    "_createdAt": 1776272992383,
-    "_trashedAt": 1776324659046
-  },
-  {
-    "text": "Vasamuseet i Stockholm är Nordens mest besökta museum. Regalskeppet Vasa sjönk 1628 på sin jungfruresa efter bara 1 300 meter.",
-    "keywords": [
-      "vasa",
-      "museum",
-      "stockholm",
-      "skepp",
-      "historia",
-      "sverige"
-    ],
-    "sourceName": "Vasamuseet",
-    "sourceUrl": "https://www.vasamuseet.se/",
-    "related": [
-      "Stockholm",
-      "sjöfart",
-      "Sverige"
-    ],
-    "category": "Historia",
-    "_importedFrom": "curated",
-    "_createdAt": 1776272992383,
-    "_trashedAt": 1776324326981
-  },
-  {
-    "text": "Nobelpriset i litteratur har delats ut sedan 1901. Gabriela Mistral (Chile) var den första latinamerikanska vinnaren.",
-    "keywords": [
-      "nobel",
-      "nobelpris",
-      "litteratur",
-      "böcker",
-      "författare",
-      "svenska akademien"
-    ],
-    "sourceName": "Svenska Akademien",
-    "sourceUrl": "https://www.svenskaakademien.se/",
-    "related": [
-      "böcker",
-      "poesi",
-      "Sverige"
-    ],
-    "category": "Mat",
-    "_importedFrom": "curated",
-    "_createdAt": 1776272992383,
-    "_trashedAt": 1776324202588
-  },
-  {
-    "text": "Zlatan Ibrahimovićs cykelspark mot England 2012 från 30 meter blev FIFA:s mål av året.",
-    "keywords": [
-      "zlatan",
-      "fotboll",
-      "sport",
-      "sverige",
-      "mål"
-    ],
-    "sourceName": "FIFA",
-    "sourceUrl": "https://www.fifa.com/",
-    "related": [
-      "fotboll",
-      "Sverige",
-      "serie A"
-    ],
-    "category": "Sport",
-    "_importedFrom": "curated",
-    "_createdAt": 1776272992383,
-    "_trashedAt": 1776324018408
-  },
-  {
-    "text": "Tre Kronor tog sitt första OS-guld i ishockey i Turin 2006.",
-    "keywords": [
-      "ishockey",
-      "hockey",
-      "os",
-      "sport",
-      "sverige",
-      "tre kronor"
-    ],
-    "sourceName": "IIHF",
-    "sourceUrl": "https://www.iihf.com/",
-    "related": [
-      "Tre Kronor",
-      "OS",
-      "NHL"
-    ],
-    "category": "Sport",
-    "_importedFrom": "curated",
-    "_createdAt": 1776272992383,
-    "_trashedAt": 1776323985015
-  },
-  {
-    "text": "Björn Borg vann Wimbledon fem gånger i rad (1976–1980). Hans rivalitet med John McEnroe är legendär.",
-    "keywords": [
-      "tennis",
-      "björn borg",
-      "wimbledon",
-      "sport",
-      "sverige"
-    ],
-    "sourceName": "International Tennis Hall of Fame",
-    "sourceUrl": "https://www.tennisfame.com/",
-    "related": [
-      "Wimbledon",
-      "McEnroe",
-      "Sverige"
-    ],
-    "category": "Sport",
-    "_importedFrom": "curated",
-    "_createdAt": 1776272992383,
-    "_trashedAt": 1776323903537
-  },
-  {
-    "text": "Chuck Berry, Little Richard och Elvis Presley valdes alla in i Rock & Roll Hall of Fame:s första klass 1986.",
-    "keywords": [
-      "rock",
-      "rock and roll",
-      "elvis",
-      "chuck berry",
-      "musik",
-      "hall of fame"
-    ],
-    "sourceName": "Rock & Roll Hall of Fame",
-    "sourceUrl": "https://www.rockhall.com/",
-    "related": [
-      "Elvis",
-      "musikhistoria",
-      "rock"
-    ],
-    "category": "Musik",
-    "_importedFrom": "curated",
-    "_createdAt": 1776272992383,
-    "_trashedAt": 1776322460289
-  },
-  {
-    "text": "Polarpriset — musikens Nobelpris — delas ut i Stockholm sedan 1992 och har gått till Paul McCartney, Joni Mitchell och Metallica.",
-    "keywords": [
-      "polarpriset",
-      "musik",
-      "pris",
-      "stockholm",
-      "sverige"
-    ],
-    "sourceName": "Polarpriset / Kungliga Musikaliska Akademien",
-    "sourceUrl": "https://www.polarmusicprize.org/",
-    "related": [
-      "ABBA",
-      "Nobelpriset",
-      "Stockholm"
-    ],
-    "category": "Mat",
-    "_importedFrom": "curated",
-    "_createdAt": 1776272992383,
-    "_trashedAt": 1776322432421
-  },
-  {
-    "text": "Människan delar 60% av sitt DNA med bananer och 98,7% med schimpanser. Genetiskt sett är vi mest frukt.",
-    "keywords": [
-      "dna",
-      "banan",
-      "schimpans",
-      "genetik",
-      "kroppen"
-    ],
-    "sourceName": "National Human Genome Research Institute (NIH)",
-    "sourceUrl": "https://www.genome.gov/",
-    "related": [
-      "DNA",
-      "evolution",
-      "genetik"
-    ],
-    "category": "Mat",
-    "_importedFrom": "curated",
-    "_createdAt": 1776272992382,
-    "_trashedAt": 1776322380036
-  },
-  {
-    "text": "Din magsäck byter ut sitt slemhinne var 3–4 dag. Annars skulle magsyran smälta magen själv.",
-    "keywords": [
-      "mage",
-      "magsyra",
-      "kroppen",
-      "matsmältning"
-    ],
-    "sourceName": "National Institutes of Health (NIH)",
-    "sourceUrl": "https://www.nih.gov/",
-    "related": [
-      "kroppen",
-      "matsmältning",
-      "celler"
-    ],
-    "category": "Kroppen",
-    "_importedFrom": "curated",
-    "_createdAt": 1776272992382,
-    "_trashedAt": 1776285170461
-  },
-  {
-    "text": "Supraledning (noll elektriskt motstånd) uppstår vid extremt låga temperaturer. Ett nytt material 2023 visade tecken på supraledning nära rumstemperatur.",
-    "keywords": [
-      "supraledning",
-      "fysik",
-      "vetenskap",
-      "elektricitet",
-      "material"
-    ],
-    "sourceName": "American Physical Society",
-    "sourceUrl": "https://www.aps.org/",
-    "related": [
-      "fysik",
-      "material",
-      "energi"
-    ],
-    "category": "Vetenskap",
-    "_importedFrom": "curated",
-    "_createdAt": 1776272992382,
-    "_trashedAt": 1776282206135
-  },
-  {
-    "text": "Det finns fler möjliga schackpartier än atomer i det observerbara universum. Shannon-talet uppskattar det till 10^120 möjliga partier.",
-    "keywords": [
-      "schack",
-      "matematik",
-      "vetenskap",
-      "möjligheter",
-      "universum"
-    ],
-    "sourceName": "Shannon / Bell Labs",
-    "sourceUrl": "https://www.bell-labs.com/",
-    "related": [
-      "matematik",
-      "schack",
-      "AI"
-    ],
-    "category": "Vetenskap",
-    "_importedFrom": "curated",
-    "_createdAt": 1776272992382,
-    "_trashedAt": 1776278342194
-  },
-  {
-    "text": "Mantisräkan har 16 typer av färgreceptorer — jämfört med människans 3. De kan se ultraviolett och infrarött ljus som vi inte ens kan föreställa oss.",
-    "keywords": [
-      "mantisräka",
-      "djur",
-      "hav",
-      "syn",
-      "färg"
-    ],
-    "sourceName": "Smithsonian Ocean",
-    "sourceUrl": "https://ocean.si.edu/ocean-life/invertebrates/mantis-shrimp",
-    "related": [
-      "havet",
-      "evolution",
-      "syn"
-    ],
-    "category": "Djur",
-    "_importedFrom": "curated",
-    "_createdAt": 1776272992382,
-    "_trashedAt": 1776275001579
   }
 ]
