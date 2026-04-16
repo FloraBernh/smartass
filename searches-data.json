@@ -1,12 +1,5 @@
 [
   {
-    "query": "Katt",
-    "count": 1,
-    "firstSearched": "2026-04-16T06:44:10.106Z",
-    "lastSearched": "2026-04-16T06:44:10.106Z",
-    "hadResult": false
-  },
-  {
     "query": "blomma",
     "count": 1,
     "firstSearched": "2026-04-15T20:31:34.822Z",
@@ -19,5 +12,12 @@
     "firstSearched": "2026-04-15T20:31:40.997Z",
     "lastSearched": "2026-04-15T20:31:40.997Z",
     "hadResult": true
+  },
+  {
+    "query": "Katt",
+    "count": 1,
+    "firstSearched": "2026-04-16T06:44:10.106Z",
+    "lastSearched": "2026-04-16T06:44:10.106Z",
+    "hadResult": false
   }
 ]
