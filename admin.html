@@ -382,9 +382,98 @@
         .trash-text { font-size: 0.85rem; line-height: 1.5; margin-bottom: 0.5rem; }
         .trash-actions { display: flex; gap: 0.3rem; }
 
-        @media (max-width: 600px) {
+        @media (max-width: 768px) {
+            .main { padding: 0.75rem; }
+
+            /* Topbar */
+            .topbar { padding: 0.6rem 0.75rem; gap: 0.5rem; }
+            .topbar h1 { font-size: 0.95rem; }
+            .topbar-links { display: flex; align-items: center; gap: 0.5rem; }
+            .topbar-links a { font-size: 0.7rem; }
+            #syncBtn { padding: 0.35rem 0.7rem; font-size: 0.7rem; white-space: nowrap; }
+
+            /* Tabs — scrollable horizontally */
+            .tabs {
+                overflow-x: auto; -webkit-overflow-scrolling: touch;
+                scrollbar-width: none; gap: 0;
+            }
+            .tabs::-webkit-scrollbar { display: none; }
+            .tab {
+                flex: 0 0 auto; padding: 0.6rem 0.75rem; font-size: 0.7rem;
+                white-space: nowrap;
+            }
+
+            /* Stats grid */
             .stats-grid { grid-template-columns: repeat(2, 1fr); }
-            .main { padding: 1rem; }
+
+            /* Review cards */
+            .review-card { padding: 0.8rem; }
+            .review-text { font-size: 0.82rem; line-height: 1.5; margin-bottom: 0.5rem; }
+            .review-meta { font-size: 0.68rem; margin-bottom: 0.5rem; }
+            .review-actions { gap: 0.25rem; }
+            .review-actions .btn-sm { padding: 0.3rem 0.5rem; font-size: 0.68rem; }
+            .category-select { font-size: 0.68rem; padding: 0.25rem 0.4rem; }
+
+            /* Swipe card */
+            .swipe-card { padding: 1.2rem 1rem; border-radius: 12px; }
+            .swipe-text { font-size: 0.95rem; line-height: 1.6; margin-bottom: 1rem; }
+            .swipe-actions { gap: 0.4rem; }
+            .swipe-btn { padding: 0.75rem 0.6rem; font-size: 0.8rem; border-radius: 10px; }
+
+            /* Bulk bar */
+            .bulk-bar { flex-wrap: wrap; gap: 0.4rem; }
+            .bulk-actions { flex-wrap: wrap; gap: 0.25rem; }
+
+            /* Filter pills */
+            .filter-bar { gap: 0.3rem; }
+            .filter-pill { padding: 0.2rem 0.5rem; font-size: 0.65rem; }
+
+            /* Buttons */
+            .btn { padding: 0.45rem 0.9rem; font-size: 0.75rem; }
+            .btn-sm { padding: 0.3rem 0.55rem; font-size: 0.68rem; }
+
+            /* Generate section */
+            .generate-section { padding: 1rem; }
+            .generate-section h2 { font-size: 0.9rem; }
+            .generate-controls { gap: 0.4rem; }
+
+            /* Pagination */
+            .page-btn { padding: 0.25rem 0.5rem; font-size: 0.68rem; }
+
+            /* Duplicate cards */
+            .dup-pair { padding: 0.8rem; }
+            .dup-item { font-size: 0.8rem; }
+
+            /* Trash */
+            .trash-card { padding: 0.7rem 0.8rem; }
+            .trash-text { font-size: 0.8rem; }
+
+            /* Search list table */
+            #searchesList table { font-size: 0.75rem; }
+            #searchesList th, #searchesList td { padding: 0.35rem 0.3rem; }
+
+            /* View toggle */
+            .view-toggle-btn { padding: 0.35rem 0.7rem; font-size: 0.68rem; }
+
+            /* List search */
+            .list-search { padding: 0.5rem 0.7rem; font-size: 0.78rem; }
+
+            /* Verification */
+            .verify-status { font-size: 0.72rem; padding: 0.5rem 0.6rem; }
+        }
+
+        @media (max-width: 400px) {
+            .topbar { flex-wrap: wrap; justify-content: center; gap: 0.3rem; }
+            .topbar h1 { font-size: 0.85rem; width: 100%; text-align: center; }
+            .topbar-links { width: 100%; justify-content: center; }
+
+            .tab { padding: 0.5rem 0.6rem; font-size: 0.65rem; }
+
+            .swipe-btn { font-size: 0.75rem; padding: 0.65rem 0.4rem; }
+            .swipe-text { font-size: 0.88rem; }
+
+            .review-actions { flex-direction: column; align-items: stretch; }
+            .review-actions .btn-sm { text-align: center; }
         }
     </style>
 </head>
@@ -664,12 +753,12 @@
             if (trashCount > 0) statusCards.push({ n: trashCount, label: "Papperskorg", tab: "trash", border: "var(--red)" });
             if (searchStats.length > 0) statusCards.push({ n: searchStats.length, label: `Sökningar${missedSearches > 0 ? ' (' + missedSearches + ' utan träff)' : ''}`, tab: "searches", border: "#60A8F0" });
 
-            let html = `<div style="display:grid;grid-template-columns:repeat(${statusCards.length}, 1fr);gap:0.6rem;margin-bottom:2rem;">`;
+            let html = `<div class="status-grid" style="display:grid;grid-template-columns:repeat(auto-fit, minmax(120px, 1fr));gap:0.6rem;margin-bottom:2rem;">`;
             for (const s of statusCards) {
                 const bgStyle = s.bg ? `background:${s.bg};color:${s.color};` : `background:var(--card-bg);border-left:3px solid ${s.border};`;
-                html += `<div onclick="openTab('${s.tab}')" style="${bgStyle}border:1px solid var(--border);border-radius:var(--radius);padding:1.2rem;cursor:pointer;transition:transform 0.15s;text-align:center;" onmouseover="this.style.transform='translateY(-2px)'" onmouseout="this.style.transform=''">
-                    <div style="font-size:2rem;font-weight:800;line-height:1;">${s.n}</div>
-                    <div style="font-size:0.75rem;font-weight:500;margin-top:0.3rem;${s.labelColor ? 'color:' + s.labelColor : 'color:var(--text-secondary)'}">${s.label}</div>
+                html += `<div onclick="openTab('${s.tab}')" style="${bgStyle}border:1px solid var(--border);border-radius:var(--radius);padding:1rem;cursor:pointer;transition:transform 0.15s;text-align:center;" onmouseover="this.style.transform='translateY(-2px)'" onmouseout="this.style.transform=''">
+                    <div style="font-size:1.8rem;font-weight:800;line-height:1;">${s.n}</div>
+                    <div style="font-size:0.7rem;font-weight:500;margin-top:0.3rem;${s.labelColor ? 'color:' + s.labelColor : 'color:var(--text-secondary)'}">${s.label}</div>
                 </div>`;
             }
             html += `</div>`;
@@ -681,12 +770,12 @@
             const totalPub = totalPublished;
 
             if (totalPub > 0) {
-                html += `<div style="background:var(--card-bg);border:1px solid var(--border);border-radius:var(--radius);padding:1.5rem;margin-bottom:1.2rem;">
-                    <div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:1.2rem;">
-                        <span style="font-size:0.95rem;font-weight:700;">Kategorier</span>
-                        <span style="font-size:0.75rem;color:var(--text-secondary);">${totalPub} publicerade</span>
+                html += `<div style="background:var(--card-bg);border:1px solid var(--border);border-radius:var(--radius);padding:1.2rem;margin-bottom:1rem;overflow-x:auto;-webkit-overflow-scrolling:touch;">
+                    <div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:1rem;">
+                        <span style="font-size:0.9rem;font-weight:700;">Kategorier</span>
+                        <span style="font-size:0.72rem;color:var(--text-secondary);">${totalPub} publicerade</span>
                     </div>
-                    <div style="display:flex;align-items:flex-end;gap:4px;height:120px;">`;
+                    <div style="display:flex;align-items:flex-end;gap:4px;height:110px;min-width:${activeCats.length * 36}px;">`;
 
                 for (let i = 0; i < activeCats.length; i++) {
                     const [cat, count] = activeCats[i];
@@ -699,7 +788,7 @@
                 }
 
                 html += `</div>
-                    <div style="display:flex;gap:4px;margin-top:6px;">`;
+                    <div style="display:flex;gap:4px;margin-top:6px;min-width:${activeCats.length * 36}px;">`;
                 for (let i = 0; i < activeCats.length; i++) {
                     const [cat] = activeCats[i];
                     html += `<div style="flex:1;text-align:center;font-size:0.6rem;color:var(--text-secondary);font-weight:500;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;" title="${escapeHtml(cat)}">${escapeHtml(cat)}</div>`;
@@ -707,7 +796,7 @@
                 html += `</div></div>`;
 
                 // === CATEGORY CARDS GRID ===
-                html += `<div style="display:grid;grid-template-columns:repeat(auto-fill, minmax(160px, 1fr));gap:0.6rem;">`;
+                html += `<div style="display:grid;grid-template-columns:repeat(auto-fill, minmax(130px, 1fr));gap:0.5rem;">`;
                 for (let i = 0; i < activeCats.length; i++) {
                     const [cat, count] = activeCats[i];
                     const color = catColors[i % catColors.length];
