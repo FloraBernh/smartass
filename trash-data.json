@@ -1,5 +1,1134 @@
 [
   {
+    "text": "Japanska haiku-dikter har exakt 17 stavelser fördelade på tre rader (5-7-5). Bashō på 1600-talet anses vara mästaren.",
+    "keywords": [
+      "haiku",
+      "poesi",
+      "japan",
+      "litteratur",
+      "dikt"
+    ],
+    "sourceName": "British Library",
+    "sourceUrl": "https://www.bl.uk/",
+    "related": [
+      "Japan",
+      "poesi",
+      "dikt"
+    ],
+    "category": "Litteratur",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_trashedAt": 1776328426447
+  },
+  {
+    "text": "George Orwells '1984' säljer fortfarande hundratusentals kopior varje år. Försäljningen spikar varje gång en övervakningsskandal avslöjas.",
+    "keywords": [
+      "orwell",
+      "1984",
+      "litteratur",
+      "dystopi",
+      "övervakning"
+    ],
+    "sourceName": "British Library",
+    "sourceUrl": "https://www.bl.uk/",
+    "related": [
+      "dystopi",
+      "politik",
+      "övervakning"
+    ],
+    "category": "Litteratur",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_trashedAt": 1776328424612
+  },
+  {
+    "text": "'Don Quijote' av Cervantes (1605) anses vara den första moderna romanen. Den har sålts i över 500 miljoner exemplar.",
+    "keywords": [
+      "don quijote",
+      "cervantes",
+      "litteratur",
+      "roman",
+      "spanien"
+    ],
+    "sourceName": "Biblioteca Nacional de España",
+    "sourceUrl": "https://www.bne.es/",
+    "related": [
+      "Spanien",
+      "romanhistoria",
+      "klassiker"
+    ],
+    "category": "Mat",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_trashedAt": 1776328423262
+  },
+  {
+    "text": "Den första tryckta boken med rörliga typer var Gutenbergs Bibel (1455). Bara 49 exemplar finns kvar idag.",
+    "keywords": [
+      "gutenberg",
+      "boktryckning",
+      "litteratur",
+      "bibel",
+      "historia"
+    ],
+    "sourceName": "Library of Congress",
+    "sourceUrl": "https://www.loc.gov/",
+    "related": [
+      "boktryckning",
+      "historia",
+      "böcker"
+    ],
+    "category": "Historia",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_trashedAt": 1776328421894
+  },
+  {
+    "text": "Selma Lagerlöf var den första kvinnan att få Nobelpriset i litteratur (1909) och den första kvinnan invalds i Svenska Akademien.",
+    "keywords": [
+      "selma lagerlöf",
+      "nobel",
+      "litteratur",
+      "sverige",
+      "författare"
+    ],
+    "sourceName": "Nobelprize.org",
+    "sourceUrl": "https://www.nobelprize.org/prizes/literature/1909/",
+    "related": [
+      "Nobelpriset",
+      "Sverige",
+      "litteratur"
+    ],
+    "category": "Litteratur",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_trashedAt": 1776328417028
+  },
+  {
+    "text": "Franz Kafkas sista önskan var att alla hans manuskript skulle brännas. Lyckligtvis ignorerade hans vän Max Brod önskan — annars hade vi aldrig fått läsa 'Processen'.",
+    "keywords": [
+      "kafka",
+      "litteratur",
+      "böcker",
+      "författare",
+      "processen"
+    ],
+    "sourceName": "Bodleian Library, Oxford",
+    "sourceUrl": "https://www.bodleian.ox.ac.uk/",
+    "related": [
+      "litteratur",
+      "Prag",
+      "modernism"
+    ],
+    "category": "Litteratur",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_trashedAt": 1776328415526
+  },
+  {
+    "text": "Harry Potter-serien har sålt över 500 miljoner kopior på 80 språk. J.K. Rowling skrev första boken på kaféer i Edinburgh.",
+    "keywords": [
+      "harry potter",
+      "jk rowling",
+      "litteratur",
+      "böcker",
+      "fantasy",
+      "magi"
+    ],
+    "sourceName": "British Library",
+    "sourceUrl": "https://www.bl.uk/",
+    "related": [
+      "fantasy",
+      "film",
+      "barnlitteratur"
+    ],
+    "category": "Litteratur",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_trashedAt": 1776328414176
+  },
+  {
+    "text": "Tolkiens 'Sagan om ringen' tog 12 år att skriva. Han skapade hela språk (inklusive alviska) innan han ens började med handlingen.",
+    "keywords": [
+      "tolkien",
+      "sagan om ringen",
+      "litteratur",
+      "fantasy",
+      "alviska"
+    ],
+    "sourceName": "Bodleian Library, Oxford",
+    "sourceUrl": "https://www.bodleian.ox.ac.uk/",
+    "related": [
+      "fantasy",
+      "film",
+      "språk"
+    ],
+    "category": "Litteratur",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_trashedAt": 1776328410540
+  },
+  {
+    "text": "Astrid Lindgrens böcker har översatts till 107 språk. Pippi Långstrump publicerades 1945 efter att ha refuserats av Bonniers.",
+    "keywords": [
+      "astrid lindgren",
+      "pippi",
+      "litteratur",
+      "böcker",
+      "sverige",
+      "barn"
+    ],
+    "sourceName": "Astrid Lindgren Company",
+    "sourceUrl": "https://www.astridlindgren.com/",
+    "related": [
+      "barnlitteratur",
+      "Sverige",
+      "Pippi"
+    ],
+    "category": "Litteratur",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_trashedAt": 1776328409005
+  },
+  {
+    "text": "Agatha Christie är den mest sålda fiktionsförfattaren genom tiderna med över 2 miljarder sålda böcker — bara Bibeln och Shakespeare slår henne.",
+    "keywords": [
+      "agatha christie",
+      "litteratur",
+      "deckare",
+      "böcker",
+      "författare"
+    ],
+    "sourceName": "Guinness World Records",
+    "sourceUrl": "https://www.guinnessworldrecords.com/",
+    "related": [
+      "deckare",
+      "böcker",
+      "England"
+    ],
+    "category": "Litteratur",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_trashedAt": 1776328405384
+  },
+  {
+    "text": "Shakespeare uppfann över 1 700 engelska ord, bland annat 'lonely', 'generous', 'eyeball' och 'bedroom'.",
+    "keywords": [
+      "shakespeare",
+      "litteratur",
+      "ord",
+      "engelska",
+      "författare"
+    ],
+    "sourceName": "Oxford English Dictionary",
+    "sourceUrl": "https://www.oed.com/",
+    "related": [
+      "litteratur",
+      "engelska",
+      "teater"
+    ],
+    "category": "Litteratur",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_trashedAt": 1776328402300
+  },
+  {
+    "text": "Linux operativsystem skapades 1991 av finlandssvensken Linus Torvalds som student vid Helsingfors universitet. Det driver idag majoriteten av världens servrar.",
+    "keywords": [
+      "linux",
+      "operativsystem",
+      "teknologi",
+      "torvalds",
+      "öppen källkod"
+    ],
+    "sourceName": "Linux Foundation",
+    "sourceUrl": "https://www.linuxfoundation.org/",
+    "related": [
+      "öppen källkod",
+      "datorer",
+      "Finland"
+    ],
+    "category": "Teknologi",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_trashedAt": 1776328401049
+  },
+  {
+    "text": "3D-skrivare kan numera skriva ut allt från proteser till hus. NASA testar att 3D-printa mat åt astronauter.",
+    "keywords": [
+      "3d-skrivare",
+      "teknologi",
+      "tillverkning",
+      "framtid",
+      "nasa"
+    ],
+    "sourceName": "NASA",
+    "sourceUrl": "https://www.nasa.gov/",
+    "related": [
+      "tillverkning",
+      "innovation",
+      "rymden"
+    ],
+    "category": "Rymden",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_trashedAt": 1776328399564
+  },
+  {
+    "text": "Artificiell intelligens slog världsmästaren i Go (AlphaGo vs Lee Sedol) 2016 — ett spel som ansågs för komplext för datorer.",
+    "keywords": [
+      "ai",
+      "go",
+      "alphago",
+      "teknologi",
+      "artificiell intelligens"
+    ],
+    "sourceName": "DeepMind / Nature",
+    "sourceUrl": "https://www.nature.com/articles/nature16961",
+    "related": [
+      "AI",
+      "schack",
+      "deepmind"
+    ],
+    "category": "Gaming",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_trashedAt": 1776328398148
+  },
+  {
+    "text": "USB-kontakten designades 1996 och skapades för att man alltid sätter in den åt fel håll — tills USB-C löste problemet 2014.",
+    "keywords": [
+      "usb",
+      "teknologi",
+      "kontakt",
+      "dator",
+      "design"
+    ],
+    "sourceName": "USB Implementers Forum",
+    "sourceUrl": "https://www.usb.org/",
+    "related": [
+      "datorer",
+      "design",
+      "standard"
+    ],
+    "category": "Mat",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_trashedAt": 1776328395979
+  },
+  {
+    "text": "Ericsson i Stockholm byggde världens första kommersiella mobiltelefonsystem 1981 (NMT). Sverige var först i världen med mobiltelefoni.",
+    "keywords": [
+      "ericsson",
+      "mobil",
+      "teknologi",
+      "sverige",
+      "telefon",
+      "nmt"
+    ],
+    "sourceName": "Tekniska museet",
+    "sourceUrl": "https://www.tekniskamuseet.se/",
+    "related": [
+      "Sverige",
+      "telefon",
+      "Ericsson"
+    ],
+    "category": "Teknologi",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_trashedAt": 1776328392276
+  },
+  {
+    "text": "WiFi-symbolen med tre bågar representerar radiovågor som sprider sig från en central punkt. Tekniken lanserades 1997.",
+    "keywords": [
+      "wifi",
+      "internet",
+      "teknologi",
+      "trådlös",
+      "nätverk"
+    ],
+    "sourceName": "IEEE",
+    "sourceUrl": "https://www.ieee.org/",
+    "related": [
+      "internet",
+      "trådlöst",
+      "hem"
+    ],
+    "category": "Teknologi",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_trashedAt": 1776328390941
+  },
+  {
+    "text": "QR-koder uppfanns i Japan 1994 av Denso Wave för att spåra bildelar. Idag används de för allt från betalningar till restaurangmenyer.",
+    "keywords": [
+      "qr-kod",
+      "teknologi",
+      "japan",
+      "uppfinning",
+      "streckkod"
+    ],
+    "sourceName": "Denso Wave",
+    "sourceUrl": "https://www.denso-wave.com/en/",
+    "related": [
+      "Japan",
+      "uppfinningar",
+      "digital"
+    ],
+    "category": "Teknologi",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_trashedAt": 1776328389657
+  },
+  {
+    "text": "Första iPhonen presenterades av Steve Jobs 2007. Han sa: 'Idag uppfinner Apple telefonen på nytt.' Och det stämde.",
+    "keywords": [
+      "iphone",
+      "apple",
+      "teknologi",
+      "smartphone",
+      "steve jobs"
+    ],
+    "sourceName": "Computer History Museum",
+    "sourceUrl": "https://computerhistory.org/",
+    "related": [
+      "Apple",
+      "smartphones",
+      "innovation"
+    ],
+    "category": "Teknologi",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_trashedAt": 1776328388372
+  },
+  {
+    "text": "Moores lag förutspådde 1965 att antalet transistorer på ett chip fördubblas ungefär vartannat år. Det har stämt i nästan 60 år.",
+    "keywords": [
+      "moores lag",
+      "teknologi",
+      "chip",
+      "transistor",
+      "dator"
+    ],
+    "sourceName": "Intel / Computer History Museum",
+    "sourceUrl": "https://computerhistory.org/",
+    "related": [
+      "datorer",
+      "processorer",
+      "innovation"
+    ],
+    "category": "Teknologi",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_trashedAt": 1776328387088
+  },
+  {
+    "text": "Bluetooth-teknologin namngavs efter den danske vikingakungen Harald Blåtand (Harald Bluetooth), som enade Skandinavien.",
+    "keywords": [
+      "bluetooth",
+      "teknologi",
+      "vikingar",
+      "trådlös",
+      "namn"
+    ],
+    "sourceName": "IEEE / Bluetooth SIG",
+    "sourceUrl": "https://www.bluetooth.com/",
+    "related": [
+      "vikingar",
+      "trådlöst",
+      "kommunikation"
+    ],
+    "category": "Historia",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_trashedAt": 1776328385671
+  },
+  {
+    "text": "Den första webbsidan publicerades 1991 av Tim Berners-Lee på CERN. Den handlade om World Wide Web-projektet.",
+    "keywords": [
+      "www",
+      "webb",
+      "internet",
+      "teknologi",
+      "cern",
+      "berners-lee"
+    ],
+    "sourceName": "CERN",
+    "sourceUrl": "https://info.cern.ch/hypertext/WWW/TheProject.html",
+    "related": [
+      "internet",
+      "CERN",
+      "webben"
+    ],
+    "category": "Teknologi",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_trashedAt": 1776328384136
+  },
+  {
+    "text": "GPS-systemet måste korrigera för Einsteins relativitetsteori. Utan korrigeringen skulle din position vara fel med 10 km per dag.",
+    "keywords": [
+      "gps",
+      "teknologi",
+      "einstein",
+      "relativitet",
+      "satelliter"
+    ],
+    "sourceName": "NASA",
+    "sourceUrl": "https://www.nasa.gov/",
+    "related": [
+      "Einstein",
+      "satelliter",
+      "navigation"
+    ],
+    "category": "Mat",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_trashedAt": 1776328381835
+  },
+  {
+    "text": "Det första e-postmeddelandet skickades 1971 av Ray Tomlinson. Han mindes inte vad det stod — troligen 'QWERTYUIOP' eller liknande.",
+    "keywords": [
+      "email",
+      "epost",
+      "teknologi",
+      "internet",
+      "historia"
+    ],
+    "sourceName": "Computer History Museum",
+    "sourceUrl": "https://computerhistory.org/",
+    "related": [
+      "internet",
+      "kommunikation",
+      "historia"
+    ],
+    "category": "Mat",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_trashedAt": 1776328378014
+  },
+  {
+    "text": "Mer än hälften av all internettrafik kommer från botar, inte människor.",
+    "keywords": [
+      "internet",
+      "botar",
+      "teknologi",
+      "webb"
+    ],
+    "sourceName": "Imperva (Thales Group)",
+    "sourceUrl": "https://www.imperva.com/resources/reports/2024-Imperva-Bad-Bot-Report.pdf",
+    "related": [
+      "AI",
+      "säkerhet",
+      "webben"
+    ],
+    "category": "Mat",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_trashedAt": 1776328374612
+  },
+  {
+    "text": "Nordkorea och Sydkorea befinner sig tekniskt sett fortfarande i krig. Vapenstilleståndet 1953 avslutade aldrig kriget formellt.",
+    "keywords": [
+      "nordkorea",
+      "sydkorea",
+      "krig",
+      "geografi",
+      "historia",
+      "korea"
+    ],
+    "sourceName": "United Nations",
+    "sourceUrl": "https://www.un.org/",
+    "related": [
+      "Korea",
+      "krig",
+      "Asien"
+    ],
+    "category": "Historia",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_trashedAt": 1776328355030
+  },
+  {
+    "text": "Japan består av 6 852 öar, men de flesta är obebodda. Bara 430 av öarna har invånare.",
+    "keywords": [
+      "japan",
+      "öar",
+      "geografi",
+      "asien",
+      "arkipelag"
+    ],
+    "sourceName": "Geospatial Information Authority of Japan",
+    "sourceUrl": "https://www.gsi.go.jp/ENGLISH/",
+    "related": [
+      "Japan",
+      "öar",
+      "Asien"
+    ],
+    "category": "Geografi",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_trashedAt": 1776328353945
+  },
+  {
+    "text": "Sahara är inte världens största öken — Antarktis är det. En öken definieras av låg nederbörd, inte sand.",
+    "keywords": [
+      "sahara",
+      "antarktis",
+      "öken",
+      "geografi",
+      "definition"
+    ],
+    "sourceName": "National Geographic",
+    "sourceUrl": "https://www.nationalgeographic.com/",
+    "related": [
+      "öknar",
+      "Antarktis",
+      "klimat"
+    ],
+    "category": "Mat",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_trashedAt": 1776328352344
+  },
+  {
+    "text": "Vatikanstaten är världens minsta land — bara 0,44 km². Det har egen järnvägsstation, postkontor och radiosändare.",
+    "keywords": [
+      "vatikanen",
+      "litet land",
+      "geografi",
+      "rom",
+      "europa"
+    ],
+    "sourceName": "UNESCO World Heritage Centre",
+    "sourceUrl": "https://whc.unesco.org/en/list/286/",
+    "related": [
+      "Rom",
+      "påven",
+      "Europa"
+    ],
+    "category": "Geografi",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_trashedAt": 1776328350726
+  },
+  {
+    "text": "Bhutan mäter sin framgång i Gross National Happiness (BNH) istället för BNP. Det är det enda landet som är koldioxidnegativt.",
+    "keywords": [
+      "bhutan",
+      "lycka",
+      "geografi",
+      "miljö",
+      "koldioxid"
+    ],
+    "sourceName": "United Nations Development Programme",
+    "sourceUrl": "https://www.undp.org/",
+    "related": [
+      "Bhutan",
+      "miljö",
+      "Asien"
+    ],
+    "category": "Konst & Kultur",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_trashedAt": 1776328348825
+  },
+  {
+    "text": "Finland har det högsta antalet bastuanläggningar per capita i världen — ungefär 3,3 miljoner bastur för 5,5 miljoner invånare.",
+    "keywords": [
+      "finland",
+      "bastu",
+      "geografi",
+      "kultur",
+      "tradition"
+    ],
+    "sourceName": "UNESCO",
+    "sourceUrl": "https://ich.unesco.org/en/RL/sauna-culture-in-finland-01596",
+    "related": [
+      "Finland",
+      "kultur",
+      "tradition"
+    ],
+    "category": "Geografi",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_trashedAt": 1776328347323
+  },
+  {
+    "text": "Nilen och Amazonas tävlar om titeln 'världens längsta flod'. Beroende på mätmetod är den ena eller andra längst — båda runt 6 650 km.",
+    "keywords": [
+      "nilen",
+      "amazonas",
+      "flod",
+      "geografi",
+      "längst"
+    ],
+    "sourceName": "National Geographic",
+    "sourceUrl": "https://www.nationalgeographic.com/",
+    "related": [
+      "floder",
+      "Afrika",
+      "Sydamerika"
+    ],
+    "category": "Geografi",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_trashedAt": 1776328345806
+  },
+  {
+    "text": "Monaco är världens mest tätbefolkade land med 26 000 invånare per km². Hela landet är mindre än Central Park i New York.",
+    "keywords": [
+      "monaco",
+      "litet land",
+      "geografi",
+      "tätbefolkat",
+      "europa"
+    ],
+    "sourceName": "United Nations Statistics Division",
+    "sourceUrl": "https://unstats.un.org/",
+    "related": [
+      "länder",
+      "Europa",
+      "storlek"
+    ],
+    "category": "Geografi",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_trashedAt": 1776328344322
+  },
+  {
+    "text": "Kanada har fler sjöar än alla andra länder i världen — tillsammans. Över 60% av världens sjöar finns i Kanada.",
+    "keywords": [
+      "kanada",
+      "sjöar",
+      "geografi",
+      "vatten",
+      "natur"
+    ],
+    "sourceName": "Natural Resources Canada",
+    "sourceUrl": "https://www.nrcan.gc.ca/",
+    "related": [
+      "sjöar",
+      "Kanada",
+      "natur"
+    ],
+    "category": "Vetenskap",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_trashedAt": 1776328338833
+  },
+  {
+    "text": "Amazonfloden har inget bro. Trots att den är 6 400 km lång har ingen bro någonsin byggts över den.",
+    "keywords": [
+      "amazonfloden",
+      "brasilien",
+      "geografi",
+      "flod",
+      "regnskog"
+    ],
+    "sourceName": "National Geographic",
+    "sourceUrl": "https://www.nationalgeographic.com/",
+    "related": [
+      "Amazonas",
+      "Brasilien",
+      "regnskog"
+    ],
+    "category": "Natur",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_trashedAt": 1776328337083
+  },
+  {
+    "text": "Australien är bredare än månen. Australien mäter 4 000 km från kust till kust, medan månens diameter är 3 400 km.",
+    "keywords": [
+      "australien",
+      "månen",
+      "geografi",
+      "storlek",
+      "kontinent"
+    ],
+    "sourceName": "NASA",
+    "sourceUrl": "https://science.nasa.gov/moon/facts/",
+    "related": [
+      "Australien",
+      "månen",
+      "storlek"
+    ],
+    "category": "Rymden",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_trashedAt": 1776328333196
+  },
+  {
+    "text": "Döda havet är den lägsta punkten på jordens landyta — 430 meter under havsnivån. Salthalten är 34% — tio gånger saltare än havet.",
+    "keywords": [
+      "döda havet",
+      "salt",
+      "geografi",
+      "lägst",
+      "jordanien",
+      "israel"
+    ],
+    "sourceName": "UNESCO",
+    "sourceUrl": "https://whc.unesco.org/",
+    "related": [
+      "Mellanöstern",
+      "salt",
+      "geologi"
+    ],
+    "category": "Geografi",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_trashedAt": 1776328330410
+  },
+  {
+    "text": "Ryssland sträcker sig över 11 tidszoner — från Kaliningrad vid Östersjön till Kamtjatka vid Stilla havet.",
+    "keywords": [
+      "ryssland",
+      "tidszoner",
+      "geografi",
+      "stort",
+      "land"
+    ],
+    "sourceName": "National Geographic",
+    "sourceUrl": "https://www.nationalgeographic.com/",
+    "related": [
+      "tidszoner",
+      "Asien",
+      "Europa"
+    ],
+    "category": "Natur",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_trashedAt": 1776328327892
+  },
+  {
+    "text": "Island växer med ungefär 2,5 cm per år på grund av tektonisk aktivitet. Ön sitter på gränsen mellan två kontinentalplattor.",
+    "keywords": [
+      "island",
+      "tektonik",
+      "geografi",
+      "vulkan",
+      "geologi"
+    ],
+    "sourceName": "U.S. Geological Survey (USGS)",
+    "sourceUrl": "https://www.usgs.gov/",
+    "related": [
+      "vulkaner",
+      "tektonik",
+      "Atlanterhavet"
+    ],
+    "category": "Natur",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_trashedAt": 1776328322928
+  },
+  {
+    "text": "Sverige har över 267 000 öar — fler än något annat land i världen. De flesta är obebodda klippor i skärgården.",
+    "keywords": [
+      "sverige",
+      "öar",
+      "skärgård",
+      "geografi",
+      "rekord"
+    ],
+    "sourceName": "SCB (Statistiska centralbyrån)",
+    "sourceUrl": "https://www.scb.se/",
+    "related": [
+      "skärgården",
+      "natur",
+      "geografi"
+    ],
+    "category": "Geografi",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_trashedAt": 1776328318706
+  },
+  {
+    "text": "Musik kan bokstavligen ge dig frossa. Dopamin frigörs i hjärnan precis innan din favoritdel av en låt — hjärnan förutser njutningen.",
+    "keywords": [
+      "musik",
+      "frossa",
+      "dopamin",
+      "psykologi",
+      "hjärnan"
+    ],
+    "sourceName": "McGill University / Nature Neuroscience",
+    "sourceUrl": "https://www.nature.com/neuro/",
+    "related": [
+      "musik",
+      "dopamin",
+      "njutning"
+    ],
+    "category": "Kroppen",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992385,
+    "_trashedAt": 1776328007931
+  },
+  {
+    "text": "Dina pupiller vidgas när du tittar på någon du är attraherad av. Det är därför romantiska middagar har svag belysning — pupillerna vidgas naturligt.",
+    "keywords": [
+      "pupiller",
+      "attraktion",
+      "psykologi",
+      "ögon",
+      "kärlek"
+    ],
+    "sourceName": "University of Chicago / Psychological Science",
+    "sourceUrl": "https://www.psychologicalscience.org/",
+    "related": [
+      "attraktion",
+      "ögon",
+      "kroppsspråk"
+    ],
+    "category": "Djur",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992385,
+    "_trashedAt": 1776327867491
+  },
+  {
+    "text": "Ditt arbetsminne kan bara hålla 4–7 saker åt gången. Det är därför telefonnummer har 7 siffror — anpassat efter hjärnans kapacitet.",
+    "keywords": [
+      "arbetsminne",
+      "minne",
+      "psykologi",
+      "hjärnan",
+      "kapacitet"
+    ],
+    "sourceName": "American Psychological Association",
+    "sourceUrl": "https://www.apa.org/",
+    "related": [
+      "minne",
+      "hjärnan",
+      "lärande"
+    ],
+    "category": "Kroppen",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992385,
+    "_trashedAt": 1776327846013
+  },
+  {
+    "text": "Den första tryckta boken med rörliga typer var Gutenbergs Bibel (1455). Bara 49 exemplar finns kvar idag.",
+    "keywords": [
+      "gutenberg",
+      "boktryckning",
+      "litteratur",
+      "bibel",
+      "historia"
+    ],
+    "sourceName": "Library of Congress",
+    "sourceUrl": "https://www.loc.gov/",
+    "related": [
+      "boktryckning",
+      "historia",
+      "böcker"
+    ],
+    "category": "Historia",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_trashedAt": 1776327317551
+  },
+  {
+    "text": "Astrid Lindgrens böcker har översatts till 107 språk. Pippi Långstrump publicerades 1945 efter att ha refuserats av Bonniers.",
+    "keywords": [
+      "astrid lindgren",
+      "pippi",
+      "litteratur",
+      "böcker",
+      "sverige",
+      "barn"
+    ],
+    "sourceName": "Astrid Lindgren Company",
+    "sourceUrl": "https://www.astridlindgren.com/",
+    "related": [
+      "barnlitteratur",
+      "Sverige",
+      "Pippi"
+    ],
+    "category": "Litteratur",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_trashedAt": 1776327227572
+  },
+  {
+    "text": "USB-kontakten designades 1996 och skapades för att man alltid sätter in den åt fel håll — tills USB-C löste problemet 2014.",
+    "keywords": [
+      "usb",
+      "teknologi",
+      "kontakt",
+      "dator",
+      "design"
+    ],
+    "sourceName": "USB Implementers Forum",
+    "sourceUrl": "https://www.usb.org/",
+    "related": [
+      "datorer",
+      "design",
+      "standard"
+    ],
+    "category": "Mat",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_trashedAt": 1776327168649
+  },
+  {
+    "text": "GPS-systemet måste korrigera för Einsteins relativitetsteori. Utan korrigeringen skulle din position vara fel med 10 km per dag.",
+    "keywords": [
+      "gps",
+      "teknologi",
+      "einstein",
+      "relativitet",
+      "satelliter"
+    ],
+    "sourceName": "NASA",
+    "sourceUrl": "https://www.nasa.gov/",
+    "related": [
+      "Einstein",
+      "satelliter",
+      "navigation"
+    ],
+    "category": "Mat",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_trashedAt": 1776327046256
+  },
+  {
+    "text": "Den första datorn (ENIAC) vägde 27 ton och fyllde ett helt rum. Din mobil har miljontals gånger mer datorkraft.",
+    "keywords": [
+      "dator",
+      "teknologi",
+      "eniac",
+      "mobil",
+      "telefon"
+    ],
+    "sourceName": "University of Pennsylvania",
+    "sourceUrl": "https://www.seas.upenn.edu/~museum/",
+    "related": [
+      "internet",
+      "programmering",
+      "AI"
+    ],
+    "category": "Teknologi",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_trashedAt": 1776326998881
+  },
+  {
+    "text": "Döda havet är den lägsta punkten på jordens landyta — 430 meter under havsnivån. Salthalten är 34% — tio gånger saltare än havet.",
+    "keywords": [
+      "döda havet",
+      "salt",
+      "geografi",
+      "lägst",
+      "jordanien",
+      "israel"
+    ],
+    "sourceName": "UNESCO",
+    "sourceUrl": "https://whc.unesco.org/",
+    "related": [
+      "Mellanöstern",
+      "salt",
+      "geologi"
+    ],
+    "category": "Geografi",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_trashedAt": 1776326694743
+  },
+  {
+    "text": "Ryssland sträcker sig över 11 tidszoner — från Kaliningrad vid Östersjön till Kamtjatka vid Stilla havet.",
+    "keywords": [
+      "ryssland",
+      "tidszoner",
+      "geografi",
+      "stort",
+      "land"
+    ],
+    "sourceName": "National Geographic",
+    "sourceUrl": "https://www.nationalgeographic.com/",
+    "related": [
+      "tidszoner",
+      "Asien",
+      "Europa"
+    ],
+    "category": "Natur",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_trashedAt": 1776326686387
+  },
+  {
+    "text": "Det finns mer stjärnor i universum än det finns sandkorn på alla jordens stränder sammanlagt.",
+    "category": "Rymden",
+    "sourceName": "NASA",
+    "sourceUrl": "https://www.nasa.gov",
+    "keywords": [
+      "stjärnor",
+      "universum",
+      "galaxer"
+    ],
+    "related": [
+      "astronomi",
+      "rymdforskning"
+    ],
+    "_createdAt": 1776272543363,
+    "_trashedAt": 1776325790910
+  },
+  {
+    "text": "Antalet möjliga schackdrag är fler än antalet atomer i kända universum, vilket gör schack till ett av de mest komplexa spelen.",
+    "category": "Gaming",
+    "sourceName": "IBM",
+    "sourceUrl": "https://www.ibm.com/",
+    "keywords": [
+      "schack",
+      "komplexitet",
+      "spelteori"
+    ],
+    "related": [
+      "strategi",
+      "logik"
+    ],
+    "_createdAt": 1776272119835,
+    "_trashedAt": 1776325779256
+  },
+  {
+    "text": "Sverige har över 267 000 öar — fler än något annat land i världen. De flesta är obebodda klippor i skärgården.",
+    "keywords": [
+      "sverige",
+      "öar",
+      "skärgård",
+      "geografi",
+      "rekord"
+    ],
+    "sourceName": "SCB (Statistiska centralbyrån)",
+    "sourceUrl": "https://www.scb.se/",
+    "related": [
+      "skärgården",
+      "natur",
+      "geografi"
+    ],
+    "category": "Geografi",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_trashedAt": 1776325769265
+  },
+  {
+    "text": "Bläckfiskar är det enda djuret som har tre hjärtan och blått blod.",
+    "category": "Djur",
+    "sourceName": "Smithsonian",
+    "sourceUrl": "https://www.smithsonianmag.com/science-nature/what-makes-octopus-lives-180973762/",
+    "keywords": [
+      "bläckfisk",
+      "hjärtan",
+      "blått blod"
+    ],
+    "related": [
+      "marint liv",
+      "hjärtan"
+    ],
+    "_createdAt": 1776272119835,
+    "_trashedAt": 1776325712803
+  },
+  {
     "text": "Akira Kurosawa, japansk filmregissör, inspirerade Star Wars, Lejonkungen och A Fistful of Dollars. Han kallas 'Västerns sensei'.",
     "keywords": [
       "kurosawa",
