@@ -391,7 +391,10 @@
 <body>
     <div class="topbar">
         <h1>SmartAss Admin</h1>
-        <div class="topbar-links"><a href="index.html">Publik sida</a></div>
+        <div class="topbar-links">
+            <button id="syncBtn" onclick="syncToGitHub()" style="background:var(--green);color:#222;border:none;padding:0.4rem 1rem;border-radius:8px;font-weight:600;font-size:0.78rem;cursor:pointer;font-family:inherit;">🔄 Synka till sidan</button>
+            <a href="index.html">Publik sida</a>
+        </div>
     </div>
 
     <div class="main">
@@ -1789,6 +1792,77 @@ Svara i detta format (BARA JSON, inget annat):
             refreshAll();
             setTimeout(() => { statusEl.textContent = ""; }, 5000);
         });
+
+        // ========== SYNC TO GITHUB ==========
+        const GITHUB_REPO = "FloraBernh/smartass";
+        const GITHUB_FILE = "published-data.json";
+
+        async function syncToGitHub() {
+            const btn = document.getElementById("syncBtn");
+            const originalText = btn.textContent;
+            btn.textContent = "⏳ Synkar...";
+            btn.disabled = true;
+
+            let token = localStorage.getItem("smartass_gh_token");
+            if (!token) {
+                token = prompt("Ange din GitHub Personal Access Token (sparas lokalt):");
+                if (!token) { btn.textContent = originalText; btn.disabled = false; return; }
+                localStorage.setItem("smartass_gh_token", token);
+            }
+
+            const published = getPublished();
+            const content = btoa(unescape(encodeURIComponent(JSON.stringify(published, null, 2))));
+
+            try {
+                // Get current file SHA (needed for update)
+                let sha = "";
+                try {
+                    const existing = await fetch(`https://api.github.com/repos/${GITHUB_REPO}/contents/${GITHUB_FILE}`, {
+                        headers: { "Authorization": `token ${token}` }
+                    });
+                    if (existing.ok) {
+                        const data = await existing.json();
+                        sha = data.sha;
+                    }
+                } catch {}
+
+                const body = {
+                    message: `Synka ${published.length} publicerade fakta`,
+                    content: content,
+                    branch: "main"
+                };
+                if (sha) body.sha = sha;
+
+                const res = await fetch(`https://api.github.com/repos/${GITHUB_REPO}/contents/${GITHUB_FILE}`, {
+                    method: "PUT",
+                    headers: {
+                        "Authorization": `token ${token}`,
+                        "Content-Type": "application/json"
+                    },
+                    body: JSON.stringify(body)
+                });
+
+                if (res.ok) {
+                    btn.textContent = "✅ Synkat!";
+                    btn.style.background = "var(--green)";
+                    setTimeout(() => { btn.textContent = originalText; btn.disabled = false; }, 3000);
+                } else {
+                    const err = await res.json();
+                    if (res.status === 401) {
+                        localStorage.removeItem("smartass_gh_token");
+                        alert("Ogiltig token. Försök igen.");
+                    } else {
+                        alert("Fel vid synk: " + (err.message || "Okänt fel"));
+                    }
+                    btn.textContent = originalText;
+                    btn.disabled = false;
+                }
+            } catch (e) {
+                alert("Nätverksfel: " + e.message);
+                btn.textContent = originalText;
+                btn.disabled = false;
+            }
+        }
 
         // ========== TOUCH SWIPE ==========
         function initSwipeTouch() {

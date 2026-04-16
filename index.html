@@ -640,10 +640,16 @@
             return div.innerHTML;
         }
 
-        // Get active facts — if admin has imported curated facts for review,
-        // only show admin-published facts (not raw FACTS_DB)
+        // Published facts — loaded from published-data.json (synced via admin)
+        let _publishedFacts = [];
+        async function loadPublishedFacts() {
+            try {
+                const res = await fetch("published-data.json?" + Date.now());
+                if (res.ok) _publishedFacts = await res.json();
+            } catch {}
+        }
         function getAllFacts() {
-            try { return JSON.parse(localStorage.getItem("smartass_published") || "[]"); } catch { return []; }
+            return _publishedFacts;
         }
 
         function searchCuratedFacts(topic) {
@@ -885,6 +891,9 @@
 
             factArea.innerHTML = html;
         }
+
+        // ========== INIT ==========
+        loadPublishedFacts();
 
         // ========== EVENT LISTENERS ==========
         document.getElementById("searchForm").addEventListener("submit", (e) => {
