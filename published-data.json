@@ -10021,5 +10021,4447 @@
       "verified": true,
       "verifiedAt": 1776325543124
     }
+  },
+  {
+    "text": "Island växer med ungefär 2,5 cm per år på grund av tektonisk aktivitet. Ön sitter nämligen på gränsen mellan två kontinentalplattor.",
+    "keywords": [
+      "island",
+      "tektonik",
+      "geografi",
+      "vulkan",
+      "geologi"
+    ],
+    "sourceName": "U.S. Geological Survey (USGS)",
+    "sourceUrl": "https://www.usgs.gov/",
+    "related": [
+      "vulkaner",
+      "tektonik",
+      "Atlanterhavet"
+    ],
+    "category": "Geografi",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_verification": {
+      "sourceCount": 4,
+      "sources": [
+        {
+          "name": "U.S. Geological Survey",
+          "url": "https://usgs.gov/",
+          "source": "U.S. Geological Survey"
+        },
+        {
+          "name": "National Geographic",
+          "url": "https://www.nationalgeographic.com/",
+          "source": "National Geographic"
+        },
+        {
+          "name": "Geological Institute of Iceland",
+          "url": "https://www.vedur.is/",
+          "source": "Geological Institute of Iceland"
+        },
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.com/news/science-environment-55486718",
+          "source": "BBC News"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 9,
+      "aiExplanation": "Island ligger på gränsen mellan den nordamerikanska och eurasiska kontinentalplattan, vilket leder till tektonisk aktivitet som får ön att växa i storlek, med en uppskattning av cirka 2,5 cm per år.",
+      "verified": true,
+      "verifiedAt": 1776326671557
+    }
+  },
+  {
+    "text": "Australien är bredare än månen med sina 4 000 km från kust till kust. Månens diameter bara är 3 400 km.",
+    "keywords": [
+      "australien",
+      "månen",
+      "geografi",
+      "storlek",
+      "kontinent"
+    ],
+    "sourceName": "NASA",
+    "sourceUrl": "https://science.nasa.gov/moon/facts/",
+    "related": [
+      "Australien",
+      "månen",
+      "storlek"
+    ],
+    "category": "Geografi",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_verification": {
+      "sourceCount": 4,
+      "sources": [
+        {
+          "title": "Jorduppgång",
+          "url": "https://sv.wikipedia.org/wiki/Jorduppg%C3%A5ng",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "NASA - The Moon",
+          "url": "https://solarsystem.nasa.gov/moons/earths-moon/overview/",
+          "source": "NASA - The Moon"
+        },
+        {
+          "name": "World Atlas - Australia",
+          "url": "https://www.worldatlas.com/articles/how-wide-is-australia.html",
+          "source": "World Atlas - Australia"
+        },
+        {
+          "name": "National Geographic - Moon Facts",
+          "url": "https://www.nationalgeographic.com/science/article/moon",
+          "source": "National Geographic - Moon Facts"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 9,
+      "aiExplanation": "Australien är ungefär 4 000 km brett från kust till kust, medan Månens diameter är cirka 3 400 km, vilket gör att Australien är bredare än månen.",
+      "verified": true,
+      "verifiedAt": 1776326747321
+    }
+  },
+  {
+    "text": "Amazonfloden har ingen bro. Trots att den är 6 400 km lång har ingen bro någonsin byggts över den.",
+    "keywords": [
+      "amazonfloden",
+      "brasilien",
+      "geografi",
+      "flod",
+      "regnskog"
+    ],
+    "sourceName": "National Geographic",
+    "sourceUrl": "https://www.nationalgeographic.com/",
+    "related": [
+      "Amazonas",
+      "Brasilien",
+      "regnskog"
+    ],
+    "category": "Natur",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_verification": {
+      "sourceCount": 4,
+      "sources": [
+        {
+          "title": "Brasilien",
+          "url": "https://sv.wikipedia.org/wiki/Brasilien",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "National Geographic",
+          "url": "https://www.nationalgeographic.com/environment/article/amazon-river",
+          "source": "National Geographic"
+        },
+        {
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/world/2020/jul/01/amazon-rainforest-ecology-river-bridges",
+          "source": "The Guardian"
+        },
+        {
+          "name": "Smithsonian Magazine",
+          "url": "https://www.smithsonianmag.com/smart-news/amazon-river-bridges-180974871/",
+          "source": "Smithsonian Magazine"
+        }
+      ],
+      "aiVerdict": "false",
+      "aiConfidence": 8,
+      "aiExplanation": "Det finns broar över Amazonfloden, särskilt i mer befolkade områden, vilket gör påståendet falskt.",
+      "verified": true,
+      "verifiedAt": 1776326769963
+    }
+  },
+  {
+    "text": "Kanada har fler sjöar än alla andra länder i världen tillsammans. Över 60% av världens sjöar finns i Kanada.",
+    "keywords": [
+      "kanada",
+      "sjöar",
+      "geografi",
+      "vatten",
+      "natur"
+    ],
+    "sourceName": "Natural Resources Canada",
+    "sourceUrl": "https://www.nrcan.gc.ca/",
+    "related": [
+      "sjöar",
+      "Kanada",
+      "natur"
+    ],
+    "category": "Geografi",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_verification": {
+      "sourceCount": 6,
+      "sources": [
+        {
+          "title": "Kanada",
+          "url": "https://sv.wikipedia.org/wiki/Kanada",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "National Geographic - Canada and Its Lakes",
+          "url": "https://www.nationalgeographic.com/environment/article/canada-lakes-facts",
+          "source": "National Geographic - Canada and Its Lakes"
+        },
+        {
+          "name": "World Atlas - Canada Lakes",
+          "url": "https://www.worldatlas.com/articles/how-many-lakes-are-there-in-canada.html",
+          "source": "World Atlas - Canada Lakes"
+        },
+        {
+          "name": "The World Factbook - Canada",
+          "url": "https://www.cia.gov/the-world-factbook/countries/canada/",
+          "source": "The World Factbook - Canada"
+        },
+        {
+          "name": "Geographical Magazine",
+          "url": "https://www.geographical.co.uk/nature/canadas-lakes",
+          "source": "Geographical Magazine"
+        },
+        {
+          "name": "BBC News - Canada's lakes count",
+          "url": "https://www.bbc.com/news/world-us-canada-45540316",
+          "source": "BBC News - Canada's lakes count"
+        }
+      ],
+      "aiVerdict": "false",
+      "aiConfidence": 8,
+      "aiExplanation": "Det finns många sjöar i Kanada, men påståendet att Kanada har fler sjöar än alla andra länder tillsammans och att över 60% av världens sjöar finns där är inte sant. Det uppskattas att cirka 2% av världens sjöar ligger i Kanada.",
+      "verified": true,
+      "verifiedAt": 1776326797201
+    }
+  },
+  {
+    "text": "Monaco är världens mest tätbefolkade land med 26 000 invånare per km². Hela landet är mindre än Central Park i New York.",
+    "keywords": [
+      "monaco",
+      "litet land",
+      "geografi",
+      "tätbefolkat",
+      "europa"
+    ],
+    "sourceName": "United Nations Statistics Division",
+    "sourceUrl": "https://unstats.un.org/",
+    "related": [
+      "länder",
+      "Europa",
+      "storlek"
+    ],
+    "category": "Geografi",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_verification": {
+      "sourceCount": 3,
+      "sources": [
+        {
+          "title": "Japan",
+          "url": "https://sv.wikipedia.org/wiki/Japan",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "World Population Review",
+          "url": "https://worldpopulationreview.com/countries/monaco-population",
+          "source": "World Population Review"
+        },
+        {
+          "name": "CIA World Factbook",
+          "url": "https://www.cia.gov/the-world-factbook/countries/monaco/",
+          "source": "CIA World Factbook"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 9,
+      "aiExplanation": "Monaco är faktiskt världens mest tätbefolkade land, med en befolkningstäthet som ligger runt 26 000 invånare per km², och landets yta är mindre än Central Park.",
+      "verified": true,
+      "verifiedAt": 1776326811129
+    }
+  },
+  {
+    "text": "Nilen och Amazonas tävlar om titeln 'världens längsta flod'. Beroende på mätmetod är den ena eller andra längst — båda är runt 6 650 km långa.",
+    "keywords": [
+      "nilen",
+      "amazonas",
+      "flod",
+      "geografi",
+      "längst"
+    ],
+    "sourceName": "National Geographic",
+    "sourceUrl": "https://www.nationalgeographic.com/",
+    "related": [
+      "floder",
+      "Afrika",
+      "Sydamerika"
+    ],
+    "category": "Geografi",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_verification": {
+      "sourceCount": 4,
+      "sources": [
+        {
+          "title": "Amazonfloden",
+          "url": "https://sv.wikipedia.org/wiki/Amazonfloden",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "National Geographic",
+          "url": "https://www.nationalgeographic.com/environment/article/the-amazon-river-is-longer-than-the-nile",
+          "source": "National Geographic"
+        },
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.com/news/world-latin-america-46676084",
+          "source": "BBC News"
+        },
+        {
+          "name": "Smithsonian Magazine",
+          "url": "https://www.smithsonianmag.com/science-nature/the-amazon-is-the-longest-river-in-the-world-180976562/",
+          "source": "Smithsonian Magazine"
+        }
+      ],
+      "aiVerdict": "partly_true",
+      "aiConfidence": 8,
+      "aiExplanation": "Det finns pågående debatt angående Nilen och Amazonas längd, där olika mätmetoder ger olika resultat. Nilen rapporteras ofta som den längsta floden, men nyare mätningar hävdar att Amazonas kan vara längre.",
+      "verified": true,
+      "verifiedAt": 1776326840518
+    }
+  },
+  {
+    "text": "Finland har det högsta antalet bastuanläggningar per capita i världen — ungefär 3,3 miljoner bastur för 5,5 miljoner invånare.",
+    "keywords": [
+      "finland",
+      "bastu",
+      "geografi",
+      "kultur",
+      "tradition"
+    ],
+    "sourceName": "UNESCO",
+    "sourceUrl": "https://ich.unesco.org/en/RL/sauna-culture-in-finland-01596",
+    "related": [
+      "Finland",
+      "kultur",
+      "tradition"
+    ],
+    "category": "Samhälle",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_verification": {
+      "sourceCount": 4,
+      "sources": [
+        {
+          "title": "Finland",
+          "url": "https://sv.wikipedia.org/wiki/Finland",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "Visit Finland",
+          "url": "https://www.visitfinland.com/article/saunas-in-finland/",
+          "source": "Visit Finland"
+        },
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.com/travel/article/20190421-the-secret-to-finlands-3-million-saunas",
+          "source": "BBC"
+        },
+        {
+          "name": "Yle",
+          "url": "https://yle.fi/a/3-11014747",
+          "source": "Yle"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 9,
+      "aiExplanation": "Finland har ett högt antal bastuanläggningar per capita, med uppskattningar av cirka 3,3 miljoner bastur för 5,5 miljoner invånare, vilket bekräftas av flera källor.",
+      "verified": true,
+      "verifiedAt": 1776326862435
+    }
+  },
+  {
+    "text": "Bhutan mäter sin framgång i Gross National Happiness (BNH) istället för BNP och är det enda landet i världen som är koldioxidnegativt.",
+    "keywords": [
+      "bhutan",
+      "lycka",
+      "geografi",
+      "miljö",
+      "koldioxid"
+    ],
+    "sourceName": "United Nations Development Programme",
+    "sourceUrl": "https://www.undp.org/",
+    "related": [
+      "Bhutan",
+      "miljö",
+      "Asien"
+    ],
+    "category": "Geografi",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_verification": {
+      "sourceCount": 6,
+      "sources": [
+        {
+          "title": "Tibet",
+          "url": "https://sv.wikipedia.org/wiki/Tibet",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "Gross National Happiness Commission",
+          "url": "http://www.gnhc.gov.bt/",
+          "source": "Gross National Happiness Commission"
+        },
+        {
+          "name": "World Economic Forum",
+          "url": "https://www.weforum.org/agenda/2021/03/bhutan-gross-national-happiness/",
+          "source": "World Economic Forum"
+        },
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.com/news/world-asia-14820316",
+          "source": "BBC News"
+        },
+        {
+          "name": "National Geographic",
+          "url": "https://www.nationalgeographic.com/environment/article/how-bhutan-measures-happiness",
+          "source": "National Geographic"
+        },
+        {
+          "name": "Our World in Data",
+          "url": "https://ourworldindata.org/co2-emissions-by-country",
+          "source": "Our World in Data"
+        }
+      ],
+      "aiVerdict": "partly_true",
+      "aiConfidence": 7,
+      "aiExplanation": "Bhutan använder BNH som en indikator för framgång istället för BNP, vilket är sant. Det är även ett av de få länder som är nära att vara koldioxidnegativt, men det finns pågående diskussioner om huruvida det är den enda nationen med detta påstående.",
+      "verified": true,
+      "verifiedAt": 1776326899603
+    }
+  },
+  {
+    "text": "Vatikanstaten är världens minsta land — bara 0,44 km². Det har egen järnvägsstation, postkontor och radiosändare.",
+    "keywords": [
+      "vatikanen",
+      "litet land",
+      "geografi",
+      "rom",
+      "europa"
+    ],
+    "sourceName": "UNESCO World Heritage Centre",
+    "sourceUrl": "https://whc.unesco.org/en/list/286/",
+    "related": [
+      "Rom",
+      "påven",
+      "Europa"
+    ],
+    "category": "Geografi",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_verification": {
+      "sourceCount": 3,
+      "sources": [
+        {
+          "name": "Wikipedia - Vatikanstaten",
+          "url": "https://sv.wikipedia.org/wiki/Vatikanstaten",
+          "source": "Wikipedia - Vatikanstaten"
+        },
+        {
+          "name": "Britannica - Vatican City",
+          "url": "https://www.britannica.com/place/Vatican-City",
+          "source": "Britannica - Vatican City"
+        },
+        {
+          "name": "Visit Vatican - Official Site",
+          "url": "http://www.vatican.va/various/basiliche/san_pietro/index_en.htm",
+          "source": "Visit Vatican - Official Site"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 9,
+      "aiExplanation": "Påståendet stämmer att Vatikanstaten är världens minsta land på 0,44 km² och att det har egen järnvägsstation, postkontor och radiosändare.",
+      "verified": true,
+      "verifiedAt": 1776326909126
+    }
+  },
+  {
+    "text": "Sahara är inte världens största öken utan istället är Antarktis det. En öken definieras nämligen av låg nederbörd, inte sand.",
+    "keywords": [
+      "sahara",
+      "antarktis",
+      "öken",
+      "geografi",
+      "definition"
+    ],
+    "sourceName": "National Geographic",
+    "sourceUrl": "https://www.nationalgeographic.com/",
+    "related": [
+      "öknar",
+      "Antarktis",
+      "klimat"
+    ],
+    "category": "Geografi",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_verification": {
+      "sourceCount": 4,
+      "sources": [
+        {
+          "title": "Sahara",
+          "url": "https://sv.wikipedia.org/wiki/Sahara",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "National Geographic",
+          "url": "https://www.nationalgeographic.com/science/article/what-is-a-desert",
+          "source": "National Geographic"
+        },
+        {
+          "name": "Encyclopaedia Britannica",
+          "url": "https://www.britannica.com/science/desert",
+          "source": "Encyclopaedia Britannica"
+        },
+        {
+          "name": "World Atlas",
+          "url": "https://www.worldatlas.com/articles/the-largest-deserts-in-the-world.html",
+          "source": "World Atlas"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 9,
+      "aiExplanation": "Antarktis klassificeras som en öken på grund av sin extremt låga nederbörd, vilket gör att det är den största öknen i världen, även om den inte består av sand. Sahara är den största varma öknen.",
+      "verified": true,
+      "verifiedAt": 1776326951726
+    }
+  },
+  {
+    "text": "Japan består av 6 852 öar, men de flesta är obebodda. Bara 430 av öarna har invånare.",
+    "keywords": [
+      "japan",
+      "öar",
+      "geografi",
+      "asien",
+      "arkipelag"
+    ],
+    "sourceName": "Geospatial Information Authority of Japan",
+    "sourceUrl": "https://www.gsi.go.jp/ENGLISH/",
+    "related": [
+      "Japan",
+      "öar",
+      "Asien"
+    ],
+    "category": "Geografi",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_verification": {
+      "sourceCount": 4,
+      "sources": [
+        {
+          "title": "Japan",
+          "url": "https://sv.wikipedia.org/wiki/Japan",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "Encyclopedia Britannica",
+          "url": "https://www.britannica.com/place/Japan",
+          "source": "Encyclopedia Britannica"
+        },
+        {
+          "name": "CIA World Factbook",
+          "url": "https://www.cia.gov/the-world-factbook/countries/japan/",
+          "source": "CIA World Factbook"
+        },
+        {
+          "name": "Japan National Tourism Organization",
+          "url": "https://www.japan.travel/en/seasons/japan-is-an-island-nation/",
+          "source": "Japan National Tourism Organization"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 8,
+      "aiExplanation": "Japan består av 6 852 öar, och det är bekräftat att de flesta av dessa öar är obebodda. Antalet öar med invånare nämns i flera källor.",
+      "verified": true,
+      "verifiedAt": 1776326964936
+    }
+  },
+  {
+    "text": "Nordkorea och Sydkorea befinner sig tekniskt sett fortfarande i krig. Vapenstilleståndet 1953 avslutade aldrig kriget formellt.",
+    "keywords": [
+      "nordkorea",
+      "sydkorea",
+      "krig",
+      "geografi",
+      "historia",
+      "korea"
+    ],
+    "sourceName": "United Nations",
+    "sourceUrl": "https://www.un.org/",
+    "related": [
+      "Korea",
+      "krig",
+      "Asien"
+    ],
+    "category": "Historia",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_verification": {
+      "sourceCount": 4,
+      "sources": [
+        {
+          "title": "Nordkorea",
+          "url": "https://sv.wikipedia.org/wiki/Nordkorea",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "BBC - Understanding the Korean War",
+          "url": "https://www.bbc.com/news/world-asia-58829393",
+          "source": "BBC - Understanding the Korean War"
+        },
+        {
+          "name": "Council on Foreign Relations - The Korean War",
+          "url": "https://www.cfr.org/timeline/korean-war",
+          "source": "Council on Foreign Relations - The Korean War"
+        },
+        {
+          "name": "Världens Länder - Nordkorea",
+          "url": "https://www.varldenslander.se/nordkorea/",
+          "source": "Världens Länder - Nordkorea"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 9,
+      "aiExplanation": "Nordkorea och Sydkorea har aldrig formellt avslutat kriget genom ett fredsavtal, vilket innebär att de tekniskt sett fortfarande är i krig. Vapenstilleståndet 1953 har inte ersatt en formell fred.",
+      "verified": true,
+      "verifiedAt": 1776326974769
+    }
+  },
+  {
+    "text": "Mer än hälften av all internettrafik kommer från botar, inte människor.",
+    "keywords": [
+      "internet",
+      "botar",
+      "teknologi",
+      "webb"
+    ],
+    "sourceName": "Imperva (Thales Group)",
+    "sourceUrl": "https://www.imperva.com/resources/reports/2024-Imperva-Bad-Bot-Report.pdf",
+    "related": [
+      "AI",
+      "säkerhet",
+      "webben"
+    ],
+    "category": "Teknologi",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_verification": {
+      "sourceCount": 7,
+      "sources": [
+        {
+          "title": "Vetenskap",
+          "url": "https://sv.wikipedia.org/wiki/Vetenskap",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "Cloudflare",
+          "url": "https://www.cloudflare.com/",
+          "source": "Cloudflare"
+        },
+        {
+          "name": "Imperva",
+          "url": "https://www.imperva.com/",
+          "source": "Imperva"
+        },
+        {
+          "name": "Statista",
+          "url": "https://www.statista.com/",
+          "source": "Statista"
+        },
+        {
+          "name": "Netacea",
+          "url": "https://www.netacea.com/",
+          "source": "Netacea"
+        },
+        {
+          "name": "DDoS attack report by Akamai",
+          "url": "https://www.akamai.com/",
+          "source": "DDoS attack report by Akamai"
+        },
+        {
+          "name": "Security Magazine",
+          "url": "https://www.securitymagazine.com/",
+          "source": "Security Magazine"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 8,
+      "aiExplanation": "Flera källor visar att en betydande del av internettrafiken, ofta uppskattad till över 50%, kommer från botar, vilket inkluderar både legitima och skadliga botar.",
+      "verified": true,
+      "verifiedAt": 1776327015727
+    }
+  },
+  {
+    "text": "Det första e-postmeddelandet skickades 1971 av Ray Tomlinson. Han mindes inte vad det stod — troligen 'QWERTYUIOP' eller liknande.",
+    "keywords": [
+      "email",
+      "epost",
+      "teknologi",
+      "internet",
+      "historia"
+    ],
+    "sourceName": "Computer History Museum",
+    "sourceUrl": "https://computerhistory.org/",
+    "related": [
+      "internet",
+      "kommunikation",
+      "historia"
+    ],
+    "category": "Teknologi",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_verification": {
+      "sourceCount": 3,
+      "sources": [
+        {
+          "name": "Wikipedia - E-post",
+          "url": "https://sv.wikipedia.org/wiki/E-post",
+          "source": "Wikipedia - E-post"
+        },
+        {
+          "name": "History.com - Ray Tomlinson",
+          "url": "https://www.history.com/news/ray-tomlinson-invented-email",
+          "source": "History.com - Ray Tomlinson"
+        },
+        {
+          "name": "Smithsonian Magazine - The Man Who Invented Email",
+          "url": "https://www.smithsonianmag.com/innovation/the-man-who-invented-email-180970420/",
+          "source": "Smithsonian Magazine - The Man Who Invented Email"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 9,
+      "aiExplanation": "Ray Tomlinson skickade det första e-postmeddelandet 1971. Han minns inte exakt vad meddelandet innehöll, men det är troligt att det var en text som 'QWERTYUIOP' eller liknande.",
+      "verified": true,
+      "verifiedAt": 1776327035592
+    }
+  },
+  {
+    "text": "Den första webbsidan publicerades 1991 av Tim Berners-Lee på CERN. Den handlade om World Wide Web-projektet.",
+    "keywords": [
+      "www",
+      "webb",
+      "internet",
+      "teknologi",
+      "cern",
+      "berners-lee"
+    ],
+    "sourceName": "CERN",
+    "sourceUrl": "https://info.cern.ch/hypertext/WWW/TheProject.html",
+    "related": [
+      "internet",
+      "CERN",
+      "webben"
+    ],
+    "category": "Teknologi",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_verification": {
+      "sourceCount": 4,
+      "sources": [
+        {
+          "title": "Internet",
+          "url": "https://sv.wikipedia.org/wiki/Internet",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "title": "Alicia Webb",
+          "url": "https://en.wikipedia.org/wiki/Alicia%20Webb",
+          "source": "Wikipedia (EN)"
+        },
+        {
+          "name": "CERN - The birth of the web",
+          "url": "https://home.cern/news/what-web",
+          "source": "CERN - The birth of the web"
+        },
+        {
+          "name": "W3C - History of the Web",
+          "url": "https://www.w3.org/History.html",
+          "source": "W3C - History of the Web"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 10,
+      "aiExplanation": "Tim Berners-Lee publicerade den första webbsidan 1991 på CERN, och den handlade om World Wide Web-projektet.",
+      "verified": true,
+      "verifiedAt": 1776327060579
+    }
+  },
+  {
+    "text": "Bluetooth-teknologin namngavs efter den danske vikingakungen Harald Blåtand (Harald Bluetooth), som var den person som enade Skandinavien.",
+    "keywords": [
+      "bluetooth",
+      "teknologi",
+      "vikingar",
+      "trådlös",
+      "namn"
+    ],
+    "sourceName": "IEEE / Bluetooth SIG",
+    "sourceUrl": "https://www.bluetooth.com/",
+    "related": [
+      "vikingar",
+      "trådlöst",
+      "kommunikation"
+    ],
+    "category": "Teknologi",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_verification": {
+      "sourceCount": 3,
+      "sources": [
+        {
+          "name": "Wikipedia - Bluetooth",
+          "url": "https://sv.wikipedia.org/wiki/Bluetooth",
+          "source": "Wikipedia - Bluetooth"
+        },
+        {
+          "name": "Bluetooth.com - Varför heter det Bluetooth?",
+          "url": "https://www.bluetooth.com/about/bluetooth/",
+          "source": "Bluetooth.com - Varför heter det Bluetooth?"
+        },
+        {
+          "name": "How Bluetooth Got Its Name",
+          "url": "https://www.howtogeek.com/690158/how-bluetooth-got-its-name/",
+          "source": "How Bluetooth Got Its Name"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 9,
+      "aiExplanation": "Bluetooth-teknologin namngavs efter Harald Blåtand, som var känd för att ha enat delar av Skandinavien. Namnet återspeglar hans förmåga att förena kommunikation mellan olika enheter.",
+      "verified": true,
+      "verifiedAt": 1776327085155
+    }
+  },
+  {
+    "text": "Moores lag förutspådde 1965 att antalet transistorer på ett chip fördubblas ungefär vartannat år. Det har stämt i nästan 60 år.",
+    "keywords": [
+      "moores lag",
+      "teknologi",
+      "chip",
+      "transistor",
+      "dator"
+    ],
+    "sourceName": "Intel / Computer History Museum",
+    "sourceUrl": "https://computerhistory.org/",
+    "related": [
+      "datorer",
+      "processorer",
+      "innovation"
+    ],
+    "category": "Teknologi",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_verification": {
+      "sourceCount": 3,
+      "sources": [
+        {
+          "title": "Artificiell intelligens",
+          "url": "https://sv.wikipedia.org/wiki/Artificiell%20intelligens",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "Intel - Moore's Law",
+          "url": "https://www.intel.se/content/www/se/sv/silicon-innovations/moores-law-technology.html",
+          "source": "Intel - Moore's Law"
+        },
+        {
+          "name": "Gartner - The Truth About Moore’s Law",
+          "url": "https://www.gartner.com/en/documents/3889496/the-truth-about-moore-s-law",
+          "source": "Gartner - The Truth About Moore’s Law"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 9,
+      "aiExplanation": "Moores lag, som formulerades 1965 av Gordon Moore, har hållit sig relativt sant där antalet transistorer på ett chip har fördubblats ungefär vartannat år under en stor del av de följande decennierna.",
+      "verified": true,
+      "verifiedAt": 1776327099800
+    }
+  },
+  {
+    "text": "Första iPhonen presenterades av Steve Jobs 2007. Han sa: 'Idag uppfinner Apple telefonen på nytt.' Och det stämde.",
+    "keywords": [
+      "iphone",
+      "apple",
+      "teknologi",
+      "smartphone",
+      "steve jobs"
+    ],
+    "sourceName": "Computer History Museum",
+    "sourceUrl": "https://computerhistory.org/",
+    "related": [
+      "Apple",
+      "smartphones",
+      "innovation"
+    ],
+    "category": "Teknologi",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_verification": {
+      "sourceCount": 4,
+      "sources": [
+        {
+          "title": "Apple Inc.",
+          "url": "https://sv.wikipedia.org/wiki/Apple%20Inc.",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "title": "Connected (Stereo MC's song)",
+          "url": "https://en.wikipedia.org/wiki/Connected%20(Stereo%20MC's%20song)",
+          "source": "Wikipedia (EN)"
+        },
+        {
+          "name": "Apple - iPhone Presentation",
+          "url": "https://www.apple.com/iphone/",
+          "source": "Apple - iPhone Presentation"
+        },
+        {
+          "name": "The Verge - iPhone History",
+          "url": "https://www.theverge.com/2017/1/9/14215772/iphone-anniversary-history-launch-steve-jobs",
+          "source": "The Verge - iPhone History"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 9,
+      "aiExplanation": "Den första iPhonen presenterades av Steve Jobs 2007, och hans citat 'Idag uppfinner Apple telefonen på nytt' är korrekt. Detta har dokumenterats av flera källor.",
+      "verified": true,
+      "verifiedAt": 1776327107274
+    }
+  },
+  {
+    "text": "QR-koder uppfanns i Japan 1994 av Denso Wave för att spåra bildelar. Idag används de för allt från betalningar till restaurangmenyer.",
+    "keywords": [
+      "qr-kod",
+      "teknologi",
+      "japan",
+      "uppfinning",
+      "streckkod"
+    ],
+    "sourceName": "Denso Wave",
+    "sourceUrl": "https://www.denso-wave.com/en/",
+    "related": [
+      "Japan",
+      "uppfinningar",
+      "digital"
+    ],
+    "category": "Teknologi",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_verification": {
+      "sourceCount": 4,
+      "sources": [
+        {
+          "title": "AIDC",
+          "url": "https://sv.wikipedia.org/wiki/AIDC",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "Denso Wave Official Website",
+          "url": "https://www.densowave.com/en/",
+          "source": "Denso Wave Official Website"
+        },
+        {
+          "name": "How QR Codes Work - HowStuffWorks",
+          "url": "https://computer.howstuffworks.com/qr-code.htm",
+          "source": "How QR Codes Work - HowStuffWorks"
+        },
+        {
+          "name": "History of QR Codes - TechRadar",
+          "url": "https://www.techradar.com/news/what-is-qr-code",
+          "source": "History of QR Codes - TechRadar"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 9,
+      "aiExplanation": "QR-koder uppfanns av Denso Wave i Japan 1994, ursprungligen för att spåra bildelar. De används idag för många olika ändamål, inklusive betalningar och menyer.",
+      "verified": true,
+      "verifiedAt": 1776327118640
+    }
+  },
+  {
+    "text": "WiFi-symbolen med tre bågar representerar radiovågor som sprider sig från en central punkt. Tekniken lanserades 1997.",
+    "keywords": [
+      "wifi",
+      "internet",
+      "teknologi",
+      "trådlös",
+      "nätverk"
+    ],
+    "sourceName": "IEEE",
+    "sourceUrl": "https://www.ieee.org/",
+    "related": [
+      "internet",
+      "trådlöst",
+      "hem"
+    ],
+    "category": "Teknologi",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_verification": {
+      "sourceCount": 5,
+      "sources": [
+        {
+          "title": "Smartmobil",
+          "url": "https://sv.wikipedia.org/wiki/Smartmobil",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "title": "Smart home hub",
+          "url": "https://en.wikipedia.org/wiki/Smart%20home%20hub",
+          "source": "Wikipedia (EN)"
+        },
+        {
+          "name": "How Wi-Fi Works - HowStuffWorks",
+          "url": "https://computer.howstuffworks.com/wifi.htm",
+          "source": "How Wi-Fi Works - HowStuffWorks"
+        },
+        {
+          "name": "IEEE 802.11 - IEEE",
+          "url": "https://www.ieee802.org/11/",
+          "source": "IEEE 802.11 - IEEE"
+        },
+        {
+          "name": "History of Wi-Fi - Techopedia",
+          "url": "https://www.techopedia.com/2/30487/trends/the-history-of-wi-fi",
+          "source": "History of Wi-Fi - Techopedia"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 9,
+      "aiExplanation": "WiFi-symbolen med tre bågar representerar radiovågor, och WiFi-tekniken lanserades 1997.",
+      "verified": true,
+      "verifiedAt": 1776327123862
+    }
+  },
+  {
+    "text": "Ericsson i Stockholm byggde världens första kommersiella mobiltelefonsystem 1981 (NMT). Sverige blev därför först i världen med mobiltelefoni.",
+    "keywords": [
+      "ericsson",
+      "mobil",
+      "teknologi",
+      "sverige",
+      "telefon",
+      "nmt"
+    ],
+    "sourceName": "Tekniska museet",
+    "sourceUrl": "https://www.tekniskamuseet.se/",
+    "related": [
+      "Sverige",
+      "telefon",
+      "Ericsson"
+    ],
+    "category": "Teknologi",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_verification": {
+      "sourceCount": 4,
+      "sources": [
+        {
+          "title": "Ericsson",
+          "url": "https://sv.wikipedia.org/wiki/Ericsson",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "title": "COVID-19 apps",
+          "url": "https://en.wikipedia.org/wiki/COVID-19%20apps",
+          "source": "Wikipedia (EN)"
+        },
+        {
+          "name": "Ericsson - History of Mobile",
+          "url": "https://www.ericsson.com/en/about-us/history",
+          "source": "Ericsson - History of Mobile"
+        },
+        {
+          "name": "Mobiltelefonins historia",
+          "url": "https://www.digitalaidan.se/mobiltelefonins-historia/",
+          "source": "Mobiltelefonins historia"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 9,
+      "aiExplanation": "Ericsson lanserade NMT (Nordiskt Mobiltelefon-system) 1981, vilket var det första kommersiella mobiltelefonsystemet i världen och gjorde Sverige först med mobiltelefoni.",
+      "verified": true,
+      "verifiedAt": 1776327143421
+    }
+  },
+  {
+    "text": "Artificiell intelligens slog världsmästaren i Go (AlphaGo vs Lee Sedol) 2016 — ett spel som ansågs för komplext för datorer.",
+    "keywords": [
+      "ai",
+      "go",
+      "alphago",
+      "teknologi",
+      "artificiell intelligens"
+    ],
+    "sourceName": "DeepMind / Nature",
+    "sourceUrl": "https://www.nature.com/articles/nature16961",
+    "related": [
+      "AI",
+      "schack",
+      "deepmind"
+    ],
+    "category": "Gaming",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_verification": {
+      "sourceCount": 5,
+      "sources": [
+        {
+          "title": "Artificiell intelligens",
+          "url": "https://sv.wikipedia.org/wiki/Artificiell%20intelligens",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "title": "AlphaGo versus Lee Sedol",
+          "url": "https://en.wikipedia.org/wiki/AlphaGo%20versus%20Lee%20Sedol",
+          "source": "Wikipedia (EN)"
+        },
+        {
+          "name": "DeepMind - AlphaGo, the game of Go, and the future of AI",
+          "url": "https://deepmind.com/research/case-studies/alphago-the-story-so-far",
+          "source": "DeepMind - AlphaGo, the game of Go, and the future of AI"
+        },
+        {
+          "name": "Nature - Mastering the game of Go with deep neural networks and tree search",
+          "url": "https://www.nature.com/articles/nature16961",
+          "source": "Nature - Mastering the game of Go with deep neural networks and tree search"
+        },
+        {
+          "name": "The Guardian - AlphaGo beats Go champion Lee Sedol",
+          "url": "https://www.theguardian.com/technology/2016/mar/15/alphago-beats-go-champion-lee-sedol",
+          "source": "The Guardian - AlphaGo beats Go champion Lee Sedol"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 10,
+      "aiExplanation": "Påståendet stämmer, AlphaGo, en AI utvecklad av DeepMind, vann mot världsmästaren Lee Sedol i Go i mars 2016, vilket markerade en stor framgång inom AI-teknologi.",
+      "verified": true,
+      "verifiedAt": 1776327180388
+    }
+  },
+  {
+    "text": "3D-skrivare kan numera skriva ut allt från proteser till hus. NASA har nu också börjat testa att 3D-printa mat åt astronauter.",
+    "keywords": [
+      "3d-skrivare",
+      "teknologi",
+      "tillverkning",
+      "framtid",
+      "nasa"
+    ],
+    "sourceName": "NASA",
+    "sourceUrl": "https://www.nasa.gov/",
+    "related": [
+      "tillverkning",
+      "innovation",
+      "rymden"
+    ],
+    "category": "Teknologi",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_verification": {
+      "sourceCount": 4,
+      "sources": [
+        {
+          "title": "Sliperiet",
+          "url": "https://sv.wikipedia.org/wiki/Sliperiet",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "NASA 3D Printing Food",
+          "url": "https://www.nasa.gov/mission_pages/station/research/news/3d_printed_food.html",
+          "source": "NASA 3D Printing Food"
+        },
+        {
+          "name": "3D-printed prosthetics and houses",
+          "url": "https://www.scientificamerican.com/article/3d-printing-is-changing-prosthetics-and-housing/",
+          "source": "3D-printed prosthetics and houses"
+        },
+        {
+          "name": "3D Printing in Construction",
+          "url": "https://www.forbes.com/sites/bernardmarr/2020/03/30/how-3d-printing-is-changing-the-construction-industry/?sh=76615d2f7698",
+          "source": "3D Printing in Construction"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 9,
+      "aiExplanation": "3D-skrivare används för att skapa både proteser och byggnader, och NASA har experimenterat med att skriva ut mat för astronauter.",
+      "verified": true,
+      "verifiedAt": 1776327203632
+    }
+  },
+  {
+    "text": "Shakespeare uppfann över 1 700 engelska ord, bland annat 'lonely', 'generous', 'eyeball' och 'bedroom'.",
+    "keywords": [
+      "shakespeare",
+      "litteratur",
+      "ord",
+      "engelska",
+      "författare"
+    ],
+    "sourceName": "Oxford English Dictionary",
+    "sourceUrl": "https://www.oed.com/",
+    "related": [
+      "litteratur",
+      "engelska",
+      "teater"
+    ],
+    "category": "Litteratur",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_verification": {
+      "sourceCount": 5,
+      "sources": [
+        {
+          "title": "Romeo och Julia",
+          "url": "https://sv.wikipedia.org/wiki/Romeo%20och%20Julia",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "title": "N. F. S. Grundtvig",
+          "url": "https://en.wikipedia.org/wiki/N.%20F.%20S.%20Grundtvig",
+          "source": "Wikipedia (EN)"
+        },
+        {
+          "name": "Merriam-Webster",
+          "url": "https://www.merriam-webster.com/words-at-play/how-shakespeare-invented-words",
+          "source": "Merriam-Webster"
+        },
+        {
+          "name": "Oxford English Dictionary",
+          "url": "https://public.oed.com/blog/shakespeare-and-the-oed/",
+          "source": "Oxford English Dictionary"
+        },
+        {
+          "name": "BBC Culture",
+          "url": "http://www.bbc.com/culture/story/20160420-the-words-that-will-make-you-a-better-writer",
+          "source": "BBC Culture"
+        }
+      ],
+      "aiVerdict": "partly_true",
+      "aiConfidence": 7,
+      "aiExplanation": "Shakespeare är känd för att ha bidragit med många ord till det engelska språket, men siffran över 1 700 är en uppskattning och inkluderar ord han kan ha använt istället för att 'uppfinna'.",
+      "verified": true,
+      "verifiedAt": 1776327220426
+    }
+  },
+  {
+    "text": "Tolkiens 'Sagan om ringen' tog 12 år att skriva. Han skapade hela språk (inklusive alviska) innan han ens började med handlingen.",
+    "keywords": [
+      "tolkien",
+      "sagan om ringen",
+      "litteratur",
+      "fantasy",
+      "alviska"
+    ],
+    "sourceName": "Bodleian Library, Oxford",
+    "sourceUrl": "https://www.bodleian.ox.ac.uk/",
+    "related": [
+      "fantasy",
+      "film",
+      "språk"
+    ],
+    "category": "Litteratur",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_verification": {
+      "sourceCount": 5,
+      "sources": [
+        {
+          "title": "Sagan om ringen",
+          "url": "https://sv.wikipedia.org/wiki/Sagan%20om%20ringen",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "Tolkien Gateway",
+          "url": "https://tolkiengateway.net/wiki/The_Lord_of_the_Rings",
+          "source": "Tolkien Gateway"
+        },
+        {
+          "name": "The History of Middle-earth",
+          "url": "https://www.tor.com/2020/09/24/j-r-r-tolkien-lord-of-the-rings-writing-history/",
+          "source": "The History of Middle-earth"
+        },
+        {
+          "name": "The Tolkien Society",
+          "url": "https://www.tolkiensociety.org/about/biography/",
+          "source": "The Tolkien Society"
+        },
+        {
+          "name": "The Complete History of Middle-earth",
+          "url": "https://www.goodreads.com/book/show/1014173.The_Complete_History_of_Middle_earth",
+          "source": "The Complete History of Middle-earth"
+        }
+      ],
+      "aiVerdict": "partly_true",
+      "aiConfidence": 8,
+      "aiExplanation": "Det stämmer att Tolkien arbetade på 'Sagan om ringen' under lång tid och skapade språk som alviska, men tidsramen och sekvenserna för språk- och handlingens skapelse är mer komplexa.",
+      "verified": true,
+      "verifiedAt": 1776327239063
+    }
+  },
+  {
+    "text": "Harry Potter-serien har sålt över 500 miljoner kopior på 80 språk. J.K. Rowling skrev första boken på kaféer runt om i Edinburgh.",
+    "keywords": [
+      "harry potter",
+      "jk rowling",
+      "litteratur",
+      "böcker",
+      "fantasy",
+      "magi"
+    ],
+    "sourceName": "British Library",
+    "sourceUrl": "https://www.bl.uk/",
+    "related": [
+      "fantasy",
+      "film",
+      "barnlitteratur"
+    ],
+    "category": "Litteratur",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_verification": {
+      "sourceCount": 3,
+      "sources": [
+        {
+          "title": "J.K. Rowling",
+          "url": "https://sv.wikipedia.org/wiki/J.K.%20Rowling",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "JK Rowling Official Website",
+          "url": "https://www.jkrowling.com/about/",
+          "source": "JK Rowling Official Website"
+        },
+        {
+          "name": "BBC - JK Rowling Facts",
+          "url": "https://www.bbc.com/news/entertainment-arts-45417673",
+          "source": "BBC - JK Rowling Facts"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 9,
+      "aiExplanation": "Harry Potter-serien har sålt över 500 miljoner kopior och J.K. Rowling skrev första boken på kaféer i Edinburgh, vilket bekräftas av källorna.",
+      "verified": true,
+      "verifiedAt": 1776327283917
+    }
+  },
+  {
+    "text": "Franz Kafkas sista önskan var att alla hans manuskript skulle brännas. Lyckligtvis ignorerade hans vän Max Brod önskan — annars hade vi aldrig fått läsa 'Processen'.",
+    "keywords": [
+      "kafka",
+      "litteratur",
+      "böcker",
+      "författare",
+      "processen"
+    ],
+    "sourceName": "Bodleian Library, Oxford",
+    "sourceUrl": "https://www.bodleian.ox.ac.uk/",
+    "related": [
+      "litteratur",
+      "Prag",
+      "modernism"
+    ],
+    "category": "Litteratur",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_verification": {
+      "sourceCount": 5,
+      "sources": [
+        {
+          "title": "Franz Kafka",
+          "url": "https://sv.wikipedia.org/wiki/Franz%20Kafka",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "title": "August Prize",
+          "url": "https://en.wikipedia.org/wiki/August%20Prize",
+          "source": "Wikipedia (EN)"
+        },
+        {
+          "name": "The New Yorker - How Max Brod Rescued Kafka's Work",
+          "url": "https://www.newyorker.com/culture/culture-desk/how-max-brod-rescued-kafkas-work",
+          "source": "The New Yorker - How Max Brod Rescued Kafka's Work"
+        },
+        {
+          "name": "Stanford Encyclopedia of Philosophy - Franz Kafka",
+          "url": "https://plato.stanford.edu/entries/kafka/#KafkaDraLifInSecreZan",
+          "source": "Stanford Encyclopedia of Philosophy - Franz Kafka"
+        },
+        {
+          "name": "History.com - Franz Kafka",
+          "url": "https://www.history.com/topics/literature/franz-kafka",
+          "source": "History.com - Franz Kafka"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 9,
+      "aiExplanation": "Franz Kafka bad Max Brod att bränna hans manuskript, men Brod ignorerade hans önskan och publicerade istället flera av Kafkas verk, inklusive 'Processen'.",
+      "verified": true,
+      "verifiedAt": 1776327291593
+    }
+  },
+  {
+    "text": "Selma Lagerlöf var den första kvinnan att få Nobelpriset i litteratur (1909) och den första kvinnan som valdes in i Svenska Akademien.",
+    "keywords": [
+      "selma lagerlöf",
+      "nobel",
+      "litteratur",
+      "sverige",
+      "författare"
+    ],
+    "sourceName": "Nobelprize.org",
+    "sourceUrl": "https://www.nobelprize.org/prizes/literature/1909/",
+    "related": [
+      "Nobelpriset",
+      "Sverige",
+      "litteratur"
+    ],
+    "category": "Litteratur",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_verification": {
+      "sourceCount": 4,
+      "sources": [
+        {
+          "title": "Selma Lagerlöf",
+          "url": "https://sv.wikipedia.org/wiki/Selma%20Lagerl%C3%B6f",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "title": "1908 Nobel Prize in Literature",
+          "url": "https://en.wikipedia.org/wiki/1908%20Nobel%20Prize%20in%20Literature",
+          "source": "Wikipedia (EN)"
+        },
+        {
+          "name": "Nobel Prize",
+          "url": "https://www.nobelprize.org/prizes/lit/1909/lagerlof/facts/",
+          "source": "Nobel Prize"
+        },
+        {
+          "name": "Svenska Akademien",
+          "url": "https://www.svenskaakademien.se/akademien/medlemmar/selma-lagerlof",
+          "source": "Svenska Akademien"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 10,
+      "aiExplanation": "Selma Lagerlöf var den första kvinnan som tilldelades Nobelpriset i litteratur 1909 och blev den första kvinnan som valdes in i Svenska Akademien 1914.",
+      "verified": true,
+      "verifiedAt": 1776327314021
+    }
+  },
+  {
+    "text": "'Don Quijote' av Cervantes (1605) anses vara den första moderna romanen. Den har hittills sålts i över 500 miljoner exemplar.",
+    "keywords": [
+      "don quijote",
+      "cervantes",
+      "litteratur",
+      "roman",
+      "spanien"
+    ],
+    "sourceName": "Biblioteca Nacional de España",
+    "sourceUrl": "https://www.bne.es/",
+    "related": [
+      "Spanien",
+      "romanhistoria",
+      "klassiker"
+    ],
+    "category": "Litteratur",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_verification": {
+      "sourceCount": 4,
+      "sources": [
+        {
+          "title": "Don Quijote",
+          "url": "https://sv.wikipedia.org/wiki/Don%20Quijote",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "title": "Hispanism",
+          "url": "https://en.wikipedia.org/wiki/Hispanism",
+          "source": "Wikipedia (EN)"
+        },
+        {
+          "name": "Encyclopedia Britannica",
+          "url": "https://www.britannica.com/topic/Don-Quixote",
+          "source": "Encyclopedia Britannica"
+        },
+        {
+          "name": "The New York Times",
+          "url": "https://www.nytimes.com/2020/04/23/books/review/don-quixote-miguel-de-cervantes.html",
+          "source": "The New York Times"
+        }
+      ],
+      "aiVerdict": "partly_true",
+      "aiConfidence": 7,
+      "aiExplanation": "'Don Quijote' av Cervantes anses ofta vara den första moderna romanen, men försäljningssiffran på 500 miljoner exemplar är omdiskuterad och kan vara överdriven.",
+      "verified": true,
+      "verifiedAt": 1776327355905
+    }
+  },
+  {
+    "text": "George Orwells '1984' säljer fortfarande hundratusentals kopior varje år. Försäljningen ökar varje gång en övervakningsskandal avslöjas.",
+    "keywords": [
+      "orwell",
+      "1984",
+      "litteratur",
+      "dystopi",
+      "övervakning"
+    ],
+    "sourceName": "British Library",
+    "sourceUrl": "https://www.bl.uk/",
+    "related": [
+      "dystopi",
+      "politik",
+      "övervakning"
+    ],
+    "category": "Litteratur",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_verification": {
+      "sourceCount": 5,
+      "sources": [
+        {
+          "title": "George Orwell",
+          "url": "https://sv.wikipedia.org/wiki/George%20Orwell",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "title": "1950 Nobel Prize in Literature",
+          "url": "https://en.wikipedia.org/wiki/1950%20Nobel%20Prize%20in%20Literature",
+          "source": "Wikipedia (EN)"
+        },
+        {
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/books/2021/jun/08/1984-sales-rise-george-orwell",
+          "source": "The Guardian"
+        },
+        {
+          "name": "Publishers Weekly",
+          "url": "https://www.publishersweekly.com/pw/by-topic/industry-news/book-sales/article/84686-george-orwell-s-1984-is-surging-in-sales.html",
+          "source": "Publishers Weekly"
+        },
+        {
+          "name": "NPR",
+          "url": "https://www.npr.org/2020/06/10/874191541/why-sales-of-1984-and-animal-farm-are-spiking-right-now",
+          "source": "NPR"
+        }
+      ],
+      "aiVerdict": "partly_true",
+      "aiConfidence": 7,
+      "aiExplanation": "Boken '1984' fortsätter att sälja bra, särskilt i samband med aktuella övervakningsskandaler, men exakta siffror och årliga ökningar varierar.",
+      "verified": true,
+      "verifiedAt": 1776327377409
+    }
+  },
+  {
+    "text": "Japanska haiku-dikter har exakt 17 stavelser fördelade på tre rader (5-7-5). Bashō på 1600-talet anses vara mästaren av haiku.",
+    "keywords": [
+      "haiku",
+      "poesi",
+      "japan",
+      "litteratur",
+      "dikt"
+    ],
+    "sourceName": "British Library",
+    "sourceUrl": "https://www.bl.uk/",
+    "related": [
+      "Japan",
+      "poesi",
+      "dikt"
+    ],
+    "category": "Litteratur",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_verification": {
+      "sourceCount": 5,
+      "sources": [
+        {
+          "title": "Haiku",
+          "url": "https://sv.wikipedia.org/wiki/Haiku",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "title": "Eleonora Luthander",
+          "url": "https://en.wikipedia.org/wiki/Eleonora%20Luthander",
+          "source": "Wikipedia (EN)"
+        },
+        {
+          "name": "Poetry Foundation - Haiku",
+          "url": "https://www.poetryfoundation.org/learn/glossary-terms/haiku",
+          "source": "Poetry Foundation - Haiku"
+        },
+        {
+          "name": "Japan National Tourism Organization - Haiku",
+          "url": "https://www.japan.travel/se/sv/uk/inspiration/haiku/",
+          "source": "Japan National Tourism Organization - Haiku"
+        },
+        {
+          "name": "The New York Times - Matsuo Bashō",
+          "url": "https://www.nytimes.com/2021/03/17/arts/matsuo-basho-haiku.html",
+          "source": "The New York Times - Matsuo Bashō"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 9,
+      "aiExplanation": "Haiku-dikter följer den specifika stavelserestriktionen av 5-7-5, och Matsuo Bashō betraktas allmänt som en mästare inom denna litterära form.",
+      "verified": true,
+      "verifiedAt": 1776327395943
+    }
+  },
+  {
+    "text": "Hemingway vadslog att han kunde skriva en hel berättelse med bara sex ord: 'For sale: baby shoes, never worn.' Han vann.",
+    "keywords": [
+      "hemingway",
+      "litteratur",
+      "kort",
+      "författare",
+      "berättelse"
+    ],
+    "sourceName": "American National Biography / Smithsonian",
+    "sourceUrl": "https://www.si.edu/",
+    "related": [
+      "litteratur",
+      "USA",
+      "minimalism"
+    ],
+    "category": "Litteratur",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_verification": {
+      "sourceCount": 3,
+      "sources": [
+        {
+          "title": "Ernest Hemingway",
+          "url": "https://sv.wikipedia.org/wiki/Ernest%20Hemingway",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "Mental Floss - The Six-Word Story",
+          "url": "https://www.mentalfloss.com/article/56537/baby-shoes-never-worn",
+          "source": "Mental Floss - The Six-Word Story"
+        },
+        {
+          "name": "Smithsonian Magazine - The Origin of the Six-Word Story",
+          "url": "https://www.smithsonianmag.com/arts-culture/the-origin-of-the-six-word-story-158541323/",
+          "source": "Smithsonian Magazine - The Origin of the Six-Word Story"
+        }
+      ],
+      "aiVerdict": "partly_true",
+      "aiConfidence": 8,
+      "aiExplanation": "Hemingway är ofta krediterad för berättelsen, men det finns osäkerhet kring hans faktiska urprung. Det är oklart om han verkligen använde det som exempel.",
+      "verified": true,
+      "verifiedAt": 1776327499878
+    }
+  },
+  {
+    "text": "Manga (japansk serietidning) utgör nästan 40% av all tryckt media i Japan. Den mest sålda serien, One Piece, har sålt över 500 miljoner kopior.",
+    "keywords": [
+      "manga",
+      "japan",
+      "serietidning",
+      "one piece",
+      "litteratur",
+      "anime"
+    ],
+    "sourceName": "Publishers Association of Japan",
+    "sourceUrl": "https://www.ajpea.or.jp/",
+    "related": [
+      "anime",
+      "Japan",
+      "serier"
+    ],
+    "category": "Litteratur",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_verification": {
+      "sourceCount": 4,
+      "sources": [
+        {
+          "title": "Manga",
+          "url": "https://sv.wikipedia.org/wiki/Manga",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "Statista",
+          "url": "https://www.statista.com/statistics/876419/japan-manga-market-share",
+          "source": "Statista"
+        },
+        {
+          "name": "One Piece Sales",
+          "url": "https://www.animenewsnetwork.com/news/2021-07-03/one-piece-manga-has-sold-over-490-million-copies-worldwide/.174164",
+          "source": "One Piece Sales"
+        },
+        {
+          "name": "Forbes on Manga Sales",
+          "url": "https://www.forbes.com/sites/robsalkowitz/2021/07/06/manga-sales-in-japan-are-booming-and-the-trend-is-spreading-to-the-west/",
+          "source": "Forbes on Manga Sales"
+        }
+      ],
+      "aiVerdict": "partly_true",
+      "aiConfidence": 7,
+      "aiExplanation": "Manga står för en stor del av den tryckta media i Japan, men den exakta siffran på 40% är inte bekräftad i alla källor. One Piece har sålt över 490 miljoner kopior, vilket är nära 500 miljoner.",
+      "verified": true,
+      "verifiedAt": 1776327528245
+    }
+  },
+  {
+    "text": "Världens mest översatta bok (efter Bibeln) är 'Den lille prinsen' av Antoine de Saint-Exupéry — översatt till över 500 språk och dialekter.",
+    "keywords": [
+      "lille prinsen",
+      "litteratur",
+      "översättning",
+      "böcker",
+      "frankrike"
+    ],
+    "sourceName": "UNESCO Index Translationum",
+    "sourceUrl": "https://www.unesco.org/xtrans/bsstatexp.aspx",
+    "related": [
+      "Frankrike",
+      "barnlitteratur",
+      "klassiker"
+    ],
+    "category": "Litteratur",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_verification": {
+      "sourceCount": 3,
+      "sources": [
+        {
+          "title": "Hamlet",
+          "url": "https://sv.wikipedia.org/wiki/Hamlet",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "World's Most Translated Books",
+          "url": "https://www.theunseenlibrary.com/the-most-translated-books",
+          "source": "World's Most Translated Books"
+        },
+        {
+          "name": "Atlas Obscura",
+          "url": "https://www.atlasobscura.com/articles/the-most-translated-books",
+          "source": "Atlas Obscura"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 8,
+      "aiExplanation": "Den lille prinsen är, efter Bibeln, den mest översatta boken, med över 500 översättningar till olika språk och dialekter.",
+      "verified": true,
+      "verifiedAt": 1776327536641
+    }
+  },
+  {
+    "text": "Allemansrätten är en grundlag i Sverige som ger alla rätt att vandra, tälta och plocka bär i naturen — oavsett vem som äger marken.",
+    "keywords": [
+      "allemansrätten",
+      "sverige",
+      "natur",
+      "friluftsliv",
+      "lag"
+    ],
+    "sourceName": "Naturvårdsverket",
+    "sourceUrl": "https://www.naturvardsverket.se/",
+    "related": [
+      "friluftsliv",
+      "natur",
+      "Sverige"
+    ],
+    "category": "Natur",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_verification": {
+      "sourceCount": 4,
+      "sources": [
+        {
+          "title": "Allemansrätten",
+          "url": "https://sv.wikipedia.org/wiki/Allemansr%C3%A4tten",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "Konsumentverket",
+          "url": "https://www.konsumentverket.se/allemansratten/",
+          "source": "Konsumentverket"
+        },
+        {
+          "name": "Naturvårdsverket",
+          "url": "https://www.naturvardsverket.se/svensk-natur/allemansratten/",
+          "source": "Naturvårdsverket"
+        },
+        {
+          "name": "Sveriges Riksdag",
+          "url": "https://www.riksdagen.se/sv/aktuellt/nyheter/2018/allet-som-ar-viktigt-att-veta-om-allemansratten/",
+          "source": "Sveriges Riksdag"
+        }
+      ],
+      "aiVerdict": "partly_true",
+      "aiConfidence": 8,
+      "aiExplanation": "Allemansrätten ger rätt att vandra, tälta och plocka bär i naturen, men det finns regler och begränsningar. Den är inte en grundlag, utan en sedvana som skyddas av miljölagstiftning.",
+      "verified": true,
+      "verifiedAt": 1776327614363
+    }
+  },
+  {
+    "text": "Ishotellet i Jukkasjärvi har byggts om varje vinter sedan 1989. Allt smälter bort på våren och byggs upp igen nästa höst.",
+    "keywords": [
+      "ishotellet",
+      "jukkasjärvi",
+      "sverige",
+      "is",
+      "turism",
+      "lappland"
+    ],
+    "sourceName": "ICEHOTEL",
+    "sourceUrl": "https://www.icehotel.com/",
+    "related": [
+      "Lappland",
+      "turism",
+      "vinter"
+    ],
+    "category": "Sverige",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_verification": {
+      "sourceCount": 4,
+      "sources": [
+        {
+          "title": "Ishotellet i Jukkasjärvi",
+          "url": "https://sv.wikipedia.org/wiki/Ishotellet%20i%20Jukkasj%C3%A4rvi",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "Ishotellet Jukkasjärvi",
+          "url": "https://www.icehotel.com/",
+          "source": "Ishotellet Jukkasjärvi"
+        },
+        {
+          "name": "Sveriges Radio",
+          "url": "https://sverigesradio.se/artikel/issa-i-jukkasjarvi-bygger-ett-naturligt-icehotel",
+          "source": "Sveriges Radio"
+        },
+        {
+          "name": "Visit Sweden",
+          "url": "https://www.visitsweden.com/icehotel-jukkasjarvi",
+          "source": "Visit Sweden"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 9,
+      "aiExplanation": "Ishotellet i Jukkasjärvi har byggts om varje vinter sedan 1989, och smälter helt bort under våren för att byggas upp igen på hösten.",
+      "verified": true,
+      "verifiedAt": 1776327634127
+    }
+  },
+  {
+    "text": "Drottningholms slott utanför Stockholm är kungafamiljens permanenta bostad och ett UNESCO-världsarv sedan 1991.",
+    "keywords": [
+      "drottningholm",
+      "slott",
+      "kungligt",
+      "stockholm",
+      "sverige",
+      "unesco"
+    ],
+    "sourceName": "UNESCO World Heritage Centre",
+    "sourceUrl": "https://whc.unesco.org/en/list/559/",
+    "related": [
+      "kungafamiljen",
+      "Stockholm",
+      "arkitektur"
+    ],
+    "category": "Sverige",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_verification": {
+      "sourceCount": 4,
+      "sources": [
+        {
+          "title": "Drottningholms slott",
+          "url": "https://sv.wikipedia.org/wiki/Drottningholms%20slott",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "title": "Louise Mountbatten",
+          "url": "https://en.wikipedia.org/wiki/Louise%20Mountbatten",
+          "source": "Wikipedia (EN)"
+        },
+        {
+          "name": "UNESCO",
+          "url": "https://whc.unesco.org/en/list/559",
+          "source": "UNESCO"
+        },
+        {
+          "name": "Kungahuset",
+          "url": "https://www.kungahuset.se/innerpages/teman/drottningholms-slott",
+          "source": "Kungahuset"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 10,
+      "aiExplanation": "Drottningholms slott är kungafamiljens officiella residens och har varit ett UNESCO-världsarv sedan 1991.",
+      "verified": true,
+      "verifiedAt": 1776327639554
+    }
+  },
+  {
+    "text": "Fika — den svenska kafferasten — är så viktig att den anses öka produktiviteten. Svenska arbetsplatser har ofta schemalagda fikapauser.",
+    "keywords": [
+      "fika",
+      "kaffe",
+      "sverige",
+      "kultur",
+      "tradition",
+      "arbete"
+    ],
+    "sourceName": "Nordiska museet",
+    "sourceUrl": "https://www.nordiskamuseet.se/",
+    "related": [
+      "kaffe",
+      "kultur",
+      "arbetsplats"
+    ],
+    "category": "Mat",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_verification": {
+      "sourceCount": 6,
+      "sources": [
+        {
+          "title": "Kaffe",
+          "url": "https://sv.wikipedia.org/wiki/Kaffe",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "title": "Swedish cuisine",
+          "url": "https://en.wikipedia.org/wiki/Swedish%20cuisine",
+          "source": "Wikipedia (EN)"
+        },
+        {
+          "name": "Swedish Institute",
+          "url": "https://si.se/en/sweden/fika-swedish-coffee-break/",
+          "source": "Swedish Institute"
+        },
+        {
+          "name": "Dagens Nyheter",
+          "url": "https://www.dn.se/karriar/svenska-arbetsplatser-har-fika-som-en-stor-del-av-jobbet/",
+          "source": "Dagens Nyheter"
+        },
+        {
+          "name": "Mediabyrån",
+          "url": "https://www.mediabyran.se/artiklar/fika-och-produktivitet/",
+          "source": "Mediabyrån"
+        },
+        {
+          "name": "Arbetsmiljöverket",
+          "url": "https://www.av.se/arbetsmiljoarbete/lagar-och-forskrifter/fika-och-arbetsmiljo/",
+          "source": "Arbetsmiljöverket"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 9,
+      "aiExplanation": "Fika är en integrerad del av den svenska arbetskulturen och det har visats att fikapauser bidrar till ökad produktivitet och kreativitet på arbetsplatsen.",
+      "verified": true,
+      "verifiedAt": 1776327651535
+    }
+  },
+  {
+    "text": "Alfred Nobel uppfann dynamiten 1867 i Stockholm. Han testamenterade sin förmögenhet till Nobelpriset — kanske av dåligt samvete.",
+    "keywords": [
+      "alfred nobel",
+      "dynamit",
+      "nobelpris",
+      "sverige",
+      "uppfinning"
+    ],
+    "sourceName": "Nobelprize.org",
+    "sourceUrl": "https://www.nobelprize.org/alfred-nobel/",
+    "related": [
+      "Nobelpriset",
+      "uppfinningar",
+      "Stockholm"
+    ],
+    "category": "Vetenskap",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_verification": {
+      "sourceCount": 4,
+      "sources": [
+        {
+          "title": "Alfred Nobel",
+          "url": "https://sv.wikipedia.org/wiki/Alfred%20Nobel",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "title": "Marta Helena Nobel-Oleinikoff",
+          "url": "https://en.wikipedia.org/wiki/Marta%20Helena%20Nobel-Oleinikoff",
+          "source": "Wikipedia (EN)"
+        },
+        {
+          "name": "Nationalencyklopedin",
+          "url": "https://www.ne.se/uppslagsverk/encyklopedi/l%C3%A5ng/alfred-nobel",
+          "source": "Nationalencyklopedin"
+        },
+        {
+          "name": "Nobelprize.org",
+          "url": "https://www.nobelprize.org/prizes/facts/nobel-prize-facts",
+          "source": "Nobelprize.org"
+        }
+      ],
+      "aiVerdict": "partly_true",
+      "aiConfidence": 7,
+      "aiExplanation": "Alfred Nobel uppfann dynamiten 1867, men han gjorde det i Krümmel, Tyskland, inte Stockholm. Hans testamenterade förmögenhet till Nobelpriset stämmer, men motivet av 'dåligt samvete' är mer spekulativt.",
+      "verified": true,
+      "verifiedAt": 1776327668226
+    }
+  },
+  {
+    "text": "Sverige har inte varit i krig sedan 1814, vilket innebär över 200 år av fred. Det är den längsta oavbrutna fredsperioden för något europeiskt land.",
+    "keywords": [
+      "sverige",
+      "fred",
+      "krig",
+      "historia",
+      "neutral"
+    ],
+    "sourceName": "Riksdagen",
+    "sourceUrl": "https://www.riksdagen.se/",
+    "related": [
+      "fred",
+      "historia",
+      "neutralitet"
+    ],
+    "category": "Sverige",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_verification": {
+      "sourceCount": 4,
+      "sources": [
+        {
+          "title": "Lista över svenska krig",
+          "url": "https://sv.wikipedia.org/wiki/Lista%20%C3%B6ver%20svenska%20krig",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "title": "Swedish National Socialist Party",
+          "url": "https://en.wikipedia.org/wiki/Swedish%20National%20Socialist%20Party",
+          "source": "Wikipedia (EN)"
+        },
+        {
+          "name": "Sveriges historia - Utrikesdepartementet",
+          "url": "https://www.regeringen.se/48b1b0/contentassets/7a2a2b5e7e234766bc982d5732948ce1/sveriges-historia.pdf",
+          "source": "Sveriges historia - Utrikesdepartementet"
+        },
+        {
+          "name": "Brittisk historisk översikt - Sveriges fred",
+          "url": "https://www.bbc.com/history/sweden/sgs/intro_to_sweden.shtml",
+          "source": "Brittisk historisk översikt - Sveriges fred"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 9,
+      "aiExplanation": "Sverige har inte varit involverat i något krig sedan 1814 vilket ger en oavbruten fredsperiod på över 200 år, vilket är längre än många andra europeiska länder.",
+      "verified": true,
+      "verifiedAt": 1776327705603
+    }
+  },
+  {
+    "text": "Gotland har mer solsken per år än någon annan plats i Sverige — ungefär 1 800 timmar. Stockholm har bara 1 700.",
+    "keywords": [
+      "gotland",
+      "sol",
+      "väder",
+      "sverige",
+      "geografi"
+    ],
+    "sourceName": "SMHI",
+    "sourceUrl": "https://www.smhi.se/",
+    "related": [
+      "Gotland",
+      "väder",
+      "sommar"
+    ],
+    "category": "Sverige",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992385,
+    "_verification": {
+      "sourceCount": 3,
+      "sources": [
+        {
+          "title": "Svenska Orient Linien",
+          "url": "https://sv.wikipedia.org/wiki/Svenska%20Orient%20Linien",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "SMHI",
+          "url": "https://www.smhi.se/",
+          "source": "SMHI"
+        },
+        {
+          "name": "Mäta solen",
+          "url": "https://www.matasolen.se/",
+          "source": "Mäta solen"
+        }
+      ],
+      "aiVerdict": "false",
+      "aiConfidence": 7,
+      "aiExplanation": "Gotland har inte det högsta antalet soltimmar i Sverige. Platser som Öland och Skåne har också höga soltimmar, och det finns varierande siffror beroende på källan.",
+      "verified": true,
+      "verifiedAt": 1776327713078
+    }
+  },
+  {
+    "text": "IKEA grundades 1943 av Ingvar Kamprad i Älmhult. Namnet är en akronym: Ingvar Kamprad, Elmtaryd (gården), Agunnaryd (byn).",
+    "keywords": [
+      "ikea",
+      "sverige",
+      "möbler",
+      "design",
+      "ingvar kamprad"
+    ],
+    "sourceName": "IKEA Museum",
+    "sourceUrl": "https://ikeamuseum.com/",
+    "related": [
+      "design",
+      "Sverige",
+      "möbler"
+    ],
+    "category": "Sverige",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992385,
+    "_verification": {
+      "sourceCount": 3,
+      "sources": [
+        {
+          "title": "Ikea",
+          "url": "https://sv.wikipedia.org/wiki/Ikea",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "title": "IKEA Museum",
+          "url": "https://en.wikipedia.org/wiki/IKEA%20Museum",
+          "source": "Wikipedia (EN)"
+        },
+        {
+          "name": "IKEA Officiell webbplats",
+          "url": "https://www.ikea.com/se/sv/about-ikea/",
+          "source": "IKEA Officiell webbplats"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 10,
+      "aiExplanation": "Påståendet stämmer; IKEA grundades 1943 av Ingvar Kamprad i Älmhult och namnet är en akronym som står för Ingvar Kamprad, Elmtaryd, Agunnaryd.",
+      "verified": true,
+      "verifiedAt": 1776327729769
+    }
+  },
+  {
+    "text": "Midsommar är en av Sveriges viktigaste traditioner. Midsommarstången symboliserar fruktbarhet — och festen har firats sedan medeltiden.",
+    "keywords": [
+      "midsommar",
+      "tradition",
+      "sverige",
+      "sommar",
+      "fest"
+    ],
+    "sourceName": "Nordiska museet",
+    "sourceUrl": "https://www.nordiskamuseet.se/",
+    "related": [
+      "traditioner",
+      "sommar",
+      "kultur"
+    ],
+    "category": "Sverige",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992385,
+    "_verification": {
+      "sourceCount": 5,
+      "sources": [
+        {
+          "title": "Midsommar",
+          "url": "https://sv.wikipedia.org/wiki/Midsommar",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "title": "Public holidays in Sweden",
+          "url": "https://en.wikipedia.org/wiki/Public%20holidays%20in%20Sweden",
+          "source": "Wikipedia (EN)"
+        },
+        {
+          "name": "Nordiska museet",
+          "url": "https://www.nordiskamuseet.se/midsommar",
+          "source": "Nordiska museet"
+        },
+        {
+          "name": "Visit Sweden",
+          "url": "https://www.visitsweden.com/midsummer/",
+          "source": "Visit Sweden"
+        },
+        {
+          "name": "Skansen",
+          "url": "https://www.skansen.se/sv/midsommar",
+          "source": "Skansen"
+        }
+      ],
+      "aiVerdict": "partly_true",
+      "aiConfidence": 7,
+      "aiExplanation": "Midsommar är en viktig tradition i Sverige, men det finns diskussioner om firandet har rötter som sträcker sig tillbaka till medeltiden. Midsommarstångens symbolik för fruktbarhet är också en tolkning som inte alltid är entydig.",
+      "verified": true,
+      "verifiedAt": 1776327748305
+    }
+  },
+  {
+    "text": "Kiruna, Sveriges nordligaste stad, håller på att flyttas 3 km österut eftersom gruvan under staden gör marken instabil.",
+    "keywords": [
+      "kiruna",
+      "gruva",
+      "sverige",
+      "flytta",
+      "stad",
+      "lappland"
+    ],
+    "sourceName": "LKAB",
+    "sourceUrl": "https://www.lkab.com/",
+    "related": [
+      "Lappland",
+      "gruvindustri",
+      "infrastruktur"
+    ],
+    "category": "Sverige",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992385,
+    "_verification": {
+      "sourceCount": 4,
+      "sources": [
+        {
+          "title": "Kiruna",
+          "url": "https://sv.wikipedia.org/wiki/Kiruna",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "title": "Kiruna",
+          "url": "https://en.wikipedia.org/wiki/Kiruna",
+          "source": "Wikipedia (EN)"
+        },
+        {
+          "name": "SvD - Kiruna flyttas",
+          "url": "https://www.svd.se/kiruna-flyttas-3-km",
+          "source": "SvD - Kiruna flyttas"
+        },
+        {
+          "name": "SVT - Kirunas flytt",
+          "url": "https://www.svt.se/nyheter/lokalt/norrbotten/kiruna-flyttas-till-ny-plats",
+          "source": "SVT - Kirunas flytt"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 9,
+      "aiExplanation": "Kiruna flyttas österut på grund av den instabilitet som orsakas av gruvan under staden.",
+      "verified": true,
+      "verifiedAt": 1776327759242
+    }
+  },
+  {
+    "text": "Systembolaget har monopol på alkoholförsäljning i Sverige sedan 1955. Det är världens enda statliga alkoholkedja av detta slag.",
+    "keywords": [
+      "systembolaget",
+      "alkohol",
+      "sverige",
+      "monopol",
+      "stat"
+    ],
+    "sourceName": "Systembolaget",
+    "sourceUrl": "https://www.systembolaget.se/",
+    "related": [
+      "Sverige",
+      "alkoholpolitik",
+      "monopol"
+    ],
+    "category": "Sverige",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992385,
+    "_verification": {
+      "sourceCount": 4,
+      "sources": [
+        {
+          "title": "Systembolaget",
+          "url": "https://sv.wikipedia.org/wiki/Systembolaget",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "title": "Systembolaget",
+          "url": "https://en.wikipedia.org/wiki/Systembolaget",
+          "source": "Wikipedia (EN)"
+        },
+        {
+          "name": "Systembolaget",
+          "url": "https://www.systembolaget.se/om-oss/",
+          "source": "Systembolaget"
+        },
+        {
+          "name": "Regeringen.se",
+          "url": "https://www.regeringen.se/pressmeddelanden/2020/06/systembolagets-monopol-far-fortsatta/",
+          "source": "Regeringen.se"
+        }
+      ],
+      "aiVerdict": "partly_true",
+      "aiConfidence": 8,
+      "aiExplanation": "Systembolaget har monopol på detaljhandelsförsäljning av alkohol i Sverige sedan 1955. Det är dock inte världens enda statligt ägda alkoholkedja, då det finns liknande system i andra länder, exempelvis Kanada och vissa delstater i USA.",
+      "verified": true,
+      "verifiedAt": 1776327766321
+    }
+  },
+  {
+    "text": "Dalahästen från Dalarna har tillverkats sedan 1600-talet. Skogsarbetare snidade dem förr som leksaker till barnen under långa vintrar.",
+    "keywords": [
+      "dalahäst",
+      "dalarna",
+      "sverige",
+      "hantverk",
+      "tradition",
+      "leksak"
+    ],
+    "sourceName": "Nordiska museet",
+    "sourceUrl": "https://www.nordiskamuseet.se/",
+    "related": [
+      "hantverk",
+      "Dalarna",
+      "tradition"
+    ],
+    "category": "Sverige",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992385,
+    "_verification": {
+      "sourceCount": 4,
+      "sources": [
+        {
+          "title": "Dalahäst",
+          "url": "https://sv.wikipedia.org/wiki/Dalah%C3%A4st",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "title": "Shai Dahan",
+          "url": "https://en.wikipedia.org/wiki/Shai%20Dahan",
+          "source": "Wikipedia (EN)"
+        },
+        {
+          "name": "Visit Dalarna",
+          "url": "https://www.visitdalarna.se/dalahasten",
+          "source": "Visit Dalarna"
+        },
+        {
+          "name": "Dalahästens historia",
+          "url": "https://www.historia.se/dalahasten",
+          "source": "Dalahästens historia"
+        }
+      ],
+      "aiVerdict": "partly_true",
+      "aiConfidence": 7,
+      "aiExplanation": "Dalahästen har tillverkats sedan 1700-talet, inte 1600-talet. Det stämmer att de snidade hästarna ursprungligen gjordes av skogsarbetare som leksaker till barn.",
+      "verified": true,
+      "verifiedAt": 1776327784554
+    }
+  },
+  {
+    "text": "Vasaloppet, världens äldsta och längsta skidlopp, har körts sedan 1922. Banan är 90 km lång och går mellan Sälen och Mora.",
+    "keywords": [
+      "vasaloppet",
+      "skidor",
+      "sport",
+      "sverige",
+      "dalarna",
+      "lopp"
+    ],
+    "sourceName": "Vasaloppet",
+    "sourceUrl": "https://www.vasaloppet.se/",
+    "related": [
+      "skidor",
+      "Dalarna",
+      "vintersport"
+    ],
+    "category": "Sport",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992385,
+    "_verification": {
+      "sourceCount": 4,
+      "sources": [
+        {
+          "title": "Vasaloppet",
+          "url": "https://sv.wikipedia.org/wiki/Vasaloppet",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "title": "Tjejvasan",
+          "url": "https://en.wikipedia.org/wiki/Tjejvasan",
+          "source": "Wikipedia (EN)"
+        },
+        {
+          "name": "Vasaloppets officiella webbplats",
+          "url": "https://www.vasaloppet.se/",
+          "source": "Vasaloppets officiella webbplats"
+        },
+        {
+          "name": "Svenska skidförbundets webbplats",
+          "url": "https://www.skidor.com/",
+          "source": "Svenska skidförbundets webbplats"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 10,
+      "aiExplanation": "Vasaloppet har körts sedan 1922 och är 90 km långt mellan Sälen och Mora.",
+      "verified": true,
+      "verifiedAt": 1776327807391
+    }
+  },
+  {
+    "text": "Abisko i Lappland är ett av världens bästa ställen att se norrsken. Tack vare 'Blue Hole of Abisko' är himlen ofta klar där även när det är molnigt runtomkring.",
+    "keywords": [
+      "abisko",
+      "norrsken",
+      "lappland",
+      "sverige",
+      "natur"
+    ],
+    "sourceName": "Swedish Institute for Space Physics",
+    "sourceUrl": "https://www.irf.se/",
+    "related": [
+      "norrsken",
+      "Lappland",
+      "natur"
+    ],
+    "category": "Natur",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992385,
+    "_verification": {
+      "sourceCount": 4,
+      "sources": [
+        {
+          "title": "Abisko nationalpark",
+          "url": "https://sv.wikipedia.org/wiki/Abisko%20nationalpark",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "Visit Abisko",
+          "url": "https://www.visitabisko.com/",
+          "source": "Visit Abisko"
+        },
+        {
+          "name": "Swedish Lapland",
+          "url": "https://www.swedishlapland.com/abisko/",
+          "source": "Swedish Lapland"
+        },
+        {
+          "name": "National Geographic",
+          "url": "https://www.nationalgeographic.com/travel/article/northern-lights-abisko-sweden",
+          "source": "National Geographic"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 9,
+      "aiExplanation": "Abisko i Lappland är känt för sina klara nätter och är populärt för att se norrsken. Fenomenet 'Blue Hole of Abisko' bidrar till att himlen där ofta är klar.",
+      "verified": true,
+      "verifiedAt": 1776327821215
+    }
+  },
+  {
+    "text": "Din hjärna fattar de flesta beslut på under 7 sekunder. Mycket av det du tror är 'logiska beslut' är redan fattade av din undermedvetna.",
+    "keywords": [
+      "hjärnan",
+      "beslut",
+      "psykologi",
+      "undermedveten"
+    ],
+    "sourceName": "Max Planck Institute for Human Cognitive and Brain Sciences",
+    "sourceUrl": "https://www.cbs.mpg.de/",
+    "related": [
+      "hjärnan",
+      "beslutsfattande",
+      "medvetande"
+    ],
+    "category": "Psykologi",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992385,
+    "_verification": {
+      "sourceCount": 5,
+      "sources": [
+        {
+          "title": "Kognitiv psykologi",
+          "url": "https://sv.wikipedia.org/wiki/Kognitiv%20psykologi",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "Scientific American",
+          "url": "https://www.scientificamerican.com/article/how-your-brain-makes-decisions-in-less-than-a-second/",
+          "source": "Scientific American"
+        },
+        {
+          "name": "NPR",
+          "url": "https://www.npr.org/sections/health-shots/2013/10/29/240250311/how-the-brain-makes-decisions-in-the-snap-of-a-finger",
+          "source": "NPR"
+        },
+        {
+          "name": "Harvard Business Review",
+          "url": "https://hbr.org/2016/11/conscious-vs-unconscious-decision-making",
+          "source": "Harvard Business Review"
+        },
+        {
+          "name": "Psychology Today",
+          "url": "https://www.psychologytoday.com/us/blog/the-strategy-of-distraction/201709/how-your-brain-makes-decisions",
+          "source": "Psychology Today"
+        }
+      ],
+      "aiVerdict": "partly_true",
+      "aiConfidence": 7,
+      "aiExplanation": "Det finns forskning som tyder på att många beslut fattas snabbt av det undermedvetna, men tidsramen och vad som menas med 'logiska beslut' kan variera.",
+      "verified": true,
+      "verifiedAt": 1776327838110
+    }
+  },
+  {
+    "text": "Dunning-Kruger-effekten innebär att personer med låg kompetens ofta överskattar sin förmåga, medan experter underskattar sin.",
+    "keywords": [
+      "dunning-kruger",
+      "psykologi",
+      "kompetens",
+      "bias",
+      "effekt"
+    ],
+    "sourceName": "Cornell University / Journal of Personality and Social Psychology",
+    "sourceUrl": "https://www.apa.org/",
+    "related": [
+      "psykologi",
+      "kognitiv bias",
+      "lärande"
+    ],
+    "category": "Psykologi",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992385,
+    "_verification": {
+      "sourceCount": 4,
+      "sources": [
+        {
+          "title": "Bluffsyndromet",
+          "url": "https://sv.wikipedia.org/wiki/Bluffsyndromet",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "Psychology Today",
+          "url": "https://www.psychologytoday.com/us/basics/dunning-kruger-effect",
+          "source": "Psychology Today"
+        },
+        {
+          "name": "Verywell Mind",
+          "url": "https://www.verywellmind.com/the-dunning-kruger-effect-2795598",
+          "source": "Verywell Mind"
+        },
+        {
+          "name": "Harvard Business Review",
+          "url": "https://hbr.org/2021/01/understanding-the-dunning-kruger-effect",
+          "source": "Harvard Business Review"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 9,
+      "aiExplanation": "Flera källor bekräftar att Dunning-Kruger-effekten beskriver hur personer med mindre kompetens tenderar att överskatta sina förmågor, medan mer kompetenta individer ofta är mer tveksamma och underskattar sina kunskaper.",
+      "verified": true,
+      "verifiedAt": 1776327844665
+    }
+  },
+  {
+    "text": "Placeboeffekten fungerar även när patienten VET att de får placebo. Studier visar förbättring trots full transparens.",
+    "keywords": [
+      "placebo",
+      "psykologi",
+      "medicin",
+      "hjärnan",
+      "effekt"
+    ],
+    "sourceName": "Harvard Medical School",
+    "sourceUrl": "https://hms.harvard.edu/",
+    "related": [
+      "medicin",
+      "hjärnan",
+      "forskning"
+    ],
+    "category": "Kroppen",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992385,
+    "_verification": {
+      "sourceCount": 5,
+      "sources": [
+        {
+          "title": "Placeboeffekt",
+          "url": "https://sv.wikipedia.org/wiki/Placeboeffekt",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "Harvard Health Publishing",
+          "url": "https://www.health.harvard.edu/mind-and-mood/the-placebo-effect",
+          "source": "Harvard Health Publishing"
+        },
+        {
+          "name": "Mayo Clinic",
+          "url": "https://www.mayoclinic.org/healthy-lifestyle/consumer-health/in-depth/placebo-effect/art-20046629",
+          "source": "Mayo Clinic"
+        },
+        {
+          "name": "Scientific American",
+          "url": "https://www.scientificamerican.com/article/what-is-the-placebo-effect/",
+          "source": "Scientific American"
+        },
+        {
+          "name": "New England Journal of Medicine",
+          "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa1612999",
+          "source": "New England Journal of Medicine"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 8,
+      "aiExplanation": "Forskning visar att placeboeffekten kan uppstå även när patienter är medvetna om att de får placebo, vilket innebär att den psykiska förväntningen på behandling kan bidra till faktiska förbättringar.",
+      "verified": true,
+      "verifiedAt": 1776327860025
+    }
+  },
+  {
+    "text": "Barn skrattar i genomsnitt 300 gånger om dagen. Vuxna bara 15–20 gånger. Vi förlorar bokstavligen vårt skratt med åren.",
+    "keywords": [
+      "skratt",
+      "psykologi",
+      "barn",
+      "humor",
+      "glädje"
+    ],
+    "sourceName": "American Psychological Association",
+    "sourceUrl": "https://www.apa.org/",
+    "related": [
+      "humor",
+      "hälsa",
+      "barn"
+    ],
+    "category": "Psykologi",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992385,
+    "_verification": {
+      "sourceCount": 4,
+      "sources": [
+        {
+          "title": "Försvarsmekanism",
+          "url": "https://sv.wikipedia.org/wiki/F%C3%B6rsvarsmekanism",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "Scientific American",
+          "url": "https://www.scientificamerican.com/article/laughter-is-the-best-medicine/",
+          "source": "Scientific American"
+        },
+        {
+          "name": "Verywell Mind",
+          "url": "https://www.verywellmind.com/the-benefits-of-laughter-2795157",
+          "source": "Verywell Mind"
+        },
+        {
+          "name": "Journal of Personality and Social Psychology",
+          "url": "https://psycnet.apa.org/record/2010-04397-001",
+          "source": "Journal of Personality and Social Psychology"
+        }
+      ],
+      "aiVerdict": "partly_true",
+      "aiConfidence": 7,
+      "aiExplanation": "Flera studier tyder på att barn skrattar betydligt mer än vuxna, men siffrorna kan variera beroende på kontext och individ. Det är sant att vuxna skrattar mindre, men exakta siffror som 300 gånger för barn är generellt, och kan variera.",
+      "verified": true,
+      "verifiedAt": 1776327865248
+    }
+  },
+  {
+    "text": "Nostalgi var en gång klassificerat som en psykisk sjukdom. Många Schweiziska soldater i 1600-talet 'diagnosticerades' med nostalgi eftersom de hade hemlängtan.",
+    "keywords": [
+      "nostalgi",
+      "psykologi",
+      "historia",
+      "sjukdom",
+      "hemlängtan"
+    ],
+    "sourceName": "American Psychological Association",
+    "sourceUrl": "https://www.apa.org/",
+    "related": [
+      "psykologi",
+      "historia",
+      "minnen"
+    ],
+    "category": "Historia",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992385,
+    "_verification": {
+      "sourceCount": 5,
+      "sources": [
+        {
+          "title": "Nostalgi",
+          "url": "https://sv.wikipedia.org/wiki/Nostalgi",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "Merriam-Webster",
+          "url": "https://www.merriam-webster.com/dictionary/nostalgia",
+          "source": "Merriam-Webster"
+        },
+        {
+          "name": "History",
+          "url": "https://www.history.com/topics/science/nostalgia",
+          "source": "History"
+        },
+        {
+          "name": "Britannica",
+          "url": "https://www.britannica.com/science/nostalgia",
+          "source": "Britannica"
+        },
+        {
+          "name": "Psychology Today",
+          "url": "https://www.psychologytoday.com/us/basics/nostalgia",
+          "source": "Psychology Today"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 8,
+      "aiExplanation": "Nostalgi klassificerades som en psykisk sjukdom på grund av symptom som hemlängtan, särskilt bland soldater under 1600-talet. Flera källor bekräftar detta.",
+      "verified": true,
+      "verifiedAt": 1776327910815
+    }
+  },
+  {
+    "text": "Dröm-forskning visar att vi glömmer 95% av våra drömmar inom 5 minuter efter att vi vaknat. Hjärnan prioriterar helt enkelt inte att spara dem.",
+    "keywords": [
+      "drömmar",
+      "sömn",
+      "psykologi",
+      "hjärnan",
+      "glömma"
+    ],
+    "sourceName": "National Sleep Foundation",
+    "sourceUrl": "https://www.sleepfoundation.org/",
+    "related": [
+      "sömn",
+      "hjärnan",
+      "minne"
+    ],
+    "category": "Psykologi",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992385,
+    "_verification": {
+      "sourceCount": 4,
+      "sources": [
+        {
+          "title": "Sömngåtan",
+          "url": "https://sv.wikipedia.org/wiki/S%C3%B6mng%C3%A5tan",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "Harvard University - The Science of Dreaming",
+          "url": "https://www.health.harvard.edu/mind-and-mood/the-science-of-dreaming",
+          "source": "Harvard University - The Science of Dreaming"
+        },
+        {
+          "name": "NPR - Why We Forget Our Dreams",
+          "url": "https://www.npr.org/sections/health-shots/2016/08/31/494383208/why-we-forget-our-dreams",
+          "source": "NPR - Why We Forget Our Dreams"
+        },
+        {
+          "name": "Psychology Today - Why We Forget Our Dreams",
+          "url": "https://www.psychologytoday.com/us/blog/the-science-dreams/201100/why-we-forget-our-dreams",
+          "source": "Psychology Today - Why We Forget Our Dreams"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 8,
+      "aiExplanation": "Forskning visar att många drömmar snabbt glöms bort efter att vi vaknat, med uppskattningar på att upp till 95% av drömmarna kan försvinna inom kort tid, vilket tyder på att hjärnan inte prioriterar att spara dem.",
+      "verified": true,
+      "verifiedAt": 1776327921569
+    }
+  },
+  {
+    "text": "Färger påverkar hur vi beter oss. Rött ökar puls och aptit, det är därför har McDonald's har en röd och gul logga.",
+    "keywords": [
+      "färg",
+      "psykologi",
+      "beteende",
+      "rött",
+      "blått"
+    ],
+    "sourceName": "University of Rochester / Psychological Science",
+    "sourceUrl": "https://www.psychologicalscience.org/",
+    "related": [
+      "färg",
+      "design",
+      "marknadsföring"
+    ],
+    "category": "Psykologi",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992385,
+    "_verification": {
+      "sourceCount": 4,
+      "sources": [
+        {
+          "title": "Carl Gustav Jung",
+          "url": "https://sv.wikipedia.org/wiki/Carl%20Gustav%20Jung",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "Psychology Today",
+          "url": "https://www.psychologytoday.com/us/blog/the-science-behind-behavior/201703/how-color-affects-your-emotions",
+          "source": "Psychology Today"
+        },
+        {
+          "name": "The Color Psychology",
+          "url": "https://www.colorpsychology.org/",
+          "source": "The Color Psychology"
+        },
+        {
+          "name": "Science Direct",
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S0197454321006652",
+          "source": "Science Direct"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 8,
+      "aiExplanation": "Forskning visar att färger kan påverka känslor och beteenden; röd färg är kopplad till ökad puls och aptit, vilket kan förklara val av färger i McDonald's logga.",
+      "verified": true,
+      "verifiedAt": 1776327968158
+    }
+  },
+  {
+    "text": "Vi minns bättre om vi skriver för hand än om vi skriver på dator. Handskrift aktiverar fler områden i hjärnan.",
+    "keywords": [
+      "handskrift",
+      "minne",
+      "psykologi",
+      "lärande",
+      "hjärnan"
+    ],
+    "sourceName": "Princeton University / Psychological Science",
+    "sourceUrl": "https://www.psychologicalscience.org/",
+    "related": [
+      "lärande",
+      "minne",
+      "studieteknik"
+    ],
+    "category": "Psykologi",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992385,
+    "_verification": {
+      "sourceCount": 4,
+      "sources": [
+        {
+          "title": "Arketyp",
+          "url": "https://sv.wikipedia.org/wiki/Arketyp",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "Educational Psychology Review",
+          "url": "https://link.springer.com/article/10.1007/s10648-014-9274-9",
+          "source": "Educational Psychology Review"
+        },
+        {
+          "name": "Scientific American",
+          "url": "https://www.scientificamerican.com/article/why-handwriting-is-good-for-the-brain/",
+          "source": "Scientific American"
+        },
+        {
+          "name": "The New York Times",
+          "url": "https://www.nytimes.com/2014/05/24/technology/handwriting-is-good-for-the-brain.html",
+          "source": "The New York Times"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 8,
+      "aiExplanation": "Flera studier visar att handskrivning aktiverar fler områden i hjärnan och kan förbättra minnet jämfört med att skriva på dator.",
+      "verified": true,
+      "verifiedAt": 1776327979016
+    }
+  },
+  {
+    "text": "Spegel-neutroner i hjärnan gör att du känner smärta när du ser någon annan skadas. Det är grunden för empati.",
+    "keywords": [
+      "spegelneuroner",
+      "empati",
+      "psykologi",
+      "hjärnan",
+      "smärta"
+    ],
+    "sourceName": "University of Parma / Nature Neuroscience",
+    "sourceUrl": "https://www.nature.com/neuro/",
+    "related": [
+      "empati",
+      "hjärnan",
+      "neuroner"
+    ],
+    "category": "Kroppen",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992385,
+    "_verification": {
+      "sourceCount": 4,
+      "sources": [
+        {
+          "title": "Empati",
+          "url": "https://sv.wikipedia.org/wiki/Empati",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "Nature Reviews Neuroscience",
+          "url": "https://www.nature.com/articles/nrn.2017.11",
+          "source": "Nature Reviews Neuroscience"
+        },
+        {
+          "name": "Scientific American",
+          "url": "https://www.scientificamerican.com/article/mirror-neurons-what-they-are-and-how-they-work/",
+          "source": "Scientific American"
+        },
+        {
+          "name": "Psychology Today",
+          "url": "https://www.psychologytoday.com/us/blog/the-embodied-mind/201501/the-empathy-mirror-neurons",
+          "source": "Psychology Today"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 8,
+      "aiExplanation": "Forskning visar att spegelneuroner är involverade i empati och att vi kan känna smärta när vi ser andra skadas.",
+      "verified": true,
+      "verifiedAt": 1776327988026
+    }
+  },
+  {
+    "text": "Du är mer kreativ när du är trött. En trött hjärna har svårare att filtrera bort 'irrelevanta' idéer — och det är ibland precis vad kreativitet kräver.",
+    "keywords": [
+      "kreativitet",
+      "psykologi",
+      "hjärnan",
+      "trött",
+      "idéer"
+    ],
+    "sourceName": "Thinking & Reasoning / Taylor & Francis",
+    "sourceUrl": "https://www.tandfonline.com/",
+    "related": [
+      "kreativitet",
+      "sömn",
+      "idéer"
+    ],
+    "category": "Psykologi",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992385,
+    "_verification": {
+      "sourceCount": 4,
+      "sources": [
+        {
+          "title": "Bipolär sjukdom",
+          "url": "https://sv.wikipedia.org/wiki/Bipol%C3%A4r%20sjukdom",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "Psychology Today",
+          "url": "https://www.psychologytoday.com/us/blog/connections/201511/creativity-and-fatigue",
+          "source": "Psychology Today"
+        },
+        {
+          "name": "The Conversation",
+          "url": "https://theconversation.com/how-being-tired-can-increase-creativity-140205",
+          "source": "The Conversation"
+        },
+        {
+          "name": "Harvard Business Review",
+          "url": "https://hbr.org/2015/05/how-deep-rest-can-increase-creativity",
+          "source": "Harvard Business Review"
+        }
+      ],
+      "aiVerdict": "partly_true",
+      "aiConfidence": 7,
+      "aiExplanation": "Flera studier tyder på att utmattning kan leda till mer öppna tankesätt och ökad kreativitet genom minskad filtrering av idéer, men resultaten varierar.",
+      "verified": true,
+      "verifiedAt": 1776328000007
+    }
+  },
+  {
+    "text": "Att prata med dig själv högt är inte galenskap — det förbättrar faktiskt koncentrationen och problemlösningsförmågan.",
+    "keywords": [
+      "självprat",
+      "psykologi",
+      "koncentration",
+      "hjärnan",
+      "fokus"
+    ],
+    "sourceName": "University of Wisconsin / Quarterly Journal of Experimental Psychology",
+    "sourceUrl": "https://journals.sagepub.com/home/qjp",
+    "related": [
+      "koncentration",
+      "hjärnan",
+      "lärande"
+    ],
+    "category": "Psykologi",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992385,
+    "_verification": {
+      "sourceCount": 3,
+      "sources": [
+        {
+          "name": "Psychology Today",
+          "url": "https://www.psychologytoday.com/articles/talking-yourself",
+          "source": "Psychology Today"
+        },
+        {
+          "name": "Scientific American",
+          "url": "https://www.scientificamerican.com/article/talking-to-yourself-can-help-you-focus/",
+          "source": "Scientific American"
+        },
+        {
+          "name": "Verywell Mind",
+          "url": "https://www.verywellmind.com/the-benefits-of-talking-to-yourself-5194542",
+          "source": "Verywell Mind"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 8,
+      "aiExplanation": "Flera källor visar att att prata med sig själv kan förbättra koncentration och problemlösningsförmåga genom att stärka fokuseringen och strukturera tankar.",
+      "verified": true,
+      "verifiedAt": 1776328021396
+    }
+  },
+  {
+    "text": "Den genomsnittliga uppmärksamheten hos en människa har sjunkit från 12 sekunder (2000) till 8 sekunder (2015). Det är kortare än en guldfisks.",
+    "keywords": [
+      "uppmärksamhet",
+      "psykologi",
+      "fokus",
+      "hjärnan",
+      "digital"
+    ],
+    "sourceName": "Microsoft Research Canada",
+    "sourceUrl": "https://www.microsoft.com/en-us/research/",
+    "related": [
+      "fokus",
+      "digital",
+      "sociala medier"
+    ],
+    "category": "Psykologi",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992385,
+    "_verification": {
+      "sourceCount": 4,
+      "sources": [
+        {
+          "title": "Psykologi",
+          "url": "https://sv.wikipedia.org/wiki/Psykologi",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "Science News",
+          "url": "https://www.sciencenews.org/article/attention-span-shorter-goldfish-claims-true",
+          "source": "Science News"
+        },
+        {
+          "name": "BBC Future",
+          "url": "https://www.bbc.com/future/article/20200121-have-our-attention-spans-really-shrunk",
+          "source": "BBC Future"
+        },
+        {
+          "name": "The Atlantic",
+          "url": "https://www.theatlantic.com/science/archive/2015/02/the-decline-of-attention-span/385570/",
+          "source": "The Atlantic"
+        }
+      ],
+      "aiVerdict": "partly_true",
+      "aiConfidence": 7,
+      "aiExplanation": "Det finns indikationer på att uppmärksamhetsförmågan har minskat, men påståendet om specifika siffror och jämförelsen med en guldfisk är förenklat och inte helt korrekt.",
+      "verified": true,
+      "verifiedAt": 1776328046087
+    }
+  },
+  {
+    "text": "Pi (π) har beräknats till över 100 biljoner decimaler, men du behöver bara 39 decimaler för att beräkna universums omkrets med atomnoggrannhet.",
+    "keywords": [
+      "pi",
+      "matematik",
+      "tal",
+      "cirkel",
+      "oändlig"
+    ],
+    "sourceName": "NASA Jet Propulsion Laboratory",
+    "sourceUrl": "https://www.jpl.nasa.gov/edu/news/2016/3/16/how-many-decimals-of-pi-do-we-really-need/",
+    "related": [
+      "matematik",
+      "geometri",
+      "datorer"
+    ],
+    "category": "Matematik",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992385,
+    "_verification": {
+      "sourceCount": 4,
+      "sources": [
+        {
+          "title": "Pi",
+          "url": "https://sv.wikipedia.org/wiki/Pi",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "NASA - How Many Digits of Pi Do We Really Need?",
+          "url": "https://www.nasa.gov/feature/how-many-digits-of-pi-do-we-really-need",
+          "source": "NASA - How Many Digits of Pi Do We Really Need?"
+        },
+        {
+          "name": "University of New South Wales - Exploring the use of pi",
+          "url": "https://www.unsw.edu.au/engineering/our-story/news/2019/03/what-do-we-need-pi-for",
+          "source": "University of New South Wales - Exploring the use of pi"
+        },
+        {
+          "name": "Benford's Law - Pi Digits and Beyond",
+          "url": "https://www.benfordonline.net/pidigits/pidigits.html",
+          "source": "Benford's Law - Pi Digits and Beyond"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 9,
+      "aiExplanation": "Påståendet stämmer; Pi har beräknats till över 31 biljoner decimaler, och endast 39 decimaler är tillräckligt för att beräkna universums omkrets med atomnoggrannhet.",
+      "verified": true,
+      "verifiedAt": 1776328060320
+    }
+  },
+  {
+    "text": "Noll (0) uppfanns oberoende i Indien, Maya-civilisationen och Mesopotamien. Utan noll hade modern matematik, datorer och fysik aldrig existerat.",
+    "keywords": [
+      "noll",
+      "matematik",
+      "tal",
+      "uppfinning",
+      "indien",
+      "maya"
+    ],
+    "sourceName": "Smithsonian National Museum of the American Indian",
+    "sourceUrl": "https://americanindian.si.edu/",
+    "related": [
+      "matematik",
+      "historia",
+      "datorer"
+    ],
+    "category": "Matematik",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992385,
+    "_verification": {
+      "sourceCount": 4,
+      "sources": [
+        {
+          "title": "Namn på stora tal",
+          "url": "https://sv.wikipedia.org/wiki/Namn%20p%C3%A5%20stora%20tal",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "Encyclopedia Britannica",
+          "url": "https://www.britannica.com/science/zero",
+          "source": "Encyclopedia Britannica"
+        },
+        {
+          "name": "NASA",
+          "url": "https://www.nasa.gov/feature/the-importance-of-zero",
+          "source": "NASA"
+        },
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.com/news/magazine-23276051",
+          "source": "BBC"
+        }
+      ],
+      "aiVerdict": "partly_true",
+      "aiConfidence": 7,
+      "aiExplanation": "Noll har olika ursprung och användning i Indien, Maya-civilisationen och Mesopotamien, men det är en överdrift att säga att modern matematik och fysik aldrig skulle ha existerat utan noll. Noll är viktigt, men andra matematiska koncept har också bidragit till utvecklingen.",
+      "verified": true,
+      "verifiedAt": 1776328071687
+    }
+  },
+  {
+    "text": "Fibonaccis talföljd (1, 1, 2, 3, 5, 8, 13...) syns överallt i naturen — i solrosors spiraler, snäckor, ananasmönster och galaxers armar.",
+    "keywords": [
+      "fibonacci",
+      "matematik",
+      "natur",
+      "talföljd",
+      "spiral"
+    ],
+    "sourceName": "American Mathematical Society",
+    "sourceUrl": "https://www.ams.org/",
+    "related": [
+      "natur",
+      "matematik",
+      "mönster"
+    ],
+    "category": "Matematik",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992385,
+    "_verification": {
+      "sourceCount": 4,
+      "sources": [
+        {
+          "title": "Fibonacci-dagen",
+          "url": "https://sv.wikipedia.org/wiki/Fibonacci-dagen",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "Fibonacci Numbers in Nature - Math Is Fun",
+          "url": "https://www.mathsisfun.com/numbers/fibonacci-sequence.html",
+          "source": "Fibonacci Numbers in Nature - Math Is Fun"
+        },
+        {
+          "name": "Fibonacci Sequence and Nature - National Park Service",
+          "url": "https://www.nps.gov/articles/fibonacci-sequence-and-nature.htm",
+          "source": "Fibonacci Sequence and Nature - National Park Service"
+        },
+        {
+          "name": "Fibonacci Sequence in Nature - ScienceDirect",
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S2589014021000013",
+          "source": "Fibonacci Sequence in Nature - ScienceDirect"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 8,
+      "aiExplanation": "Fibonaccis talföljd syns i många naturliga mönster och strukturer, vilket bekräftas av forskning och observationer inom biologi och matematik.",
+      "verified": true,
+      "verifiedAt": 1776328082439
+    }
+  },
+  {
+    "text": "Ett Googol är 10^100 — en etta följd av 100 nollor. Google fick sitt namn som en felstavning av 'Googol'.",
+    "keywords": [
+      "googol",
+      "google",
+      "matematik",
+      "tal",
+      "stort"
+    ],
+    "sourceName": "American Mathematical Society",
+    "sourceUrl": "https://www.ams.org/",
+    "related": [
+      "Google",
+      "stora tal",
+      "teknologi"
+    ],
+    "category": "Matematik",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992385,
+    "_verification": {
+      "sourceCount": 4,
+      "sources": [
+        {
+          "title": "Google",
+          "url": "https://sv.wikipedia.org/wiki/Google",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "title": "Orders of magnitude (numbers)",
+          "url": "https://en.wikipedia.org/wiki/Orders%20of%20magnitude%20(numbers)",
+          "source": "Wikipedia (EN)"
+        },
+        {
+          "name": "Encyclopedia Britannica",
+          "url": "https://www.britannica.com/science/googol",
+          "source": "Encyclopedia Britannica"
+        },
+        {
+          "name": "Dictionary.com",
+          "url": "https://www.dictionary.com/browse/googol",
+          "source": "Dictionary.com"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 10,
+      "aiExplanation": "Ett Googol definieras korrekt som 10^100. Namnet 'Google' härstammar faktiskt från en felstavning av 'Googol'.",
+      "verified": true,
+      "verifiedAt": 1776328100257
+    }
+  },
+  {
+    "text": "Om du viker ett papper 42 gånger når det till månen. Varje vikning fördubblar tjockleken — exponentiell tillväxt är kraftfull.",
+    "keywords": [
+      "papper",
+      "vikning",
+      "matematik",
+      "exponentiell",
+      "månen"
+    ],
+    "sourceName": "MIT / American Journal of Physics",
+    "sourceUrl": "https://www.aapt.org/",
+    "related": [
+      "matematik",
+      "exponentiell",
+      "rymden"
+    ],
+    "category": "Matematik",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992385,
+    "_verification": {
+      "sourceCount": 5,
+      "sources": [
+        {
+          "title": "Pappervikningsmatematik",
+          "url": "https://sv.wikipedia.org/wiki/Pappervikningsmatematik",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "NASA - Folding Paper",
+          "url": "https://www.nasa.gov/",
+          "source": "NASA - Folding Paper"
+        },
+        {
+          "name": "Did You Know? - Paper Folding",
+          "url": "https://www.didyouknowonline.com/paper-folding-42-times/",
+          "source": "Did You Know? - Paper Folding"
+        },
+        {
+          "name": "Mathantics - Paper Folding Problem",
+          "url": "https://mathantics.com/section/lesson-video/paper-folding",
+          "source": "Mathantics - Paper Folding Problem"
+        },
+        {
+          "name": "YouTuber Vsauce - Paper Fold",
+          "url": "https://www.youtube.com/watch?v=1Jq2c12l8M0",
+          "source": "YouTuber Vsauce - Paper Fold"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 9,
+      "aiExplanation": "Om ett papper viks 42 gånger fördubblas tjockleken exponentiellt, vilket skulle nå en extrema tjocklek, motsvarande ungefär till månen, vilket visar på kraften av exponentiell tillväxt.",
+      "verified": true,
+      "verifiedAt": 1776328130974
+    }
+  },
+  {
+    "text": "Primtal — tal som bara är delbara med 1 och sig själva — utgör grunden för all digital kryptering. Din bank-app beror bland annat på dem.",
+    "keywords": [
+      "primtal",
+      "matematik",
+      "kryptering",
+      "säkerhet",
+      "tal"
+    ],
+    "sourceName": "American Mathematical Society",
+    "sourceUrl": "https://www.ams.org/",
+    "related": [
+      "kryptering",
+      "datorer",
+      "säkerhet"
+    ],
+    "category": "Matematik",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992385,
+    "_verification": {
+      "sourceCount": 3,
+      "sources": [
+        {
+          "title": "Primtal",
+          "url": "https://sv.wikipedia.org/wiki/Primtal",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "Khan Academy - Prime Numbers",
+          "url": "https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86b4ad8a2e/x2f8bb11595b61c86b4ad8a2e/prime-numbers",
+          "source": "Khan Academy - Prime Numbers"
+        },
+        {
+          "name": "The Math behind RSA encryption",
+          "url": "https://www.thoughtco.com/rsa-encryption-and-decryption-3126175",
+          "source": "The Math behind RSA encryption"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 9,
+      "aiExplanation": "Primtal är en grundläggande del av många kryptografiska algoritmer, inklusive RSA-kryptering, vilket används av bank-appar för säker kommunikation.",
+      "verified": true,
+      "verifiedAt": 1776328158521
+    }
+  },
+  {
+    "text": "Den gyllene snittet (1,618...) ansågs av antikens greker vara det mest estetiskt tilltalande proportionsförhållandet. Det finns i konst, arkitektur och natur.",
+    "keywords": [
+      "gyllene snittet",
+      "matematik",
+      "proportion",
+      "konst",
+      "estetik"
+    ],
+    "sourceName": "American Mathematical Society",
+    "sourceUrl": "https://www.ams.org/",
+    "related": [
+      "konst",
+      "arkitektur",
+      "natur"
+    ],
+    "category": "Konst & Kultur",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992385,
+    "_verification": {
+      "sourceCount": 4,
+      "sources": [
+        {
+          "title": "Gyllene snittet",
+          "url": "https://sv.wikipedia.org/wiki/Gyllene%20snittet",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "The Golden Ratio: A Brief History",
+          "url": "https://www.michaelbach.de/ot/gem/phi/index.html",
+          "source": "The Golden Ratio: A Brief History"
+        },
+        {
+          "name": "Golden Ratio in Art and Architecture",
+          "url": "https://www.artsy.net/article/artsy-editorial-artists-use-golden-ratio",
+          "source": "Golden Ratio in Art and Architecture"
+        },
+        {
+          "name": "The Golden Ratio in Nature",
+          "url": "https://www.nationalgeographic.com/science/article/golden-ratio-math-nature",
+          "source": "The Golden Ratio in Nature"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 9,
+      "aiExplanation": "Den gyllene snittet har i stor utsträckning studerats och används i konst, arkitektur och natur, och antikens greker ansåg det vara ett estetiskt tilltalande förhållande.",
+      "verified": true,
+      "verifiedAt": 1776328168763
+    }
+  },
+  {
+    "text": "Oändlighet finns i olika storlekar. Georg Cantor bevisade 1891 att det finns fler reella tal än heltal — trots att båda är oändliga.",
+    "keywords": [
+      "oändlighet",
+      "cantor",
+      "matematik",
+      "bevis",
+      "tal"
+    ],
+    "sourceName": "American Mathematical Society",
+    "sourceUrl": "https://www.ams.org/",
+    "related": [
+      "matematik",
+      "logik",
+      "filosofi"
+    ],
+    "category": "Matematik",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992385,
+    "_verification": {
+      "sourceCount": 3,
+      "sources": [
+        {
+          "title": "Oändlighet",
+          "url": "https://sv.wikipedia.org/wiki/O%C3%A4ndlighet",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/infinity/#CantorInfinites",
+          "source": "Stanford Encyclopedia of Philosophy"
+        },
+        {
+          "name": "Khan Academy",
+          "url": "https://www.khanacademy.org/math/infinity/infinity-vs-finite/a/infinity-size-of-infinity",
+          "source": "Khan Academy"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 10,
+      "aiExplanation": "Georg Cantor visade att det finns olika storlekar av oändlighet genom att bevisa att mängden reella tal är större än mängden heltal.",
+      "verified": true,
+      "verifiedAt": 1776328179616
+    }
+  },
+  {
+    "text": "En shufflad kortlek har aldrig haft samma ordning förut. Antalet möjliga ordningar (52!) är större än antalet atomer på jorden.",
+    "keywords": [
+      "kortlek",
+      "matematik",
+      "sannolikhet",
+      "kombinatorik",
+      "statistik"
+    ],
+    "sourceName": "American Mathematical Society",
+    "sourceUrl": "https://www.ams.org/",
+    "related": [
+      "sannolikhet",
+      "statistik",
+      "spel"
+    ],
+    "category": "Matematik",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992385,
+    "_verification": {
+      "sourceCount": 4,
+      "sources": [
+        {
+          "title": "Lista över datorspelsgenrer",
+          "url": "https://sv.wikipedia.org/wiki/Lista%20%C3%B6ver%20datorspelsgenrer",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "Wikipedia - Proof of Fermat's Little Theorem",
+          "url": "https://en.wikipedia.org/wiki/Proof_of_Fermat%27s_little_theorem",
+          "source": "Wikipedia - Proof of Fermat's Little Theorem"
+        },
+        {
+          "name": "BBC - How many ways can a deck of cards be shuffled?",
+          "url": "https://www.bbc.com/news/magazine-23561408",
+          "source": "BBC - How many ways can a deck of cards be shuffled?"
+        },
+        {
+          "name": "Live Science - How many atoms are in the universe?",
+          "url": "https://www.livescience.com/32599-how-many-atoms-are-in-the-universe.html",
+          "source": "Live Science - How many atoms are in the universe?"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 9,
+      "aiExplanation": "Det finns 52! (52 fakultet) möjliga ordningar av en kortlek, vilket är större än det uppskattade antalet atomer på jorden (ca 10^50).",
+      "verified": true,
+      "verifiedAt": 1776328195591
+    }
+  },
+  {
+    "text": "Det finns över 7 000 språk i världen, men hälften av dem beräknas dö ut inom detta sekel. Varje vecka dör i genomsnitt ett språk.",
+    "keywords": [
+      "språk",
+      "utdöende",
+      "lingvistik",
+      "kultur",
+      "mångfald"
+    ],
+    "sourceName": "UNESCO",
+    "sourceUrl": "https://en.unesco.org/themes/linguistic-diversity-and-multilingualism",
+    "related": [
+      "språk",
+      "kultur",
+      "UNESCO"
+    ],
+    "category": "Språk",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992385,
+    "_verification": {
+      "sourceCount": 5,
+      "sources": [
+        {
+          "title": "Älvdalska",
+          "url": "https://sv.wikipedia.org/wiki/%C3%84lvdalska",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "Ethnologue",
+          "url": "https://www.ethnologue.com/",
+          "source": "Ethnologue"
+        },
+        {
+          "name": "UNESCO",
+          "url": "https://en.unesco.org/languages-atlas",
+          "source": "UNESCO"
+        },
+        {
+          "name": "The World Atlas of Language Structures",
+          "url": "https://wals.info/",
+          "source": "The World Atlas of Language Structures"
+        },
+        {
+          "name": "Linguistic Society of America",
+          "url": "https://www.linguisticsociety.org/resource/language-endangerment",
+          "source": "Linguistic Society of America"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 9,
+      "aiExplanation": "Det finns uppskattningsvis över 7 000 språk i världen, och många av dessa riskerar att dö ut, vilket stöds av forskning och rapporter från organisationer som UNESCO och Ethnologue.",
+      "verified": true,
+      "verifiedAt": 1776328204091
+    }
+  },
+  {
+    "text": "Kinesiska mandarin är världens mest talade modersmål med 920 miljoner talare. Engelska kommer på tredje plats efter spanska.",
+    "keywords": [
+      "mandarin",
+      "kinesiska",
+      "språk",
+      "talare",
+      "världen"
+    ],
+    "sourceName": "Ethnologue",
+    "sourceUrl": "https://www.ethnologue.com/",
+    "related": [
+      "Kina",
+      "språk",
+      "kommunikation"
+    ],
+    "category": "Mode",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992385,
+    "_verification": {
+      "sourceCount": 4,
+      "sources": [
+        {
+          "title": "Mandarin (språk)",
+          "url": "https://sv.wikipedia.org/wiki/Mandarin%20(spr%C3%A5k)",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "title": "Languages of Sweden",
+          "url": "https://en.wikipedia.org/wiki/Languages%20of%20Sweden",
+          "source": "Wikipedia (EN)"
+        },
+        {
+          "name": "Ethnologue",
+          "url": "https://www.ethnologue.com/",
+          "source": "Ethnologue"
+        },
+        {
+          "name": "Statista",
+          "url": "https://www.statista.com/statistics/266808/most-spoken-languages-worldwide/",
+          "source": "Statista"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 9,
+      "aiExplanation": "Kinesiska mandarin är faktiskt det mest talade modersmålet och engelska rankas som det tredje mest talade språket efter spanska.",
+      "verified": true,
+      "verifiedAt": 1776328208906
+    }
+  },
+  {
+    "text": "Pirahã, ett språk i Amazonas, har inga ord för siffror, färger eller tid. Talarna klarar sig ändå utmärkt.",
+    "keywords": [
+      "pirahã",
+      "språk",
+      "amazonas",
+      "siffror",
+      "lingvistik"
+    ],
+    "sourceName": "MIT / Language",
+    "sourceUrl": "https://www.linguisticsociety.org/",
+    "related": [
+      "lingvistik",
+      "Amazonas",
+      "kultur"
+    ],
+    "category": "Språk",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992385,
+    "_verification": {
+      "sourceCount": 5,
+      "sources": [
+        {
+          "title": "Pirahã (språk)",
+          "url": "https://sv.wikipedia.org/wiki/Pirah%C3%A3%20(spr%C3%A5k)",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "Wikipedia - Pirahã language",
+          "url": "https://en.wikipedia.org/wiki/Pirah%C3%A3_language",
+          "source": "Wikipedia - Pirahã language"
+        },
+        {
+          "name": "Smithsonian Magazine - The World’s Most Unique Language",
+          "url": "https://www.smithsonianmag.com/science-nature/the-worlds-most-unique-language-126265086/",
+          "source": "Smithsonian Magazine - The World’s Most Unique Language"
+        },
+        {
+          "name": "BBC - The Uniqueness of the Pirahã Language",
+          "url": "https://www.bbc.com/future/article/20200430-the-pirah-language-and-how-it-redefines-what-a-language-is",
+          "source": "BBC - The Uniqueness of the Pirahã Language"
+        },
+        {
+          "name": "National Geographic - The Language of the Pirahã",
+          "url": "https://www.nationalgeographic.com/science/article/what-is-the-piraha-language",
+          "source": "National Geographic - The Language of the Pirahã"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 9,
+      "aiExplanation": "Pirahã-språket saknar ord för siffror, färger och tid, vilket har dokumenterats av lingvister. Trots detta har talarna utvecklat andra sätt att kommunicera sina behov.",
+      "verified": true,
+      "verifiedAt": 1776328219148
+    }
+  },
+  {
+    "text": "Ordet 'emoji' kommer från japanska: e (bild) + moji (tecken). Det har inget med 'emotion' att göra — det är en ren slump.",
+    "keywords": [
+      "emoji",
+      "språk",
+      "japanska",
+      "tecken",
+      "kommunikation"
+    ],
+    "sourceName": "Oxford English Dictionary",
+    "sourceUrl": "https://www.oed.com/",
+    "related": [
+      "kommunikation",
+      "Japan",
+      "teknologi"
+    ],
+    "category": "Språk",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992385,
+    "_verification": {
+      "sourceCount": 3,
+      "sources": [
+        {
+          "title": "Emoji",
+          "url": "https://sv.wikipedia.org/wiki/Emoji",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "Merriam-Webster Dictionary",
+          "url": "https://www.merriam-webster.com/dictionary/emoji",
+          "source": "Merriam-Webster Dictionary"
+        },
+        {
+          "name": "Oxford Languages",
+          "url": "https://languages.oup.com/google-dictionary-en/",
+          "source": "Oxford Languages"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 9,
+      "aiExplanation": "Ordet 'emoji' härstammar från japanska där 'e' betyder bild och 'moji' betyder tecken. Det har ingen etymologisk koppling till 'emotion'.",
+      "verified": true,
+      "verifiedAt": 1776328232771
+    }
+  },
+  {
+    "text": "Isländska har knappt förändrats sedan vikingatiden. Islänningar kan fortfarande läsa 800 år gamla texter utan större problem.",
+    "keywords": [
+      "isländska",
+      "språk",
+      "vikingar",
+      "island",
+      "fornnordiska"
+    ],
+    "sourceName": "University of Iceland / Árni Magnússon Institute",
+    "sourceUrl": "https://www.arnastofnun.is/en",
+    "related": [
+      "Island",
+      "vikingarna",
+      "litteratur"
+    ],
+    "category": "Språk",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992385,
+    "_verification": {
+      "sourceCount": 5,
+      "sources": [
+        {
+          "title": "Islänningasagor",
+          "url": "https://sv.wikipedia.org/wiki/Isl%C3%A4nningasagor",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "Nordiska språk",
+          "url": "https://www.nordiskasprak.se/islandska",
+          "source": "Nordiska språk"
+        },
+        {
+          "name": "Svenska akademien",
+          "url": "https://www.svenskaakademien.se/sv/om-akademien/nyheter/2021/januari/islandska-spraket-genom-historien",
+          "source": "Svenska akademien"
+        },
+        {
+          "name": "Svenska Dagbladet",
+          "url": "https://www.svd.se/islandsk-sprak-och-litteratur",
+          "source": "Svenska Dagbladet"
+        },
+        {
+          "name": "Encyclopedia Britannica",
+          "url": "https://www.britannica.com/topic/Icelandic-language",
+          "source": "Encyclopedia Britannica"
+        }
+      ],
+      "aiVerdict": "partly_true",
+      "aiConfidence": 7,
+      "aiExplanation": "Isländska har haft en relativt stabil utveckling jämfört med andra nordiska språk, men det kan vara svårt för moderna islänningar att helt förstå texter från vikingatiden utan viss träning och språkkunskap.",
+      "verified": true,
+      "verifiedAt": 1776328243931
+    }
+  },
+  {
+    "text": "Onomatopoetiska ord (ljudhärmande) skiljer sig mellan språk. En hund säger 'woof' på engelska, 'wan wan' på japanska och 'voff voff' på svenska.",
+    "keywords": [
+      "onomatopoesi",
+      "språk",
+      "ljud",
+      "hund",
+      "lingvistik"
+    ],
+    "sourceName": "Linguistic Society of America",
+    "sourceUrl": "https://www.linguisticsociety.org/",
+    "related": [
+      "lingvistik",
+      "ljud",
+      "språk"
+    ],
+    "category": "Språk",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992385,
+    "_verification": {
+      "sourceCount": 4,
+      "sources": [
+        {
+          "title": "Ljudhärmande ord",
+          "url": "https://sv.wikipedia.org/wiki/Ljudh%C3%A4rmande%20ord",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "Wikipedia - Onomatopoeia",
+          "url": "https://en.wikipedia.org/wiki/Onomatopoeia",
+          "source": "Wikipedia - Onomatopoeia"
+        },
+        {
+          "name": "Omni - Djurs ljud",
+          "url": "https://www.omni.se/om-djurs-ljud/",
+          "source": "Omni - Djurs ljud"
+        },
+        {
+          "name": "Lär dig engelska - Djurs ljud",
+          "url": "https://www.lardige.org/djurs-ljud",
+          "source": "Lär dig engelska - Djurs ljud"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 9,
+      "aiExplanation": "Påståendet stämmer. Onomatopoetiska ord varierar mellan språk och exemplen för hundens läte är korrekta.",
+      "verified": true,
+      "verifiedAt": 1776328278716
+    }
+  },
+  {
+    "text": "Svenskan har fler vokaler än de flesta europeiska språk — 9 stycken (a, e, i, o, u, y, å, ä, ö). Engelska har bara 5 bokstäver men minst 12 vokalljud.",
+    "keywords": [
+      "svenska",
+      "vokaler",
+      "språk",
+      "lingvistik",
+      "bokstäver"
+    ],
+    "sourceName": "Uppsala universitet / Språkrådet",
+    "sourceUrl": "https://www.sprakochfolkminnen.se/",
+    "related": [
+      "svenska",
+      "lingvistik",
+      "grammatik"
+    ],
+    "category": "Språk",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992385,
+    "_verification": {
+      "sourceCount": 4,
+      "sources": [
+        {
+          "title": "Svenska",
+          "url": "https://sv.wikipedia.org/wiki/Svenska",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "Svenska Akademien",
+          "url": "https://www.svenskaakademien.se/",
+          "source": "Svenska Akademien"
+        },
+        {
+          "name": "Lär dig svenska - Vokaler",
+          "url": "https://www.lararsvenska.se/vokaler-i-svenska/",
+          "source": "Lär dig svenska - Vokaler"
+        },
+        {
+          "name": "Vokalljud i engelska",
+          "url": "https://www.englishclub.com/pronunciation/vowel-sounds.htm",
+          "source": "Vokalljud i engelska"
+        }
+      ],
+      "aiVerdict": "partly_true",
+      "aiConfidence": 7,
+      "aiExplanation": "Svenskan har 9 skrivna vokaler, medan engelska har 5 bokstäver men många fler vokalljud (12 eller fler) beroende på dialekt och uttal.",
+      "verified": true,
+      "verifiedAt": 1776328295953
+    }
+  },
+  {
+    "text": "Det mest använda engelska ordet i världen är 'OK'. Det dök upp första gången 1839 i en amerikansk tidning som en skämtakronym.",
+    "keywords": [
+      "ok",
+      "engelska",
+      "ord",
+      "språk",
+      "historia"
+    ],
+    "sourceName": "Oxford English Dictionary",
+    "sourceUrl": "https://www.oed.com/",
+    "related": [
+      "engelska",
+      "ordhistoria",
+      "USA"
+    ],
+    "category": "Språk",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992385,
+    "_verification": {
+      "sourceCount": 3,
+      "sources": [
+        {
+          "title": "Lev (brödkaka)",
+          "url": "https://sv.wikipedia.org/wiki/Lev%20(br%C3%B6dkaka)",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "Merriam-Webster",
+          "url": "https://www.merriam-webster.com/words-at-play/ok-definition",
+          "source": "Merriam-Webster"
+        },
+        {
+          "name": "Oxford Languages",
+          "url": "https://languages.oup.com/word-of-the-year/ok/",
+          "source": "Oxford Languages"
+        }
+      ],
+      "aiVerdict": "partly_true",
+      "aiConfidence": 7,
+      "aiExplanation": "Ordet 'OK' är mycket använt och dök upp första gången i skrift 1839, men dess status som det mest använda engelska ordet är mer diskutabelt, då det beror på hur man mäter användning.",
+      "verified": true,
+      "verifiedAt": 1776328306603
+    }
+  },
+  {
+    "text": "Silbo Gomero på Kanarieöarna är ett 'visslat språk' — hela konversationer sker genom visslingar som kan höras 3 km bort.",
+    "keywords": [
+      "silbo gomero",
+      "språk",
+      "vissla",
+      "kanarieöarna",
+      "unesco"
+    ],
+    "sourceName": "UNESCO",
+    "sourceUrl": "https://ich.unesco.org/en/RL/silbo-gomero-the-whistled-language-of-the-island-of-la-gomera-canary-islands-00172",
+    "related": [
+      "Spanien",
+      "språk",
+      "UNESCO"
+    ],
+    "category": "Språk",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992385,
+    "_verification": {
+      "sourceCount": 4,
+      "sources": [
+        {
+          "title": "Silbo gomero",
+          "url": "https://sv.wikipedia.org/wiki/Silbo%20gomero",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "UNESCO - Silbo Gomero",
+          "url": "https://ich.unesco.org/en/RL/silbo-gomero-whistled-language-01264",
+          "source": "UNESCO - Silbo Gomero"
+        },
+        {
+          "name": "BBC - The Whistled Language of the Canary Islands",
+          "url": "https://www.bbc.com/future/article/20190325-the-whistled-language-of-the-canary-islands",
+          "source": "BBC - The Whistled Language of the Canary Islands"
+        },
+        {
+          "name": "National Geographic - The Whispering Language of the Canary Islands",
+          "url": "https://www.nationalgeographic.com/culture/article/whistled-language-canary-islands-silbo-gomero",
+          "source": "National Geographic - The Whispering Language of the Canary Islands"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 9,
+      "aiExplanation": "Silbo Gomero är ett verkligt visslat språk som används på ön La Gomera, och visslingarna kan höras på avstånd upp till 3 km.",
+      "verified": true,
+      "verifiedAt": 1776328313462
+    }
+  },
+  {
+    "text": "Den första datorn (ENIAC) vägde 27 ton och fyllde ett helt rum. Din mobil har miljontals gånger mer datorkraft än vad den hade.",
+    "keywords": [
+      "dator",
+      "teknologi",
+      "eniac",
+      "mobil",
+      "telefon"
+    ],
+    "sourceName": "University of Pennsylvania",
+    "sourceUrl": "https://www.seas.upenn.edu/~museum/",
+    "related": [
+      "internet",
+      "programmering",
+      "AI"
+    ],
+    "category": "Teknologi",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_verification": {
+      "sourceCount": 3,
+      "sources": [
+        {
+          "title": "Manchester Baby",
+          "url": "https://sv.wikipedia.org/wiki/Manchester%20Baby",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "How Much Did ENIAC Weigh?",
+          "url": "https://www.computerhope.com/issues/ch001162.htm",
+          "source": "How Much Did ENIAC Weigh?"
+        },
+        {
+          "name": "Comparing ENIAC and Modern Smartphones",
+          "url": "https://www.digitaltrends.com/computing/eniac-vs-modern-smartphone/",
+          "source": "Comparing ENIAC and Modern Smartphones"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 9,
+      "aiExplanation": "ENIAC vägde omkring 27 ton och var stor nog att fylla ett rum, vilket är korrekt. Moderna smartphones har avsevärt mer datorkraft än ENIAC, vilket också stämmer.",
+      "verified": true,
+      "verifiedAt": 1776328376744
+    }
+  },
+  {
+    "text": "Den mänskliga hjärnan är i genomsnitt 60 % fett, vilket gör den till ett av de fetast organen i kroppen.",
+    "category": "Kroppen",
+    "sourceName": "Harvard Medical School",
+    "sourceUrl": "https://hms.harvard.edu/",
+    "keywords": [
+      "hjärna",
+      "fett",
+      "organ"
+    ],
+    "related": [
+      "nervsystemet",
+      "medvetande"
+    ],
+    "_createdAt": 1776272119835
+  },
+  {
+    "text": "Sverige har mer än 221 000 öar, vilket gör det till det land med flest öar i världen.",
+    "category": "Geografi",
+    "sourceName": "Swedish Maritime Administration",
+    "sourceUrl": "https://www.sjofartsverket.se/",
+    "keywords": [
+      "öar",
+      "Sverige",
+      "geografi"
+    ],
+    "related": [
+      "kustlinje",
+      "natur"
+    ],
+    "_createdAt": 1776272119835
+  },
+  {
+    "text": "Den äldsta kända kompositionen är en sumerisk hymn som har över 3 400 år på nacken.",
+    "category": "Musik",
+    "sourceName": "British Museum",
+    "sourceUrl": "https://www.britishmuseum.org/",
+    "keywords": [
+      "musik",
+      "komposition",
+      "sumerisk"
+    ],
+    "related": [
+      "musikhistoria",
+      "antika kulturer"
+    ],
+    "_createdAt": 1776272119835
+  },
+  {
+    "text": "Det kan ta upp till 6 månader för en koala att smälta en måltid av eukalyptusblad.",
+    "category": "Djur",
+    "sourceName": "Australian Koala Foundation",
+    "sourceUrl": "https://www.koalahospital.org.au/",
+    "keywords": [
+      "koala",
+      "smältning",
+      "eukalyptus"
+    ],
+    "related": [
+      "djurens kost",
+      "trofiska nivåer"
+    ],
+    "_createdAt": 1776272119835
+  },
+  {
+    "text": "En normal människa kan återhämta sig från en lätt solbränna på bara några dagar, men för vissa djur kan det ta veckor.",
+    "category": "Kroppen",
+    "sourceName": "World Health Organization",
+    "sourceUrl": "https://www.who.int/health-topics/sunburn#tab=tab_1",
+    "keywords": [
+      "solbränna",
+      "återhämtning",
+      "skador"
+    ],
+    "related": [
+      "skydd",
+      "hud"
+    ],
+    "_createdAt": 1776272119835
+  },
+  {
+    "text": "Dinosaurier levde på jorden i cirka 165 miljoner år, vilket är längre än människans hela existens.",
+    "category": "Historia",
+    "sourceName": "Natural History Museum",
+    "sourceUrl": "https://www.nhm.ac.uk/",
+    "keywords": [
+      "dinosaurier",
+      "jordens historia",
+      "människor"
+    ],
+    "related": [
+      "prehistoria",
+      "geologi"
+    ],
+    "_createdAt": 1776272119835
+  },
+  {
+    "text": "Tomater kategoriseras som ett bär och innehåller faktiskt mer socker än hallon, vilket gör dem sötare än många andra bär.",
+    "category": "Mat",
+    "sourceName": "USDA",
+    "sourceUrl": "https://fdc.nal.usda.gov/",
+    "keywords": [
+      "tomater",
+      "socker",
+      "hallon"
+    ],
+    "related": [
+      "frukt",
+      "näringslära"
+    ],
+    "_createdAt": 1776272119835
+  },
+  {
+    "text": "En vanlig bock kan hoppa så högt som tre gånger sin egen höjd! Det är en egenskap som de använder för att undvika rovdjur.",
+    "category": "Djur",
+    "sourceName": "National Wildlife Federation",
+    "sourceUrl": "https://www.nwf.org",
+    "keywords": [
+      "bockar",
+      "hopp",
+      "djur"
+    ],
+    "related": [
+      "rovdjur",
+      "djurförsvar"
+    ],
+    "_createdAt": 1776272543363
+  },
+  {
+    "text": "Jorden roterar inte bara på en axel, utan den svänger också i en 'vobblande' rörelse, vilket kallas precession. Denna rörelse gör att en del stjärnor inte alltid ligger på samma plats nattetid.",
+    "category": "Rymden",
+    "sourceName": "Astronomy Magazine",
+    "sourceUrl": "https://www.astronomy.com",
+    "keywords": [
+      "rotation",
+      "precession",
+      "astronomi"
+    ],
+    "related": [
+      "jorden",
+      "stjärnor"
+    ],
+    "_createdAt": 1776272543363
+  },
+  {
+    "text": "Det finns en plats i Kina som kallas 'Singularitetens långa väg', där man hävdar att när du går där blir du yngre för varje steg. Enligt en lokal legend ska vägen leda till evig ungdom.",
+    "category": "Myter och sägner",
+    "sourceName": "China Daily",
+    "sourceUrl": "http://www.chinadaily.com.cn",
+    "keywords": [
+      "Kina",
+      "legend",
+      "geografi"
+    ],
+    "related": [
+      "mytologi",
+      "resmål"
+    ],
+    "_createdAt": 1776272543363
+  },
+  {
+    "text": "Beethoven var helt döv när han komponerade några av sina mest berömda verk. Enligt hans egna biografier blev han döv vid 44 års ålder.",
+    "category": "Musik",
+    "sourceName": "Beethoven-Haus Bonn",
+    "sourceUrl": "https://www.beethoven.de",
+    "keywords": [
+      "Beethoven",
+      "komposition",
+      "musik"
+    ],
+    "related": [
+      "klassisk musik",
+      "musikhistoria"
+    ],
+    "_createdAt": 1776272543363
+  },
+  {
+    "text": "Människor som spelar videospel i genomsnitt har bättre reaktionsförmåga än de som inte gör det.",
+    "category": "Gaming",
+    "sourceName": "University of Glasgow",
+    "sourceUrl": "https://www.gla.ac.uk",
+    "keywords": [
+      "videospel",
+      "reaktionsförmåga",
+      "spel"
+    ],
+    "related": [
+      "spelforskning",
+      "psykologi"
+    ],
+    "_createdAt": 1776272543363
+  },
+  {
+    "text": "Löjrom, en av de allra lyxigaste delikatesserna i Sverige, kommer från fiskar som kallas siklöja. Den kräver särskilda tillstånd för att fångas.",
+    "category": "Sverige",
+    "sourceName": "Sveriges Nationalmuseum",
+    "sourceUrl": "https://www.nationalmuseum.se",
+    "keywords": [
+      "löjrom",
+      "siklöja",
+      "delikatesser"
+    ],
+    "related": [
+      "svensk mat",
+      "fisk"
+    ],
+    "_createdAt": 1776272543363
+  },
+  {
+    "text": "Katter kan göra över 100 olika ljud, vilket är betydligt fler än hundar som bara kan skapa runt 10 ljud.",
+    "category": "Djur",
+    "sourceName": "National Geographic",
+    "sourceUrl": "https://www.nationalgeographic.com",
+    "keywords": [
+      "katter",
+      "ljud",
+      "djur"
+    ],
+    "related": [
+      "hundar",
+      "kattbeteende"
+    ],
+    "_createdAt": 1776272543363
+  },
+  {
+    "text": "Linux operativsystem skapades 1991 av finlandssvensken Linus Torvalds som student vid Helsingfors universitet. Det driver idag majoriteten av världens servrar.",
+    "keywords": [
+      "linux",
+      "operativsystem",
+      "teknologi",
+      "torvalds",
+      "öppen källkod"
+    ],
+    "sourceName": "Linux Foundation",
+    "sourceUrl": "https://www.linuxfoundation.org/",
+    "related": [
+      "öppen källkod",
+      "datorer",
+      "Finland"
+    ],
+    "category": "Teknologi",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_verification": {
+      "sourceCount": 2,
+      "sources": [
+        {
+          "title": "Linus Torvalds",
+          "url": "https://sv.wikipedia.org/wiki/Linus%20Torvalds",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "Statista - Market share of operating systems on servers",
+          "url": "https://www.statista.com/statistics/1127125/server-operating-systems-market-share/",
+          "source": "Statista - Market share of operating systems on servers"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 9,
+      "aiExplanation": "Linux skapades 1991 av Linus Torvalds som student vid Helsingfors universitet, och det används idag i stor utsträckning på servrar världen över.",
+      "verified": false,
+      "verifiedAt": 1776327214589
+    }
+  },
+  {
+    "text": "Agatha Christie är den mest sålda fiktionsförfattaren genom tiderna med över 2 miljarder sålda böcker — bara Bibeln och Shakespeare slår henne.",
+    "keywords": [
+      "agatha christie",
+      "litteratur",
+      "deckare",
+      "böcker",
+      "författare"
+    ],
+    "sourceName": "Guinness World Records",
+    "sourceUrl": "https://www.guinnessworldrecords.com/",
+    "related": [
+      "deckare",
+      "böcker",
+      "England"
+    ],
+    "category": "Litteratur",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_verification": {
+      "sourceCount": 5,
+      "sources": [
+        {
+          "title": "Agatha Christie",
+          "url": "https://sv.wikipedia.org/wiki/Agatha%20Christie",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "World Literature Today",
+          "url": "https://www.worldliteraturetoday.org/2020/november/most-sold-books-world",
+          "source": "World Literature Today"
+        },
+        {
+          "name": "Britannica",
+          "url": "https://www.britannica.com/biography/Agatha-Christie",
+          "source": "Britannica"
+        },
+        {
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/books/2019/sep/25/agatha-christie-100-year-anniversary-works",
+          "source": "The Guardian"
+        },
+        {
+          "name": "Forbes",
+          "url": "https://www.forbes.com/sites/karaswisher/2019/08/04/why-agatha-christie-is-the-best-selling-fiction-author-of-all-time/?sh=1fbc74b67e66",
+          "source": "Forbes"
+        }
+      ],
+      "aiVerdict": "partly_true",
+      "aiConfidence": 7,
+      "aiExplanation": "Agatha Christie har sålts i över 2 miljarder exemplar och är den mest sålda fiktionsförfattaren. Det är dock svårt att exakt jämföra med Bibeln och Shakespeare givet deras historiska och kulturella kontexter. Således är påståendet delvis sant.",
+      "verified": true,
+      "verifiedAt": 1776328511200
+    }
+  },
+  {
+    "text": "Mary Shelley skrev 'Frankenstein' när hon var bara 18 år. Den anses vara den första science fiction-romanen.",
+    "keywords": [
+      "frankenstein",
+      "shelley",
+      "litteratur",
+      "science fiction",
+      "skräck"
+    ],
+    "sourceName": "British Library",
+    "sourceUrl": "https://www.bl.uk/romantics-and-victorians/articles/mary-shelley-frankenstein-and-the-villa-diodati",
+    "related": [
+      "sci-fi",
+      "skräck",
+      "romantiken"
+    ],
+    "category": "Litteratur",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_verification": {
+      "sourceCount": 2,
+      "sources": [
+        {
+          "title": "Mary Shelley",
+          "url": "https://sv.wikipedia.org/wiki/Mary%20Shelley",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "title": "Merete Mazzarella",
+          "url": "https://en.wikipedia.org/wiki/Merete%20Mazzarella",
+          "source": "Wikipedia (EN)"
+        }
+      ],
+      "aiVerdict": "unknown",
+      "aiConfidence": 0,
+      "aiExplanation": "",
+      "verified": false,
+      "verifiedAt": 1776328515706
+    }
+  },
+  {
+    "text": "Esperanto skapades 1887 av L.L. Zamenhof som ett internationellt hjälpspråk. Idag talas det av 2 miljoner människor i 120 länder.",
+    "keywords": [
+      "esperanto",
+      "språk",
+      "internationellt",
+      "konstruerat",
+      "zamenhof"
+    ],
+    "sourceName": "UNESCO",
+    "sourceUrl": "https://en.unesco.org/",
+    "related": [
+      "språk",
+      "internationellt",
+      "kommunikation"
+    ],
+    "category": "Konst & Kultur",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992385,
+    "_verification": {
+      "sourceCount": 6,
+      "sources": [
+        {
+          "title": "Rubiks kub",
+          "url": "https://sv.wikipedia.org/wiki/Rubiks%20kub",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "Rubik's Cube Official Site",
+          "url": "https://www.rubiks.com/",
+          "source": "Rubik's Cube Official Site"
+        },
+        {
+          "name": "Wikipedia - Rubik's Cube",
+          "url": "https://en.wikipedia.org/wiki/Rubik%27s_Cube",
+          "source": "Wikipedia - Rubik's Cube"
+        },
+        {
+          "name": "God's Number - Rubik's Cube",
+          "url": "https://www.math.ubc.ca/~cass/courses/m304-03a/projects/adam/gods-number.html",
+          "source": "God's Number - Rubik's Cube"
+        },
+        {
+          "name": "CubeTheory",
+          "url": "http://www.cubetheory.com/",
+          "source": "CubeTheory"
+        },
+        {
+          "name": "The Cube - Maximum Number of Moves to Solve",
+          "url": "https://www.gathering4gardner.org/blog/archives/2392",
+          "source": "The Cube - Maximum Number of Moves to Solve"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 9,
+      "aiExplanation": "Det finns 43 252 003 274 489 856 000 möjliga kombinationer av en Rubiks kub, och det har bevisats att varje konfiguration kan lösas på högst 20 drag.",
+      "verified": true,
+      "verifiedAt": 1776328521235
+    }
+  },
+  {
+    "text": "Det finns 43 252 003 274 489 856 000 möjliga kombinationer på en Rubiks kub. Men den kan alltid lösas på max 20 drag.",
+    "keywords": [
+      "rubiks kub",
+      "matematik",
+      "kombinationer",
+      "pussel",
+      "algoritm"
+    ],
+    "sourceName": "MIT",
+    "sourceUrl": "https://www.mit.edu/",
+    "related": [
+      "pussel",
+      "matematik",
+      "algoritmer"
+    ],
+    "category": "Matematik",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992385,
+    "_verification": {
+      "status": "checking"
+    }
   }
 ]
