@@ -6413,5 +6413,3348 @@
       "verified": true,
       "verifiedAt": 1776322713843
     }
+  },
+  {
+    "text": "Fado, Portugals melankoli-fyllda folkmusik, blev UNESCO-kulturarv 2011. Ordet 'fado' kommer från latinets 'fatum' och betyder ödet.",
+    "keywords": [
+      "fado",
+      "musik",
+      "portugal",
+      "folkmusik",
+      "unesco"
+    ],
+    "sourceName": "UNESCO",
+    "sourceUrl": "https://ich.unesco.org/en/RL/fado-urban-popular-song-of-portugal-00563",
+    "related": [
+      "Portugal",
+      "folkmusik",
+      "Lissabon"
+    ],
+    "category": "Musik",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992383,
+    "_verification": {
+      "sourceCount": 4,
+      "sources": [
+        {
+          "title": "Portugal",
+          "url": "https://sv.wikipedia.org/wiki/Portugal",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "title": "Linda de Suza",
+          "url": "https://en.wikipedia.org/wiki/Linda%20de%20Suza",
+          "source": "Wikipedia (EN)"
+        },
+        {
+          "name": "UNESCO - Fado",
+          "url": "https://ich.unesco.org/en/RL/fado-00532",
+          "source": "UNESCO - Fado"
+        },
+        {
+          "name": "Fado Music - Portugal",
+          "url": "https://www.portugal.com/fado",
+          "source": "Fado Music - Portugal"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 10,
+      "aiExplanation": "Fado blev utnämnt som immateriellt kulturarv av UNESCO 2011, och termen 'fado' har sitt ursprung i det latinska ordet 'fatum', vilket betyder öde.",
+      "verified": true,
+      "verifiedAt": 1776323797767
+    }
+  },
+  {
+    "text": "Jimi Hendrix som var vänsterhänt, spelade en högervänd gitarr uppochner istället för att köpa en vänstermodell. Det gav honom ett unikt ljud.",
+    "keywords": [
+      "jimi hendrix",
+      "musik",
+      "gitarr",
+      "rock",
+      "legend"
+    ],
+    "sourceName": "Rock & Roll Hall of Fame",
+    "sourceUrl": "https://www.rockhall.com/inductees/jimi-hendrix",
+    "related": [
+      "rock",
+      "gitarr",
+      "1960-talet"
+    ],
+    "category": "Musik",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992383,
+    "_verification": {
+      "sourceCount": 5,
+      "sources": [
+        {
+          "title": "Jimi Hendrix",
+          "url": "https://sv.wikipedia.org/wiki/Jimi%20Hendrix",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "Guitar World",
+          "url": "https://www.guitarworld.com/features/jimi-hendrix-the-ultimate-guide-to-his-gear",
+          "source": "Guitar World"
+        },
+        {
+          "name": "Rolling Stone",
+          "url": "https://www.rollingstone.com/music/music-news/jimi-hendrix-guitar-playing-technique-72661/",
+          "source": "Rolling Stone"
+        },
+        {
+          "name": "The Vintage Guitar Magazine",
+          "url": "https://www.vintageguitar.com/30085/jimi-hendrixs-guitars/",
+          "source": "The Vintage Guitar Magazine"
+        },
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/entertainment-arts-49114527",
+          "source": "BBC"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 8,
+      "aiExplanation": "Jimi Hendrix spelade faktiskt på en högervänd gitarr uppochner, vilket bidrog till hans unika ljud.",
+      "verified": true,
+      "verifiedAt": 1776323835000
+    }
+  },
+  {
+    "text": "Stradivarius-violiner från 1600-talet anses ha det perfekta soundet. En har sålts för över 150 miljoner kronor. Ingen vet exakt varför de låter så bra.",
+    "keywords": [
+      "stradivarius",
+      "violin",
+      "musik",
+      "instrument",
+      "klassiskt"
+    ],
+    "sourceName": "Smithsonian Institution",
+    "sourceUrl": "https://www.si.edu/",
+    "related": [
+      "klassisk musik",
+      "Italien",
+      "instrument"
+    ],
+    "category": "Musik",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992383,
+    "_verification": {
+      "sourceCount": 6,
+      "sources": [
+        {
+          "title": "Violin",
+          "url": "https://sv.wikipedia.org/wiki/Violin",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "title": "Roman Totenberg",
+          "url": "https://en.wikipedia.org/wiki/Roman%20Totenberg",
+          "source": "Wikipedia (EN)"
+        },
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.com/news/entertainment-arts-46404078",
+          "source": "BBC News"
+        },
+        {
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/music/2019/mar/15/stradivarius-violin-sold-for-15m",
+          "source": "The Guardian"
+        },
+        {
+          "name": "Violinist.com",
+          "url": "https://violinist.com/blog/yangwei/20193/27797/",
+          "source": "Violinist.com"
+        },
+        {
+          "name": "Smithsonian Magazine",
+          "url": "https://www.smithsonianmag.com/science-nature/why-stradivari-violins-sound-so-good-180964891/",
+          "source": "Smithsonian Magazine"
+        }
+      ],
+      "aiVerdict": "partly_true",
+      "aiConfidence": 8,
+      "aiExplanation": "Det stämmer att Stradivarius-violiner anses ha ett exceptionellt ljud och att en har sålts för över 150 miljoner kronor. Anledningen till ljudets kvalitet är fortfarande inte helt klarlagd och diskuteras bland experter.",
+      "verified": true,
+      "verifiedAt": 1776323848960
+    }
+  },
+  {
+    "text": "Wimbledon är världens äldsta tennisturnering och har spelats sedan 1877. Spelarna måste fortfarande bära nästan helt vita kläder precis som vid starten.",
+    "keywords": [
+      "tennis",
+      "wimbledon",
+      "sport",
+      "turnering",
+      "england"
+    ],
+    "sourceName": "The All England Lawn Tennis Club",
+    "sourceUrl": "https://www.wimbledon.com/en_GB/atoz/history.html",
+    "related": [
+      "Grand Slam",
+      "gräsplan",
+      "sport"
+    ],
+    "category": "Sport",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992383,
+    "_verification": {
+      "sourceCount": 4,
+      "sources": [
+        {
+          "title": "Tennis",
+          "url": "https://sv.wikipedia.org/wiki/Tennis",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "title": "Wimbledon Championships",
+          "url": "https://en.wikipedia.org/wiki/Wimbledon%20Championships",
+          "source": "Wikipedia (EN)"
+        },
+        {
+          "name": "Wimbledon Official Website",
+          "url": "https://www.wimbledon.com/en_GB/about/history.html",
+          "source": "Wimbledon Official Website"
+        },
+        {
+          "name": "BBC Sport",
+          "url": "https://www.bbc.com/sport/tennis/44065795",
+          "source": "BBC Sport"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 10,
+      "aiExplanation": "Wimbledon grundades 1877 och är den äldsta tennisturneringen. Regler för klädsel föreskriver nästan helt vita kläder för spelarna, vilket också gäller sedan starten.",
+      "verified": true,
+      "verifiedAt": 1776323880191
+    }
+  },
+  {
+    "text": "Roger Federer vann 20 Grand Slam-titlar och anses av många som tennisens GOAT.",
+    "keywords": [
+      "tennis",
+      "federer",
+      "grand slam",
+      "sport"
+    ],
+    "sourceName": "ATP Tour",
+    "sourceUrl": "https://www.atptour.com/",
+    "related": [
+      "Wimbledon",
+      "Nadal",
+      "Djokovic"
+    ],
+    "category": "Sport",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992383,
+    "_verification": {
+      "sourceCount": 5,
+      "sources": [
+        {
+          "title": "Grand Slam (tennis)",
+          "url": "https://sv.wikipedia.org/wiki/Grand%20Slam%20(tennis)",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "title": "Big Three (tennis)",
+          "url": "https://en.wikipedia.org/wiki/Big%20Three%20(tennis)",
+          "source": "Wikipedia (EN)"
+        },
+        {
+          "name": "ATP - Grand Slam Titles",
+          "url": "https://www.atptour.com/en/players/roger-federer/f324/overview",
+          "source": "ATP - Grand Slam Titles"
+        },
+        {
+          "name": "BBC Sport - Greatest Tennis Players",
+          "url": "https://www.bbc.com/sport/tennis/51702014",
+          "source": "BBC Sport - Greatest Tennis Players"
+        },
+        {
+          "name": "ESPN - Roger Federer profile",
+          "url": "https://www.espn.com/tennis/player/_/id/1/roger-federer",
+          "source": "ESPN - Roger Federer profile"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 9,
+      "aiExplanation": "Roger Federer har vunnit 20 Grand Slam-titlar och många experter och fans anser att han är en av de bästa tennisspelarna genom tiderna.",
+      "verified": true,
+      "verifiedAt": 1776323904455
+    }
+  },
+  {
+    "text": "Tennisbollen var ursprungligen vit men byttes till gul 1972 för att synas bättre på TV.",
+    "keywords": [
+      "tennis",
+      "tennisboll",
+      "sport",
+      "tv",
+      "historia"
+    ],
+    "sourceName": "International Tennis Federation (ITF)",
+    "sourceUrl": "https://www.itftennis.com/",
+    "related": [
+      "Wimbledon",
+      "regler",
+      "sport"
+    ],
+    "category": "Sport",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992383,
+    "_verification": {
+      "sourceCount": 5,
+      "sources": [
+        {
+          "title": "Tennis",
+          "url": "https://sv.wikipedia.org/wiki/Tennis",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "International Tennis Federation",
+          "url": "https://www.itftennis.com/en/news/tennis-ball-colors-and-why-they-changed/",
+          "source": "International Tennis Federation"
+        },
+        {
+          "name": "BBC Sport",
+          "url": "https://www.bbc.com/sport/tennis/49405844",
+          "source": "BBC Sport"
+        },
+        {
+          "name": "Tennis.com",
+          "url": "https://www.tennis.com/news/articles/how-and-why-the-yellow-tennis-ball-became-the-standard",
+          "source": "Tennis.com"
+        },
+        {
+          "name": "Time Magazine",
+          "url": "https://time.com/5645007/yellow-tennis-ball-history/",
+          "source": "Time Magazine"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 9,
+      "aiExplanation": "Tennisbollen var ursprungligen vit och ändrades till gul 1972 för att förbättra synligheten på TV.",
+      "verified": true,
+      "verifiedAt": 1776323925266
+    }
+  },
+  {
+    "text": "FIFA:s första VM i fotboll hölls i Uruguay 1930 med bara 13 lag. Idag deltar 211 nationer i kvalet.",
+    "keywords": [
+      "fotboll",
+      "vm",
+      "fifa",
+      "sport",
+      "uruguay"
+    ],
+    "sourceName": "FIFA",
+    "sourceUrl": "https://www.fifa.com/",
+    "related": [
+      "fotboll",
+      "VM",
+      "Uruguay"
+    ],
+    "category": "Sport",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992383,
+    "_verification": {
+      "sourceCount": 3,
+      "sources": [
+        {
+          "title": "Världsmästerskapet i fotboll för herrar",
+          "url": "https://sv.wikipedia.org/wiki/V%C3%A4rldsm%C3%A4sterskapet%20i%20fotboll%20f%C3%B6r%20herrar",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "title": "1958 FIFA World Cup",
+          "url": "https://en.wikipedia.org/wiki/1958%20FIFA%20World%20Cup",
+          "source": "Wikipedia (EN)"
+        },
+        {
+          "name": "FIFA Official Website",
+          "url": "https://www.fifa.com/worldcup/archive/uruguay1930/",
+          "source": "FIFA Official Website"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 10,
+      "aiExplanation": "Påståendet stämmer; FIFA:s första VM hölls i Uruguay 1930 med 13 deltagande lag, och idag deltar 211 nationer i kvalet.",
+      "verified": true,
+      "verifiedAt": 1776323938926
+    }
+  },
+  {
+    "text": "De antika olympiska spelen hölls i Olympia, Grekland, från 776 f.Kr. till 393 e.Kr. — i nästan 1 200 år.",
+    "keywords": [
+      "os",
+      "olympiska spelen",
+      "antiken",
+      "sport",
+      "grekland"
+    ],
+    "sourceName": "International Olympic Committee",
+    "sourceUrl": "https://olympics.com/",
+    "related": [
+      "friidrott",
+      "Grekland",
+      "historia"
+    ],
+    "category": "Sport",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992383,
+    "_verification": {
+      "sourceCount": 4,
+      "sources": [
+        {
+          "title": "Olympiska spelen",
+          "url": "https://sv.wikipedia.org/wiki/Olympiska%20spelen",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "National Geographic",
+          "url": "https://www.nationalgeographic.com/history/article/ancient-olympics",
+          "source": "National Geographic"
+        },
+        {
+          "name": "Encyclopedia Britannica",
+          "url": "https://www.britannica.com/sports/Ancient-Olympic-Games",
+          "source": "Encyclopedia Britannica"
+        },
+        {
+          "name": "History.com",
+          "url": "https://www.history.com/topics/sports/olympic-games",
+          "source": "History.com"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 9,
+      "aiExplanation": "De antika olympiska spelen hölls i Olympia från 776 f.Kr. till 393 e.Kr. vilket gör att de pågick i nästan 1 200 år.",
+      "verified": true,
+      "verifiedAt": 1776324017716
+    }
+  },
+  {
+    "text": "Michael Jordan missade över 9 000 skott och förlorade nästan 300 matcher under sin karriär. Han har ett berömdt citat som lyder: 'Jag har misslyckats om och om igen — det är därför jag lyckas.'",
+    "keywords": [
+      "michael jordan",
+      "basket",
+      "nba",
+      "sport",
+      "usa"
+    ],
+    "sourceName": "NBA",
+    "sourceUrl": "https://www.nba.com/",
+    "related": [
+      "NBA",
+      "basket",
+      "Chicago Bulls"
+    ],
+    "category": "Sport",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992383,
+    "_verification": {
+      "sourceCount": 5,
+      "sources": [
+        {
+          "title": "Michael Jordan",
+          "url": "https://sv.wikipedia.org/wiki/Michael%20Jordan",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "title": "Michael Jordan",
+          "url": "https://en.wikipedia.org/wiki/Michael%20Jordan",
+          "source": "Wikipedia (EN)"
+        },
+        {
+          "name": "ESPN",
+          "url": "https://www.espn.com/nba/player/stats/_/id/528/michael-jordan",
+          "source": "ESPN"
+        },
+        {
+          "name": "Basketball Reference",
+          "url": "https://www.basketball-reference.com/players/j/jordami01.html",
+          "source": "Basketball Reference"
+        },
+        {
+          "name": "NBA.com",
+          "url": "https://www.nba.com/player/893",
+          "source": "NBA.com"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 9,
+      "aiExplanation": "Michael Jordan missade över 9 000 skott under sin karriär och förlorade nära 300 matcher. Citatet är även bekräftat som äkta.",
+      "verified": true,
+      "verifiedAt": 1776324058275
+    }
+  },
+  {
+    "text": "En cricketmatch kan pågå i upp till fem dagar. Den längsta matchen någonsin, 1939, slutade oavgjord efter 12 dagar för att ett av lagen behövde hinna med sitt skepp hem.",
+    "keywords": [
+      "cricket",
+      "sport",
+      "lång",
+      "rekord",
+      "england"
+    ],
+    "sourceName": "International Cricket Council",
+    "sourceUrl": "https://www.icc-cricket.com/",
+    "related": [
+      "cricket",
+      "England",
+      "rekord"
+    ],
+    "category": "Sport",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992383,
+    "_verification": {
+      "sourceCount": 4,
+      "sources": [
+        {
+          "title": "Cricket",
+          "url": "https://sv.wikipedia.org/wiki/Cricket",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "title": "History of cricket",
+          "url": "https://en.wikipedia.org/wiki/History%20of%20cricket",
+          "source": "Wikipedia (EN)"
+        },
+        {
+          "name": "BBC Sport",
+          "url": "https://www.bbc.com/sport/cricket/43094914",
+          "source": "BBC Sport"
+        },
+        {
+          "name": "ESPN Cricinfo",
+          "url": "https://www.espncricinfo.com/story/the-longest-cricket-match-in-history-1245895",
+          "source": "ESPN Cricinfo"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 8,
+      "aiExplanation": "Cricketmatcher kan pågå i upp till fem dagar och det finns dokumenterade fall av före detta 'timeless tests', inklusive den som pågick i 12 dagar 1939.",
+      "verified": true,
+      "verifiedAt": 1776324067790
+    }
+  },
+  {
+    "text": "Surfing var förbjudet på Hawaii i nästan 100 år under det västerländska missionärstyret. Duke Kahanamoku återupplivade sporten på 1900-talet.",
+    "keywords": [
+      "surfing",
+      "sport",
+      "hawaii",
+      "vågor",
+      "historia"
+    ],
+    "sourceName": "Bishop Museum, Hawaii",
+    "sourceUrl": "https://www.bishopmuseum.org/",
+    "related": [
+      "Hawaii",
+      "havet",
+      "extremsport"
+    ],
+    "category": "Sport",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992383,
+    "_verification": {
+      "sourceCount": 5,
+      "sources": [
+        {
+          "title": "Surfing",
+          "url": "https://sv.wikipedia.org/wiki/Surfing",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "title": "Surf culture",
+          "url": "https://en.wikipedia.org/wiki/Surf%20culture",
+          "source": "Wikipedia (EN)"
+        },
+        {
+          "name": "History of Surfing",
+          "url": "https://www.surfingmuseum.org/history",
+          "source": "History of Surfing"
+        },
+        {
+          "name": "Duke Kahanamoku - The Father of Surfing",
+          "url": "https://www.waikikibeachcomber.com/duke-kahanamoku",
+          "source": "Duke Kahanamoku - The Father of Surfing"
+        },
+        {
+          "name": "Hawaiian Surfing History",
+          "url": "https://www.hawaiisurfinghistory.com",
+          "source": "Hawaiian Surfing History"
+        }
+      ],
+      "aiVerdict": "partly_true",
+      "aiConfidence": 7,
+      "aiExplanation": "Surfing blev undertryckt under det västerländska missionärstyret, men det är mer komplicerat än ett helt förbud. Duke Kahanamoku spelade en viktig roll i att återuppliva surfingen på 1900-talet och gjorde den populär i USA.",
+      "verified": true,
+      "verifiedAt": 1776324081547
+    }
+  },
+  {
+    "text": "Tour de France-cyklisterna förbrukar ungefär 8 000 kalorier per dag under loppet. Det är som att springa tre maraton varje dag i tre veckor.",
+    "keywords": [
+      "tour de france",
+      "cykling",
+      "sport",
+      "kalorier",
+      "uthållighet"
+    ],
+    "sourceName": "Union Cycliste Internationale (UCI)",
+    "sourceUrl": "https://www.uci.org/",
+    "related": [
+      "cykling",
+      "Frankrike",
+      "uthållighet"
+    ],
+    "category": "Sport",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992383,
+    "_verification": {
+      "sourceCount": 6,
+      "sources": [
+        {
+          "title": "Tadej Pogačar",
+          "url": "https://sv.wikipedia.org/wiki/Tadej%20Poga%C4%8Dar",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "title": "List of cycling tracks and velodromes",
+          "url": "https://en.wikipedia.org/wiki/List%20of%20cycling%20tracks%20and%20velodromes",
+          "source": "Wikipedia (EN)"
+        },
+        {
+          "name": "BBC Sport",
+          "url": "https://www.bbc.com/sport/cycling/52072405",
+          "source": "BBC Sport"
+        },
+        {
+          "name": "Cycling Tips",
+          "url": "https://cyclingtips.com/2020/07/how-many-calories-do-tour-de-france-riders-burn/",
+          "source": "Cycling Tips"
+        },
+        {
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/sport/2017/jul/21/tour-de-france-2017-burn-calories",
+          "source": "The Guardian"
+        },
+        {
+          "name": "USA Today",
+          "url": "https://www.usatoday.com/story/sports/cycling/2021/07/01/how-many-calories-do-tour-de-france-cyclists-burn/7717835002/",
+          "source": "USA Today"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 8,
+      "aiExplanation": "Många källor bekräftar att Tour de France-cyklister kan förbruka runt 8 000 kalorier per dag under tävlingen, vilket är jämförbart med belastningen från att springa flera maraton varje dag.",
+      "verified": true,
+      "verifiedAt": 1776324130008
+    }
+  },
+  {
+    "text": "Serena Williams har vunnit 23 Grand Slam-titlar i singel. Vilket är fler än någon annan spelare, både män och kvinnor.",
+    "keywords": [
+      "serena williams",
+      "tennis",
+      "sport",
+      "grand slam",
+      "rekord"
+    ],
+    "sourceName": "WTA Tour",
+    "sourceUrl": "https://www.wtatennis.com/",
+    "related": [
+      "tennis",
+      "Grand Slam",
+      "rekord"
+    ],
+    "category": "Sport",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992383,
+    "_verification": {
+      "sourceCount": 4,
+      "sources": [
+        {
+          "title": "Serena Williams",
+          "url": "https://sv.wikipedia.org/wiki/Serena%20Williams",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "title": "Richard Williams (tennis coach)",
+          "url": "https://en.wikipedia.org/wiki/Richard%20Williams%20(tennis%20coach)",
+          "source": "Wikipedia (EN)"
+        },
+        {
+          "name": "BBC Sport - Serena Williams",
+          "url": "https://www.bbc.com/sport/tennis/22693991",
+          "source": "BBC Sport - Serena Williams"
+        },
+        {
+          "name": "Grand Slam Records",
+          "url": "https://www.tennis.com/pro-game/2021/01/grand-slam-records-men-women-2021/88893/",
+          "source": "Grand Slam Records"
+        }
+      ],
+      "aiVerdict": "false",
+      "aiConfidence": 9,
+      "aiExplanation": "Serena Williams har vunnit 23 Grand Slam-titlar i singel, men detta antal överträffas av Margaret Court som har 24 titlar.",
+      "verified": true,
+      "verifiedAt": 1776324180439
+    }
+  },
+  {
+    "text": "Moderna Museet i Stockholm öppnade 1958 som ett av världens första museer helt dedikerade till modern konst.",
+    "keywords": [
+      "moderna museet",
+      "konst",
+      "museum",
+      "stockholm",
+      "modern konst",
+      "picasso"
+    ],
+    "sourceName": "Moderna Museet",
+    "sourceUrl": "https://www.modernamuseet.se/",
+    "related": [
+      "konst",
+      "Picasso",
+      "Stockholm"
+    ],
+    "category": "Konst & Kultur",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992383,
+    "_verification": {
+      "sourceCount": 5,
+      "sources": [
+        {
+          "title": "Moderna Museet",
+          "url": "https://sv.wikipedia.org/wiki/Moderna%20Museet",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "title": "Moki Cherry",
+          "url": "https://en.wikipedia.org/wiki/Moki%20Cherry",
+          "source": "Wikipedia (EN)"
+        },
+        {
+          "name": "Moderna Museet - Officiell webbplats",
+          "url": "https://www.modernamuseet.se/",
+          "source": "Moderna Museet - Officiell webbplats"
+        },
+        {
+          "name": "Nordisk familjebok - Moderna museet",
+          "url": "https://www.nordiskfamiljebok.se/",
+          "source": "Nordisk familjebok - Moderna museet"
+        },
+        {
+          "name": "Svenska dagbladet - Historik",
+          "url": "https://www.svd.se/",
+          "source": "Svenska dagbladet - Historik"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 9,
+      "aiExplanation": "Moderna Museet i Stockholm öppnade 1958 och är ett av de första museerna dedikerade till modern konst.",
+      "verified": true,
+      "verifiedAt": 1776324199647
+    }
+  },
+  {
+    "text": "Library of Congress i Washington D.C. är världens största bibliotek med över 170 miljoner föremål.",
+    "keywords": [
+      "bibliotek",
+      "böcker",
+      "library of congress",
+      "litteratur",
+      "arkiv"
+    ],
+    "sourceName": "Library of Congress",
+    "sourceUrl": "https://www.loc.gov/",
+    "related": [
+      "böcker",
+      "arkiv",
+      "historia"
+    ],
+    "category": "Litteratur",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992383,
+    "_verification": {
+      "sourceCount": 4,
+      "sources": [
+        {
+          "title": "Bibliotek",
+          "url": "https://sv.wikipedia.org/wiki/Bibliotek",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "title": "Swedish Social Democratic Party",
+          "url": "https://en.wikipedia.org/wiki/Swedish%20Social%20Democratic%20Party",
+          "source": "Wikipedia (EN)"
+        },
+        {
+          "name": "Library of Congress",
+          "url": "https://www.loc.gov/about/",
+          "source": "Library of Congress"
+        },
+        {
+          "name": "National Geographic - Library of Congress",
+          "url": "https://www.nationalgeographic.com/history/article/library-of-congress",
+          "source": "National Geographic - Library of Congress"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 10,
+      "aiExplanation": "Library of Congress är den största samlingen av böcker och andra föremål i världen, med över 170 miljoner föremål.",
+      "verified": true,
+      "verifiedAt": 1776324214019
+    }
+  },
+  {
+    "text": "Guernica av Picasso (1937) var en protest mot bombningen av staden Guernica och är 3,5 × 7,8 meter stor.",
+    "keywords": [
+      "picasso",
+      "guernica",
+      "konst",
+      "målning",
+      "krig",
+      "spanien"
+    ],
+    "sourceName": "Museo Reina Sofía",
+    "sourceUrl": "https://www.museoreinasofia.es/en/collection/artwork/guernica",
+    "related": [
+      "konst",
+      "Picasso",
+      "krigskonst"
+    ],
+    "category": "Konst & Kultur",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992383,
+    "_verification": {
+      "sourceCount": 4,
+      "sources": [
+        {
+          "title": "Pablo Picasso",
+          "url": "https://sv.wikipedia.org/wiki/Pablo%20Picasso",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "title": "Vandalism of art",
+          "url": "https://en.wikipedia.org/wiki/Vandalism%20of%20art",
+          "source": "Wikipedia (EN)"
+        },
+        {
+          "name": "MoMA - Guernica",
+          "url": "https://www.moma.org/collection/works/78633",
+          "source": "MoMA - Guernica"
+        },
+        {
+          "name": "Tate - Guernica",
+          "url": "https://www.tate.org.uk/art/artworks/picasso-guernica-t05010",
+          "source": "Tate - Guernica"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 9,
+      "aiExplanation": "Målningen 'Guernica' av Pablo Picasso skapades som en reaktion på bombningen av staden Guernica under spanska inbördeskriget, och dess mått är korrekt angivna som 3,5 × 7,8 meter.",
+      "verified": true,
+      "verifiedAt": 1776324231128
+    }
+  },
+  {
+    "text": "Frida Kahlo målade 55 självporträtt under sitt liv. Hon sa: 'Jag målar mig själv för att jag är den jag känner bäst.'",
+    "keywords": [
+      "frida kahlo",
+      "konst",
+      "målning",
+      "mexico",
+      "självporträtt"
+    ],
+    "sourceName": "Museo Frida Kahlo",
+    "sourceUrl": "https://www.museofridakahlo.org.mx/",
+    "related": [
+      "konst",
+      "Mexiko",
+      "feminism"
+    ],
+    "category": "Konst & Kultur",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992383,
+    "_verification": {
+      "sourceCount": 4,
+      "sources": [
+        {
+          "title": "Frida Kahlo",
+          "url": "https://sv.wikipedia.org/wiki/Frida%20Kahlo",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "Biography.com",
+          "url": "https://www.biography.com/artist/frida-kahlo",
+          "source": "Biography.com"
+        },
+        {
+          "name": "The Art Story",
+          "url": "https://www.theartstory.org/artist/kahlo-frida/",
+          "source": "The Art Story"
+        },
+        {
+          "name": "Frida Kahlo Museum",
+          "url": "https://www.museofridakahlo.org.mx/en/frida-kahlo/",
+          "source": "Frida Kahlo Museum"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 8,
+      "aiExplanation": "Frida Kahlo är känd för att ha målat ett stort antal självporträtt, ofta uppges 55, och citatet stämmer överens med hennes motivation att utforska sitt eget jag.",
+      "verified": true,
+      "verifiedAt": 1776324241065
+    }
+  },
+  {
+    "text": "Banksy, den anonyma gatukonst-konstnären, har fått sina verk att säljas för miljontals dollar och ingen vet fortfarande vem hen är.",
+    "keywords": [
+      "banksy",
+      "gatukonst",
+      "konst",
+      "graffiti",
+      "anonym"
+    ],
+    "sourceName": "Tate Modern",
+    "sourceUrl": "https://www.tate.org.uk/",
+    "related": [
+      "gatukonst",
+      "samtidskonst",
+      "London"
+    ],
+    "category": "Konst & Kultur",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992383,
+    "_verification": {
+      "sourceCount": 4,
+      "sources": [
+        {
+          "title": "Banksy",
+          "url": "https://sv.wikipedia.org/wiki/Banksy",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.com/news/uk-england-bristol-40888717",
+          "source": "BBC News"
+        },
+        {
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/artanddesign/2018/oct/05/banksy-painting-shreds-itself-sothebys-sold",
+          "source": "The Guardian"
+        },
+        {
+          "name": "Forbes",
+          "url": "https://www.forbes.com/sites/robreinalt/2021/03/08/the-mystery-of-banksy-how-the-anonymous-artist-went-mainstream/?sh=726d5d621d2f",
+          "source": "Forbes"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 9,
+      "aiExplanation": "Banksy är en anonym gatukonstnär vars verk har sålts för miljontals dollar, och personens identitet förblir okänd.",
+      "verified": true,
+      "verifiedAt": 1776324258125
+    }
+  },
+  {
+    "text": "Van Gogh sålde bara en enda tavla under sin livstid. Idag är hans verk värda hundratals miljoner kronor styck.",
+    "keywords": [
+      "van gogh",
+      "konst",
+      "målning",
+      "konstnär",
+      "impressionism"
+    ],
+    "sourceName": "Van Gogh Museum",
+    "sourceUrl": "https://www.vangoghmuseum.nl/",
+    "related": [
+      "konst",
+      "impressionism",
+      "Nederländerna"
+    ],
+    "category": "Konst & Kultur",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992383,
+    "_verification": {
+      "sourceCount": 4,
+      "sources": [
+        {
+          "title": "Vincent van Gogh",
+          "url": "https://sv.wikipedia.org/wiki/Vincent%20van%20Gogh",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "Museum of Modern Art",
+          "url": "https://www.moma.org/collection/artist/57",
+          "source": "Museum of Modern Art"
+        },
+        {
+          "name": "The Art Newspaper",
+          "url": "https://www.theartnewspaper.com/news/van-gogh-fetched-210-million-at-auction",
+          "source": "The Art Newspaper"
+        },
+        {
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/artanddesign/2015/nov/16/van-gogh-painting-fetched-66-million-at-auction",
+          "source": "The Guardian"
+        }
+      ],
+      "aiVerdict": "partly_true",
+      "aiConfidence": 7,
+      "aiExplanation": "Van Gogh sålde endast en tavla under sin livstid, men idag är flera av hans verk värda hundratals miljoner kronor.",
+      "verified": true,
+      "verifiedAt": 1776324264241
+    }
+  },
+  {
+    "text": "Michelangelo målade Sixtinska kapellets tak liggandes på ställningar i fyra år (1508–1512). Han låg inte på ryggen som många tror.",
+    "keywords": [
+      "michelangelo",
+      "sixtinska kapellet",
+      "konst",
+      "renässansen",
+      "rom"
+    ],
+    "sourceName": "Vatican Museums",
+    "sourceUrl": "https://www.museivaticani.va/",
+    "related": [
+      "renässansen",
+      "Rom",
+      "skulptur"
+    ],
+    "category": "Konst & Kultur",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992383,
+    "_verification": {
+      "sourceCount": 6,
+      "sources": [
+        {
+          "title": "Michelangelo",
+          "url": "https://sv.wikipedia.org/wiki/Michelangelo",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "Vatican Museums",
+          "url": "https://www.museivaticani.va/",
+          "source": "Vatican Museums"
+        },
+        {
+          "name": "Encyclopedia Britannica",
+          "url": "https://www.britannica.com/biography/Michelangelo",
+          "source": "Encyclopedia Britannica"
+        },
+        {
+          "name": "The Art Story",
+          "url": "https://www.theartstory.org/artist/michelangelo/",
+          "source": "The Art Story"
+        },
+        {
+          "name": "Smithsonian Magazine",
+          "url": "https://www.smithsonianmag.com/",
+          "source": "Smithsonian Magazine"
+        },
+        {
+          "name": "History.com",
+          "url": "https://www.history.com/topics/renaissance/michelangelo",
+          "source": "History.com"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 8,
+      "aiExplanation": "Michelangelo arbetade på taket av Sixtinska kapellet från 1508 till 1512, och det är dokumenterat att han använde ställningar snarare än att ligga på ryggen.",
+      "verified": true,
+      "verifiedAt": 1776324298102
+    }
+  },
+  {
+    "text": "Terracotta-armén i Kina består av över 8 000 unika soldatfigurer. Ingen av dem har samma ansikte.",
+    "keywords": [
+      "terracotta",
+      "kina",
+      "arkeologi",
+      "konst",
+      "historia",
+      "soldater"
+    ],
+    "sourceName": "UNESCO World Heritage Centre",
+    "sourceUrl": "https://whc.unesco.org/en/list/441/",
+    "related": [
+      "Kina",
+      "arkeologi",
+      "kejsare"
+    ],
+    "category": "Konst & Kultur",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992383,
+    "_verification": {
+      "sourceCount": 3,
+      "sources": [
+        {
+          "name": "National Geographic",
+          "url": "https://www.nationalgeographic.com/history/article/terracotta-army",
+          "source": "National Geographic"
+        },
+        {
+          "name": "Smithsonian Magazine",
+          "url": "https://www.smithsonianmag.com/history/the-terracotta-army-180951896/",
+          "source": "Smithsonian Magazine"
+        },
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.com/news/magazine-42905383",
+          "source": "BBC"
+        }
+      ],
+      "aiVerdict": "partly_true",
+      "aiConfidence": 7,
+      "aiExplanation": "Terracotta-armén består av över 8000 soldatfigurer, men det är inte helt sant att ingen av dem har samma ansikte; de är unika men vissa ansiktsdrag kan likna varandra.",
+      "verified": true,
+      "verifiedAt": 1776324311172
+    }
+  },
+  {
+    "text": "Origami, japansk pappersvikning, kan numera vikas av robotar och används i rymdteknik för att packa ihop solpaneler.",
+    "keywords": [
+      "origami",
+      "japan",
+      "konst",
+      "papper",
+      "design",
+      "rymden"
+    ],
+    "sourceName": "NASA / Jet Propulsion Laboratory",
+    "sourceUrl": "https://www.jpl.nasa.gov/",
+    "related": [
+      "Japan",
+      "design",
+      "rymden"
+    ],
+    "category": "Konst & Kultur",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992383,
+    "_verification": {
+      "sourceCount": 5,
+      "sources": [
+        {
+          "title": "Origami",
+          "url": "https://sv.wikipedia.org/wiki/Origami",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "title": "Norio Torimoto",
+          "url": "https://en.wikipedia.org/wiki/Norio%20Torimoto",
+          "source": "Wikipedia (EN)"
+        },
+        {
+          "name": "NASA - Origami and Space",
+          "url": "https://www.nasa.gov/feature/origami-and-space",
+          "source": "NASA - Origami and Space"
+        },
+        {
+          "name": "IEEE Spectrum - Robots Learn Origami",
+          "url": "https://spectrum.ieee.org/robots-learn-origami",
+          "source": "IEEE Spectrum - Robots Learn Origami"
+        },
+        {
+          "name": "MIT News - Folding Space",
+          "url": "http://news.mit.edu/2018/folding-space-origami-0328",
+          "source": "MIT News - Folding Space"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 9,
+      "aiExplanation": "Det är sant att origami-tekniker används i rymdteknik, bland annat för att komprimera solpaneler, och att robotar har utvecklats för att utföra pappersvikning.",
+      "verified": true,
+      "verifiedAt": 1776324325317
+    }
+  },
+  {
+    "text": "Guggenheim-museet i Bilbao, designat av Frank Gehry, var så populärt att det ensamt räddade stadens ekonomi. Detta är känt som 'Bilbao-effekten'.",
+    "keywords": [
+      "guggenheim",
+      "museum",
+      "arkitektur",
+      "bilbao",
+      "konst"
+    ],
+    "sourceName": "Guggenheim Foundation",
+    "sourceUrl": "https://www.guggenheim.org/",
+    "related": [
+      "arkitektur",
+      "samtidskonst",
+      "Spanien"
+    ],
+    "category": "Konst & Kultur",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992383,
+    "_verification": {
+      "sourceCount": 5,
+      "sources": [
+        {
+          "title": "Guggenheimmuseet, Bilbao",
+          "url": "https://sv.wikipedia.org/wiki/Guggenheimmuseet%2C%20Bilbao",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "title": "Digital Project",
+          "url": "https://en.wikipedia.org/wiki/Digital%20Project",
+          "source": "Wikipedia (EN)"
+        },
+        {
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/artanddesign/2019/oct/04/guggenheim-bilbao-and-the-bilbao-effect",
+          "source": "The Guardian"
+        },
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.com/news/business-47050814",
+          "source": "BBC News"
+        },
+        {
+          "name": "Forbes",
+          "url": "https://www.forbes.com/sites/robertanaes/2018/06/06/the-bilbao-effect-how-city-museums-can-transform-local-economies/?sh=5cac641959c2",
+          "source": "Forbes"
+        }
+      ],
+      "aiVerdict": "partly_true",
+      "aiConfidence": 7,
+      "aiExplanation": "Guggenheim-museet i Bilbao har haft en stor positiv påverkan på stadens ekonomi, men det finns andra faktorer som också bidragit till denna förändring. 'Bilbao-effekten' refererar till hur kulturanläggningar kan stimulera lokal ekonomi, men att museet ensamt räddade ekonomin är en överdrift.",
+      "verified": true,
+      "verifiedAt": 1776324352426
+    }
+  },
+  {
+    "text": "Den japanska konstnären Yayoi Kusama är känd för sina prickiga installationer och är en av världens mest besökta nutida konstnärer.",
+    "keywords": [
+      "kusama",
+      "konst",
+      "japan",
+      "prickar",
+      "samtidskonst",
+      "installation"
+    ],
+    "sourceName": "Tate Modern",
+    "sourceUrl": "https://www.tate.org.uk/",
+    "related": [
+      "samtidskonst",
+      "Japan",
+      "installationskonst"
+    ],
+    "category": "Konst & Kultur",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992383,
+    "_verification": {
+      "sourceCount": 5,
+      "sources": [
+        {
+          "title": "Yayoi Kusama",
+          "url": "https://sv.wikipedia.org/wiki/Yayoi%20Kusama",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "title": "Coronary vasospasm",
+          "url": "https://en.wikipedia.org/wiki/Coronary%20vasospasm",
+          "source": "Wikipedia (EN)"
+        },
+        {
+          "name": "Museum of Modern Art (MoMA)",
+          "url": "https://www.moma.org/artists/166",
+          "source": "Museum of Modern Art (MoMA)"
+        },
+        {
+          "name": "ArtNet",
+          "url": "https://www.artnet.com/artists/yayoi-kusama/",
+          "source": "ArtNet"
+        },
+        {
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/artanddesign/2021/mar/24/yayoi-kusama-interview-the-greatest-living-artist",
+          "source": "The Guardian"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 9,
+      "aiExplanation": "Yayoi Kusama är en framstående japansk konstnär känd för sina karakteristiska prickiga installationer och har haft en stor påverkan inom nutida konst, med många besökare på sina utställningar.",
+      "verified": true,
+      "verifiedAt": 1776324360166
+    }
+  },
+  {
+    "text": "Oscarsstatyetten väger 3,85 kg och är gjord av förgylld brons. Designen har varit densamma sedan 1929.",
+    "keywords": [
+      "oscar",
+      "oscars",
+      "film",
+      "hollywood",
+      "pris"
+    ],
+    "sourceName": "Academy of Motion Picture Arts and Sciences",
+    "sourceUrl": "https://www.oscars.org/",
+    "related": [
+      "Hollywood",
+      "filmhistoria",
+      "regissörer"
+    ],
+    "category": "Konst & Kultur",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992383,
+    "_verification": {
+      "sourceCount": 5,
+      "sources": [
+        {
+          "title": "Oscar II",
+          "url": "https://sv.wikipedia.org/wiki/Oscar%20II",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "title": "Academy Awards",
+          "url": "https://en.wikipedia.org/wiki/Academy%20Awards",
+          "source": "Wikipedia (EN)"
+        },
+        {
+          "name": "Oscars officiella webbplats",
+          "url": "https://www.oscars.org/",
+          "source": "Oscars officiella webbplats"
+        },
+        {
+          "name": "The Hollywood Reporter",
+          "url": "https://www.hollywoodreporter.com/",
+          "source": "The Hollywood Reporter"
+        },
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.com/news/entertainment-arts-22107670",
+          "source": "BBC News"
+        }
+      ],
+      "aiVerdict": "partly_true",
+      "aiConfidence": 7,
+      "aiExplanation": "Oscarsstatyetten väger ungefär 3,85 kg och är gjord av förgylld brons, men designen har genomgått vissa små förändringar sedan 1929.",
+      "verified": true,
+      "verifiedAt": 1776324373786
+    }
+  },
+  {
+    "text": "Ingmar Bergmans Det sjunde inseglet (1957) är en av de mest ikoniska svenska filmerna. Scenen där riddaren spelar schack mot Döden har parodierats otaliga gånger.",
+    "keywords": [
+      "bergman",
+      "film",
+      "sverige",
+      "det sjunde inseglet",
+      "regissör"
+    ],
+    "sourceName": "Svenska Filminstitutet",
+    "sourceUrl": "https://www.filminstitutet.se/",
+    "related": [
+      "svensk film",
+      "regissörer",
+      "Bergman"
+    ],
+    "category": "Film",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992383,
+    "_verification": {
+      "sourceCount": 4,
+      "sources": [
+        {
+          "title": "Ingmar Bergman",
+          "url": "https://sv.wikipedia.org/wiki/Ingmar%20Bergman",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "title": "Ingmar Bergman",
+          "url": "https://en.wikipedia.org/wiki/Ingmar%20Bergman",
+          "source": "Wikipedia (EN)"
+        },
+        {
+          "name": "IMDb - Det sjunde inseglet",
+          "url": "https://www.imdb.com/title/tt0050976/",
+          "source": "IMDb - Det sjunde inseglet"
+        },
+        {
+          "name": "The Guardian - Ingmar Bergman: how The Seventh Seal poker scene became a cinema icon",
+          "url": "https://www.theguardian.com/film/2021/jul/26/ingmar-bergman-seventh-seal-chess-death-iconic-scene",
+          "source": "The Guardian - Ingmar Bergman: how The Seventh Seal poker scene became a cinema icon"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 9,
+      "aiExplanation": "Det sjunde inseglet anses vara en av de mest ikoniska svenska filmerna, och schackscenen mellan riddaren och Döden är välkänd och har parodierats i många sammanhang.",
+      "verified": true,
+      "verifiedAt": 1776324380623
+    }
+  },
+  {
+    "text": "AFI (American Film Institute) rankade Citizen Kane som den bästa amerikanska filmen genom tiderna — två gånger.",
+    "keywords": [
+      "citizen kane",
+      "film",
+      "afi",
+      "orson welles",
+      "filmhistoria",
+      "klassiker"
+    ],
+    "sourceName": "American Film Institute (AFI)",
+    "sourceUrl": "https://www.afi.com/afis-100-years-100-movies/",
+    "related": [
+      "filmhistoria",
+      "regissörer",
+      "Hollywood"
+    ],
+    "category": "Film",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992383,
+    "_verification": {
+      "sourceCount": 4,
+      "sources": [
+        {
+          "title": "Citizen Kane",
+          "url": "https://sv.wikipedia.org/wiki/Citizen%20Kane",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "title": "Citizen Kane",
+          "url": "https://en.wikipedia.org/wiki/Citizen%20Kane",
+          "source": "Wikipedia (EN)"
+        },
+        {
+          "name": "American Film Institute",
+          "url": "https://afi.com/",
+          "source": "American Film Institute"
+        },
+        {
+          "name": "IMDb - AFI's 100 Years...100 Movies",
+          "url": "https://www.imdb.com/list/ls003195340/",
+          "source": "IMDb - AFI's 100 Years...100 Movies"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 9,
+      "aiExplanation": "AFI rankade 'Citizen Kane' som den bästa amerikanska filmen vid båda AFI:s 100 Years...100 Movies-listor, som publicerades 1998 och 2007.",
+      "verified": true,
+      "verifiedAt": 1776324409409
+    }
+  },
+  {
+    "text": "Greta Garbo från Stockholm blev en av Hollywoods största stjärnor. Hon pensionerade sig vid bara 35.",
+    "keywords": [
+      "greta garbo",
+      "film",
+      "hollywood",
+      "sverige",
+      "stockholm",
+      "skådespelare"
+    ],
+    "sourceName": "Academy of Motion Picture Arts and Sciences",
+    "sourceUrl": "https://www.oscars.org/",
+    "related": [
+      "Hollywood",
+      "svensk film"
+    ],
+    "category": "Film",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992383,
+    "_verification": {
+      "sourceCount": 4,
+      "sources": [
+        {
+          "title": "Greta Garbo",
+          "url": "https://sv.wikipedia.org/wiki/Greta%20Garbo",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "title": "Greta Garbo",
+          "url": "https://en.wikipedia.org/wiki/Greta%20Garbo",
+          "source": "Wikipedia (EN)"
+        },
+        {
+          "name": "Biography - Greta Garbo",
+          "url": "https://www.biography.com/actor/greta-garbo",
+          "source": "Biography - Greta Garbo"
+        },
+        {
+          "name": "IMDb - Greta Garbo",
+          "url": "https://www.imdb.com/name/nm0000036/",
+          "source": "IMDb - Greta Garbo"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 9,
+      "aiExplanation": "Greta Garbo, född i Stockholm, blev en av Hollywoods mest berömda stjärnor och drog sig tillbaka från skådespeleriet vid 35 års ålder.",
+      "verified": true,
+      "verifiedAt": 1776324419296
+    }
+  },
+  {
+    "text": "Pixars första film, Toy Story (1995), var den första helt datoranimerade långfilmen. Den tog fyra år att producera.",
+    "keywords": [
+      "pixar",
+      "toy story",
+      "film",
+      "animation",
+      "disney",
+      "dator"
+    ],
+    "sourceName": "Academy of Motion Picture Arts and Sciences",
+    "sourceUrl": "https://www.oscars.org/",
+    "related": [
+      "animation",
+      "Disney",
+      "datoreffekter"
+    ],
+    "category": "Film",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992383,
+    "_verification": {
+      "sourceCount": 5,
+      "sources": [
+        {
+          "title": "Toy Story 2",
+          "url": "https://sv.wikipedia.org/wiki/Toy%20Story%202",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "title": "Toy Story 5",
+          "url": "https://en.wikipedia.org/wiki/Toy%20Story%205",
+          "source": "Wikipedia (EN)"
+        },
+        {
+          "name": "Pixar Official Site",
+          "url": "https://www.pixar.com/",
+          "source": "Pixar Official Site"
+        },
+        {
+          "name": "IMDb - Toy Story",
+          "url": "https://www.imdb.com/title/tt0114709/",
+          "source": "IMDb - Toy Story"
+        },
+        {
+          "name": "History of CGI Animation",
+          "url": "https://www.animationmagazine.net/2020/11/history-of-cgi-animation-from-toy-story-to-the-present/",
+          "source": "History of CGI Animation"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 9,
+      "aiExplanation": "Toy Story var den första helt datoranimerade långfilmen och produktionen tog cirka fyra år.",
+      "verified": true,
+      "verifiedAt": 1776324426079
+    }
+  },
+  {
+    "text": "Alfred Hitchcock, 'spänningens mästare', dök upp en kort stund i 39 av sina egna filmer som en slags signatur.",
+    "keywords": [
+      "hitchcock",
+      "film",
+      "regi",
+      "thriller",
+      "hollywood"
+    ],
+    "sourceName": "British Film Institute",
+    "sourceUrl": "https://www.bfi.org.uk/",
+    "related": [
+      "thriller",
+      "filmhistoria",
+      "Hollywood"
+    ],
+    "category": "Film",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992383,
+    "_verification": {
+      "sourceCount": 4,
+      "sources": [
+        {
+          "title": "Alfred Hitchcocks filmografi",
+          "url": "https://sv.wikipedia.org/wiki/Alfred%20Hitchcocks%20filmografi",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "title": "Notorious (1946 film)",
+          "url": "https://en.wikipedia.org/wiki/Notorious%20(1946%20film)",
+          "source": "Wikipedia (EN)"
+        },
+        {
+          "name": "BBC - Alfred Hitchcock cameos",
+          "url": "https://www.bbc.co.uk/culture/article/20150615-the-legacy-of-alfred-hitchcock",
+          "source": "BBC - Alfred Hitchcock cameos"
+        },
+        {
+          "name": "Mental Floss - Alfred Hitchcock Cameos",
+          "url": "https://www.mentalfloss.com/article/63744/11-alfred-hitchcock-cameos",
+          "source": "Mental Floss - Alfred Hitchcock Cameos"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 9,
+      "aiExplanation": "Alfred Hitchcock gjorde korta cameos i många av sina filmer, vilket är väl dokumenterat och bekräftat av flera källor.",
+      "verified": true,
+      "verifiedAt": 1776324451605
+    }
+  },
+  {
+    "text": "Nationalmuseum i Stockholm har Sveriges största samling av konst och design med över 700 000 föremål.",
+    "keywords": [
+      "nationalmuseum",
+      "konst",
+      "museum",
+      "stockholm",
+      "sverige",
+      "design"
+    ],
+    "sourceName": "Nationalmuseum",
+    "sourceUrl": "https://www.nationalmuseum.se/",
+    "related": [
+      "konst",
+      "Stockholm",
+      "design"
+    ],
+    "category": "Konst & Kultur",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992383,
+    "_verification": {
+      "sourceCount": 2,
+      "sources": [
+        {
+          "title": "Nationalmuseum, Stockholm",
+          "url": "https://sv.wikipedia.org/wiki/Nationalmuseum%2C%20Stockholm",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "title": "Swedish History Museum",
+          "url": "https://en.wikipedia.org/wiki/Swedish%20History%20Museum",
+          "source": "Wikipedia (EN)"
+        }
+      ],
+      "aiVerdict": "unknown",
+      "aiConfidence": 0,
+      "aiExplanation": "",
+      "verified": false,
+      "verifiedAt": 1776324192309
+    }
+  },
+  {
+    "text": "Bordtennis har den högsta bollhastigheten i relation till spelarens avstånd. Smashbollar kan nå 112 km/h från bara 2,7 meters avstånd.",
+    "keywords": [
+      "bordtennis",
+      "pingpong",
+      "sport",
+      "hastighet",
+      "rekord"
+    ],
+    "sourceName": "International Table Tennis Federation",
+    "sourceUrl": "https://www.ittf.com/",
+    "related": [
+      "sport",
+      "OS",
+      "Kina"
+    ],
+    "category": "Sport",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992383,
+    "_verification": {
+      "sourceCount": 1,
+      "sources": [
+        {
+          "title": "Bordtennis",
+          "url": "https://sv.wikipedia.org/wiki/Bordtennis",
+          "source": "Wikipedia (SV)"
+        }
+      ],
+      "aiVerdict": "unknown",
+      "aiConfidence": 0,
+      "aiExplanation": "",
+      "verified": false,
+      "verifiedAt": 1776324114420
+    }
+  },
+  {
+    "text": "Usain Bolt sprang 100 meter på 9,58 sekunder vid VM i Berlin 2009 och satte därmed nytt världsrekord. Trots att många år har passerat har ingen varit i närheten av att slå hans rekord, vilket gör det till ett av de mest långlivade och orörda rekorden i modern friidrottshistoria.",
+    "keywords": [
+      "usain bolt",
+      "löpning",
+      "sprint",
+      "rekord",
+      "sport",
+      "friidrott"
+    ],
+    "sourceName": "World Athletics",
+    "sourceUrl": "https://www.worldathletics.org/",
+    "related": [
+      "OS",
+      "friidrott",
+      "rekord"
+    ],
+    "category": "Sport",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992383,
+    "_verification": {
+      "sourceCount": 4,
+      "sources": [
+        {
+          "title": "Usain Bolt",
+          "url": "https://sv.wikipedia.org/wiki/Usain%20Bolt",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "World Athletics",
+          "url": "https://www.worldathletics.org/records/world-records",
+          "source": "World Athletics"
+        },
+        {
+          "name": "BBC Sport",
+          "url": "https://www.bbc.com/sport/athletics/28741877",
+          "source": "BBC Sport"
+        },
+        {
+          "name": "Olympics.com",
+          "url": "https://www.olympic.org/usain-bolt",
+          "source": "Olympics.com"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 9,
+      "aiExplanation": "Usain Bolt sprang 100 meter på 9,58 sekunder vid VM i Berlin 2009 och rekordet har stått sig länge utan att bli slaget.",
+      "verified": true,
+      "verifiedAt": 1776324640673
+    }
+  },
+  {
+    "text": "Star Wars originaltrilogin spelades in i Tunisien, Guatemala och Norge. Planeten Hoth filmades i Finse, utanför Bergen.",
+    "keywords": [
+      "star wars",
+      "film",
+      "sci-fi",
+      "lucas",
+      "norge",
+      "filmplatser"
+    ],
+    "sourceName": "British Film Institute",
+    "sourceUrl": "https://www.bfi.org.uk/",
+    "related": [
+      "sci-fi",
+      "George Lucas",
+      "filmplatser"
+    ],
+    "category": "Film",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992383,
+    "_verification": {
+      "sourceCount": 4,
+      "sources": [
+        {
+          "title": "Science fiction",
+          "url": "https://sv.wikipedia.org/wiki/Science%20fiction",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "title": "Science fiction",
+          "url": "https://en.wikipedia.org/wiki/Science%20fiction",
+          "source": "Wikipedia (EN)"
+        },
+        {
+          "name": "Star Wars Filming Locations",
+          "url": "https://www.starwars.com/news/5-star-wars-filming-locations-you-can-visit",
+          "source": "Star Wars Filming Locations"
+        },
+        {
+          "name": "Visit Norway - Filming Locations",
+          "url": "https://www.visitnorway.com/about/film-locations/",
+          "source": "Visit Norway - Filming Locations"
+        }
+      ],
+      "aiVerdict": "partly_true",
+      "aiConfidence": 7,
+      "aiExplanation": "Originaltrilogin spelades in Tunisien och Norge (Finse för Hoth), men Guatemala nämns inte som inspelningsplats.",
+      "verified": true,
+      "verifiedAt": 1776324650459
+    }
+  },
+  {
+    "text": "Netflix startade som en DVD-postordertjänst 1997. Grundaren Reed Hastings fick idén efter en förseningsavgift på en hyrfilm.",
+    "keywords": [
+      "netflix",
+      "streaming",
+      "film",
+      "tv",
+      "teknologi"
+    ],
+    "sourceName": "Library of Congress",
+    "sourceUrl": "https://www.loc.gov/",
+    "related": [
+      "streaming",
+      "TV-serier",
+      "teknologi"
+    ],
+    "category": "Film",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992383,
+    "_verification": {
+      "sourceCount": 4,
+      "sources": [
+        {
+          "title": "Netflix",
+          "url": "https://sv.wikipedia.org/wiki/Netflix",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "title": "Netflix",
+          "url": "https://en.wikipedia.org/wiki/Netflix",
+          "source": "Wikipedia (EN)"
+        },
+        {
+          "name": "Business Insider - The History of Netflix",
+          "url": "https://www.businessinsider.com/netflix-history-started-dvd-rental-1997-2019-10",
+          "source": "Business Insider - The History of Netflix"
+        },
+        {
+          "name": "Investopedia - The History of Netflix",
+          "url": "https://www.investopedia.com/articles/investing/121515/history-netflix.asp",
+          "source": "Investopedia - The History of Netflix"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 9,
+      "aiExplanation": "Netflix grundades som en DVD-postordertjänst 1997 av Reed Hastings, som fick idén efter att ha betalat en förseningsavgift för en hyrfilm.",
+      "verified": true,
+      "verifiedAt": 1776324679105
+    }
+  },
+  {
+    "text": "Studio Ghiblis 'Spirited Away' (2001) är den mest framgångsrika japanska filmen någonsin och har vunnit en Oscar för bästa animerade film.",
+    "keywords": [
+      "ghibli",
+      "spirited away",
+      "film",
+      "anime",
+      "japan",
+      "miyazaki"
+    ],
+    "sourceName": "Academy of Motion Picture Arts and Sciences",
+    "sourceUrl": "https://www.oscars.org/",
+    "related": [
+      "anime",
+      "Japan",
+      "animation"
+    ],
+    "category": "Film",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992383,
+    "_verification": {
+      "sourceCount": 6,
+      "sources": [
+        {
+          "title": "Studio Ghibli",
+          "url": "https://sv.wikipedia.org/wiki/Studio%20Ghibli",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "title": "List of Studio Ghibli works",
+          "url": "https://en.wikipedia.org/wiki/List%20of%20Studio%20Ghibli%20works",
+          "source": "Wikipedia (EN)"
+        },
+        {
+          "name": "Oscars officiella webbplats",
+          "url": "https://www.oscars.org/oscars/ceremonies/2003",
+          "source": "Oscars officiella webbplats"
+        },
+        {
+          "name": "Box Office Mojo",
+          "url": "https://www.boxofficemojo.com/release/rl1217474817/",
+          "source": "Box Office Mojo"
+        },
+        {
+          "name": "The Numbers",
+          "url": "https://www.the-numbers.com/movie/Spirited-Away",
+          "source": "The Numbers"
+        },
+        {
+          "name": "The Guardian - Spirited Away review",
+          "url": "https://www.theguardian.com/film/2001/sep/07/anime.arts",
+          "source": "The Guardian - Spirited Away review"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 9,
+      "aiExplanation": "Studio Ghiblis 'Spirited Away' har sålt mest biljetter av alla japanska filmer och vann en Oscar för bästa animerade film år 2003.",
+      "verified": true,
+      "verifiedAt": 1776324697453
+    }
+  },
+  {
+    "text": "Den indiska filmindustrin, Bollywood, producerar fler filmer per år än Hollywood. Över 1 500 jämfört med Hollywoods ~700.",
+    "keywords": [
+      "bollywood",
+      "film",
+      "indien",
+      "filmproduktion"
+    ],
+    "sourceName": "UNESCO Institute for Statistics",
+    "sourceUrl": "https://uis.unesco.org/",
+    "related": [
+      "Indien",
+      "film",
+      "kultur"
+    ],
+    "category": "Film",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992383,
+    "_verification": {
+      "sourceCount": 5,
+      "sources": [
+        {
+          "title": "Indien",
+          "url": "https://sv.wikipedia.org/wiki/Indien",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "title": "Aatma (2006 film)",
+          "url": "https://en.wikipedia.org/wiki/Aatma%20(2006%20film)",
+          "source": "Wikipedia (EN)"
+        },
+        {
+          "name": "Statista",
+          "url": "https://www.statista.com/statistics/264777/number-of-movies-produced-in-india/",
+          "source": "Statista"
+        },
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.com/news/world-asia-india-51205417",
+          "source": "BBC"
+        },
+        {
+          "name": "Hollywood Reporter",
+          "url": "https://www.hollywoodreporter.com/movies/movie-news/how-many-movies-made-hollywood-1234957066/",
+          "source": "Hollywood Reporter"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 8,
+      "aiExplanation": "Bollywood producerar betydligt fler filmer än Hollywood per år, med siffror som stämmer överens med påståendet.",
+      "verified": true,
+      "verifiedAt": 1776324711079
+    }
+  },
+  {
+    "text": "Pippi Långstrump-filmerna med Inger Nilsson spelades in i Visby 1969. Stadsbilden var perfekt för Astrid Lindgrens värld.",
+    "keywords": [
+      "pippi",
+      "film",
+      "sverige",
+      "astrid lindgren",
+      "visby",
+      "barn"
+    ],
+    "sourceName": "Svenska Filminstitutet",
+    "sourceUrl": "https://www.filminstitutet.se/",
+    "related": [
+      "Astrid Lindgren",
+      "Sverige",
+      "barnfilm"
+    ],
+    "category": "Film",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992383,
+    "_verification": {
+      "sourceCount": 4,
+      "sources": [
+        {
+          "title": "Pippi Långstrump",
+          "url": "https://sv.wikipedia.org/wiki/Pippi%20L%C3%A5ngstrump",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "title": "Pippi Longstocking (1969 TV series)",
+          "url": "https://en.wikipedia.org/wiki/Pippi%20Longstocking%20(1969%20TV%20series)",
+          "source": "Wikipedia (EN)"
+        },
+        {
+          "name": "Film i Sverige",
+          "url": "https://www.filmisverige.se/pippi-langstrump",
+          "source": "Film i Sverige"
+        },
+        {
+          "name": "Astrid Lindgren AB",
+          "url": "https://www.astridlindgren.com/sv/filmer/pippi-langstrump/",
+          "source": "Astrid Lindgren AB"
+        }
+      ],
+      "aiVerdict": "false",
+      "aiConfidence": 8,
+      "aiExplanation": "Pippi Långstrump-filmerna med Inger Nilsson spelades in i olika platser, inklusive Riddarholmen och Svartsjö slott, men inte specifikt i Visby 1969.",
+      "verified": true,
+      "verifiedAt": 1776324733039
+    }
+  },
+  {
+    "text": "Charlie Chaplins 'The Kid' (1921) var den första filmen som kombinerade komedi och drama på ett sätt som fick publiken att både skratta och gråta.",
+    "keywords": [
+      "chaplin",
+      "film",
+      "komedi",
+      "stumfilm",
+      "hollywood",
+      "klassiker"
+    ],
+    "sourceName": "Academy of Motion Picture Arts and Sciences",
+    "sourceUrl": "https://www.oscars.org/",
+    "related": [
+      "stumfilm",
+      "Hollywood",
+      "komedi"
+    ],
+    "category": "Film",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992383,
+    "_verification": {
+      "sourceCount": 5,
+      "sources": [
+        {
+          "title": "Charlie Chaplin",
+          "url": "https://sv.wikipedia.org/wiki/Charlie%20Chaplin",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "title": "Indonesian comedy",
+          "url": "https://en.wikipedia.org/wiki/Indonesian%20comedy",
+          "source": "Wikipedia (EN)"
+        },
+        {
+          "name": "IMDb - The Kid",
+          "url": "https://www.imdb.com/title/tt0012349/",
+          "source": "IMDb - The Kid"
+        },
+        {
+          "name": "Britannica - The Kid",
+          "url": "https://www.britannica.com/topic/The-Kid-film-1921",
+          "source": "Britannica - The Kid"
+        },
+        {
+          "name": "The Guardian - The Kid review",
+          "url": "https://www.theguardian.com/film/2011/may/11/the-kid-review",
+          "source": "The Guardian - The Kid review"
+        }
+      ],
+      "aiVerdict": "false",
+      "aiConfidence": 7,
+      "aiExplanation": "Även om 'The Kid' kombinerar komedi och drama, har tidigare filmer redan utforskat dessa element, såsom komedier med dramatiska inslag innan 1921. Därför är påståendet överdrivet.",
+      "verified": true,
+      "verifiedAt": 1776324739957
+    }
+  },
+  {
+    "text": "Det tar i genomsnitt 3–5 år att producera en Pixar-film, och varje bild (frame) kan ta upp till 24 timmar att rendera.",
+    "keywords": [
+      "pixar",
+      "animation",
+      "film",
+      "rendering",
+      "dator",
+      "teknik"
+    ],
+    "sourceName": "Pixar Animation Studios",
+    "sourceUrl": "https://www.pixar.com/",
+    "related": [
+      "animation",
+      "teknologi",
+      "Disney"
+    ],
+    "category": "Film",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992383,
+    "_verification": {
+      "sourceCount": 6,
+      "sources": [
+        {
+          "title": "Pixar Animation Studios",
+          "url": "https://sv.wikipedia.org/wiki/Pixar%20Animation%20Studios",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "title": "List of Pixar films",
+          "url": "https://en.wikipedia.org/wiki/List%20of%20Pixar%20films",
+          "source": "Wikipedia (EN)"
+        },
+        {
+          "name": "Pixar: The Studios and the Films",
+          "url": "https://www.pixar.com/",
+          "source": "Pixar: The Studios and the Films"
+        },
+        {
+          "name": "How Pixar Makes Movies",
+          "url": "https://www.polygon.com/2016/10/4/13141664/pixar-animated-movies-production-time",
+          "source": "How Pixar Makes Movies"
+        },
+        {
+          "name": "What Takes So Long To Make a Pixar Movie?",
+          "url": "https://www.cnbc.com/2019/06/17/pixar-movie-production-how-long-does-it-take.html",
+          "source": "What Takes So Long To Make a Pixar Movie?"
+        },
+        {
+          "name": "Inside the Pixar Render Farm",
+          "url": "https://www.fxguide.com/featured/inside-the-pixar-render-farm/",
+          "source": "Inside the Pixar Render Farm"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 9,
+      "aiExplanation": "Det stämmer att produktionen av en Pixar-film tar 3–5 år, och vissa bilder kan ta upp till 24 timmar att rendera beroende på komplexiteten.",
+      "verified": true,
+      "verifiedAt": 1776324752964
+    }
+  },
+  {
+    "text": "Parasite (2019) blev den första icke-engelskspråkiga filmen att vinna Oscar för bästa film. Regissör Bong Joon-ho är från Sydkorea.",
+    "keywords": [
+      "parasite",
+      "oscar",
+      "film",
+      "sydkorea",
+      "bong joon-ho"
+    ],
+    "sourceName": "Academy of Motion Picture Arts and Sciences",
+    "sourceUrl": "https://www.oscars.org/",
+    "related": [
+      "Oscars",
+      "Sydkorea",
+      "filmhistoria"
+    ],
+    "category": "Film",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992383,
+    "_verification": {
+      "sourceCount": 5,
+      "sources": [
+        {
+          "title": "Oscar för bästa film",
+          "url": "https://sv.wikipedia.org/wiki/Oscar%20f%C3%B6r%20b%C3%A4sta%20film",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "title": "Parasite (2019 film)",
+          "url": "https://en.wikipedia.org/wiki/Parasite%20(2019%20film)",
+          "source": "Wikipedia (EN)"
+        },
+        {
+          "name": "Oscar's Official Website",
+          "url": "https://www.oscars.org/oscars/ceremonies/2020",
+          "source": "Oscar's Official Website"
+        },
+        {
+          "name": "IMDb",
+          "url": "https://www.imdb.com/title/tt6751668/",
+          "source": "IMDb"
+        },
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.com/news/entertainment-arts-51150736",
+          "source": "BBC"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 10,
+      "aiExplanation": "Parasite blev den första icke-engelskspråkiga filmen att vinna Oscar för bästa film och regissör Bong Joon-ho är från Sydkorea.",
+      "verified": true,
+      "verifiedAt": 1776324764024
+    }
+  },
+  {
+    "text": "The Met Gala hålls varje år på Metropolitan Museum of Art för att samla in pengar till Costume Institute. Gästlistan är handplockad och består av kändisar, designers och kulturella ikoner.",
+    "keywords": [
+      "met gala",
+      "mode",
+      "met",
+      "museum",
+      "new york"
+    ],
+    "sourceName": "The Metropolitan Museum of Art",
+    "sourceUrl": "https://www.metmuseum.org/about-the-met/collection-areas/the-costume-institute",
+    "related": [
+      "mode",
+      "museum",
+      "New York"
+    ],
+    "category": "Konst & Kultur",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992383,
+    "_verification": {
+      "sourceCount": 4,
+      "sources": [
+        {
+          "title": "Simone Ashley",
+          "url": "https://sv.wikipedia.org/wiki/Simone%20Ashley",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "title": "Met Gala",
+          "url": "https://en.wikipedia.org/wiki/Met%20Gala",
+          "source": "Wikipedia (EN)"
+        },
+        {
+          "name": "Metropolitan Museum of Art",
+          "url": "https://www.metmuseum.org/events/annual/annual-gala",
+          "source": "Metropolitan Museum of Art"
+        },
+        {
+          "name": "Vogue",
+          "url": "https://www.vogue.com/article/met-gala-2023",
+          "source": "Vogue"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 10,
+      "aiExplanation": "Met Gala hålls årligen på Metropolitan Museum of Art för att samla in pengar till Costume Institute, och gästlistan består av kända personer och kulturella ikoner.",
+      "verified": true,
+      "verifiedAt": 1776324798733
+    }
+  },
+  {
+    "text": "Victoria and Albert Museum (V&A) i London har världens största samling av mode och textilier med över 75 000 plagg.",
+    "keywords": [
+      "mode",
+      "museum",
+      "v&a",
+      "london",
+      "textil",
+      "kläder"
+    ],
+    "sourceName": "Victoria and Albert Museum",
+    "sourceUrl": "https://www.vam.ac.uk/collections/fashion",
+    "related": [
+      "modehistoria",
+      "London",
+      "textil"
+    ],
+    "category": "Konst & Kultur",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992383,
+    "_verification": {
+      "sourceCount": 4,
+      "sources": [
+        {
+          "title": "Mode",
+          "url": "https://sv.wikipedia.org/wiki/Mode",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "title": "Victoria and Albert Museum",
+          "url": "https://en.wikipedia.org/wiki/Victoria%20and%20Albert%20Museum",
+          "source": "Wikipedia (EN)"
+        },
+        {
+          "name": "Victoria and Albert Museum - Fashion Collections",
+          "url": "https://www.vam.ac.uk/collections/fashion",
+          "source": "Victoria and Albert Museum - Fashion Collections"
+        },
+        {
+          "name": "The Art Newspaper - V&A's Fashion Collection",
+          "url": "https://www.theartnewspaper.com/news/va-to-display-its-fashion-collection",
+          "source": "The Art Newspaper - V&A's Fashion Collection"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 8,
+      "aiExplanation": "Victoria and Albert Museum i London har en omfattande samling av mode och textilier som överstiger 75 000 plagg, vilket stöds av flera källor.",
+      "verified": true,
+      "verifiedAt": 1776324822695
+    }
+  },
+  {
+    "text": "Coco Chanel revolutionerade modet genom att populärisera byxor för kvinnor och den lilla svarta klänningen.",
+    "keywords": [
+      "chanel",
+      "mode",
+      "coco chanel",
+      "parfym",
+      "design",
+      "kläder"
+    ],
+    "sourceName": "The Metropolitan Museum of Art",
+    "sourceUrl": "https://www.metmuseum.org/",
+    "related": [
+      "modehistoria",
+      "Paris",
+      "design"
+    ],
+    "category": "Mode",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992383,
+    "_verification": {
+      "sourceCount": 5,
+      "sources": [
+        {
+          "title": "Coco Chanel",
+          "url": "https://sv.wikipedia.org/wiki/Coco%20Chanel",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "title": "Coco Chanel",
+          "url": "https://en.wikipedia.org/wiki/Coco%20Chanel",
+          "source": "Wikipedia (EN)"
+        },
+        {
+          "name": "Vogue",
+          "url": "https://www.vogue.com/article/coco-chanel-fashion-legacy",
+          "source": "Vogue"
+        },
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.com/culture/article/20190201-how-coco-chanel-changed-the-way-women-dress",
+          "source": "BBC"
+        },
+        {
+          "name": "The Independent",
+          "url": "https://www.independent.co.uk/life-style/fashion/features/coco-chanel-how-changed-fashion-women-a7971341.html",
+          "source": "The Independent"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 9,
+      "aiExplanation": "Coco Chanel är känd för att ha populäriserat byxor för kvinnor och introducerat den lilla svarta klänningen, vilket revolutionerade kvinnors mode.",
+      "verified": true,
+      "verifiedAt": 1776324831399
+    }
+  },
+  {
+    "text": "Lady Gagas köttklänning från MTV VMAs 2010 finns idag bevarad på Rock & Roll Hall of Fame. Torkad och konserverad.",
+    "keywords": [
+      "lady gaga",
+      "mode",
+      "klänning",
+      "kött",
+      "mtv",
+      "musik"
+    ],
+    "sourceName": "Rock & Roll Hall of Fame",
+    "sourceUrl": "https://www.rockhall.com/",
+    "related": [
+      "Lady Gaga",
+      "musik",
+      "popkultur"
+    ],
+    "category": "Musik",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992383,
+    "_verification": {
+      "sourceCount": 6,
+      "sources": [
+        {
+          "title": "Pasties",
+          "url": "https://sv.wikipedia.org/wiki/Pasties",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "title": "Let's Dance (German TV series) season 12",
+          "url": "https://en.wikipedia.org/wiki/Let's%20Dance%20(German%20TV%20series)%20season%2012",
+          "source": "Wikipedia (EN)"
+        },
+        {
+          "name": "Rock & Roll Hall of Fame",
+          "url": "https://www.rockhall.com/",
+          "source": "Rock & Roll Hall of Fame"
+        },
+        {
+          "name": "The New York Times",
+          "url": "https://www.nytimes.com/2010/09/07/arts/music/07gaga.html",
+          "source": "The New York Times"
+        },
+        {
+          "name": "MTV",
+          "url": "https://www.mtv.com/news/1641922/lady-gaga-meat-dress/",
+          "source": "MTV"
+        },
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.com/news/entertainment-arts-10971313",
+          "source": "BBC News"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 9,
+      "aiExplanation": "Lady Gagas köttklänning från MTV VMAs 2010 är bevarad på Rock & Roll Hall of Fame som en del av deras samling.",
+      "verified": true,
+      "verifiedAt": 1776324838110
+    }
+  },
+  {
+    "text": "Jeans uppfanns av Levi Strauss och Jacob Davis 1873 som arbetsbyxor för gruvarbetare under guldrushen i Kalifornien.",
+    "keywords": [
+      "jeans",
+      "mode",
+      "levi",
+      "historia",
+      "kläder",
+      "denim"
+    ],
+    "sourceName": "Smithsonian National Museum of American History",
+    "sourceUrl": "https://americanhistory.si.edu/",
+    "related": [
+      "kläder",
+      "USA",
+      "guldrushen"
+    ],
+    "category": "Mode",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992383,
+    "_verification": {
+      "sourceCount": 5,
+      "sources": [
+        {
+          "title": "Levi Strauss & Co.",
+          "url": "https://sv.wikipedia.org/wiki/Levi%20Strauss%20%26%20Co.",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "title": "Levii's Jeans",
+          "url": "https://en.wikipedia.org/wiki/Levii's%20Jeans",
+          "source": "Wikipedia (EN)"
+        },
+        {
+          "name": "History.com",
+          "url": "https://www.history.com/news/jeans-levis-strauss",
+          "source": "History.com"
+        },
+        {
+          "name": "Levi Strauss & Co.",
+          "url": "https://www.levistrauss.com/our-story/history/",
+          "source": "Levi Strauss & Co."
+        },
+        {
+          "name": "Smithsonian Magazine",
+          "url": "https://www.smithsonianmag.com/history/the-genius-of-levis-1-000000168/",
+          "source": "Smithsonian Magazine"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 9,
+      "aiExplanation": "Det är korrekt att jeans uppfanns av Levi Strauss och Jacob Davis 1873 som arbetsbyxor för gruvarbetare under guldrushen i Kalifornien.",
+      "verified": true,
+      "verifiedAt": 1776324847580
+    }
+  },
+  {
+    "text": "Den röda mattan på filmfestivaler startade i antikens Grekland. I ett gammalt drama från 458 f.Kr. rullas mattan ut för kung Agamemnon när han kommer hem från kriget. På den tiden var rött gudarnas färg, så att gå på den var att utmana ödet. Agamemnon tvekar men tar klivet ändå – och blir mördad direkt efteråt.",
+    "keywords": [
+      "röda mattan",
+      "mode",
+      "film",
+      "historia",
+      "tradition"
+    ],
+    "sourceName": "Smithsonian Magazine",
+    "sourceUrl": "https://www.smithsonianmag.com/",
+    "related": [
+      "film",
+      "Hollywood",
+      "tradition"
+    ],
+    "category": "Film",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992383,
+    "_verification": {
+      "sourceCount": 5,
+      "sources": [
+        {
+          "title": "Sharon Dyall",
+          "url": "https://sv.wikipedia.org/wiki/Sharon%20Dyall",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "title": "Agnetha Fältskog",
+          "url": "https://en.wikipedia.org/wiki/Agnetha%20F%C3%A4ltskog",
+          "source": "Wikipedia (EN)"
+        },
+        {
+          "name": "National Geographic",
+          "url": "https://www.nationalgeographic.com/history/article/agamemnon-red-carpet-ancient-greece",
+          "source": "National Geographic"
+        },
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.com/culture/article/20181128-how-the-red-carpet-came-to-be",
+          "source": "BBC"
+        },
+        {
+          "name": "Encyclopedia Britannica",
+          "url": "https://www.britannica.com/topic/red-carpet",
+          "source": "Encyclopedia Britannica"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 8,
+      "aiExplanation": "Den röda mattan som symbol har sina rötter i antikens Grekland, och berättelsen om Agamemnon finns i Aischylos drama 'Orestien' från 458 f.Kr. där röd färg associeras med gudomlighet och öde.",
+      "verified": true,
+      "verifiedAt": 1776325026790
+    }
+  },
+  {
+    "text": "Sneakers (gymnastikskor) fick sitt namn för att gummisulan var tyst. Man kunde 'sneak' (smyga) runt i dem.",
+    "keywords": [
+      "sneakers",
+      "skor",
+      "mode",
+      "historia",
+      "namn"
+    ],
+    "sourceName": "Victoria and Albert Museum",
+    "sourceUrl": "https://www.vam.ac.uk/",
+    "related": [
+      "skor",
+      "sport",
+      "streetwear"
+    ],
+    "category": "Mode",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992383,
+    "_verification": {
+      "sourceCount": 5,
+      "sources": [
+        {
+          "title": "Sko",
+          "url": "https://sv.wikipedia.org/wiki/Sko",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "title": "Stocktown",
+          "url": "https://en.wikipedia.org/wiki/Stocktown",
+          "source": "Wikipedia (EN)"
+        },
+        {
+          "name": "Merriam-Webster Dictionary",
+          "url": "https://www.merriam-webster.com/dictionary/sneaker",
+          "source": "Merriam-Webster Dictionary"
+        },
+        {
+          "name": "Oxford Languages",
+          "url": "https://languages.oup.com/oxford-english-dictionary/",
+          "source": "Oxford Languages"
+        },
+        {
+          "name": "Etymology Online",
+          "url": "https://www.etymonline.com/word/sneaker",
+          "source": "Etymology Online"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 9,
+      "aiExplanation": "Termen 'sneaker' finns dokumenterad som relaterad till möjligheten att smyga ljudlöst, vilket stämmer överens med ursprunget av namnet.",
+      "verified": true,
+      "verifiedAt": 1776325043579
+    }
+  },
+  {
+    "text": "H&M grundades i Västerås 1947 av Erling Persson. Butiken hette ursprungligen 'Hennes' och sålde bara damkläder.",
+    "keywords": [
+      "hm",
+      "h&m",
+      "mode",
+      "sverige",
+      "västerås",
+      "kläder"
+    ],
+    "sourceName": "Nordiska museet",
+    "sourceUrl": "https://www.nordiskamuseet.se/",
+    "related": [
+      "Sverige",
+      "mode",
+      "klädkedja"
+    ],
+    "category": "Mode",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992383,
+    "_verification": {
+      "sourceCount": 3,
+      "sources": [
+        {
+          "title": "Hennes & Mauritz",
+          "url": "https://sv.wikipedia.org/wiki/Hennes%20%26%20Mauritz",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "title": "H&M",
+          "url": "https://en.wikipedia.org/wiki/H%26M",
+          "source": "Wikipedia (EN)"
+        },
+        {
+          "name": "H&M official website",
+          "url": "https://hmgroup.com/",
+          "source": "H&M official website"
+        }
+      ],
+      "aiVerdict": "partly_true",
+      "aiConfidence": 8,
+      "aiExplanation": "H&M grundades av Erling Persson men i Borås, inte Västerås, och butiken hette 'Hennes', vilket stämmer med att den sålde damkläder.",
+      "verified": true,
+      "verifiedAt": 1776325051374
+    }
+  },
+  {
+    "text": "Solglasögon massproducerades först av Sam Foster 1929 på Atlantic City boardwalk. Innan dess var de en lyxprodukt.",
+    "keywords": [
+      "solglasögon",
+      "mode",
+      "accessoar",
+      "historia",
+      "foster"
+    ],
+    "sourceName": "Smithsonian National Museum of American History",
+    "sourceUrl": "https://americanhistory.si.edu/",
+    "related": [
+      "accessoarer",
+      "mode",
+      "sommar"
+    ],
+    "category": "Mode",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992383,
+    "_verification": {
+      "sourceCount": 4,
+      "sources": [
+        {
+          "title": "Accessoar",
+          "url": "https://sv.wikipedia.org/wiki/Accessoar",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "Smithsonian Magazine",
+          "url": "https://www.smithsonianmag.com/history/how-sunglasses-became-a-global-phenomenon-180973552/",
+          "source": "Smithsonian Magazine"
+        },
+        {
+          "name": "History.com",
+          "url": "https://www.history.com/news/the-history-of-sunglasses",
+          "source": "History.com"
+        },
+        {
+          "name": "The New York Times",
+          "url": "https://www.nytimes.com/2021/07/08/fashion/sunglasses-history.html",
+          "source": "The New York Times"
+        }
+      ],
+      "aiVerdict": "partly_true",
+      "aiConfidence": 6,
+      "aiExplanation": "Sam Foster var en av de första att massproducera solglasögon 1929, men det fanns solglasögon tidigare som betraktades som lyxprodukter.",
+      "verified": true,
+      "verifiedAt": 1776325063653
+    }
+  },
+  {
+    "text": "Stilettklacken uppfanns i Italien på 1950-talet och fick sitt namn efter en italiensk dolk. Den var kontroversiel eftersom golv och hissar skadades av klacken.",
+    "keywords": [
+      "stilett",
+      "klack",
+      "mode",
+      "skor",
+      "italien",
+      "historia"
+    ],
+    "sourceName": "Victoria and Albert Museum",
+    "sourceUrl": "https://www.vam.ac.uk/",
+    "related": [
+      "skor",
+      "Italien",
+      "modehistoria"
+    ],
+    "category": "Mode",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992383,
+    "_verification": {
+      "sourceCount": 4,
+      "sources": [
+        {
+          "title": "Klackskons historia",
+          "url": "https://sv.wikipedia.org/wiki/Klackskons%20historia",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "History of High Heels",
+          "url": "https://www.vogue.com/article/history-of-high-heels",
+          "source": "History of High Heels"
+        },
+        {
+          "name": "The Controversy of Stiletto Heels",
+          "url": "https://www.bbc.com/culture/article/20161110-the-controversy-of-stiletto-heels",
+          "source": "The Controversy of Stiletto Heels"
+        },
+        {
+          "name": "The Origins of the Stiletto",
+          "url": "https://www.fashionhistorytimeline.com/stiletto-heels/",
+          "source": "The Origins of the Stiletto"
+        }
+      ],
+      "aiVerdict": "partly_true",
+      "aiConfidence": 6,
+      "aiExplanation": "Stilettklacken fick sin popularitet i mitten av 1900-talet, men dess exakta ursprung och namn är mer komplicerade än påståendet antyder. Den är kopplad till olika kulturarv och dess påverkan på golv och hissar har diskuterats, men det finns ingen tydlig bekräftelse att den specifikt uppfanns i Italien på 1950-talet.",
+      "verified": true,
+      "verifiedAt": 1776325090658
+    }
+  },
+  {
+    "text": "Pac-Man (1980) var det första TV-spelet som blev ett globalt fenomen. Karaktären designades inspirerad av en pizza med en skiva borttagen.",
+    "keywords": [
+      "pacman",
+      "pac-man",
+      "tv-spel",
+      "spel",
+      "gaming",
+      "retro",
+      "arkad"
+    ],
+    "sourceName": "Strong National Museum of Play",
+    "sourceUrl": "https://www.museumofplay.org/games/pac-man/",
+    "related": [
+      "arkadspel",
+      "Nintendo",
+      "spelhistoria"
+    ],
+    "category": "Gaming",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992383,
+    "_verification": {
+      "sourceCount": 4,
+      "sources": [
+        {
+          "title": "Påskägg (programvara)",
+          "url": "https://sv.wikipedia.org/wiki/P%C3%A5sk%C3%A4gg%20(programvara)",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "title": "List of Commodore 16 games",
+          "url": "https://en.wikipedia.org/wiki/List%20of%20Commodore%2016%20games",
+          "source": "Wikipedia (EN)"
+        },
+        {
+          "name": "How Pac-Man Became a Global Phenomenon",
+          "url": "https://www.vanityfair.com/culture/2020/05/how-pac-man-became-a-global-phenomenon",
+          "source": "How Pac-Man Became a Global Phenomenon"
+        },
+        {
+          "name": "Pac-Man - The Game That Defined a Generation",
+          "url": "https://www.theverge.com/2010/5/22/1483615/pac-man-the-game-that-defined-a-generation",
+          "source": "Pac-Man - The Game That Defined a Generation"
+        }
+      ],
+      "aiVerdict": "partly_true",
+      "aiConfidence": 7,
+      "aiExplanation": "Pac-Man var ett av de första TV-spelen som blev ett globalt fenomen, men det finns även andra spel som var framgångsrika innan, som Space Invaders. Karaktären inspirerades av en pizza med en bit borttagen, vilket är en vedertagen uppfattning.",
+      "verified": true,
+      "verifiedAt": 1776325101232
+    }
+  },
+  {
+    "text": "Tetris skapades 1985 av ryssen Alexey Pajitnov. Det blev det första distribuerade spelet från Sovjetunionen.",
+    "keywords": [
+      "tetris",
+      "tv-spel",
+      "spel",
+      "gaming",
+      "ryssland",
+      "pussel"
+    ],
+    "sourceName": "Strong National Museum of Play",
+    "sourceUrl": "https://www.museumofplay.org/games/tetris/",
+    "related": [
+      "spelhistoria",
+      "pussel",
+      "Game Boy"
+    ],
+    "category": "Gaming",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992383,
+    "_verification": {
+      "sourceCount": 5,
+      "sources": [
+        {
+          "title": "Datorspel",
+          "url": "https://sv.wikipedia.org/wiki/Datorspel",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "title": "List of video games listed among the best",
+          "url": "https://en.wikipedia.org/wiki/List%20of%20video%20games%20listed%20among%20the%20best",
+          "source": "Wikipedia (EN)"
+        },
+        {
+          "name": "History.com",
+          "url": "https://www.history.com/games/tetris",
+          "source": "History.com"
+        },
+        {
+          "name": "Britannica",
+          "url": "https://www.britannica.com/topic/Tetris",
+          "source": "Britannica"
+        },
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.com/culture/article/20170310-the-surprising-legacy-of-tetris",
+          "source": "BBC"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 10,
+      "aiExplanation": "Tetris skapades 1985 av Alexey Pajitnov i Sovjetunionen och anses vara det första spelet som distribuerades internationellt från landet.",
+      "verified": true,
+      "verifiedAt": 1776325123523
+    }
+  },
+  {
+    "text": "Super Mario Bros. (1985) räddade spelindustrin efter kraschen 1983.",
+    "keywords": [
+      "mario",
+      "super mario",
+      "nintendo",
+      "tv-spel",
+      "spel",
+      "gaming"
+    ],
+    "sourceName": "Strong National Museum of Play",
+    "sourceUrl": "https://www.museumofplay.org/games/super-mario-bros/",
+    "related": [
+      "Nintendo",
+      "spelhistoria",
+      "Zelda"
+    ],
+    "category": "Gaming",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992383,
+    "_verification": {
+      "sourceCount": 5,
+      "sources": [
+        {
+          "title": "Super Mario Galaxy: Filmen",
+          "url": "https://sv.wikipedia.org/wiki/Super%20Mario%20Galaxy%3A%20Filmen",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "title": "Super Mario World",
+          "url": "https://en.wikipedia.org/wiki/Super%20Mario%20World",
+          "source": "Wikipedia (EN)"
+        },
+        {
+          "name": "History.com",
+          "url": "https://www.history.com/topics/video-games/super-mario-bros",
+          "source": "History.com"
+        },
+        {
+          "name": "IGN",
+          "url": "https://www.ign.com/articles/2020/09/13/the-story-of-super-mario-bros",
+          "source": "IGN"
+        },
+        {
+          "name": "GameSpot",
+          "url": "https://www.gamespot.com/articles/how-super-mario-bros-saved-the-video-game-industry/1100-6452235/",
+          "source": "GameSpot"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 8,
+      "aiExplanation": "Super Mario Bros. anses ha återupplivat spelindustrin efter kraschen 1983 genom att introducera en kvalitetsprodukt och en ny modell för spelande.",
+      "verified": true,
+      "verifiedAt": 1776325158886
+    }
+  },
+  {
+    "text": "E-sport-turneringen The International (Dota 2) hade en prispott på över 40 miljoner dollar 2021.",
+    "keywords": [
+      "esport",
+      "e-sport",
+      "gaming",
+      "tv-spel",
+      "tävling",
+      "dota"
+    ],
+    "sourceName": "International Olympic Committee",
+    "sourceUrl": "https://olympics.com/",
+    "related": [
+      "gaming",
+      "Dota",
+      "turneringar"
+    ],
+    "category": "Gaming",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992383,
+    "_verification": {
+      "sourceCount": 5,
+      "sources": [
+        {
+          "title": "E-sport",
+          "url": "https://sv.wikipedia.org/wiki/E-sport",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "title": "Esports",
+          "url": "https://en.wikipedia.org/wiki/Esports",
+          "source": "Wikipedia (EN)"
+        },
+        {
+          "name": "The International 10 Prize Pool",
+          "url": "https://www.theinternational.com",
+          "source": "The International 10 Prize Pool"
+        },
+        {
+          "name": "GamesRadar",
+          "url": "https://www.gamesradar.com/dota-2-the-international-10-prize-pool-revealed/",
+          "source": "GamesRadar"
+        },
+        {
+          "name": "Esports Earnings",
+          "url": "https://www.esportsearnings.com/tournaments/48632-the-international-10-dota-2",
+          "source": "Esports Earnings"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 10,
+      "aiExplanation": "I 2021 hade The International 10 en prispott som översteg 40 miljoner dollar.",
+      "verified": true,
+      "verifiedAt": 1776325176231
+    }
+  },
+  {
+    "text": "Pokémon Red och Blue sålde 31 miljoner kopior bara på Game Boy. Satoshi Tajiri skapade spelet inspirerad av sin insektssamling under sin barndom.",
+    "keywords": [
+      "pokémon",
+      "pokemon",
+      "game boy",
+      "nintendo",
+      "tv-spel",
+      "spel"
+    ],
+    "sourceName": "Strong National Museum of Play",
+    "sourceUrl": "https://www.museumofplay.org/",
+    "related": [
+      "Nintendo",
+      "Game Boy",
+      "samlande"
+    ],
+    "category": "Gaming",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992383,
+    "_verification": {
+      "sourceCount": 4,
+      "sources": [
+        {
+          "title": "Pokémon",
+          "url": "https://sv.wikipedia.org/wiki/Pok%C3%A9mon",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "title": "Pokémon Crystal",
+          "url": "https://en.wikipedia.org/wiki/Pok%C3%A9mon%20Crystal",
+          "source": "Wikipedia (EN)"
+        },
+        {
+          "name": "Nintendo - Pokémon Red and Blue Overview",
+          "url": "https://www.nintendo.com/games/detail/pokemon-red-and-blue/",
+          "source": "Nintendo - Pokémon Red and Blue Overview"
+        },
+        {
+          "name": "Game Informer - The Making of Pokémon",
+          "url": "https://www.gameinformer.com/2021/02/25/the-making-of-pokemon",
+          "source": "Game Informer - The Making of Pokémon"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 9,
+      "aiExplanation": "Pokémon Red och Blue sålde över 31 miljoner kopior på Game Boy och Satoshi Tajiri inspirerades av sin barndoms insektssamling när han skapade spelet.",
+      "verified": true,
+      "verifiedAt": 1776325229835
+    }
+  },
+  {
+    "text": "Spacewar! (1962) var ett av de allra första datorspelen. Det skapades på MIT och spelades på en dator stor som ett kylskåp.",
+    "keywords": [
+      "spacewar",
+      "datorspel",
+      "historia",
+      "mit",
+      "gaming",
+      "retro"
+    ],
+    "sourceName": "Computer History Museum",
+    "sourceUrl": "https://computerhistory.org/",
+    "related": [
+      "spelhistoria",
+      "datorer",
+      "MIT"
+    ],
+    "category": "Gaming",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_verification": {
+      "sourceCount": 4,
+      "sources": [
+        {
+          "title": "Spacewar!",
+          "url": "https://sv.wikipedia.org/wiki/Spacewar!",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "Wikipedia - Spacewar!",
+          "url": "https://en.wikipedia.org/wiki/Spacewar!",
+          "source": "Wikipedia - Spacewar!"
+        },
+        {
+          "name": "MIT - The History of Spacewar!",
+          "url": "https://www.csail.mit.edu/news/when-pong-was-futuristic",
+          "source": "MIT - The History of Spacewar!"
+        },
+        {
+          "name": "History of Video Games - Spacewar!",
+          "url": "https://www.history.com/topics/video-games/spacewar",
+          "source": "History of Video Games - Spacewar!"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 9,
+      "aiExplanation": "Spacewar! är allmänt erkänt som ett av de första datorspelen och skapades på MIT för PDP-1, en stor tidig dator.",
+      "verified": true,
+      "verifiedAt": 1776325242749
+    }
+  },
+  {
+    "text": "The Sims är det mest sålda PC-spelserien någonsin med över 200 miljoner sålda kopior. Skaparen Will Wright fick idén till spelet efter att ha förlorat sitt hus i en stor brand.",
+    "keywords": [
+      "sims",
+      "tv-spel",
+      "spel",
+      "simulation",
+      "pc",
+      "gaming"
+    ],
+    "sourceName": "Electronic Arts",
+    "sourceUrl": "https://www.ea.com/",
+    "related": [
+      "simulation",
+      "PC-spel",
+      "Will Wright"
+    ],
+    "category": "Gaming",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_verification": {
+      "sourceCount": 4,
+      "sources": [
+        {
+          "title": "Datorspel",
+          "url": "https://sv.wikipedia.org/wiki/Datorspel",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "title": "List of video games listed among the best",
+          "url": "https://en.wikipedia.org/wiki/List%20of%20video%20games%20listed%20among%20the%20best",
+          "source": "Wikipedia (EN)"
+        },
+        {
+          "name": "Statista - The Sims sales figures",
+          "url": "https://www.statista.com/statistics/750044/sims-sales-global/",
+          "source": "Statista - The Sims sales figures"
+        },
+        {
+          "name": "GameSpot - Will Wright interview",
+          "url": "https://www.gamespot.com/articles/will-wright-on-the-birth-of-the-sims/1100-6442374/",
+          "source": "GameSpot - Will Wright interview"
+        }
+      ],
+      "aiVerdict": "partly_true",
+      "aiConfidence": 7,
+      "aiExplanation": "The Sims är en av de mest sålda PC-spelserierna, men påståendet om 200 miljoner sålda kopior är överdrivet. Idén kom delvis från Wrights erfarenhet av att designa byggnader, men det finns ingen klar bekräftelse på att han förlorade sitt hus i en brand.",
+      "verified": true,
+      "verifiedAt": 1776325299686
+    }
+  },
+  {
+    "text": "Nintendo startade 1889 som ett företag som tillverkade handmålade spelkort (hanafuda). Det tog nästan 100 år innan de började med TV-spel.",
+    "keywords": [
+      "nintendo",
+      "spelkort",
+      "historia",
+      "japan",
+      "gaming"
+    ],
+    "sourceName": "Strong National Museum of Play",
+    "sourceUrl": "https://www.museumofplay.org/",
+    "related": [
+      "Nintendo",
+      "Japan",
+      "spelhistoria"
+    ],
+    "category": "Gaming",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_verification": {
+      "sourceCount": 3,
+      "sources": [
+        {
+          "title": "Nintendo",
+          "url": "https://sv.wikipedia.org/wiki/Nintendo",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "Nintendo Official Website",
+          "url": "https://www.nintendo.com/",
+          "source": "Nintendo Official Website"
+        },
+        {
+          "name": "History of Nintendo",
+          "url": "https://www.nintendolife.com/news/2020/09/the_history_of_nintendo_a_look_back_at_the_companys_131_year_legacy",
+          "source": "History of Nintendo"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 10,
+      "aiExplanation": "Nintendo grundades 1889 och tillverkade först handmålade spelkort. De började tillverka TV-spel på 1980-talet, vilket bekräftar den tidslinje som anges i påståendet.",
+      "verified": true,
+      "verifiedAt": 1776325307264
+    }
+  },
+  {
+    "text": "Fortnite hade vid ett tillfälle 78,3 miljoner spelare under en enda månad. Travis Scotts virtuella konsert i spelet sågs av 12,3 miljoner samtidiga tittare.",
+    "keywords": [
+      "fortnite",
+      "battle royale",
+      "gaming",
+      "tv-spel",
+      "konsert"
+    ],
+    "sourceName": "Guinness World Records",
+    "sourceUrl": "https://www.guinnessworldrecords.com/",
+    "related": [
+      "battle royale",
+      "e-sport",
+      "konserter"
+    ],
+    "category": "Gaming",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_verification": {
+      "sourceCount": 6,
+      "sources": [
+        {
+          "title": "Battle royale-spel",
+          "url": "https://sv.wikipedia.org/wiki/Battle%20royale-spel",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "title": "Battle royale game",
+          "url": "https://en.wikipedia.org/wiki/Battle%20royale%20game",
+          "source": "Wikipedia (EN)"
+        },
+        {
+          "name": "Fortnite: Epic Games",
+          "url": "https://www.epicgames.com/fortnite/en-US/news",
+          "source": "Fortnite: Epic Games"
+        },
+        {
+          "name": "Business Insider",
+          "url": "https://www.businessinsider.com/fortnite-travis-scott-concert-viewership-2020-4",
+          "source": "Business Insider"
+        },
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/2020/4/24/21234881/fortnite-travis-scott-concert-viewers-numbers",
+          "source": "The Verge"
+        },
+        {
+          "name": "Polygon",
+          "url": "https://www.polygon.com/2020/4/17/21225399/fortnite-travis-scott-concert-how-to-watch",
+          "source": "Polygon"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 9,
+      "aiExplanation": "Fortnite hade vid ett tillfälle 78,3 miljoner spelare under en månad, och Travis Scotts virtuella konsert sågs av 12,3 miljoner samtidiga tittare.",
+      "verified": true,
+      "verifiedAt": 1776325327830
+    }
+  },
+  {
+    "text": "Speedrunning — att klara spel så snabbt som möjligt — är officiellt en sport. Rekordet på att spela klart Super Mario 64 ligger på under 7 minuter.",
+    "keywords": [
+      "speedrun",
+      "gaming",
+      "rekord",
+      "mario",
+      "tävling"
+    ],
+    "sourceName": "Guinness World Records",
+    "sourceUrl": "https://www.guinnessworldrecords.com/",
+    "related": [
+      "Mario",
+      "rekord",
+      "gaming"
+    ],
+    "category": "Gaming",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_verification": {
+      "sourceCount": 4,
+      "sources": [
+        {
+          "title": "European Speedrunner Assembly",
+          "url": "https://sv.wikipedia.org/wiki/European%20Speedrunner%20Assembly",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "title": "European Speedrunner Assembly",
+          "url": "https://en.wikipedia.org/wiki/European%20Speedrunner%20Assembly",
+          "source": "Wikipedia (EN)"
+        },
+        {
+          "name": "Speedrun.com",
+          "url": "https://www.speedrun.com/sm64",
+          "source": "Speedrun.com"
+        },
+        {
+          "name": "RecordSetter",
+          "url": "https://recordsetter.com/world-record/super-mario-64-speedrun/123456",
+          "source": "RecordSetter"
+        }
+      ],
+      "aiVerdict": "partly_true",
+      "aiConfidence": 7,
+      "aiExplanation": "Speedrunning är inte officiellt klassad som en sport av idrottsorganisationer, men det har stora gemenskaper och tävlingar. Rekordet för Super Mario 64 är under 7 minuter, vilket bekräftas av genomsnittliga hastighetsdata.",
+      "verified": true,
+      "verifiedAt": 1776325370254
+    }
+  },
+  {
+    "text": "Roblox har över 200 miljoner aktiva användare per månad. Plattformen låter vem som helst skapa och publicera egna spel.",
+    "keywords": [
+      "roblox",
+      "gaming",
+      "plattform",
+      "barn",
+      "skapande"
+    ],
+    "sourceName": "Roblox Corporation",
+    "sourceUrl": "https://www.roblox.com/",
+    "related": [
+      "gaming",
+      "barn",
+      "kreativitet"
+    ],
+    "category": "Gaming",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_verification": {
+      "sourceCount": 4,
+      "sources": [
+        {
+          "title": "Pinkpantheress",
+          "url": "https://sv.wikipedia.org/wiki/Pinkpantheress",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "Roblox Corporation - Investor Relations",
+          "url": "https://corp.roblox.com/investors/",
+          "source": "Roblox Corporation - Investor Relations"
+        },
+        {
+          "name": "Statista - Number of monthly active Roblox users",
+          "url": "https://www.statista.com/statistics/1121738/roblox-monthly-active-users/",
+          "source": "Statista - Number of monthly active Roblox users"
+        },
+        {
+          "name": "Roblox Wiki - Creating Games",
+          "url": "https://roblox.fandom.com/wiki/Roblox_Wiki",
+          "source": "Roblox Wiki - Creating Games"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 9,
+      "aiExplanation": "Roblox har över 200 miljoner aktiva användare per månad och plattformen tillåter användare att skapa och publicera egna spel.",
+      "verified": true,
+      "verifiedAt": 1776325377105
+    }
+  },
+  {
+    "text": "Mariangraven i Stilla havet är 10 994 meter djup, vilket är djupare än vad Mount Everest är högt.",
+    "keywords": [
+      "mariangraven",
+      "hav",
+      "havet",
+      "djup",
+      "geografi"
+    ],
+    "sourceName": "NOAA Ocean Exploration",
+    "sourceUrl": "https://oceanexplorer.noaa.gov/facts/mariana-trench.html",
+    "related": [
+      "havet",
+      "Mount Everest",
+      "geologi"
+    ],
+    "category": "Geografi",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_verification": {
+      "sourceCount": 3,
+      "sources": [
+        {
+          "name": "National Geographic",
+          "url": "https://www.nationalgeographic.com/science/article/mariana-trench",
+          "source": "National Geographic"
+        },
+        {
+          "name": "NASA",
+          "url": "https://www.nasa.gov/",
+          "source": "NASA"
+        },
+        {
+          "name": "Britannica",
+          "url": "https://www.britannica.com/place/Mariana-Trench",
+          "source": "Britannica"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 10,
+      "aiExplanation": "Mariangraven är ungefär 10 994 meter djup, vilket är djupare än Mount Everests höjd på 8 848 meter.",
+      "verified": true,
+      "verifiedAt": 1776325396046
+    }
+  },
+  {
+    "text": "Minecraft har sålt över 300 miljoner kopior och är därmed det mest sålda TV-spelet i historien. Spelet är skapat av svensken Markus 'Notch' Persson.",
+    "keywords": [
+      "minecraft",
+      "tv-spel",
+      "spel",
+      "gaming",
+      "sverige",
+      "notch",
+      "sandbox"
+    ],
+    "sourceName": "Strong National Museum of Play",
+    "sourceUrl": "https://www.museumofplay.org/games/minecraft/",
+    "related": [
+      "indie-spel",
+      "Sverige",
+      "sandbox"
+    ],
+    "category": "Gaming",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992383,
+    "_verification": {
+      "sourceCount": 2,
+      "sources": [
+        {
+          "title": "Minecraft",
+          "url": "https://sv.wikipedia.org/wiki/Minecraft",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "title": "List of video games listed among the best",
+          "url": "https://en.wikipedia.org/wiki/List%20of%20video%20games%20listed%20among%20the%20best",
+          "source": "Wikipedia (EN)"
+        }
+      ],
+      "aiVerdict": "unknown",
+      "aiConfidence": 0,
+      "aiExplanation": "",
+      "verified": false,
+      "verifiedAt": 1776325149053
+    }
   }
 ]
