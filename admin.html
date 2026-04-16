@@ -1751,18 +1751,22 @@ Svara i detta format (BARA JSON, inget annat):
         function getPublished() { try { return JSON.parse(localStorage.getItem(PUBLISHED_KEY) || "[]"); } catch { return []; } }
         function savePublished(p) { localStorage.setItem(PUBLISHED_KEY, JSON.stringify(p)); }
 
-        // Always load published facts from GitHub — it's the source of truth
-        async function loadPublishedFromGitHub() {
-            try {
-                const res = await fetch("published-data.json?" + Date.now());
-                if (res.ok) {
-                    const data = await res.json();
-                    if (data.length > 0) {
-                        savePublished(data);
-                        refreshAll();
+        // Load all data from GitHub on startup — GitHub is the source of truth
+        async function loadAllFromGitHub() {
+            let changed = false;
+            for (const [file, { save }] of Object.entries(SYNC_FILES)) {
+                try {
+                    const res = await fetch(file + "?" + Date.now());
+                    if (res.ok) {
+                        const data = await res.json();
+                        if (data && (Array.isArray(data) ? data.length > 0 : Object.keys(data).length > 0)) {
+                            save(data);
+                            changed = true;
+                        }
                     }
-                }
-            } catch {}
+                } catch {}
+            }
+            if (changed) refreshAll();
         }
 
         document.getElementById("publishBtn").addEventListener("click", () => {
@@ -1809,71 +1813,80 @@ Svara i detta format (BARA JSON, inget annat):
 
         // ========== SYNC TO GITHUB ==========
         const GITHUB_REPO = "FloraBernh/smartass";
-        const GITHUB_FILE = "published-data.json";
+        const SYNC_FILES = {
+            "published-data.json": { get: getPublished, save: savePublished, label: "publicerade" },
+            "drafts-data.json": { get: getDrafts, save: saveDrafts, label: "utkast" },
+            "approved-data.json": { get: getApproved, save: saveApproved, label: "godkända" },
+            "trash-data.json": { get: getTrash, save: saveTrash, label: "papperskorg" },
+            "searches-data.json": {
+                get: () => { try { return JSON.parse(localStorage.getItem("smartass_searches") || "[]"); } catch { return []; } },
+                save: (d) => localStorage.setItem("smartass_searches", JSON.stringify(d)),
+                label: "sökningar"
+            },
+            "categories-data.json": { get: getCustomCategories, save: saveCustomCategories, label: "kategorier" },
+            "dismissed-data.json": {
+                get: () => { try { return JSON.parse(localStorage.getItem(DISMISSED_DUPS_KEY) || "[]"); } catch { return []; } },
+                save: (d) => localStorage.setItem(DISMISSED_DUPS_KEY, JSON.stringify(d)),
+                label: "avfärdade dubletter"
+            }
+        };
 
-        async function syncToGitHub() {
-            const btn = document.getElementById("syncBtn");
-            const originalText = btn.textContent;
-            btn.textContent = "⏳ Synkar...";
-            btn.disabled = true;
-
+        function getGitHubToken() {
             let token = localStorage.getItem("smartass_gh_token");
             if (!token) {
                 token = prompt("Ange din GitHub Personal Access Token (sparas lokalt):");
-                if (!token) { btn.textContent = originalText; btn.disabled = false; return; }
-                localStorage.setItem("smartass_gh_token", token);
+                if (token) localStorage.setItem("smartass_gh_token", token);
             }
+            return token;
+        }
 
-            const published = getPublished();
-            const content = btoa(unescape(encodeURIComponent(JSON.stringify(published, null, 2))));
+        async function ghGetSha(file, token) {
+            try {
+                const res = await fetch(`https://api.github.com/repos/${GITHUB_REPO}/contents/${file}`, {
+                    headers: { "Authorization": `token ${token}` }
+                });
+                if (res.ok) return (await res.json()).sha;
+            } catch {}
+            return "";
+        }
+
+        async function ghPutFile(file, data, token) {
+            const content = btoa(unescape(encodeURIComponent(JSON.stringify(data, null, 2))));
+            const sha = await ghGetSha(file, token);
+            const body = { message: `Synka ${file}`, content, branch: "main" };
+            if (sha) body.sha = sha;
+
+            const res = await fetch(`https://api.github.com/repos/${GITHUB_REPO}/contents/${file}`, {
+                method: "PUT",
+                headers: { "Authorization": `token ${token}`, "Content-Type": "application/json" },
+                body: JSON.stringify(body)
+            });
+            if (!res.ok) {
+                const err = await res.json();
+                if (res.status === 401) { localStorage.removeItem("smartass_gh_token"); throw new Error("Ogiltig token"); }
+                throw new Error(err.message || "Okänt fel");
+            }
+        }
+
+        async function syncToGitHub() {
+            const btn = document.getElementById("syncBtn");
+            const originalText = btn.innerHTML;
+            btn.innerHTML = "⏳ Synkar...";
+            btn.disabled = true;
+
+            const token = getGitHubToken();
+            if (!token) { btn.innerHTML = originalText; btn.disabled = false; return; }
 
             try {
-                // Get current file SHA (needed for update)
-                let sha = "";
-                try {
-                    const existing = await fetch(`https://api.github.com/repos/${GITHUB_REPO}/contents/${GITHUB_FILE}`, {
-                        headers: { "Authorization": `token ${token}` }
-                    });
-                    if (existing.ok) {
-                        const data = await existing.json();
-                        sha = data.sha;
-                    }
-                } catch {}
-
-                const body = {
-                    message: `Synka ${published.length} publicerade fakta`,
-                    content: content,
-                    branch: "main"
-                };
-                if (sha) body.sha = sha;
-
-                const res = await fetch(`https://api.github.com/repos/${GITHUB_REPO}/contents/${GITHUB_FILE}`, {
-                    method: "PUT",
-                    headers: {
-                        "Authorization": `token ${token}`,
-                        "Content-Type": "application/json"
-                    },
-                    body: JSON.stringify(body)
-                });
-
-                if (res.ok) {
-                    btn.textContent = "✅ Synkat!";
-                    btn.style.background = "var(--green)";
-                    setTimeout(() => { btn.textContent = originalText; btn.disabled = false; }, 3000);
-                } else {
-                    const err = await res.json();
-                    if (res.status === 401) {
-                        localStorage.removeItem("smartass_gh_token");
-                        alert("Ogiltig token. Försök igen.");
-                    } else {
-                        alert("Fel vid synk: " + (err.message || "Okänt fel"));
-                    }
-                    btn.textContent = originalText;
-                    btn.disabled = false;
+                for (const [file, { get }] of Object.entries(SYNC_FILES)) {
+                    await ghPutFile(file, get(), token);
                 }
+                btn.innerHTML = "✅ Synkat!";
+                btn.style.background = "var(--green)";
+                setTimeout(() => { btn.innerHTML = originalText; btn.disabled = false; }, 3000);
             } catch (e) {
-                alert("Nätverksfel: " + e.message);
-                btn.textContent = originalText;
+                alert("Synk misslyckades: " + e.message);
+                btn.innerHTML = originalText;
                 btn.disabled = false;
             }
         }
@@ -2213,7 +2226,7 @@ Svara i JSON-format (inget annat, bara JSON-arrayen):
 
         refreshAll();
         initSwipeTouch();
-        loadPublishedFromGitHub();
+        loadAllFromGitHub();
     </script>
 </body>
 </html>
