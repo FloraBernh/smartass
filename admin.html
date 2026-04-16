@@ -481,8 +481,7 @@
     <div class="topbar">
         <h1>SmartAss Admin</h1>
         <div class="topbar-links">
-            <button id="pullBtn" onclick="pullFromGitHub()" style="background:var(--border);color:#222;border:none;padding:0.4rem 0.7rem;border-radius:8px;font-weight:600;font-size:0.78rem;cursor:pointer;font-family:inherit;">⬇ Hämta</button>
-            <button id="syncBtn" onclick="syncToGitHub()" style="background:var(--green);color:#222;border:none;padding:0.4rem 0.7rem;border-radius:8px;font-weight:600;font-size:0.78rem;cursor:pointer;font-family:inherit;">⬆ Synka</button>
+            <button id="syncBtn" onclick="syncToGitHub()" style="background:var(--green);color:#222;border:none;padding:0.4rem 0.8rem;border-radius:8px;font-weight:600;font-size:0.78rem;cursor:pointer;font-family:inherit;">🔄 Synka</button>
             <a href="index.html">Publik sida</a>
         </div>
     </div>
@@ -1966,7 +1965,38 @@ Svara i detta format (BARA JSON, inget annat):
             }
         }
 
-        // Push local data to GitHub (local is always the source of truth)
+        // Smart merge: add new facts from remote, but skip anything in local trash
+        function smartMergeFacts(local, remote, trashTexts) {
+            const merged = [...local];
+            const existingTexts = new Set(local.map(f => (f.text || "").trim().toLowerCase()));
+            for (const fact of remote) {
+                const key = (fact.text || "").trim().toLowerCase();
+                if (key && !existingTexts.has(key) && !trashTexts.has(key)) {
+                    merged.push(fact);
+                    existingTexts.add(key);
+                }
+            }
+            return merged;
+        }
+
+        function smartMergeSearches(local, remote) {
+            const map = {};
+            for (const s of local) map[s.query.toLowerCase()] = { ...s };
+            for (const s of remote) {
+                const key = s.query.toLowerCase();
+                if (map[key]) {
+                    map[key].count = Math.max(map[key].count, s.count);
+                    if (s.lastSearched > map[key].lastSearched) map[key].lastSearched = s.lastSearched;
+                    if (!map[key].firstSearched || s.firstSearched < map[key].firstSearched) map[key].firstSearched = s.firstSearched;
+                    map[key].hadResult = map[key].hadResult || s.hadResult;
+                } else {
+                    map[key] = { ...s };
+                }
+            }
+            return Object.values(map);
+        }
+
+        // Two-way sync: pull new items from GitHub, then push everything back
         async function syncToGitHub() {
             const btn = document.getElementById("syncBtn");
             const originalText = btn.innerHTML;
@@ -1977,6 +2007,37 @@ Svara i detta format (BARA JSON, inget annat):
             if (!token) { btn.innerHTML = originalText; btn.disabled = false; return; }
 
             try {
+                // Build set of trashed fact texts — these should NEVER come back
+                const trashTexts = new Set(getTrash().map(f => (f.text || "").trim().toLowerCase()));
+
+                // Step 1: Pull from GitHub and smart-merge into local
+                for (const [file, { get, save }] of Object.entries(SYNC_FILES)) {
+                    try {
+                        const res = await fetch(`https://api.github.com/repos/${GITHUB_REPO}/contents/${file}`, {
+                            headers: { "Authorization": `token ${token}` }
+                        });
+                        if (!res.ok) continue;
+                        const ghData = await res.json();
+                        const remote = JSON.parse(decodeURIComponent(escape(atob(ghData.content))));
+                        const local = get();
+
+                        let merged;
+                        if (file === "searches-data.json") {
+                            merged = smartMergeSearches(local, remote);
+                        } else if (file === "categories-data.json" || file === "dismissed-data.json") {
+                            merged = [...new Set([...local, ...remote])];
+                        } else if (file === "trash-data.json") {
+                            // Trash: union — keep all trashed items from both sides
+                            merged = smartMergeFacts(local, remote, new Set());
+                        } else {
+                            // Drafts, approved, published: merge but skip trashed facts
+                            merged = smartMergeFacts(local, remote, trashTexts);
+                        }
+                        save(merged);
+                    } catch {}
+                }
+
+                // Step 2: Push merged local data to GitHub
                 for (const [file, { get }] of Object.entries(SYNC_FILES)) {
                     await ghPutFile(file, get(), token);
                 }
@@ -1987,41 +2048,6 @@ Svara i detta format (BARA JSON, inget annat):
                 setTimeout(() => { btn.innerHTML = originalText; btn.disabled = false; }, 3000);
             } catch (e) {
                 alert("Synk misslyckades: " + e.message);
-                btn.innerHTML = originalText;
-                btn.disabled = false;
-            }
-        }
-
-        // Pull all data from GitHub and REPLACE local (use when switching device)
-        async function pullFromGitHub() {
-            if (!confirm("Detta ersätter all lokal data med det som finns på GitHub. Fortsätt?")) return;
-            const btn = document.getElementById("pullBtn");
-            const originalText = btn.innerHTML;
-            btn.innerHTML = "⏳ Hämtar...";
-            btn.disabled = true;
-
-            const token = getGitHubToken();
-            if (!token) { btn.innerHTML = originalText; btn.disabled = false; return; }
-
-            try {
-                for (const [file, { save }] of Object.entries(SYNC_FILES)) {
-                    try {
-                        const res = await fetch(`https://api.github.com/repos/${GITHUB_REPO}/contents/${file}`, {
-                            headers: { "Authorization": `token ${token}` }
-                        });
-                        if (res.ok) {
-                            const ghData = await res.json();
-                            const remote = JSON.parse(decodeURIComponent(escape(atob(ghData.content))));
-                            save(remote);
-                        }
-                    } catch {}
-                }
-
-                refreshAll();
-                btn.innerHTML = "✅ Hämtat!";
-                setTimeout(() => { btn.innerHTML = originalText; btn.disabled = false; }, 3000);
-            } catch (e) {
-                alert("Hämtning misslyckades: " + e.message);
                 btn.innerHTML = originalText;
                 btn.disabled = false;
             }
