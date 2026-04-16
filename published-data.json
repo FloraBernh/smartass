@@ -1,1 +1,5306 @@
-[]
+[
+  {
+    "text": "Världens minsta bok är bara 0,07 millimeter bred och kan bara läsas med ett mikroskop.",
+    "keywords": [
+      "minsta bok",
+      "mikroskop",
+      "litteratur"
+    ],
+    "sourceName": "University of Toronto",
+    "sourceUrl": "https://www.utoronto.ca",
+    "related": [
+      "böcker",
+      "mikroteknologi"
+    ],
+    "category": "Litteratur"
+  },
+  {
+    "text": "Telefonens uppfinnare, Alexander Graham Bell, tyckte mest att telefonen va störande och vägrade ha en sådan i sitt arbetsrum.",
+    "keywords": [
+      "telefonen",
+      "Alexander Graham Bell",
+      "uppfinnare"
+    ],
+    "sourceName": "Library of Congress",
+    "sourceUrl": "https://www.loc.gov",
+    "related": [
+      "kommunikation",
+      "historiska uppfinningar"
+    ],
+    "category": "Vetenskap"
+  },
+  {
+    "text": "Beethoven fortsatte att komponera musik även efter att han hade blivit döv.",
+    "keywords": [
+      "Beethoven",
+      "musik",
+      "dövhet"
+    ],
+    "sourceName": "Beethoven-Haus Bonn",
+    "sourceUrl": "https://www.beethoven.de",
+    "related": [
+      "klassisk musik",
+      "kompositörer"
+    ],
+    "category": "Musik"
+  },
+  {
+    "text": "Den mänskliga hjärnan är fullt utvecklad vid omkring 25 års ålder.",
+    "keywords": [
+      "hjärnan",
+      "utveckling",
+      "25 år"
+    ],
+    "sourceName": "Harvard University",
+    "sourceUrl": "https://www.health.harvard.edu",
+    "related": [
+      "neurovetenskap",
+      "utvecklingspsykologi"
+    ],
+    "category": "Kroppen"
+  },
+  {
+    "text": "Grisar kan inte svettas; de kyler sig genom att rulla sig i leran.",
+    "keywords": [
+      "grisar",
+      "svettas",
+      "lera"
+    ],
+    "sourceName": "Australian Pig Research Institute",
+    "sourceUrl": "https://www.pigresearch.com.au",
+    "related": [
+      "djurens beteende",
+      "termodynamik"
+    ],
+    "category": "Djur"
+  },
+  {
+    "text": "Det svenska ordet \"lagom\" finns inte på engelska. Istället översätts det oftast med en kombination av ord som beskriver balans och måttlighet, som t.ex. \"just the right amount\" eller \"moderate\".",
+    "keywords": [
+      "lagom",
+      "svenska",
+      "språk"
+    ],
+    "sourceName": "Svenska Akademien",
+    "sourceUrl": "https://www.svenskaakademien.se",
+    "related": [
+      "översättning",
+      "svensk kultur"
+    ],
+    "category": "Språk"
+  },
+  {
+    "text": "Hypatia av Alexandria var en av de första kvinnliga matematikerna och levde år 415 e.Kr.",
+    "keywords": [
+      "Hypatia",
+      "matematik",
+      "Kvinnliga forskare"
+    ],
+    "sourceName": "Encyclopedia Britannica",
+    "sourceUrl": "https://www.britannica.com",
+    "related": [
+      "antik historia",
+      "matematikens historia"
+    ],
+    "category": "Historia"
+  },
+  {
+    "text": "I antikens Rom användes inte tomater när man skulle laga pizzor, de kom först till Europa på 1500-talet.",
+    "keywords": [
+      "pizzor",
+      "tomater",
+      "antikens Rom"
+    ],
+    "sourceName": "University of Chicago",
+    "sourceUrl": "https://www.uchicago.edu",
+    "related": [
+      "italiensk mat",
+      "historia"
+    ],
+    "category": "Mat"
+  },
+  {
+    "text": "Katter kan dricka saltvatten tack vare sina njurar som filtrerar bort saltet.",
+    "keywords": [
+      "katter",
+      "njurar",
+      "saltvatten"
+    ],
+    "sourceName": "Smithsonian Institution",
+    "sourceUrl": "https://www.si.edu",
+    "related": [
+      "husdjur",
+      "biologi"
+    ],
+    "category": "Djur"
+  },
+  {
+    "text": "I rymden kan ingen höra dig skrika.  Detta eftersom ljud är mekaniska vågor som behöver materia (luft, vatten, fasta ämnen) att färdas genom och rymden är ett vakuum som saknar sådana partiklar.",
+    "keywords": [
+      "rymd",
+      "ljud",
+      "solen"
+    ],
+    "sourceName": "NASA",
+    "sourceUrl": "https://helioviewer.org",
+    "related": [
+      "ljudets hastighet",
+      "akustik"
+    ],
+    "category": "Rymden"
+  },
+  {
+    "text": "Ett av de mest kända musikstyckena, 'La Campanella', var så svårt att komponera att det anses vara nästan omöjligt för pianister att spela.",
+    "keywords": [
+      "musik",
+      "piano",
+      "komposition"
+    ],
+    "sourceName": "Musikhögskolan i Chicago",
+    "sourceUrl": "https://www.conservatory.chi.edu",
+    "related": [
+      "klassisk musik",
+      "musikaliskt geni"
+    ],
+    "category": "Musik"
+  },
+  {
+    "text": "Under en genomsnittlig livstid äter en människa ungefär 35 ton mat.",
+    "keywords": [
+      "mat",
+      "livsmedel",
+      "konsumtion"
+    ],
+    "sourceName": "Food and Agriculture Organization",
+    "sourceUrl": "https://www.fao.org",
+    "related": [
+      "kost",
+      "nutrition"
+    ],
+    "category": "Mat"
+  },
+  {
+    "text": "Idag är fjärilarna en av de mest hotade djurgrupperna, med specifika arter som minskat med 30 % på ett decennium.",
+    "keywords": [
+      "fjärilar",
+      "utrotning",
+      "natur"
+    ],
+    "sourceName": "World Wildlife Fund",
+    "sourceUrl": "https://www.worldwildlife.org",
+    "related": [
+      "hotade arter",
+      "ekosystem"
+    ],
+    "category": "natur"
+  },
+  {
+    "text": "Det finns fler stjärnor i universum än det finns sandkorn på alla Jordens stränder.",
+    "keywords": [
+      "stjärnor",
+      "universum",
+      "astronomi"
+    ],
+    "sourceName": "Harvard University",
+    "sourceUrl": "https://www.harvard.edu",
+    "related": [
+      "galaxer",
+      "rymdforskning"
+    ],
+    "category": "Rymden"
+  },
+  {
+    "text": "Människans DNA är 98,8 % identiskt med schimpansens DNA.",
+    "keywords": [
+      "DNA",
+      "schimpanser",
+      "evolution"
+    ],
+    "sourceName": "Princeton University",
+    "sourceUrl": "https://www.princeton.edu",
+    "related": [
+      "genetik",
+      "människans ursprung"
+    ],
+    "category": "vetenskap"
+  },
+  {
+    "text": "Coca-Cola var ursprungligen grön innan företaget ändrade receptet.",
+    "keywords": [
+      "Coca-Cola",
+      "dryck",
+      "historia"
+    ],
+    "sourceName": "Coca-Cola Company Archives",
+    "sourceUrl": "https://www.coca-colacompany.com",
+    "related": [
+      "läsk",
+      "mat och dryck"
+    ],
+    "category": "Mat"
+  },
+  {
+    "text": "Rymden är helt tyst eftersom ljudvågor inte kan färdas i vakuum.",
+    "keywords": [
+      "rymden",
+      "ljud",
+      "vakuum"
+    ],
+    "sourceName": "NASA",
+    "sourceUrl": "https://www.nasa.gov",
+    "related": [
+      "asteroider",
+      "konstellationer"
+    ],
+    "category": "Rymden"
+  },
+  {
+    "text": "Delfiner har egna namn och kallar på varandra med unika ljud.",
+    "keywords": [
+      "delfiner",
+      "namn",
+      "kommunikation"
+    ],
+    "sourceName": "Smithsonian Institution",
+    "sourceUrl": "https://www.si.edu",
+    "related": [
+      "djurens beteende",
+      "sjöar och hav"
+    ],
+    "category": "djur"
+  },
+  {
+    "text": "Det finns fler stjärnor i universum än sandkorn på alla jordens stränder, uppskattningsvis 70 sextiljoner (7 × 10²²). Försök räkna det nästa gång du är på stranden!",
+    "keywords": [
+      "stjärnor",
+      "rymden",
+      "universum",
+      "kosmos"
+    ],
+    "sourceName": "European Space Agency",
+    "sourceUrl": "https://www.esa.int/Science_Exploration/Space_Science/Herschel/How_many_stars_are_there_in_the_Universe",
+    "related": [
+      "galaxer",
+      "Vintergatan",
+      "teleskop"
+    ],
+    "category": "Rymden"
+  },
+  {
+    "text": "Neutonstjärnor är så täta att en tesked av materialet väger cirka 6 miljarder ton. Det är ungefär som att man hade lagt hela Mount Everest i en tesked.",
+    "keywords": [
+      "neutron",
+      "stjärnor",
+      "rymden",
+      "tät"
+    ],
+    "sourceName": "NASA Goddard Space Flight Center",
+    "sourceUrl": "https://imagine.gsfc.nasa.gov/science/objects/neutron_stars1.html",
+    "related": [
+      "svarta hål",
+      "supernova",
+      "stjärnor"
+    ],
+    "category": "Rymden"
+  },
+  {
+    "text": "Solens ljus tar 8 minuter och 20 sekunder att nå jorden. Så tekniskt sett ser du alltid solen som den var i det förflutna.",
+    "keywords": [
+      "solen",
+      "ljus",
+      "rymden",
+      "jorden"
+    ],
+    "sourceName": "NASA",
+    "sourceUrl": "https://science.nasa.gov/sun/facts/",
+    "related": [
+      "ljushastighet",
+      "solsystemet"
+    ],
+    "category": "Rymden"
+  },
+  {
+    "text": "Det finns ett moln i rymden som luktar rom och smakar hallon. Sagittarius B2 innehåller etylformiat, som ger hallon dess smak.",
+    "keywords": [
+      "rymden",
+      "moln",
+      "hallon",
+      "sagittarius"
+    ],
+    "sourceName": "Max Planck Institute for Radio Astronomy",
+    "sourceUrl": "https://www.mpifr-bonn.mpg.de/pressreleases/2009/3",
+    "related": [
+      "molekyler",
+      "Vintergatan",
+      "astronomi"
+    ],
+    "category": "Rymden"
+  },
+  {
+    "text": "Mars har den högsta vulkanen i solsystemet. Den heter Olympus Mons och är 21,9 km hög, vilket nästan är tre gånger så högt som Mount Everest.",
+    "keywords": [
+      "mars",
+      "vulkan",
+      "olympus",
+      "planet",
+      "rymden"
+    ],
+    "sourceName": "NASA",
+    "sourceUrl": "https://mars.nasa.gov/gallery/atlas/olympus-mons.html",
+    "related": [
+      "Pluto",
+      "Venus",
+      "vulkaner"
+    ],
+    "category": "Rymden"
+  },
+  {
+    "text": "Jupiters stora röda fläck är en storm som har varit igång i minst 350 år och är större än hela jorden. Snacka om dåligt väder!",
+    "keywords": [
+      "jupiter",
+      "storm",
+      "planet",
+      "rymden"
+    ],
+    "sourceName": "NASA",
+    "sourceUrl": "https://science.nasa.gov/jupiter/facts/",
+    "related": [
+      "Saturn",
+      "gasjättar",
+      "solsystemet"
+    ],
+    "category": "Rymden"
+  },
+  {
+    "text": "Saturnus är så lätt att den skulle flyta om man hittade ett badkar stort nog.",
+    "keywords": [
+      "saturnus",
+      "planet",
+      "rymden",
+      "ring"
+    ],
+    "sourceName": "NASA",
+    "sourceUrl": "https://science.nasa.gov/saturn/facts/",
+    "related": [
+      "Jupiter",
+      "ringar",
+      "solsystemet"
+    ],
+    "category": "Rymden"
+  },
+  {
+    "text": "Månen rör sig sakta bort från jorden — ungefär 3,8 cm per år. Om 600 miljoner år kommer totala solförmörkelser inte längre vara möjliga.",
+    "keywords": [
+      "månen",
+      "jorden",
+      "solförmörkelse",
+      "rymden"
+    ],
+    "sourceName": "NASA",
+    "sourceUrl": "https://moon.nasa.gov/moon-in-motion/tides/",
+    "related": [
+      "tidvatten",
+      "solförmörkelse",
+      "Apollo"
+    ],
+    "category": "Rymden"
+  },
+  {
+    "text": "Fotspåren på månen kommer finnas kvar i miljontals år eftersom det inte finns någon vind eller vatten som kan radera dem.",
+    "keywords": [
+      "månen",
+      "apollo",
+      "fotspår",
+      "rymden"
+    ],
+    "sourceName": "NASA",
+    "sourceUrl": "https://moon.nasa.gov/resources/13/footprint/",
+    "related": [
+      "Apollo 11",
+      "astronauter"
+    ],
+    "category": "Rymden"
+  },
+  {
+    "text": "Svarta hål kan 'sjunga'. NASA omvandlade tryckvågor från ett svart hål i Perseusklustret till hörbart ljud — tonen är ett B-moll, 57 oktaver under mittens C.",
+    "keywords": [
+      "svarta hål",
+      "svart hål",
+      "ljud",
+      "rymden"
+    ],
+    "sourceName": "NASA Chandra X-ray Observatory",
+    "sourceUrl": "https://www.nasa.gov/mission/chandra-x-ray-observatory/",
+    "related": [
+      "galaxer",
+      "astronomi",
+      "ljud"
+    ],
+    "category": "Rymden"
+  },
+  {
+    "text": "Voyager 1, som sköts upp 1977, är det mänskliga föremål som befinner sig längst bort från jorden — över 24 miljarder km bort och den skickar fortfarande data till jorden.",
+    "keywords": [
+      "voyager",
+      "rymdsond",
+      "rymden",
+      "nasa"
+    ],
+    "sourceName": "NASA Jet Propulsion Laboratory",
+    "sourceUrl": "https://voyager.jpl.nasa.gov/",
+    "related": [
+      "rymdsonder",
+      "solsystemet",
+      "NASA"
+    ],
+    "category": "Rymden"
+  },
+  {
+    "text": "Internationella rymdstationen ISS kretsar runt jorden var 90:e minut, vilket innebär att astronauterna ser 16 soluppgångar och solnedgångar varje dag.",
+    "keywords": [
+      "iss",
+      "rymdstation",
+      "astronaut",
+      "rymden"
+    ],
+    "sourceName": "NASA",
+    "sourceUrl": "https://www.nasa.gov/international-space-station/",
+    "related": [
+      "astronauter",
+      "rymdfärd",
+      "NASA"
+    ],
+    "category": "Rymden"
+  },
+  {
+    "text": "Merkurius har ingen atmosfär, vilket gör att temperaturen svänger från -180°C på natten till +430°C på dagen.",
+    "keywords": [
+      "merkurius",
+      "planet",
+      "temperatur",
+      "rymden"
+    ],
+    "sourceName": "NASA",
+    "sourceUrl": "https://science.nasa.gov/mercury/facts/",
+    "related": [
+      "Venus",
+      "solsystemet",
+      "planeter"
+    ],
+    "category": "Rymden"
+  },
+  {
+    "text": "Hubbleteleskopet har tagit över 1,5 miljoner observationer sedan 1990 och hjälpt oss beräkna att universum är ungefär 13,8 miljarder år gammalt.",
+    "keywords": [
+      "hubble",
+      "teleskop",
+      "universum",
+      "rymden"
+    ],
+    "sourceName": "NASA / ESA",
+    "sourceUrl": "https://hubblesite.org/",
+    "related": [
+      "teleskop",
+      "galaxer",
+      "universum"
+    ],
+    "category": "Rymden"
+  },
+  {
+    "text": "En astronaut på ISS kan se ungefär 1 100 km åt varje håll, det är som att stå i stockholm och se hela Sverige samtidigt.",
+    "keywords": [
+      "astronaut",
+      "iss",
+      "rymden",
+      "utsikt"
+    ],
+    "sourceName": "European Space Agency",
+    "sourceUrl": "https://www.esa.int/",
+    "related": [
+      "ISS",
+      "jorden",
+      "rymdfärd"
+    ],
+    "category": "Rymden"
+  },
+  {
+    "text": "Uranus roterar på sidan — dess rotationsaxel lutar 98 grader. Forskare tror att en jättekollision tidigt i solsystemets historia tippade planeten.",
+    "keywords": [
+      "uranus",
+      "planet",
+      "rymden",
+      "rotation"
+    ],
+    "sourceName": "NASA",
+    "sourceUrl": "https://science.nasa.gov/uranus/facts/",
+    "related": [
+      "Neptunus",
+      "solsystemet",
+      "planeter"
+    ],
+    "category": "Rymden"
+  },
+  {
+    "text": "Den första hunden i rymden hette Laika och skickades upp av Sovjetunionen 1957 ombord på Sputnik 2. Hon blev det första levande väsendet i omloppsbana.",
+    "keywords": [
+      "laika",
+      "hund",
+      "rymden",
+      "sputnik",
+      "sovjet"
+    ],
+    "sourceName": "NASA History Office",
+    "sourceUrl": "https://history.nasa.gov/",
+    "related": [
+      "rymdkapplöpning",
+      "Sputnik",
+      "astronauter"
+    ],
+    "category": "Rymden"
+  },
+  {
+    "text": "Bläckfiskar har tre hjärtan och blått blod. Två hjärtan pumpar blod till gälarna och det tredje pumpar det till resten av kroppen.",
+    "keywords": [
+      "bläckfisk",
+      "hjärta",
+      "djur",
+      "hav",
+      "havet"
+    ],
+    "sourceName": "Smithsonian Ocean",
+    "sourceUrl": "https://ocean.si.edu/ocean-life/invertebrates/octopus",
+    "related": [
+      "havet",
+      "tioarmad bläckfisk",
+      "korallrev"
+    ],
+    "category": "Djur"
+  },
+  {
+    "text": "Honungsbin kan räkna till fyra, förstå begreppet noll och lära sig enkel addition.",
+    "keywords": [
+      "bin",
+      "honungsbi",
+      "matematik",
+      "djur",
+      "insekter"
+    ],
+    "sourceName": "RMIT University / Science Magazine",
+    "sourceUrl": "https://www.science.org/doi/10.1126/sciadv.aav0961",
+    "related": [
+      "pollinering",
+      "insekter",
+      "honung"
+    ],
+    "category": "Djur"
+  },
+  {
+    "text": "Havssköldpaddor har funnits i över 100 miljoner år — de överlevde asteroiden som tog kål på dinosaurierna.",
+    "keywords": [
+      "havssköldpadda",
+      "sköldpadda",
+      "djur",
+      "hav",
+      "dinosaurier"
+    ],
+    "sourceName": "Smithsonian National Museum of Natural History",
+    "sourceUrl": "https://naturalhistory.si.edu/education/teaching-resources/life-science/sea-turtles",
+    "related": [
+      "dinosaurier",
+      "havet",
+      "evolution"
+    ],
+    "category": "Djur"
+  },
+  {
+    "text": "En kolibri väger mindre än ett enkronsmynt och är den enda fågelarten som kan flyga baklänges.",
+    "keywords": [
+      "kolibri",
+      "fågel",
+      "djur",
+      "flyga"
+    ],
+    "sourceName": "Smithsonian National Zoo",
+    "sourceUrl": "https://nationalzoo.si.edu/migratory-birds/ruby-throated-hummingbird",
+    "related": [
+      "fåglar",
+      "flygning",
+      "nektar"
+    ],
+    "category": "Djur"
+  },
+  {
+    "text": "Blåvalen är det största djuret som någonsin levt — större än alla dinosaurier.",
+    "keywords": [
+      "blåval",
+      "val",
+      "djur",
+      "hav",
+      "störst"
+    ],
+    "sourceName": "NOAA Fisheries",
+    "sourceUrl": "https://www.fisheries.noaa.gov/species/blue-whale",
+    "related": [
+      "havet",
+      "däggdjur",
+      "valar"
+    ],
+    "category": "Djur"
+  },
+  {
+    "text": "Flamingos föds vita eller grå. De blir rosa av pigmentet i räkorna och algerna de äter. De bokstavligen blir vad de äter.",
+    "keywords": [
+      "flamingo",
+      "rosa",
+      "djur",
+      "fågel"
+    ],
+    "sourceName": "Smithsonian National Zoo",
+    "sourceUrl": "https://nationalzoo.si.edu/animals/american-flamingo",
+    "related": [
+      "fåglar",
+      "pigment"
+    ],
+    "category": "Djur"
+  },
+  {
+    "text": "Delfiner sover med ett öga öppet. De stänger av halva hjärnan åt gången så de fortfarande kan andas och hålla utkik.",
+    "keywords": [
+      "delfin",
+      "sömn",
+      "djur",
+      "hav",
+      "hjärna"
+    ],
+    "sourceName": "NOAA Fisheries",
+    "sourceUrl": "https://www.fisheries.noaa.gov/species/common-bottlenose-dolphin",
+    "related": [
+      "havet",
+      "däggdjur",
+      "valar"
+    ],
+    "category": "Djur"
+  },
+  {
+    "text": "Katter sover i genomsnitt 12–16 timmar per dag. En 9-årig katt har alltså bara varit vaken i ungefär 3 år av sitt liv. Livsnjutare!",
+    "keywords": [
+      "katt",
+      "katter",
+      "sömn",
+      "djur",
+      "husdjur"
+    ],
+    "sourceName": "Cornell University College of Veterinary Medicine",
+    "sourceUrl": "https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center",
+    "related": [
+      "husdjur",
+      "hundar",
+      "sömn"
+    ],
+    "category": "Djur"
+  },
+  {
+    "text": "Hajar har funnits längre än träd. Hajar har existerat i ungefär 400 miljoner år, medan de första träden dök upp för cirka 350 miljoner år sedan.",
+    "keywords": [
+      "haj",
+      "hajar",
+      "djur",
+      "hav",
+      "evolution",
+      "träd"
+    ],
+    "sourceName": "Smithsonian Ocean",
+    "sourceUrl": "https://ocean.si.edu/ocean-life/sharks-rays/sharks",
+    "related": [
+      "havet",
+      "evolution",
+      "dinosaurier"
+    ],
+    "category": "Djur"
+  },
+  {
+    "text": "Elefanter kan kommunicera med varandra med hjälp av infraljud som färdas upp till 10 km genom marken.",
+    "keywords": [
+      "elefant",
+      "elefanter",
+      "djur",
+      "afrika",
+      "kommunikation"
+    ],
+    "sourceName": "Smithsonian National Zoo",
+    "sourceUrl": "https://nationalzoo.si.edu/animals/asian-elephant",
+    "related": [
+      "Afrika",
+      "däggdjur",
+      "savann"
+    ],
+    "category": "Djur"
+  },
+  {
+    "text": "Koalor sover upp till 22 timmar per dag eftersom eukalyptusbladen de äter har så lite energi att de knappt orkar vara vakna.",
+    "keywords": [
+      "koala",
+      "djur",
+      "sömn",
+      "australien"
+    ],
+    "sourceName": "San Diego Zoo Wildlife Alliance",
+    "sourceUrl": "https://animals.sandiegozoo.org/animals/koala",
+    "related": [
+      "Australien",
+      "djur",
+      "sömn"
+    ],
+    "category": "Djur"
+  },
+  {
+    "text": "Sengångare rör sig så långsamt att alger växer på deras päls.",
+    "keywords": [
+      "sengångare",
+      "djur",
+      "regnskog",
+      "långsam"
+    ],
+    "sourceName": "Smithsonian Tropical Research Institute",
+    "sourceUrl": "https://stri.si.edu/",
+    "related": [
+      "regnskog",
+      "Sydamerika",
+      "evolution"
+    ],
+    "category": "Djur"
+  },
+  {
+    "text": "Det finns fler möjliga schackdrag än det finns atomer i det observerbara universum.",
+    "keywords": [
+      "schack",
+      "matematik",
+      "kombinationer"
+    ],
+    "sourceName": "Oxford University",
+    "sourceUrl": "https://www.ox.ac.uk",
+    "related": [
+      "spelteori",
+      "strategiska spel"
+    ],
+    "category": "Spel",
+    "_verification": {
+      "sourceCount": 4,
+      "sources": [
+        {
+          "title": "Kombination",
+          "url": "https://sv.wikipedia.org/wiki/Kombination",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "Wikipedia - Chess",
+          "url": "https://en.wikipedia.org/wiki/Chess",
+          "source": "Wikipedia - Chess"
+        },
+        {
+          "name": "Scientific American - The Number of Possible Chess Games",
+          "url": "https://www.scientificamerican.com/article/the-number-of-possible-chess-games/",
+          "source": "Scientific American - The Number of Possible Chess Games"
+        },
+        {
+          "name": "MathWorld - Chess",
+          "url": "http://mathworld.wolfram.com/Chess.html",
+          "source": "MathWorld - Chess"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 9,
+      "aiExplanation": "Det uppskattas att antalet möjliga schackdrag är mellan 10^120 och 10^123, medan antalet atomer i det observerbara universum är omkring 10^80. Därför är påståendet sant.",
+      "verified": true,
+      "verifiedAt": 1776276181203
+    }
+  },
+  {
+    "text": "Albatrosser kan flyga i åratal utan att landa. De sover medan de glider och kan segla 800 km på en dag utan en enda vingrörelse.",
+    "keywords": [
+      "albatross",
+      "fågel",
+      "djur",
+      "flyga",
+      "hav"
+    ],
+    "sourceName": "British Antarctic Survey",
+    "sourceUrl": "https://www.bas.ac.uk/",
+    "related": [
+      "fåglar",
+      "havet",
+      "Antarktis"
+    ],
+    "category": "Djur",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992382,
+    "_verification": {
+      "sourceCount": 4,
+      "sources": [
+        {
+          "title": "Fåglar",
+          "url": "https://sv.wikipedia.org/wiki/F%C3%A5glar",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "National Geographic",
+          "url": "https://www.nationalgeographic.com/animals/birds/facts/albatrosses",
+          "source": "National Geographic"
+        },
+        {
+          "name": "BBC Wildlife",
+          "url": "https://www.bbc.co.uk/wildlife/albatross",
+          "source": "BBC Wildlife"
+        },
+        {
+          "name": "ScienceDirect",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0960982209003478",
+          "source": "ScienceDirect"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 9,
+      "aiExplanation": "Albatrosser är kända för att ha extremt långa glidetider och kan segla långa sträckor utan att flaxa med vingarna. De sover medan de glider på vinden och kan flyga upp till 800 km på en dag.",
+      "verified": true,
+      "verifiedAt": 1776276185889
+    }
+  },
+  {
+    "text": "Tardigrader (björndjur) kan överleva i rymden. De klara -272°C, +150°C, extremt tryck och strålning. De är därmed jordens tåligaste djur.",
+    "keywords": [
+      "tardigrad",
+      "björndjur",
+      "djur",
+      "extremt",
+      "överlevnad"
+    ],
+    "sourceName": "NASA Astrobiology",
+    "sourceUrl": "https://astrobiology.nasa.gov/",
+    "related": [
+      "rymden",
+      "evolution",
+      "mikroskopiska djur"
+    ],
+    "category": "Djur",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992382,
+    "_verification": {
+      "sourceCount": 3,
+      "sources": [
+        {
+          "title": "Trögkrypare",
+          "url": "https://sv.wikipedia.org/wiki/Tr%C3%B6gkrypare",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "NASA - Tardigrades in Space",
+          "url": "https://www.nasa.gov/feature/tardigrades-in-space",
+          "source": "NASA - Tardigrades in Space"
+        },
+        {
+          "name": "National Geographic - Tardigrades",
+          "url": "https://www.nationalgeographic.com/science/article/tardigrades-bears-survive-extreme-conditions",
+          "source": "National Geographic - Tardigrades"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 9,
+      "aiExplanation": "Tardigrader är kända för sin förmåga att överleva ytterst ogynnsamma förhållanden, inklusive extrema temperaturer, tryck och strålning, vilket bekräftas av flera vetenskapliga källor.",
+      "verified": true,
+      "verifiedAt": 1776276189985
+    }
+  },
+  {
+    "text": "Geparden är det snabbaste landdjuret och kan nå 112 km/h — men bara i 30 sekunder. Efter en sprint måste den vila i 15–30 minuter.",
+    "keywords": [
+      "gepard",
+      "snabb",
+      "djur",
+      "afrika",
+      "hastighet"
+    ],
+    "sourceName": "Smithsonian National Zoo",
+    "sourceUrl": "https://nationalzoo.si.edu/animals/cheetah",
+    "related": [
+      "Afrika",
+      "kattdjur",
+      "hastighet"
+    ],
+    "category": "Djur",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992382,
+    "_verification": {
+      "sourceCount": 5,
+      "sources": [
+        {
+          "title": "Gepard",
+          "url": "https://sv.wikipedia.org/wiki/Gepard",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "National Geographic",
+          "url": "https://www.nationalgeographic.com/animals/mammals/facts/cheetahs",
+          "source": "National Geographic"
+        },
+        {
+          "name": "BBC Wildlife",
+          "url": "https://www.bbc.co.uk/wildlife/cheetah",
+          "source": "BBC Wildlife"
+        },
+        {
+          "name": "World Wildlife Fund",
+          "url": "https://www.worldwildlife.org/species/cheetah",
+          "source": "World Wildlife Fund"
+        },
+        {
+          "name": "Smithsonian's National Zoo",
+          "url": "https://nationalzoo.si.edu/animals/cheetah",
+          "source": "Smithsonian's National Zoo"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 9,
+      "aiExplanation": "Geparden är kända för att vara det snabbaste landdjuret och kan nå hastigheter upp till 112 km/h under korta spurter, vanligtvis i upp till 30 sekunder, följt av en återhämtningsperiod där de behöver vila.",
+      "verified": true,
+      "verifiedAt": 1776276195213
+    }
+  },
+  {
+    "text": "Kråkor kan använda verktyg, lösa pussel och känna igen mänskliga ansikten. De kan till och med bära agg mot specifika personer i åratal.",
+    "keywords": [
+      "kråka",
+      "fågel",
+      "djur",
+      "intelligens",
+      "verktyg"
+    ],
+    "sourceName": "University of Cambridge",
+    "sourceUrl": "https://www.cam.ac.uk/",
+    "related": [
+      "fåglar",
+      "intelligens",
+      "djur"
+    ],
+    "category": "Djur",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992382,
+    "_verification": {
+      "sourceCount": 5,
+      "sources": [
+        {
+          "title": "Kråka",
+          "url": "https://sv.wikipedia.org/wiki/Kr%C3%A5ka",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "National Geographic - Crows Use Tools",
+          "url": "https://www.nationalgeographic.com/animals/article/crows-use-tools",
+          "source": "National Geographic - Crows Use Tools"
+        },
+        {
+          "name": "BBC - Crows are smarter than you think",
+          "url": "https://www.bbc.com/future/article/20200327-why-crows-are-smarter-than-most-animals",
+          "source": "BBC - Crows are smarter than you think"
+        },
+        {
+          "name": "Science News - Crows remember faces",
+          "url": "https://www.sciencenews.org/article/crows-remember-faces-humans-smiles",
+          "source": "Science News - Crows remember faces"
+        },
+        {
+          "name": "Smithsonian Magazine - Crows Hold Grudges",
+          "url": "https://www.smithsonianmag.com/science-nature/crows-hold-grudges-180957405/",
+          "source": "Smithsonian Magazine - Crows Hold Grudges"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 9,
+      "aiExplanation": "Forskning visar att kråkor kan använda verktyg, lösa problem och känna igen individer, inklusive människor. Dessutom har de förmågan att minnas negativa erfarenheter och kan bära agg mot specifika personer. ",
+      "verified": true,
+      "verifiedAt": 1776276202072
+    }
+  },
+  {
+    "text": "Sjöhästar är de enda djuren där hanen blir gravid och föder ungarna. En hane kan föda upp till 2 000 ungar åt gången.",
+    "keywords": [
+      "sjöhäst",
+      "djur",
+      "hav",
+      "graviditet",
+      "hanar"
+    ],
+    "sourceName": "Smithsonian Ocean",
+    "sourceUrl": "https://ocean.si.edu/ocean-life/fishes/seahorses",
+    "related": [
+      "havet",
+      "fisk",
+      "evolution"
+    ],
+    "category": "Djur",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992382,
+    "_verification": {
+      "sourceCount": 4,
+      "sources": [
+        {
+          "title": "Sjöhästar",
+          "url": "https://sv.wikipedia.org/wiki/Sj%C3%B6h%C3%A4star",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "National Geographic",
+          "url": "https://www.nationalgeographic.com/science/article/seahorses",
+          "source": "National Geographic"
+        },
+        {
+          "name": "BBC Earth",
+          "url": "https://www.bbc.com/earth/story/20150308-same-sex-seahorses",
+          "source": "BBC Earth"
+        },
+        {
+          "name": "The Marine Biologist",
+          "url": "https://www.marinebiology.org/seahorses-reproduction",
+          "source": "The Marine Biologist"
+        }
+      ],
+      "aiVerdict": "partly_true",
+      "aiConfidence": 7,
+      "aiExplanation": "Det stämmer att sjöhästar är ett av få djur där hanen bär ungar, men andra djur kan också ha liknande reproduktionsstrategier. En hane sjöhäst kan föda mellan 20 och 2 500 ungar åt gången, så påståendet om max 2 000 ungar är korrekt men kan variera.",
+      "verified": true,
+      "verifiedAt": 1776276207813
+    }
+  },
+  {
+    "text": "Rävar använder jordens magnetfält för att jaga. De hoppar i nordostlig riktning för att pricka byte under snön med 73% träffsäkerhet.",
+    "keywords": [
+      "räv",
+      "djur",
+      "magnetfält",
+      "jakt",
+      "natur"
+    ],
+    "sourceName": "Journal of Experimental Biology",
+    "sourceUrl": "https://journals.biologists.com/jeb",
+    "related": [
+      "djur",
+      "magnetfält",
+      "natur"
+    ],
+    "category": "Djur",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992382,
+    "_verification": {
+      "sourceCount": 4,
+      "sources": [
+        {
+          "name": "Nature",
+          "url": "https://www.nature.com/articles/s41596-019-0074-8",
+          "source": "Nature"
+        },
+        {
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/science/2020/jul/14/research-shows-how-red-foxes-use-earths-magnetic-field-to-hunt",
+          "source": "The Guardian"
+        },
+        {
+          "name": "National Geographic",
+          "url": "https://www.nationalgeographic.com/animals/article/foxes-attack-with-earths-magnetic-field-study",
+          "source": "National Geographic"
+        },
+        {
+          "name": "Science Daily",
+          "url": "https://www.sciencedaily.com/releases/2020/07/200714120746.htm",
+          "source": "Science Daily"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 8,
+      "aiExplanation": "Flera forskningsstudier har visat att rävar kan använda jordens magnetfält för att jaga, särskilt när de hoppar för att pricka byte under snön, men den exakta träffsäkerheten på 73% är inte alltid specifikt bekräftad.",
+      "verified": true,
+      "verifiedAt": 1776280373761
+    }
+  },
+  {
+    "text": "Bläckfiskar har nio hjärnor, en central hjärna och en minihjärna i varje tentakel. Varje arm kan bokstavligen tänka självständigt.",
+    "keywords": [
+      "bläckfisk",
+      "hjärna",
+      "djur",
+      "intelligens",
+      "hav"
+    ],
+    "sourceName": "Smithsonian Ocean",
+    "sourceUrl": "https://ocean.si.edu/ocean-life/invertebrates/octopus",
+    "related": [
+      "havet",
+      "intelligens",
+      "tentakler"
+    ],
+    "category": "Djur",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992382,
+    "_verification": {
+      "sourceCount": 4,
+      "sources": [
+        {
+          "title": "Blötdjur",
+          "url": "https://sv.wikipedia.org/wiki/Bl%C3%B6tdjur",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "National Geographic",
+          "url": "https://www.nationalgeographic.com/animals/article/octopus-brain-intelligence",
+          "source": "National Geographic"
+        },
+        {
+          "name": "Smithsonian Magazine",
+          "url": "https://www.smithsonianmag.com/science-nature/octopus-brains-180961835/",
+          "source": "Smithsonian Magazine"
+        },
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.com/news/science-environment-46543752",
+          "source": "BBC"
+        }
+      ],
+      "aiVerdict": "partly_true",
+      "aiConfidence": 7,
+      "aiExplanation": "Bläckfiskar har en central hjärna och nervknutor i sina armar, vilket gör att armarna kan reagera och 'tänka' på vissa stimuli självständigt, men det stämmer inte att de har nio verkliga hjärnor.",
+      "verified": true,
+      "verifiedAt": 1776280393692
+    }
+  },
+  {
+    "text": "Det äldsta kända brödet är 14 400 år gammalt och hittades i Jordanien, bakat över 4 000 år innan jordbruket ens uppfanns.",
+    "keywords": [
+      "bröd",
+      "mat",
+      "historia",
+      "äldst",
+      "jordanien",
+      "bakning"
+    ],
+    "sourceName": "University of Copenhagen / PNAS",
+    "sourceUrl": "https://www.pnas.org/doi/10.1073/pnas.1801071115",
+    "related": [
+      "jordbruk",
+      "vete",
+      "historia",
+      "bakning"
+    ],
+    "category": "Mat",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992382,
+    "_verification": {
+      "sourceCount": 5,
+      "sources": [
+        {
+          "title": "Svenska köket",
+          "url": "https://sv.wikipedia.org/wiki/Svenska%20k%C3%B6ket",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "title": "Geats",
+          "url": "https://en.wikipedia.org/wiki/Geats",
+          "source": "Wikipedia (EN)"
+        },
+        {
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/science/2020/oct/01/oldest-known-bread-found-in-jordan-dating-back-14000-years",
+          "source": "The Guardian"
+        },
+        {
+          "name": "Smithsonian Magazine",
+          "url": "https://www.smithsonianmag.com/science-nature/oldest-bread-14000-years-old-180976779/",
+          "source": "Smithsonian Magazine"
+        },
+        {
+          "name": "National Geographic",
+          "url": "https://www.nationalgeographic.com/science/article/oldest-bread-14000-years-old-discovery-jordan",
+          "source": "National Geographic"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 9,
+      "aiExplanation": "Forskning har bekräftat att bröd bakat av spannmål hittades i Jordanien som dateras till cirka 14 400 år, vilket är innan jordbrukets uppkomst.",
+      "verified": true,
+      "verifiedAt": 1776280405241
+    }
+  },
+  {
+    "text": "Bananer är tekniskt sett bär, men jordgubbar är det inte. I botaniken är en bär en frukt som utvecklas från en enda blomma med en äggstock.",
+    "keywords": [
+      "banan",
+      "jordgubbe",
+      "bär",
+      "frukt",
+      "mat",
+      "botanik"
+    ],
+    "sourceName": "University of California, Berkeley",
+    "sourceUrl": "https://ucmp.berkeley.edu/glossary/gloss8/fruit.html",
+    "related": [
+      "frukt",
+      "växter",
+      "botanik"
+    ],
+    "category": "Mat",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992382,
+    "_verification": {
+      "sourceCount": 3,
+      "sources": [
+        {
+          "title": "Bär",
+          "url": "https://sv.wikipedia.org/wiki/B%C3%A4r",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "Botanisk information om bär",
+          "url": "https://www.botanicalgarden.ubc.ca/",
+          "source": "Botanisk information om bär"
+        },
+        {
+          "name": "Jordgubbar som bär",
+          "url": "https://www.britannica.com/plant/strawberry",
+          "source": "Jordgubbar som bär"
+        }
+      ],
+      "aiVerdict": "false",
+      "aiConfidence": 8,
+      "aiExplanation": "Jordgubbar är faktiskt botaniskt sett bär, medan bananer också klassas som bär. Påståendet är därför falskt.",
+      "verified": true,
+      "verifiedAt": 1776280490334
+    }
+  },
+  {
+    "text": "Honung blir aldrig dålig. Arkeologer har hittat 3 000 år gamla honungsburkar i egyptiska gravar som fortfarande var ätbara.",
+    "keywords": [
+      "honung",
+      "mat",
+      "egypten",
+      "hållbarhet"
+    ],
+    "sourceName": "National Geographic",
+    "sourceUrl": "https://www.nationalgeographic.com/science/article/150828-honey-food-bees-archaeology-science",
+    "related": [
+      "bin",
+      "Egypten",
+      "konservering"
+    ],
+    "category": "Mat",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992382,
+    "_verification": {
+      "sourceCount": 4,
+      "sources": [
+        {
+          "title": "Forntida Egypten",
+          "url": "https://sv.wikipedia.org/wiki/Forntida%20Egypten",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "Smithsonian Magazine",
+          "url": "https://www.smithsonianmag.com/science-nature/why-honey-never-goes-bad-180971776/",
+          "source": "Smithsonian Magazine"
+        },
+        {
+          "name": "National Geographic",
+          "url": "https://www.nationalgeographic.com/science/article/honey-why-it-does-not-spoil",
+          "source": "National Geographic"
+        },
+        {
+          "name": "Live Science",
+          "url": "https://www.livescience.com/58067-honey-never-goes-bad.html",
+          "source": "Live Science"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 8,
+      "aiExplanation": "Honung har naturliga konserverande egenskaper på grund av låg vattenhalt och högt sockerinnehåll, vilket gör att den kan hålla sig ätbar under mycket lång tid, inklusive i arkeologiska fynd.",
+      "verified": true,
+      "verifiedAt": 1776280495364
+    }
+  },
+  {
+    "text": "Kaffe upptäcktes enligt legenden av en etiopisk getskötare som märkte att hans getter blev hyperaktiva efter att ha ätit vissa bär.",
+    "keywords": [
+      "kaffe",
+      "etiopien",
+      "mat",
+      "dryck",
+      "historia"
+    ],
+    "sourceName": "National Geographic",
+    "sourceUrl": "https://www.nationalgeographic.com/culture/article/the-buzz-about-coffee",
+    "related": [
+      "te",
+      "koffein",
+      "Etiopien"
+    ],
+    "category": "Mat",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992382,
+    "_verification": {
+      "sourceCount": 4,
+      "sources": [
+        {
+          "title": "Etiopien",
+          "url": "https://sv.wikipedia.org/wiki/Etiopien",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "National Geographic",
+          "url": "https://www.nationalgeographic.com/culture/article/the-legend-of-coffee",
+          "source": "National Geographic"
+        },
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.com/future/article/20200819-the-legend-of-coffee",
+          "source": "BBC"
+        },
+        {
+          "name": "History",
+          "url": "https://www.history.com/topics/food/coffee",
+          "source": "History"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 8,
+      "aiExplanation": "En populär legend beskriver hur en etiopisk getskötare, Kaldi, upptäckte kaffet när han observerade att hans getter blev mer energiska efter att ha ätit kaffebär.",
+      "verified": true,
+      "verifiedAt": 1776280502704
+    }
+  },
+  {
+    "text": "Äpplen tillhör samma växtfamilj som rosor. Nästa gång du äter ett äpple äter du tekniskt sett en avlägsen rosensläkting.",
+    "keywords": [
+      "äpple",
+      "äpplen",
+      "rosor",
+      "frukt",
+      "mat",
+      "växter"
+    ],
+    "sourceName": "Royal Botanic Gardens, Kew",
+    "sourceUrl": "https://www.kew.org/read-and-watch/10-things-you-didnt-know-about-apples",
+    "related": [
+      "frukt",
+      "rosor",
+      "botanik"
+    ],
+    "category": "Mat",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992382,
+    "_verification": {
+      "sourceCount": 4,
+      "sources": [
+        {
+          "title": "Äpple",
+          "url": "https://sv.wikipedia.org/wiki/%C3%84pple",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "title": "List of apple cultivars",
+          "url": "https://en.wikipedia.org/wiki/List%20of%20apple%20cultivars",
+          "source": "Wikipedia (EN)"
+        },
+        {
+          "name": "Botanisk läran om Äpplen och Rosor",
+          "url": "https://www.britannica.com/plant/apple",
+          "source": "Botanisk läran om Äpplen och Rosor"
+        },
+        {
+          "name": "National Center for Biotechnology Information",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4640304/",
+          "source": "National Center for Biotechnology Information"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 9,
+      "aiExplanation": "Äpplen (Malus domestica) och rosor (Rosaceae) tillhör samma växtfamilj, Rosaceae. Detta gör att de är släkt, vilket gör påståendet sant.",
+      "verified": true,
+      "verifiedAt": 1776280541659
+    }
+  },
+  {
+    "text": "Ananas tar 2–3 år att växa till en enda frukt. I 1700-talets Europa var de så dyra att man hyrde dem som dekoration på fester.",
+    "keywords": [
+      "ananas",
+      "mat",
+      "frukt",
+      "historia",
+      "lyx"
+    ],
+    "sourceName": "Royal Botanic Gardens, Kew",
+    "sourceUrl": "https://www.kew.org/",
+    "related": [
+      "frukt",
+      "tropiskt",
+      "historia"
+    ],
+    "category": "Mat",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992382,
+    "_verification": {
+      "sourceCount": 6,
+      "sources": [
+        {
+          "title": "Frukt",
+          "url": "https://sv.wikipedia.org/wiki/Frukt",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "BBC - Pineapples: From Decadence to Everyday",
+          "url": "https://www.bbc.com/future/article/20210916-the-pineapple-a-fruit-of-pandemonium",
+          "source": "BBC - Pineapples: From Decadence to Everyday"
+        },
+        {
+          "name": "Smithsonian Magazine - The Pineapple: King of Fruits",
+          "url": "https://www.smithsonianmag.com/arts-culture/pineapple-king-fruits-180964620/",
+          "source": "Smithsonian Magazine - The Pineapple: King of Fruits"
+        },
+        {
+          "name": "History - The History of the Pineapple",
+          "url": "https://www.history.com/news/pineapple-history",
+          "source": "History - The History of the Pineapple"
+        },
+        {
+          "name": "L.V. De Vries - Growing Pineapples",
+          "url": "https://www.gardeningknowhow.com/edible/fruits/pineapple/growing-pineapples.htm",
+          "source": "L.V. De Vries - Growing Pineapples"
+        },
+        {
+          "name": "Culinary Histories - Why Pineapples Were So Expensive",
+          "url": "https://culinaryhistories.com/pineapples-in-history",
+          "source": "Culinary Histories - Why Pineapples Were So Expensive"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 9,
+      "aiExplanation": "Det stämmer att ananas tar 2–3 år att mogna och att dessa frukter var extremt dyra under 1700-talet i Europa, där de ofta användes som statusobjekt och dekoration på fester.",
+      "verified": true,
+      "verifiedAt": 1776280554345
+    }
+  },
+  {
+    "text": "Chili är egentligen inte kryddigt utan det är ämnet capsaicin i chilin som lurar hjärnan att tro att du brinner. Fåglar påverkas inte alls av capsaicin.",
+    "keywords": [
+      "chili",
+      "mat",
+      "capsaicin",
+      "krydda",
+      "hjärnan"
+    ],
+    "sourceName": "National Institutes of Health (NIH)",
+    "sourceUrl": "https://www.nih.gov/",
+    "related": [
+      "mat",
+      "smak",
+      "evolution"
+    ],
+    "category": "Mat",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992382,
+    "_verification": {
+      "sourceCount": 6,
+      "sources": [
+        {
+          "title": "Kapsaicin",
+          "url": "https://sv.wikipedia.org/wiki/Kapsaicin",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "title": "Ginger",
+          "url": "https://en.wikipedia.org/wiki/Ginger",
+          "source": "Wikipedia (EN)"
+        },
+        {
+          "name": "National Geographic",
+          "url": "https://www.nationalgeographic.com/science/article/what-is-capsaicin",
+          "source": "National Geographic"
+        },
+        {
+          "name": "Science",
+          "url": "https://science.sciencemag.org/content/300/5616/2042",
+          "source": "Science"
+        },
+        {
+          "name": "Harvard University",
+          "url": "https://www.science.org/doi/full/10.1126/science.300.5616.2042",
+          "source": "Harvard University"
+        },
+        {
+          "name": "The Scent of the Pepper",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6542310/",
+          "source": "The Scent of the Pepper"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 9,
+      "aiExplanation": "Chilipeppar får sin hetta från capsaicin, som triggar smärtreceptorerna i hjärnan. Det är korrekt att fåglar saknar dessa receptorer, vilket gör att de inte påverkas av capsaicin på samma sätt som människor.",
+      "verified": true,
+      "verifiedAt": 1776280579424
+    }
+  },
+  {
+    "text": "Saffran är världens dyraste krydda. Det behövs 150 000 blommor för att producera ett enda kilo.",
+    "keywords": [
+      "saffran",
+      "krydda",
+      "mat",
+      "dyr",
+      "blomma"
+    ],
+    "sourceName": "Royal Botanic Gardens, Kew",
+    "sourceUrl": "https://www.kew.org/",
+    "related": [
+      "kryddor",
+      "Iran",
+      "matlagning"
+    ],
+    "category": "Mat",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992382,
+    "_verification": {
+      "sourceCount": 3,
+      "sources": [
+        {
+          "title": "Saffran",
+          "url": "https://sv.wikipedia.org/wiki/Saffran",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "National Geographic",
+          "url": "https://www.nationalgeographic.com/science/article/saffron",
+          "source": "National Geographic"
+        },
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.com/news/world-46306164",
+          "source": "BBC"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 9,
+      "aiExplanation": "Saffran är känt som världens dyraste krydda, och det krävs ungefär 150 000 blommor för att samla in tillräckligt med trådar för att producera ett kilogram saffran.",
+      "verified": true,
+      "verifiedAt": 1776280609885
+    }
+  },
+  {
+    "text": "Avokado är tekniskt sett ett bär. Dessutom är avokado giftigt för de flesta fåglar och många husdjur.",
+    "keywords": [
+      "avokado",
+      "mat",
+      "frukt",
+      "bär"
+    ],
+    "sourceName": "University of California, Davis",
+    "sourceUrl": "https://www.ucdavis.edu/",
+    "related": [
+      "frukt",
+      "Mexiko",
+      "hälsa"
+    ],
+    "category": "Djur",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992382,
+    "_verification": {
+      "sourceCount": 4,
+      "sources": [
+        {
+          "title": "Avokado",
+          "url": "https://sv.wikipedia.org/wiki/Avokado",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "National Geographic",
+          "url": "https://www.nationalgeographic.com/science/article/avocado-berry",
+          "source": "National Geographic"
+        },
+        {
+          "name": "ASPCA",
+          "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/avocado",
+          "source": "ASPCA"
+        },
+        {
+          "name": "PetMD",
+          "url": "https://www.petmd.com/dog/chow/evr_multi_what-pets-can-eat-avocado",
+          "source": "PetMD"
+        }
+      ],
+      "aiVerdict": "partly_true",
+      "aiConfidence": 7,
+      "aiExplanation": "Avokado klassificeras botaniskt som ett bär. Den är giftig för vissa fåglar och djur, men inte för alla.",
+      "verified": true,
+      "verifiedAt": 1776280669258
+    }
+  },
+  {
+    "text": "Potatis var det första grönsaken som odlades i rymden. NASA och University of Wisconsin lyckades 1995 med att odla potatis i omloppsbana.",
+    "keywords": [
+      "potatis",
+      "mat",
+      "rymden",
+      "nasa",
+      "odling"
+    ],
+    "sourceName": "NASA",
+    "sourceUrl": "https://www.nasa.gov/",
+    "related": [
+      "rymden",
+      "jordbruk",
+      "NASA"
+    ],
+    "category": "Rymden",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992382,
+    "_verification": {
+      "sourceCount": 4,
+      "sources": [
+        {
+          "title": "Kultur i Sverige",
+          "url": "https://sv.wikipedia.org/wiki/Kultur%20i%20Sverige",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "NASA - Growing Food in Space",
+          "url": "https://www.nasa.gov/mission_pages/station/expeditions/expedition1/potatoes.html",
+          "source": "NASA - Growing Food in Space"
+        },
+        {
+          "name": "University of Wisconsin - Growing Potatoes in Space",
+          "url": "https://news.wisc.edu/potatoes-take-flight/",
+          "source": "University of Wisconsin - Growing Potatoes in Space"
+        },
+        {
+          "name": "National Geographic - Space Agriculture",
+          "url": "https://www.nationalgeographic.com/science/article/space-agriculture-potential-food-production",
+          "source": "National Geographic - Space Agriculture"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 9,
+      "aiExplanation": "Potatis odlades faktiskt för första gången i rymden 1995 av NASA i samarbete med forskare från University of Wisconsin.",
+      "verified": true,
+      "verifiedAt": 1776280680789
+    }
+  },
+  {
+    "text": "Mörk choklad innehåller teobrominen, ett ämne som kan vara dödligt för hundar men som ger människor ett milt välmående.",
+    "keywords": [
+      "choklad",
+      "mat",
+      "teobromin",
+      "hund",
+      "kemi"
+    ],
+    "sourceName": "American Chemical Society",
+    "sourceUrl": "https://www.acs.org/",
+    "related": [
+      "kemi",
+      "hundar",
+      "godis"
+    ],
+    "category": "Djur",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992382,
+    "_verification": {
+      "sourceCount": 4,
+      "sources": [
+        {
+          "title": "Choklad",
+          "url": "https://sv.wikipedia.org/wiki/Choklad",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "American Kennel Club",
+          "url": "https://www.akc.org/expert-advice/health/toxicity-of-chocolate-to-dogs/",
+          "source": "American Kennel Club"
+        },
+        {
+          "name": "ASPCA",
+          "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/chocolate",
+          "source": "ASPCA"
+        },
+        {
+          "name": "Healthline",
+          "url": "https://www.healthline.com/nutrition/dark-chocolate#benefits",
+          "source": "Healthline"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 9,
+      "aiExplanation": "Mörk choklad innehåller teobromin, som är farligt för hundar men kan ge vissa hälsofördelar för människor.",
+      "verified": true,
+      "verifiedAt": 1776280691229
+    }
+  },
+  {
+    "text": "Vanilj är det näst dyraste kryddan efter saffran. Vaniljplantan är en orkidé och varje blomma måste handpollineras och den blommar bara en dag.",
+    "keywords": [
+      "vanilj",
+      "mat",
+      "krydda",
+      "orkidé",
+      "blomma"
+    ],
+    "sourceName": "Royal Botanic Gardens, Kew",
+    "sourceUrl": "https://www.kew.org/",
+    "related": [
+      "kryddor",
+      "Madagaskar",
+      "orkidéer"
+    ],
+    "category": "Mat",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992382,
+    "_verification": {
+      "sourceCount": 5,
+      "sources": [
+        {
+          "title": "Krydda",
+          "url": "https://sv.wikipedia.org/wiki/Krydda",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "National Geographic - Vaniljens historia",
+          "url": "https://www.nationalgeographic.com/foodfeatures/vanilla/",
+          "source": "National Geographic - Vaniljens historia"
+        },
+        {
+          "name": "Merriam-Webster - Vanilj",
+          "url": "https://www.merriam-webster.com/dictionary/vanilla",
+          "source": "Merriam-Webster - Vanilj"
+        },
+        {
+          "name": "BBC - Varför är vanilj så dyrt?",
+          "url": "https://www.bbc.com/mundo/noticias-46313834",
+          "source": "BBC - Varför är vanilj så dyrt?"
+        },
+        {
+          "name": "World Atlas - Vaniljproduktion",
+          "url": "https://www.worldatlas.com/articles/where-does-vanilla-come-from.html",
+          "source": "World Atlas - Vaniljproduktion"
+        }
+      ],
+      "aiVerdict": "partly_true",
+      "aiConfidence": 7,
+      "aiExplanation": "Vanilj är en av de dyraste kryddorna, men inte alltid näst dyrast efter saffran, beroende på marknadsförhållanden. Vaniljplantan är en orkidé och varje blomma måste handpollineras, och blomman lever endast en dag.",
+      "verified": true,
+      "verifiedAt": 1776280714302
+    }
+  },
+  {
+    "text": "Citron innehåller mer socker än jordgubbar. Det sura intrycket kommer från citronsyra och döljer sockret.",
+    "keywords": [
+      "citron",
+      "jordgubbe",
+      "socker",
+      "mat",
+      "frukt"
+    ],
+    "sourceName": "USDA FoodData Central",
+    "sourceUrl": "https://fdc.nal.usda.gov/",
+    "related": [
+      "frukt",
+      "socker",
+      "näring"
+    ],
+    "category": "Mat",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992382,
+    "_verification": {
+      "sourceCount": 3,
+      "sources": [
+        {
+          "title": "Lista över GB-glassar",
+          "url": "https://sv.wikipedia.org/wiki/Lista%20%C3%B6ver%20GB-glassar",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "USDA FoodData Central",
+          "url": "https://fdc.nal.usda.gov/",
+          "source": "USDA FoodData Central"
+        },
+        {
+          "name": "NutritionData",
+          "url": "https://nutritiondata.self.com/",
+          "source": "NutritionData"
+        }
+      ],
+      "aiVerdict": "false",
+      "aiConfidence": 8,
+      "aiExplanation": "Citron innehåller mindre socker än jordgubbar. Citronens sura smak kommer från citronsyran, men sockermängden är lägre jämfört med jordgubbar.",
+      "verified": true,
+      "verifiedAt": 1776280731481
+    }
+  },
+  {
+    "text": "Te är den mest druckna drycken i världen efter vatten. Kina dricker mest, över 2 miljarder koppar per dag.",
+    "keywords": [
+      "te",
+      "dryck",
+      "mat",
+      "kina",
+      "historia"
+    ],
+    "sourceName": "Food and Agriculture Organization (FAO)",
+    "sourceUrl": "https://www.fao.org/",
+    "related": [
+      "kaffe",
+      "Kina",
+      "drycker"
+    ],
+    "category": "Mat",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992382,
+    "_verification": {
+      "sourceCount": 4,
+      "sources": [
+        {
+          "title": "Svenska köket",
+          "url": "https://sv.wikipedia.org/wiki/Svenska%20k%C3%B6ket",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "World Tea News",
+          "url": "https://worldteanews.com/tea-is-the-second-most-popular-beverage-in-the-world",
+          "source": "World Tea News"
+        },
+        {
+          "name": "Statista",
+          "url": "https://www.statista.com/statistics/283282/tea-consumption-in-china/",
+          "source": "Statista"
+        },
+        {
+          "name": "Tea Association of the USA",
+          "url": "https://www.teausa.com/14663/tea-facts",
+          "source": "Tea Association of the USA"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 8,
+      "aiExplanation": "Te anses vara den mest druckna drycken i världen efter vatten, och Kina har en mycket hög konsumtion av te, vilket stödjer att de dricker över 2 miljarder koppar per dag.",
+      "verified": true,
+      "verifiedAt": 1776280742438
+    }
+  },
+  {
+    "text": "Wasabi du äter på restaurang är nästan aldrig riktig wasabi utan istället färgad pepparrot. Äkta wasabi kostar över 2 000 kr/kg.",
+    "keywords": [
+      "wasabi",
+      "mat",
+      "japan",
+      "krydda",
+      "pepparrot"
+    ],
+    "sourceName": "Royal Botanic Gardens, Kew",
+    "sourceUrl": "https://www.kew.org/",
+    "related": [
+      "Japan",
+      "sushi",
+      "kryddor"
+    ],
+    "category": "Mat",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992382,
+    "_verification": {
+      "sourceCount": 6,
+      "sources": [
+        {
+          "title": "Wasabi",
+          "url": "https://sv.wikipedia.org/wiki/Wasabi",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "title": "Sushi",
+          "url": "https://en.wikipedia.org/wiki/Sushi",
+          "source": "Wikipedia (EN)"
+        },
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.com/news/magazine-35768523",
+          "source": "BBC"
+        },
+        {
+          "name": "Smithsonian Magazine",
+          "url": "https://www.smithsonianmag.com/food-drink/wasabi-its-not-what-you-think-180958093/",
+          "source": "Smithsonian Magazine"
+        },
+        {
+          "name": "Serious Eats",
+          "url": "https://www.seriouseats.com/what-is-wasabi",
+          "source": "Serious Eats"
+        },
+        {
+          "name": "The Spruce Eats",
+          "url": "https://www.thespruceeats.com/what-is-wasabi-2030784",
+          "source": "The Spruce Eats"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 9,
+      "aiExplanation": "Det är sant att den wasabi som serveras på många restauranger ofta är en blandning av pepparrot och färgämnen, snarare än äkta wasabi. Äkta wasabi är sällsynt och dyr.",
+      "verified": true,
+      "verifiedAt": 1776280767472
+    }
+  },
+  {
+    "text": "Choklad var en gång en valuta. Aztekerna använde kakaobönor som pengar, en kalkon kostade ungefär 100 kakaobönor.",
+    "keywords": [
+      "choklad",
+      "kakao",
+      "mat",
+      "azteker",
+      "historia",
+      "pengar",
+      "godis"
+    ],
+    "sourceName": "Smithsonian National Museum of the American Indian",
+    "sourceUrl": "https://americanindian.si.edu/nk360/informational/cacao-702",
+    "related": [
+      "azteker",
+      "Mexiko",
+      "kakao"
+    ],
+    "category": "Mat",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992382,
+    "_verification": {
+      "sourceCount": 4,
+      "sources": [
+        {
+          "title": "Choklad",
+          "url": "https://sv.wikipedia.org/wiki/Choklad",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "National Geographic",
+          "url": "https://www.nationalgeographic.com/history/article/chocolate-history",
+          "source": "National Geographic"
+        },
+        {
+          "name": "Smithsonian Magazine",
+          "url": "https://www.smithsonianmag.com/arts-culture/why-was-chocolate-used-as-currency-in-the-aztec-empire-180973775/",
+          "source": "Smithsonian Magazine"
+        },
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.com/future/article/20210305-the-really-strange-history-of-chocolate",
+          "source": "BBC"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 8,
+      "aiExplanation": "Aztekerna använde kakaobönor som en form av valuta och det finns dokumentation som stöder att olika varor, inklusive kalkoner, kunde kosta i kakaobönor.",
+      "verified": true,
+      "verifiedAt": 1776280799735
+    }
+  },
+  {
+    "text": "Socker var så dyrt i medeltida Europa att det kallades 'vitt guld' och förvarades inlåst.",
+    "keywords": [
+      "socker",
+      "mat",
+      "historia",
+      "medeltid",
+      "dyrt"
+    ],
+    "sourceName": "British Museum",
+    "sourceUrl": "https://www.britishmuseum.org/blog/short-history-sugar",
+    "related": [
+      "kryddor",
+      "handel",
+      "medeltiden"
+    ],
+    "category": "Mat",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992382,
+    "_verification": {
+      "sourceCount": 5,
+      "sources": [
+        {
+          "title": "Socker",
+          "url": "https://sv.wikipedia.org/wiki/Socker",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "title": "Hammarby Fotboll",
+          "url": "https://en.wikipedia.org/wiki/Hammarby%20Fotboll",
+          "source": "Wikipedia (EN)"
+        },
+        {
+          "name": "History.com",
+          "url": "https://www.history.com/news/the-history-of-sugar",
+          "source": "History.com"
+        },
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.com/future/article/20200730-how-sugar-changed-the-world",
+          "source": "BBC"
+        },
+        {
+          "name": "Smithsonian Magazine",
+          "url": "https://www.smithsonianmag.com/arts-culture/why-sugar-was-once-a-luxury-item-180958301/",
+          "source": "Smithsonian Magazine"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 8,
+      "aiExplanation": "Socker var extremt dyrt och värderades högt under medeltiden, vilket ledde till dess skämtliga benämning som 'vitt guld'. Det förvarades ofta säkert för att skydda dess värde.",
+      "verified": true,
+      "verifiedAt": 1776280804372
+    }
+  },
+  {
+    "text": "Tomaten ansågs vara giftig i Europa i nästan 200 år. Den kallades 'giftäpplet' eftersom syran i tomaten löste upp bly ur tallrikar.",
+    "keywords": [
+      "tomat",
+      "mat",
+      "historia",
+      "gift",
+      "europa"
+    ],
+    "sourceName": "Smithsonian Magazine",
+    "sourceUrl": "https://www.smithsonianmag.com/",
+    "related": [
+      "mat",
+      "historia",
+      "växter"
+    ],
+    "category": "Mat",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992382,
+    "_verification": {
+      "sourceCount": 5,
+      "sources": [
+        {
+          "title": "Tomat",
+          "url": "https://sv.wikipedia.org/wiki/Tomat",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "title": "Tempeh",
+          "url": "https://en.wikipedia.org/wiki/Tempeh",
+          "source": "Wikipedia (EN)"
+        },
+        {
+          "name": "History of the tomato",
+          "url": "https://www.bbc.co.uk/food/history_of_the_tomato",
+          "source": "History of the tomato"
+        },
+        {
+          "name": "Tomatoes: From Poison to Food",
+          "url": "https://www.smithsonianmag.com/arts-culture/tomatoes-poison-food-180953181/",
+          "source": "Tomatoes: From Poison to Food"
+        },
+        {
+          "name": "The history of tomatoes: From poison to palatable",
+          "url": "https://www.abc.net.au/education/life-cycle-of-a-tomato/13025444",
+          "source": "The history of tomatoes: From poison to palatable"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 8,
+      "aiExplanation": "Tomater ansågs som giftiga vid vissa tidpunkter i historien i Europa, delvis på grund av deras släktskap med andra giftiga växter och de potentiella riskerna med bly från tallrikar.",
+      "verified": true,
+      "verifiedAt": 1776280809106
+    }
+  },
+  {
+    "text": "Nästan inget vi kallar 'nöt' är en riktig nöt. Jordnötter är baljväxter, kokosnötter är frukter, och mandlar är frön.",
+    "keywords": [
+      "nötter",
+      "mat",
+      "jordnöt",
+      "mandel",
+      "kokos",
+      "botanik"
+    ],
+    "sourceName": "University of California, Berkeley",
+    "sourceUrl": "https://ucmp.berkeley.edu/",
+    "related": [
+      "botanik",
+      "växter",
+      "mat"
+    ],
+    "category": "Mat",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992382,
+    "_verification": {
+      "sourceCount": 5,
+      "sources": [
+        {
+          "title": "Halva",
+          "url": "https://sv.wikipedia.org/wiki/Halva",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "Encyclopaedia Britannica",
+          "url": "https://www.britannica.com/plant/nut",
+          "source": "Encyclopaedia Britannica"
+        },
+        {
+          "name": "Botaniska trädgården",
+          "url": "https://www.botanicgarden.uu.se/utbildning/lateralisering-och-forskning/banana-and-peanut-are-nuts/",
+          "source": "Botaniska trädgården"
+        },
+        {
+          "name": "National Geographic",
+          "url": "https://www.nationalgeographic.com/science/article/what-is-a-nut",
+          "source": "National Geographic"
+        },
+        {
+          "name": "The Spruce Eats",
+          "url": "https://www.thespruceeats.com/what-are-nuts-2216579",
+          "source": "The Spruce Eats"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 9,
+      "aiExplanation": "Påståendet stämmer; jordnötter är baljväxter, kokosnötter är frukter, och mandlar är frön, vilket gör att de flesta som kallas 'nötter' inte tekniskt är nötter.",
+      "verified": true,
+      "verifiedAt": 1776281075801
+    }
+  },
+  {
+    "text": "Surströmmingen är en av världens mest illaluktande maträtter. Den jästa sillen utvecklar ett tryck i burkarna och är förbjuden på flera flygbolag.",
+    "keywords": [
+      "surströmming",
+      "mat",
+      "sverige",
+      "fisk",
+      "lukt"
+    ],
+    "sourceName": "Nordiska museet",
+    "sourceUrl": "https://www.nordiskamuseet.se/",
+    "related": [
+      "Sverige",
+      "tradition",
+      "mat"
+    ],
+    "category": "Mat",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992382,
+    "_verification": {
+      "sourceCount": 4,
+      "sources": [
+        {
+          "title": "Surströmming",
+          "url": "https://sv.wikipedia.org/wiki/Surstr%C3%B6mming",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "title": "National dish",
+          "url": "https://en.wikipedia.org/wiki/National%20dish",
+          "source": "Wikipedia (EN)"
+        },
+        {
+          "name": "CNN - Why Sweden's Surströmming is illegal on some airlines",
+          "url": "https://www.cnn.com/travel/article/surstromming-airlines/index.html",
+          "source": "CNN - Why Sweden's Surströmming is illegal on some airlines"
+        },
+        {
+          "name": "The Local - Surströmming: Sweden's infamous fermented herring",
+          "url": "https://www.thelocal.se/20190821/surstrmming-swedens-infamous-fermented-herring",
+          "source": "The Local - Surströmming: Sweden's infamous fermented herring"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 9,
+      "aiExplanation": "Surströmming är känt för sin starka lukt och för att den kan utveckla tryck i burkarna, vilket har lett till restriktioner på vissa flygplan.",
+      "verified": true,
+      "verifiedAt": 1776281085712
+    }
+  },
+  {
+    "text": "Vikingarna upptäckte Amerika ungefär 500 år före Columbus. Arkeologiska fynd vid L'Anse aux Meadows i Kanada bekräftar att nordbor var där runt år 1000.",
+    "keywords": [
+      "vikingar",
+      "vikingarna",
+      "amerika",
+      "columbus",
+      "historia",
+      "norden"
+    ],
+    "sourceName": "UNESCO World Heritage Centre",
+    "sourceUrl": "https://whc.unesco.org/en/list/4/",
+    "related": [
+      "Columbus",
+      "Leif Eriksson",
+      "Nordamerika"
+    ],
+    "category": "Mat",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992382,
+    "_verification": {
+      "sourceCount": 5,
+      "sources": [
+        {
+          "title": "Asterix och vikingarna (film)",
+          "url": "https://sv.wikipedia.org/wiki/Asterix%20och%20vikingarna%20(film)",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "National Park Service - L'Anse aux Meadows",
+          "url": "https://www.nps.gov/locations/lansauxmeadows.htm",
+          "source": "National Park Service - L'Anse aux Meadows"
+        },
+        {
+          "name": "BBC - Did the Vikings discover America?",
+          "url": "https://www.bbc.com/news/magazine-33038252",
+          "source": "BBC - Did the Vikings discover America?"
+        },
+        {
+          "name": "Smithsonian Magazine - Viking Settlement in North America",
+          "url": "https://www.smithsonianmag.com/history/viking-settlement-in-north-america-180960183/",
+          "source": "Smithsonian Magazine - Viking Settlement in North America"
+        },
+        {
+          "name": "UNESCO - L'Anse aux Meadows National Historic Site",
+          "url": "https://whc.unesco.org/en/list/4",
+          "source": "UNESCO - L'Anse aux Meadows National Historic Site"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 10,
+      "aiExplanation": "Arkeologiska fynd vid L'Anse aux Meadows bekräftar att nordbor var i Nordamerika runt år 1000, vilket är cirka 500 år före Columbus resor.",
+      "verified": true,
+      "verifiedAt": 1776281100743
+    }
+  },
+  {
+    "text": "Oxford University är äldre än aztekernas rike. Undervisning i Oxford började redan 1096, medan det aztekiska riket grundades 1428.",
+    "keywords": [
+      "oxford",
+      "azteker",
+      "universitet",
+      "historia",
+      "gammal"
+    ],
+    "sourceName": "University of Oxford",
+    "sourceUrl": "https://www.ox.ac.uk/about/organisation/history",
+    "related": [
+      "universitet",
+      "medeltiden",
+      "azteker"
+    ],
+    "category": "Historia",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992382,
+    "_verification": {
+      "sourceCount": 3,
+      "sources": [
+        {
+          "title": "Mexico City",
+          "url": "https://sv.wikipedia.org/wiki/Mexico%20City",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "University of Oxford - History",
+          "url": "https://www.ox.ac.uk/about/organisation/history",
+          "source": "University of Oxford - History"
+        },
+        {
+          "name": "Aztec Empire - History",
+          "url": "https://www.britannica.com/topic/Aztec",
+          "source": "Aztec Empire - History"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 10,
+      "aiExplanation": "Oxford universitet grundades på 1100-talet, och aztekernas rike bildades på 1400-talet, vilket gör påståendet sant.",
+      "verified": true,
+      "verifiedAt": 1776281105858
+    }
+  },
+  {
+    "text": "Under andra världskriget var Wojtek, en syrisk brunbjörn, officiellt inskriven i den polska armén och bar ammunition vid slaget om Monte Cassino.",
+    "keywords": [
+      "björn",
+      "krig",
+      "historia",
+      "wojtek",
+      "andra världskriget"
+    ],
+    "sourceName": "Imperial War Museums",
+    "sourceUrl": "https://www.iwm.org.uk/history/the-incredible-story-of-wojtek-the-bear-soldier",
+    "related": [
+      "andra världskriget",
+      "Polen",
+      "Italien"
+    ],
+    "category": "Mat",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992382,
+    "_verification": {
+      "sourceCount": 6,
+      "sources": [
+        {
+          "title": "Sveriges historia",
+          "url": "https://sv.wikipedia.org/wiki/Sveriges%20historia",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "title": "Siege of Laholm Castle",
+          "url": "https://en.wikipedia.org/wiki/Siege%20of%20Laholm%20Castle",
+          "source": "Wikipedia (EN)"
+        },
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.com/news/world-europe-37713661",
+          "source": "BBC News"
+        },
+        {
+          "name": "History.com",
+          "url": "https://www.history.com/news/wojtek-the-bear-soldier",
+          "source": "History.com"
+        },
+        {
+          "name": "National Geographic",
+          "url": "https://www.nationalgeographic.com/history/article/animal-army-wojtek-bear-soldier",
+          "source": "National Geographic"
+        },
+        {
+          "name": "Smithsonian Magazine",
+          "url": "https://www.smithsonianmag.com/smart-news/meet-wojtek-bear-who-fought-world-war-ii-180973213/",
+          "source": "Smithsonian Magazine"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 10,
+      "aiExplanation": "Wojtek var en syrisk brunbjörn som blev en del av den polska armén under andra världskriget och bär ammunition vid slaget om Monte Cassino.",
+      "verified": true,
+      "verifiedAt": 1776281112984
+    }
+  },
+  {
+    "text": "Dinosaurier levde på alla kontinenter, även Antarktis. En fossil av dinosaurien Cryolophosaurus har hittats nära sydpolen.",
+    "keywords": [
+      "dinosaurier",
+      "dinosaurie",
+      "antarktis",
+      "fossil",
+      "historia"
+    ],
+    "sourceName": "Natural History Museum, London",
+    "sourceUrl": "https://www.nhm.ac.uk/discover/dino-directory.html",
+    "related": [
+      "fossil",
+      "evolution",
+      "Antarktis"
+    ],
+    "category": "Historia",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992382,
+    "_verification": {
+      "sourceCount": 4,
+      "sources": [
+        {
+          "title": "Dinosaurier",
+          "url": "https://sv.wikipedia.org/wiki/Dinosaurier",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "Smithsonian Institution",
+          "url": "https://www.si.edu/story/cryolophosaurus-fossils-antarctica",
+          "source": "Smithsonian Institution"
+        },
+        {
+          "name": "National Geographic",
+          "url": "https://www.nationalgeographic.com/science/article/dinosaurs-antarctica-fossils",
+          "source": "National Geographic"
+        },
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.com/news/science-environment-15077567",
+          "source": "BBC"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 9,
+      "aiExplanation": "Dinosaurier har verkligen levt på alla kontinenter, inklusive Antarktis, och fossil av Cryolophosaurus har hittats där.",
+      "verified": true,
+      "verifiedAt": 1776281135348
+    }
+  },
+  {
+    "text": "Rosettastenen (nyckeln till att knäcka egyptiska hieroglyfer) hittades av franska soldater 1799 och finns idag på British Museum.",
+    "keywords": [
+      "rosettastenen",
+      "hieroglyfer",
+      "egypten",
+      "historia",
+      "språk"
+    ],
+    "sourceName": "British Museum",
+    "sourceUrl": "https://www.britishmuseum.org/collection/object/Y_EA24",
+    "related": [
+      "Egypten",
+      "språk",
+      "arkeologi"
+    ],
+    "category": "Historia",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992382,
+    "_verification": {
+      "sourceCount": 5,
+      "sources": [
+        {
+          "title": "Forntida Egypten",
+          "url": "https://sv.wikipedia.org/wiki/Forntida%20Egypten",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "British Museum",
+          "url": "https://www.britishmuseum.org/collection/object/Y_EA24",
+          "source": "British Museum"
+        },
+        {
+          "name": "National Geographic",
+          "url": "https://www.nationalgeographic.com/history/article/rosetta-stone",
+          "source": "National Geographic"
+        },
+        {
+          "name": "Encyclopedia Britannica",
+          "url": "https://www.britannica.com/topic/Rosetta-stone",
+          "source": "Encyclopedia Britannica"
+        },
+        {
+          "name": "Smithsonian Magazine",
+          "url": "https://www.smithsonianmag.com/history/the-rosetta-stone-80281249/",
+          "source": "Smithsonian Magazine"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 10,
+      "aiExplanation": "Rosettastenen hittades av franska soldater 1799 under Napoleons kampanj i Egypten och finns idag på British Museum.",
+      "verified": true,
+      "verifiedAt": 1776281151938
+    }
+  },
+  {
+    "text": "Birka utanför Stockholm var ett av Nordens första städer och klassas som ett UNESCO-världsarv.",
+    "keywords": [
+      "birka",
+      "vikingar",
+      "sverige",
+      "stockholm",
+      "historia",
+      "arkeologi"
+    ],
+    "sourceName": "Riksantikvarieämbetet",
+    "sourceUrl": "https://www.raa.se/",
+    "related": [
+      "vikingarna",
+      "Sverige",
+      "UNESCO"
+    ],
+    "category": "Historia",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992382,
+    "_verification": {
+      "sourceCount": 5,
+      "sources": [
+        {
+          "title": "M/S Birka Gotland",
+          "url": "https://sv.wikipedia.org/wiki/M%2FS%20Birka%20Gotland",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "title": "Helgö Buddha",
+          "url": "https://en.wikipedia.org/wiki/Helg%C3%B6%20Buddha",
+          "source": "Wikipedia (EN)"
+        },
+        {
+          "name": "UNESCO",
+          "url": "https://whc.unesco.org/en/list/555/",
+          "source": "UNESCO"
+        },
+        {
+          "name": "Sveriges historia",
+          "url": "https://www.sverigeshistory.se/berattelser/birka/",
+          "source": "Sveriges historia"
+        },
+        {
+          "name": "Historiska hem",
+          "url": "https://www.historiskahem.se/birka-ett-unescovardsarv/",
+          "source": "Historiska hem"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 9,
+      "aiExplanation": "Birka, som ligger på Björkö utanför Stockholm, anses vara en av Nordens tidigaste städer och har klassats som ett UNESCO-världsarv sedan 1993.",
+      "verified": true,
+      "verifiedAt": 1776281211053
+    }
+  },
+  {
+    "text": "Det sägs att den kinesiska muren är synlig från rymden med blotta ögat men det är en myt. Den är alldeles för smal. Motorvägar däremot, syns mycket bättre.",
+    "keywords": [
+      "kinesiska muren",
+      "kina",
+      "historia",
+      "rymden",
+      "myt"
+    ],
+    "sourceName": "NASA",
+    "sourceUrl": "https://www.nasa.gov/",
+    "related": [
+      "Kina",
+      "myter",
+      "rymden"
+    ],
+    "category": "Geografi",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992382,
+    "_verification": {
+      "sourceCount": 4,
+      "sources": [
+        {
+          "title": "Kinesiska muren",
+          "url": "https://sv.wikipedia.org/wiki/Kinesiska%20muren",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "NASA",
+          "url": "https://www.nasa.gov/",
+          "source": "NASA"
+        },
+        {
+          "name": "National Geographic",
+          "url": "https://www.nationalgeographic.com/",
+          "source": "National Geographic"
+        },
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.com/news/magazine-16630544",
+          "source": "BBC"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 9,
+      "aiExplanation": "Faktum är att Den kinesiska muren inte är synlig från rymden med blotta ögat på grund av dess smala bredd och hur den smälter in i omgivningen. Det är också sant att större infrastrukturer, som motorvägar, är mer synliga från högre höjder.",
+      "verified": true,
+      "verifiedAt": 1776281301414
+    }
+  },
+  {
+    "text": "Pompeji begravdes under 6 meter vulkanisk aska år 79 e.Kr. när Vesuvius fick utbrott. Staden glömdes bort i nästan 1 700 år.",
+    "keywords": [
+      "pompeji",
+      "vesuvius",
+      "vulkan",
+      "rom",
+      "historia"
+    ],
+    "sourceName": "UNESCO World Heritage Centre",
+    "sourceUrl": "https://whc.unesco.org/en/list/829/",
+    "related": [
+      "vulkaner",
+      "Rom",
+      "arkeologi"
+    ],
+    "category": "Historia",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992382,
+    "_verification": {
+      "sourceCount": 5,
+      "sources": [
+        {
+          "title": "Pompeji",
+          "url": "https://sv.wikipedia.org/wiki/Pompeji",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "National Geographic",
+          "url": "https://www.nationalgeographic.com/history/article/pompeii",
+          "source": "National Geographic"
+        },
+        {
+          "name": "Smithsonian Magazine",
+          "url": "https://www.smithsonianmag.com/history/the-buried-city-of-pompeii-78087747/",
+          "source": "Smithsonian Magazine"
+        },
+        {
+          "name": "History.com",
+          "url": "https://www.history.com/topics/ancient-rome/pompeii",
+          "source": "History.com"
+        },
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.com/news/world-europe-43927695",
+          "source": "BBC News"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 9,
+      "aiExplanation": "Pompeji blev begravd under cirka 4 till 6 meter vulkanisk aska under utbrottet av Vesuvius år 79 e.Kr., och staden förblev glömd i nästan 1700 år tills den återupptäcktes på 1700-talet.",
+      "verified": true,
+      "verifiedAt": 1776281307793
+    }
+  },
+  {
+    "text": "Genghis Khan erövrade mer land än någon annan i historien, cirka 24 miljoner km². Vilket är dubbelt så mycket som romarriket.",
+    "keywords": [
+      "genghis khan",
+      "mongoliet",
+      "erövrare",
+      "historia",
+      "imperium"
+    ],
+    "sourceName": "National Geographic",
+    "sourceUrl": "https://www.nationalgeographic.com/",
+    "related": [
+      "Mongoliet",
+      "imperier",
+      "medeltiden"
+    ],
+    "category": "Historia",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992382,
+    "_verification": {
+      "sourceCount": 5,
+      "sources": [
+        {
+          "title": "Djingis khan",
+          "url": "https://sv.wikipedia.org/wiki/Djingis%20khan",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "Encyclopaedia Britannica",
+          "url": "https://www.britannica.com/biography/Genghis-Khan",
+          "source": "Encyclopaedia Britannica"
+        },
+        {
+          "name": "History.com",
+          "url": "https://www.history.com/topics/asia/genghis-khan",
+          "source": "History.com"
+        },
+        {
+          "name": "National Geographic",
+          "url": "https://www.nationalgeographic.com/history/article/genghis-khan",
+          "source": "National Geographic"
+        },
+        {
+          "name": "BBC History",
+          "url": "https://www.bbc.co.uk/history/historic_figures/genghis_khan.shtml",
+          "source": "BBC History"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 8,
+      "aiExplanation": "Genghis Khan erövrade cirka 24 miljoner km², vilket överträffar romarrikets territorium och påståendet stämmer.",
+      "verified": true,
+      "verifiedAt": 1776281328491
+    }
+  },
+  {
+    "text": "Abraham Lincoln, Charles Darwin och Edgar Allan Poe föddes alla 1809. Tre genier på ett år.",
+    "keywords": [
+      "lincoln",
+      "darwin",
+      "poe",
+      "historia",
+      "1809"
+    ],
+    "sourceName": "Library of Congress",
+    "sourceUrl": "https://www.loc.gov/",
+    "related": [
+      "USA",
+      "evolution",
+      "litteratur"
+    ],
+    "category": "Historia",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992382,
+    "_verification": {
+      "sourceCount": 5,
+      "sources": [
+        {
+          "title": "1800-talet (decennium)",
+          "url": "https://sv.wikipedia.org/wiki/1800-talet%20(decennium)",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "title": "Penguin 60s",
+          "url": "https://en.wikipedia.org/wiki/Penguin%2060s",
+          "source": "Wikipedia (EN)"
+        },
+        {
+          "name": "Encyclopaedia Britannica",
+          "url": "https://www.britannica.com/biography/Abraham-Lincoln",
+          "source": "Encyclopaedia Britannica"
+        },
+        {
+          "name": "Biography",
+          "url": "https://www.biography.com/scientist/charles-darwin",
+          "source": "Biography"
+        },
+        {
+          "name": "Poets.org",
+          "url": "https://poets.org/poet/edgar-allan-poe",
+          "source": "Poets.org"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 10,
+      "aiExplanation": "Abraham Lincoln, Charles Darwin och Edgar Allan Poe föddes alla år 1809.",
+      "verified": true,
+      "verifiedAt": 1776281353468
+    }
+  },
+  {
+    "text": "Klockan synkroniserades inte mellan städer förrän tågen kom. Innan järnvägen hade varje stad sin egen lokaltid baserad på solen.",
+    "keywords": [
+      "tid",
+      "tåg",
+      "järnväg",
+      "historia",
+      "klocka"
+    ],
+    "sourceName": "Science Museum, London",
+    "sourceUrl": "https://www.sciencemuseum.org.uk/",
+    "related": [
+      "järnväg",
+      "teknologi",
+      "kommunikation"
+    ],
+    "category": "Historia",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992382,
+    "_verification": {
+      "sourceCount": 4,
+      "sources": [
+        {
+          "title": "Järnväg",
+          "url": "https://sv.wikipedia.org/wiki/J%C3%A4rnv%C3%A4g",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "Wikipedia - Time Standard",
+          "url": "https://en.wikipedia.org/wiki/Time_standard",
+          "source": "Wikipedia - Time Standard"
+        },
+        {
+          "name": "Smithsonian Magazine - How the Railroad Changed Time",
+          "url": "https://www.smithsonianmag.com/history/how-the-railroad-changed-time-108651115/",
+          "source": "Smithsonian Magazine - How the Railroad Changed Time"
+        },
+        {
+          "name": "BBC - The train that changed time",
+          "url": "https://www.bbc.com/news/magazine-19202922",
+          "source": "BBC - The train that changed time"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 9,
+      "aiExplanation": "Innan järnvägen hade många städer sina egna lokala tider baserade på solens position. Tågens spridning ledde till standardisering av tid.",
+      "verified": true,
+      "verifiedAt": 1776281363709
+    }
+  },
+  {
+    "text": "Tutankhamuns grav upptäcktes 1922 av Howard Carter och var nästan helt orörd sen den skapades 3 300 år tidigare. Skatten innehöll över 5 000 föremål.",
+    "keywords": [
+      "tutankhamon",
+      "egypten",
+      "grav",
+      "historia",
+      "farao",
+      "guld"
+    ],
+    "sourceName": "British Museum",
+    "sourceUrl": "https://www.britishmuseum.org/",
+    "related": [
+      "Egypten",
+      "faraoner",
+      "arkeologi"
+    ],
+    "category": "Historia",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992382,
+    "_verification": {
+      "sourceCount": 4,
+      "sources": [
+        {
+          "title": "Tutankhamon",
+          "url": "https://sv.wikipedia.org/wiki/Tutankhamon",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "National Geographic",
+          "url": "https://www.nationalgeographic.com/history/article/tutankhamun",
+          "source": "National Geographic"
+        },
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.com/culture/article/20131125-the-tutankhamun-mystery",
+          "source": "BBC"
+        },
+        {
+          "name": "Smithsonian Magazine",
+          "url": "https://www.smithsonianmag.com/history/why-tutankhamuns-tomb-is-an-archaeological-wonder-180962979/",
+          "source": "Smithsonian Magazine"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 10,
+      "aiExplanation": "Tutankhamuns grav upptäcktes av Howard Carter 1922 och var nästan helt orörd, med över 5 000 föremål.",
+      "verified": true,
+      "verifiedAt": 1776281401862
+    }
+  },
+  {
+    "text": "Mayafolken uppfann begreppet noll oberoende av andra civilisationer, hundratals år före Europa använde det.",
+    "keywords": [
+      "maya",
+      "noll",
+      "matematik",
+      "historia",
+      "civilisation"
+    ],
+    "sourceName": "Smithsonian National Museum of the American Indian",
+    "sourceUrl": "https://americanindian.si.edu/",
+    "related": [
+      "matematik",
+      "Centralamerika",
+      "antiken"
+    ],
+    "category": "Historia",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992382,
+    "_verification": {
+      "sourceCount": 6,
+      "sources": [
+        {
+          "title": "Siffra",
+          "url": "https://sv.wikipedia.org/wiki/Siffra",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "Encyclopedia Britannica",
+          "url": "https://www.britannica.com/topic/zero",
+          "source": "Encyclopedia Britannica"
+        },
+        {
+          "name": "Smithsonian Magazine",
+          "url": "https://www.smithsonianmag.com/science-nature/how-the-maya-invented-zero-180972613/",
+          "source": "Smithsonian Magazine"
+        },
+        {
+          "name": "Nature",
+          "url": "https://www.nature.com/articles/455707a",
+          "source": "Nature"
+        },
+        {
+          "name": "History.com",
+          "url": "https://www.history.com/news/the-history-of-zero",
+          "source": "History.com"
+        },
+        {
+          "name": "Live Science",
+          "url": "https://www.livescience.com/57787-history-of-zero.html",
+          "source": "Live Science"
+        }
+      ],
+      "aiVerdict": "partly_true",
+      "aiConfidence": 7,
+      "aiExplanation": "Mayafolken utvecklade ett koncept av noll som en siffra i sina matematiska system, men det finns även andra kulturer som har använt liknande koncept, som indierna. Därför är påståendet delvis sant.",
+      "verified": true,
+      "verifiedAt": 1776281412879
+    }
+  },
+  {
+    "text": "Den franska revolutionen startade delvis på grund av brödpriser. Skördebristen 1788 gjorde att bröd kostade mer än en arbetares månadslön.",
+    "keywords": [
+      "franska revolutionen",
+      "frankrike",
+      "historia",
+      "revolution",
+      "bröd"
+    ],
+    "sourceName": "British Museum",
+    "sourceUrl": "https://www.britishmuseum.org/",
+    "related": [
+      "Frankrike",
+      "revolution",
+      "demokrati"
+    ],
+    "category": "Historia",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992382,
+    "_verification": {
+      "sourceCount": 5,
+      "sources": [
+        {
+          "title": "Franska revolutionen",
+          "url": "https://sv.wikipedia.org/wiki/Franska%20revolutionen",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "Historiska Museet",
+          "url": "https://historiska.se/",
+          "source": "Historiska Museet"
+        },
+        {
+          "name": "National Geographic",
+          "url": "https://www.nationalgeographic.com/history/article/french-revolution",
+          "source": "National Geographic"
+        },
+        {
+          "name": "Encyclopedia Britannica",
+          "url": "https://www.britannica.com/event/French-Revolution",
+          "source": "Encyclopedia Britannica"
+        },
+        {
+          "name": "History.com",
+          "url": "https://www.history.com/topics/france/french-revolution",
+          "source": "History.com"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 8,
+      "aiExplanation": "Den franska revolutionen påbörjades delvis på grund av höga brödpriser, vilket var en följd av skördebristen 1788. Priserna på bröd blev oöverkomliga för många arbetare.",
+      "verified": true,
+      "verifiedAt": 1776281426583
+    }
+  },
+  {
+    "text": "Machu Picchu i Peru byggdes på 1400-talet och 'återupptäcktes' av Hiram Bingham 1911. Lokala bönder kände dock redan till platsen.",
+    "keywords": [
+      "machu picchu",
+      "peru",
+      "inka",
+      "historia",
+      "arkeologi"
+    ],
+    "sourceName": "UNESCO World Heritage Centre",
+    "sourceUrl": "https://whc.unesco.org/en/list/274/",
+    "related": [
+      "Peru",
+      "Inkariket",
+      "arkeologi"
+    ],
+    "category": "Geografi",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992382,
+    "_verification": {
+      "sourceCount": 5,
+      "sources": [
+        {
+          "title": "Machu Picchu",
+          "url": "https://sv.wikipedia.org/wiki/Machu%20Picchu",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "title": "Aguas Calientes, Peru",
+          "url": "https://en.wikipedia.org/wiki/Aguas%20Calientes%2C%20Peru",
+          "source": "Wikipedia (EN)"
+        },
+        {
+          "name": "National Geographic",
+          "url": "https://www.nationalgeographic.com/history/article/machu-picchu",
+          "source": "National Geographic"
+        },
+        {
+          "name": "Smithsonian Magazine",
+          "url": "https://www.smithsonianmag.com/history/machu-picchu-1911-180967090/",
+          "source": "Smithsonian Magazine"
+        },
+        {
+          "name": "BBC History",
+          "url": "https://www.bbc.co.uk/history/historic_figures/bingham_hiram.shtml",
+          "source": "BBC History"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 9,
+      "aiExplanation": "Machu Picchu byggdes under 1400-talet och Hiram Bingham 'återupptäckte' den 1911, även om lokala bönder kände till platsen innan dess.",
+      "verified": true,
+      "verifiedAt": 1776281439215
+    }
+  },
+  {
+    "text": "Kompassen uppfanns i Kina under Handynastin, men användes först för feng shui — inte navigation. Användandet av kompassen inom sjöfart kom flera hundra år senare.",
+    "keywords": [
+      "kompass",
+      "kina",
+      "uppfinning",
+      "historia",
+      "navigation"
+    ],
+    "sourceName": "Science Museum, London",
+    "sourceUrl": "https://www.sciencemuseum.org.uk/",
+    "related": [
+      "Kina",
+      "uppfinningar",
+      "navigation"
+    ],
+    "category": "Mat",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992382,
+    "_verification": {
+      "sourceCount": 4,
+      "sources": [
+        {
+          "title": "Kina",
+          "url": "https://sv.wikipedia.org/wiki/Kina",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "National Geographic",
+          "url": "https://www.nationalgeographic.com/history/article/the-history-of-the-compass",
+          "source": "National Geographic"
+        },
+        {
+          "name": "Smithsonian Magazine",
+          "url": "https://www.smithsonianmag.com/science-nature/how-the-compass-changed-the-world-180969842/",
+          "source": "Smithsonian Magazine"
+        },
+        {
+          "name": "Science History Institute",
+          "url": "https://www.sciencehistory.org/historical-profile/magnetic-compass",
+          "source": "Science History Institute"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 8,
+      "aiExplanation": "Kompassen uppfanns under Handydynastin i Kina och användes först för feng shui innan det kom att användas för navigation inom sjöfarten, vilket skedde flera hundra år senare.",
+      "verified": true,
+      "verifiedAt": 1776281476866
+    }
+  },
+  {
+    "text": "Under medeltiden trodde läkare att sjukdomar orsakades av 'dålig luft' (miasma). Pestdoktorer bar därför näbbmasker fyllda med blommor och örter.",
+    "keywords": [
+      "medeltiden",
+      "pest",
+      "läkare",
+      "historia",
+      "sjukdom"
+    ],
+    "sourceName": "Science Museum, London",
+    "sourceUrl": "https://www.sciencemuseum.org.uk/",
+    "related": [
+      "medicin",
+      "pesten",
+      "medeltiden"
+    ],
+    "category": "Historia",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992382,
+    "_verification": {
+      "sourceCount": 5,
+      "sources": [
+        {
+          "title": "Pest",
+          "url": "https://sv.wikipedia.org/wiki/Pest",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "Encyclopedia Britannica",
+          "url": "https://www.britannica.com/science/miasma-theory",
+          "source": "Encyclopedia Britannica"
+        },
+        {
+          "name": "History.com",
+          "url": "https://www.history.com/topics/middle-ages/pestilence-and-plague",
+          "source": "History.com"
+        },
+        {
+          "name": "National Geographic",
+          "url": "https://www.nationalgeographic.com/history/article/plague-what-is-it",
+          "source": "National Geographic"
+        },
+        {
+          "name": "The British Library",
+          "url": "https://www.bl.uk/collection-items/what-is-the-miasma-theory",
+          "source": "The British Library"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 9,
+      "aiExplanation": "Under medeltiden trodde man att sjukdomar orsakades av 'miasma', vilket innefattade idén om dålig luft. Pestdoktorerna använde näbbmasker fyllda med aromatiska ämnen för att skydda sig mot denna 'dåliga luft'.",
+      "verified": true,
+      "verifiedAt": 1776281491518
+    }
+  },
+  {
+    "text": "Den första olympiska maratondistansen var inte 42,195 km. Längden standardiserades först vid OS i London 1908 — anpassad så att kungafamiljen kunde se starten från slottet.",
+    "keywords": [
+      "maraton",
+      "os",
+      "olympiska spelen",
+      "historia",
+      "löpning"
+    ],
+    "sourceName": "International Olympic Committee",
+    "sourceUrl": "https://olympics.com/",
+    "related": [
+      "OS",
+      "friidrott",
+      "Grekland"
+    ],
+    "category": "Mat",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992382,
+    "_verification": {
+      "sourceCount": 3,
+      "sources": [
+        {
+          "title": "Olympiska sommarspelen 1896",
+          "url": "https://sv.wikipedia.org/wiki/Olympiska%20sommarspelen%201896",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "Olympics History",
+          "url": "https://olympics.com/en/olympic-games/olympic-history",
+          "source": "Olympics History"
+        },
+        {
+          "name": "BBC - The history of the marathon",
+          "url": "https://www.bbc.com/news/magazine-18626437",
+          "source": "BBC - The history of the marathon"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 9,
+      "aiExplanation": "Det är korrekt att den officiella maratondistansen standardiserades till 42,195 km vid OS i London 1908 för att passa kungafamiljens synvinkel. Före detta varierade distansen.",
+      "verified": true,
+      "verifiedAt": 1776281507072
+    }
+  },
+  {
+    "text": "DNA:t i en enda mänsklig cell är ungefär 2 meter långt. Alla DNA-strängar i din kropp ihopsatta skulle sträcka sig till Pluto och tillbaka 17 gånger.",
+    "keywords": [
+      "dna",
+      "celler",
+      "kroppen",
+      "vetenskap",
+      "genetik"
+    ],
+    "sourceName": "National Human Genome Research Institute (NIH)",
+    "sourceUrl": "https://www.genome.gov/genetics-glossary/Deoxyribonucleic-Acid",
+    "related": [
+      "gener",
+      "celler",
+      "kroppen"
+    ],
+    "category": "Kroppen",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992382,
+    "_verification": {
+      "sourceCount": 6,
+      "sources": [
+        {
+          "title": "DNA",
+          "url": "https://sv.wikipedia.org/wiki/DNA",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "Nature Education",
+          "url": "https://www.nature.com/scitable/topicpage/dna-structure-and-function-393/",
+          "source": "Nature Education"
+        },
+        {
+          "name": "National Human Genome Research Institute",
+          "url": "https://www.genome.gov/about-genomics/fact-sheets/How-long-is-DNA",
+          "source": "National Human Genome Research Institute"
+        },
+        {
+          "name": "Nasa",
+          "url": "https://www.nasa.gov/",
+          "source": "Nasa"
+        },
+        {
+          "name": "Scientific American",
+          "url": "https://www.scientificamerican.com/article/how-long-is-dna-in-human-cells/",
+          "source": "Scientific American"
+        },
+        {
+          "name": "Live Science",
+          "url": "https://www.livescience.com/33427-how-long-is-human-dna.html",
+          "source": "Live Science"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 9,
+      "aiExplanation": "DNA-strängen i en mänsklig cell är cirka 2 meter lång. Sammanlagt skulle all DNA i kroppen sträcka sig till Pluto och tillbaka flera gånger, vilket gör påståendet korrekt.",
+      "verified": true,
+      "verifiedAt": 1776281525719
+    }
+  },
+  {
+    "text": "Kleopatra levde närmare månlandningen i tid än byggandet av pyramiderna. Den stora pyramiden byggdes cirka 2560 f.Kr., medan Kleopatra levde runt 30 f.Kr.",
+    "keywords": [
+      "kleopatra",
+      "pyramider",
+      "egypten",
+      "historia"
+    ],
+    "sourceName": "British Museum",
+    "sourceUrl": "https://www.britishmuseum.org/collection/death-and-afterlife/ancient-egypt",
+    "related": [
+      "Egypten",
+      "faraoner",
+      "pyramiderna"
+    ],
+    "category": "Historia",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992382,
+    "_verification": {
+      "sourceCount": 2,
+      "sources": [
+        {
+          "title": "Forntida Egypten",
+          "url": "https://sv.wikipedia.org/wiki/Forntida%20Egypten",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "History - Cleopatra",
+          "url": "https://www.history.com/topics/ancient-rome/cleopatra",
+          "source": "History - Cleopatra"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 9,
+      "aiExplanation": "Kleopatra levde omkring 30 f.Kr., vilket är drygt 2500 år efter att den stora pyramiden byggdes cirka 2560 f.Kr. Därmed stämmer påståendet att Kleopatra levde närmare månlandningen (1969 e.Kr.) än byggandet av pyramiderna.",
+      "verified": false,
+      "verifiedAt": 1776281577937
+    }
+  },
+  {
+    "text": "Det antika biblioteket i Alexandria beräknas ha innehållit upp till 700 000 bokrullar och var den antika världens största kunskapscentrum.",
+    "keywords": [
+      "alexandria",
+      "bibliotek",
+      "egypten",
+      "historia",
+      "kunskap"
+    ],
+    "sourceName": "Library of Congress",
+    "sourceUrl": "https://www.loc.gov/",
+    "related": [
+      "Egypten",
+      "böcker",
+      "antiken"
+    ],
+    "category": "Historia",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992382,
+    "_verification": {
+      "sourceCount": 4,
+      "sources": [
+        {
+          "title": "Forntida Egypten",
+          "url": "https://sv.wikipedia.org/wiki/Forntida%20Egypten",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "Encyclopaedia Britannica",
+          "url": "https://www.britannica.com/place/Alexandria",
+          "source": "Encyclopaedia Britannica"
+        },
+        {
+          "name": "World History Encyclopedia",
+          "url": "https://www.worldhistory.org/Alexandria",
+          "source": "World History Encyclopedia"
+        },
+        {
+          "name": "Smithsonian Magazine",
+          "url": "https://www.smithsonianmag.com/history/the-library-of-alexandria-180970659/",
+          "source": "Smithsonian Magazine"
+        }
+      ],
+      "aiVerdict": "partly_true",
+      "aiConfidence": 7,
+      "aiExplanation": "Biblioteket i Alexandria anses ha varit en av de största i den antika världen och det finns beräkningar som variera angående antalet bokrullar, där vissa uppskattningar går upp till 700 000. Men exakta siffror är osäkra och mycket av vad vi vet är baserat på äldre källor.",
+      "verified": true,
+      "verifiedAt": 1776281828793
+    }
+  },
+  {
+    "text": "Vatten kan koka och frysa samtidigt. Det kallas trippelpunkten och sker vid exakt 0,01°C och 611,73 Pa tryck.",
+    "keywords": [
+      "vatten",
+      "fysik",
+      "vetenskap",
+      "trippel",
+      "koka",
+      "frysa"
+    ],
+    "sourceName": "National Institute of Standards and Technology (NIST)",
+    "sourceUrl": "https://www.nist.gov/si-redefinition/kelvin/kelvin-thermometry-and-triple-point-water",
+    "related": [
+      "fysik",
+      "temperatur",
+      "tryck"
+    ],
+    "category": "Vetenskap",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992382,
+    "_verification": {
+      "sourceCount": 4,
+      "sources": [
+        {
+          "title": "Vetenskap",
+          "url": "https://sv.wikipedia.org/wiki/Vetenskap",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "National Geographic",
+          "url": "https://www.nationalgeographic.com/science/article/what-is-the-triple-point-of-water",
+          "source": "National Geographic"
+        },
+        {
+          "name": "Royal Society of Chemistry",
+          "url": "https://www.rsc.org/periodic-table/element/1/hydrogen",
+          "source": "Royal Society of Chemistry"
+        },
+        {
+          "name": "Chemistry LibreTexts",
+          "url": "https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Map%3A_Physical_Chemistry_(Robinson_and_Pearson)/07%3A_The_Properties_of_Gases/7.08%3A_Vapor_Pressure_and_Triple_Point",
+          "source": "Chemistry LibreTexts"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 10,
+      "aiExplanation": "Vatten kan koka och frysa samtidigt vid trippelpunkten, vilket sker vid specifika temperatur- och tryckförhållanden, inklusive 0,01°C och ett tryck av 611,73 Pa.",
+      "verified": true,
+      "verifiedAt": 1776281841285
+    }
+  },
+  {
+    "text": "Du har fler bakterier i din kropp än mänskliga celler. Närmare bestämt 38 biljoner bakterier mot 30 biljoner mänskliga celler. Du är alltså mer bakterie än människa!",
+    "keywords": [
+      "bakterier",
+      "kroppen",
+      "celler",
+      "vetenskap",
+      "mikrobiom"
+    ],
+    "sourceName": "Weizmann Institute of Science / Cell Journal",
+    "sourceUrl": "https://www.cell.com/cell/fulltext/S0092-8674(16)00053-2",
+    "related": [
+      "mikrobiom",
+      "celler",
+      "hälsa"
+    ],
+    "category": "Vetenskap",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992382,
+    "_verification": {
+      "sourceCount": 6,
+      "sources": [
+        {
+          "title": "Fagocyt",
+          "url": "https://sv.wikipedia.org/wiki/Fagocyt",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "National Institutes of Health (NIH)",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3955360/",
+          "source": "National Institutes of Health (NIH)"
+        },
+        {
+          "name": "Harvard Gazette",
+          "url": "https://news.harvard.edu/gazette/story/2016/12/human-body-microbes-outnumber-human-cells-10-to-1/",
+          "source": "Harvard Gazette"
+        },
+        {
+          "name": "Nature Reviews Microbiology",
+          "url": "https://www.nature.com/articles/nrmicro4107",
+          "source": "Nature Reviews Microbiology"
+        },
+        {
+          "name": "Scientific American",
+          "url": "https://www.scientificamerican.com/article/you-are-more-microbe-than-human/",
+          "source": "Scientific American"
+        },
+        {
+          "name": "The American Society for Microbiology",
+          "url": "https://www.asm.org/Articles/2016/April/Your-Microbiome-Makes-You-You",
+          "source": "The American Society for Microbiology"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 8,
+      "aiExplanation": "Flera vetenskapliga källor bekräftar att antalet bakterier i människokroppen överstiger antalet mänskliga celler, vilket gör påståendet giltigt.",
+      "verified": true,
+      "verifiedAt": 1776281870060
+    }
+  },
+  {
+    "text": "Blixtar är fem gånger hetare än solens yta. Cirka 30 000°C jämfört med solens 5 500°C.",
+    "keywords": [
+      "blixt",
+      "blixtar",
+      "åska",
+      "temperatur",
+      "väder",
+      "vetenskap"
+    ],
+    "sourceName": "NOAA National Weather Service",
+    "sourceUrl": "https://www.weather.gov/safety/lightning-science-overview",
+    "related": [
+      "åska",
+      "väder",
+      "elektricitet"
+    ],
+    "category": "Vetenskap",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992382,
+    "_verification": {
+      "sourceCount": 4,
+      "sources": [
+        {
+          "title": "Åska",
+          "url": "https://sv.wikipedia.org/wiki/%C3%85ska",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "National Geographic",
+          "url": "https://www.nationalgeographic.com/science/article/lightning",
+          "source": "National Geographic"
+        },
+        {
+          "name": "NASA",
+          "url": "https://www.nasa.gov/",
+          "source": "NASA"
+        },
+        {
+          "name": "Encyclopedia Britannica",
+          "url": "https://www.britannica.com/science/lightning",
+          "source": "Encyclopedia Britannica"
+        }
+      ],
+      "aiVerdict": "false",
+      "aiConfidence": 7,
+      "aiExplanation": "Blixtar har en temperatur på cirka 30 000 °C, vilket är mycket högre än solens yta, men inte fem gånger så högt. Solens yttemperatur är cirka 5 500 °C, så påståendet stämmer inte.",
+      "verified": true,
+      "verifiedAt": 1776281895864
+    }
+  },
+  {
+    "text": "Glas är varken en fast kropp eller en vätska. Det är itsället en amorf fast kropp, ett mellantillstånd som har förbryllat fysiker i århundraden.",
+    "keywords": [
+      "glas",
+      "fysik",
+      "vetenskap",
+      "fast",
+      "vätska"
+    ],
+    "sourceName": "Corning Museum of Glass",
+    "sourceUrl": "https://www.cmog.org/article/does-glass-flow",
+    "related": [
+      "fysik",
+      "material",
+      "atomer"
+    ],
+    "category": "Vetenskap",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992382,
+    "_verification": {
+      "sourceCount": 4,
+      "sources": [
+        {
+          "title": "Lista över Nobelpristagare",
+          "url": "https://sv.wikipedia.org/wiki/Lista%20%C3%B6ver%20Nobelpristagare",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "Physics Today",
+          "url": "https://www.physicstoday.org",
+          "source": "Physics Today"
+        },
+        {
+          "name": "Scientific American",
+          "url": "https://www.scientificamerican.com/article/is-glass-a-liquid-or-a-solid/",
+          "source": "Scientific American"
+        },
+        {
+          "name": "American Scientist",
+          "url": "https://www.americanscientist.org/article/what-is-glass",
+          "source": "American Scientist"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 9,
+      "aiExplanation": "Glas klassificeras som en amorf fast kropp vilket innebär att det saknar en definierad kristallstruktur och har egenskaper som ligger mellan vätskor och fasta ämnen.",
+      "verified": true,
+      "verifiedAt": 1776281921813
+    }
+  },
+  {
+    "text": "Ljusets hastighet är exakt 299 792 458 meter per sekund. Det är så snabbt att det skulle kunna cirkulera jorden 7,5 gånger på en enda sekund.",
+    "keywords": [
+      "ljus",
+      "hastighet",
+      "fysik",
+      "vetenskap",
+      "einstein"
+    ],
+    "sourceName": "CERN",
+    "sourceUrl": "https://home.cern/",
+    "related": [
+      "Einstein",
+      "relativitet",
+      "fysik"
+    ],
+    "category": "Vetenskap",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992382,
+    "_verification": {
+      "sourceCount": 3,
+      "sources": [
+        {
+          "title": "Fysik",
+          "url": "https://sv.wikipedia.org/wiki/Fysik",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "NASA",
+          "url": "https://www.nasa.gov",
+          "source": "NASA"
+        },
+        {
+          "name": "CERN",
+          "url": "https://home.cern",
+          "source": "CERN"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 9,
+      "aiExplanation": "Ljusets hastighet i vakuum är exakt 299 792 458 meter per sekund, vilket innebär att ljuset kan cirkulera jorden, som har en omkrets på cirka 40 075 kilometer, på ungefär 0,133 sekunder, så på en sekund kan det cirkulera jorden omkring 7,5 gånger.",
+      "verified": true,
+      "verifiedAt": 1776281938569
+    }
+  },
+  {
+    "text": "En banan är radioaktiv. Den innehåller kalium-40, en naturligt radioaktiv isotop. Du skulle dock behöva äta 10 miljoner bananer på en gång för att få i dig en farlig dos.",
+    "keywords": [
+      "banan",
+      "radioaktiv",
+      "vetenskap",
+      "strålning",
+      "kalium"
+    ],
+    "sourceName": "Oak Ridge Associated Universities",
+    "sourceUrl": "https://www.orau.org/",
+    "related": [
+      "strålning",
+      "fysik",
+      "mat"
+    ],
+    "category": "Mat",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992382,
+    "_verification": {
+      "sourceCount": 6,
+      "sources": [
+        {
+          "title": "Pluto",
+          "url": "https://sv.wikipedia.org/wiki/Pluto",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "American Nuclear Society",
+          "url": "https://www.ans.org/pi/resources/faq/radioactivity/",
+          "source": "American Nuclear Society"
+        },
+        {
+          "name": "Health Physics Society",
+          "url": "https://hps.org/publicinformation/ate/faqs/bananas.html",
+          "source": "Health Physics Society"
+        },
+        {
+          "name": "National Nuclear Data Center",
+          "url": "https://www.nndc.bnl.gov/exchange/",
+          "source": "National Nuclear Data Center"
+        },
+        {
+          "name": "BBC Science Focus",
+          "url": "https://www.sciencefocus.com/qa/are-bananas-radioactive/",
+          "source": "BBC Science Focus"
+        },
+        {
+          "name": "University of California, Berkeley",
+          "url": "https://web.archive.org/web/20200117223357/https://www.berkeley.edu/news/media/releases/2005/08/19_banana.shtml",
+          "source": "University of California, Berkeley"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 9,
+      "aiExplanation": "Bananer innehåller kalium-40, en naturligt förekommande radioaktiv isotop, men mängden är så liten att det krävs en mycket stor mängd, såsom 10 miljoner bananer, för att nå en farlig dos.",
+      "verified": true,
+      "verifiedAt": 1776281961834
+    }
+  },
+  {
+    "text": "Det periodiska systemet hade luckor när Mendelejev skapade det 1869. Han förutsade egenskaperna hos ännu oupptäckta grundämnen — och hade rätt.",
+    "keywords": [
+      "periodiska systemet",
+      "kemi",
+      "mendelejev",
+      "vetenskap",
+      "grundämnen"
+    ],
+    "sourceName": "Royal Society of Chemistry",
+    "sourceUrl": "https://www.rsc.org/periodic-table/",
+    "related": [
+      "kemi",
+      "grundämnen",
+      "vetenskap"
+    ],
+    "category": "Vetenskap",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992382,
+    "_verification": {
+      "sourceCount": 4,
+      "sources": [
+        {
+          "title": "Periodiska systemet",
+          "url": "https://sv.wikipedia.org/wiki/Periodiska%20systemet",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "Encyclopedia Britannica",
+          "url": "https://www.britannica.com/science/periodic-table",
+          "source": "Encyclopedia Britannica"
+        },
+        {
+          "name": "Royal Society of Chemistry",
+          "url": "https://www.rsc.org/periodic-table/history",
+          "source": "Royal Society of Chemistry"
+        },
+        {
+          "name": "History.com",
+          "url": "https://www.history.com/topics/science/periodic-table",
+          "source": "History.com"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 9,
+      "aiExplanation": "Mendelejev skapade det periodiska systemet med luckor för att förutsäga okända grundämnens egenskaper, och flera av hans förutsägelser visade sig vara korrekta.",
+      "verified": true,
+      "verifiedAt": 1776281967241
+    }
+  },
+  {
+    "text": "Diamant och blyertspenna (grafit) är båda gjorda av kol. Skillnaden är att atomerna sitter ihop annorlunda.",
+    "keywords": [
+      "diamant",
+      "grafit",
+      "kol",
+      "kemi",
+      "vetenskap"
+    ],
+    "sourceName": "American Chemical Society",
+    "sourceUrl": "https://www.acs.org/",
+    "related": [
+      "kemi",
+      "kol",
+      "material"
+    ],
+    "category": "Vetenskap",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992382,
+    "_verification": {
+      "sourceCount": 4,
+      "sources": [
+        {
+          "title": "Kol",
+          "url": "https://sv.wikipedia.org/wiki/Kol",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "Nobel Prize - The Diamond",
+          "url": "https://www.nobelprize.org/prizes/chemsit/2001/summary",
+          "source": "Nobel Prize - The Diamond"
+        },
+        {
+          "name": "Chemistry LibreTexts - Diamond vs Graphite",
+          "url": "https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Chemical_Bonding/Types_of_Solids/Diamond_and_Graphite",
+          "source": "Chemistry LibreTexts - Diamond vs Graphite"
+        },
+        {
+          "name": "Royal Society of Chemistry - Graphite and Diamond",
+          "url": "https://www.rsc.org/periodic-table/element/6/carbon",
+          "source": "Royal Society of Chemistry - Graphite and Diamond"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 10,
+      "aiExplanation": "Diamant och blyertspenna (grafit) är båda allotroper av kol, vilket innebär att de består av samma grundämne men har olika strukturer och bindningar.",
+      "verified": true,
+      "verifiedAt": 1776281991537
+    }
+  },
+  {
+    "text": "Penicillinet upptäcktes av misstag 1928 när Alexander Fleming glömde att stänga ett fönster. En mögelspor landade på hans bakterieodling och så skapades en av våra mest använda mediciner idag.",
+    "keywords": [
+      "penicillin",
+      "medicin",
+      "vetenskap",
+      "antibiotika",
+      "fleming"
+    ],
+    "sourceName": "Nobel Prize / Nobelprize.org",
+    "sourceUrl": "https://www.nobelprize.org/prizes/medicine/1945/",
+    "related": [
+      "medicin",
+      "Nobelpriset",
+      "antibiotika"
+    ],
+    "category": "Vetenskap",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992382,
+    "_verification": {
+      "sourceCount": 4,
+      "sources": [
+        {
+          "title": "Bioteknik",
+          "url": "https://sv.wikipedia.org/wiki/Bioteknik",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "Nobelprize.org",
+          "url": "https://www.nobelprize.org/prizes/medicine/1945/fleming/facts/",
+          "source": "Nobelprize.org"
+        },
+        {
+          "name": "National Institutes of Health",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1418900/",
+          "source": "National Institutes of Health"
+        },
+        {
+          "name": "BBC History",
+          "url": "https://www.bbc.co.uk/history/historic_figures/fleming_alexander.shtml",
+          "source": "BBC History"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 9,
+      "aiExplanation": "Alexander Fleming upptäckte penicillinet av misstag 1928 när han observerade att mögelsvampen Penicillium notatum hade förhindrat tillväxt av bakterier i en odling, vilket ledde till utvecklingen av penicillin som medicin.",
+      "verified": true,
+      "verifiedAt": 1776282036400
+    }
+  },
+  {
+    "text": "Guld bildas när neutonstjärnor kolliderar. Allt guld på jorden skapades alltså i kosmiska explosioner för miljarder år sedan och regnade sedan ner på planeten.",
+    "keywords": [
+      "guld",
+      "neutonstjärnor",
+      "vetenskap",
+      "kemi",
+      "rymden"
+    ],
+    "sourceName": "Harvard-Smithsonian Center for Astrophysics",
+    "sourceUrl": "https://www.cfa.harvard.edu/",
+    "related": [
+      "rymden",
+      "grundämnen",
+      "geologi"
+    ],
+    "category": "Rymden",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992382,
+    "_verification": {
+      "sourceCount": 4,
+      "sources": [
+        {
+          "name": "NASA",
+          "url": "https://www.nasa.gov/feature/what-is-gold",
+          "source": "NASA"
+        },
+        {
+          "name": "Scientific American",
+          "url": "https://www.scientificamerican.com/article/how-gold-is-made/",
+          "source": "Scientific American"
+        },
+        {
+          "name": "Nature",
+          "url": "https://www.nature.com/articles/s41550-018-0547-0",
+          "source": "Nature"
+        },
+        {
+          "name": "National Geographic",
+          "url": "https://www.nationalgeographic.com/science/article/where-does-gold-come-from",
+          "source": "National Geographic"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 9,
+      "aiExplanation": "Forskning visar att guld bildas vid kollisioner av neutronstjärnor, vilket skapar de tyngre grundämnena som guld. Dessa ämnen spreds vid kosmiska explosioner, inklusive supernovor, och regnade ner på jorden.",
+      "verified": true,
+      "verifiedAt": 1776282057584
+    }
+  },
+  {
+    "text": "Heliumpropagandisten: helium upptäcktes först i solen innan det hittades på jorden. Dess namn kommer från Helios, den grekiska solguden.",
+    "keywords": [
+      "helium",
+      "sol",
+      "grundämne",
+      "vetenskap",
+      "kemi"
+    ],
+    "sourceName": "Royal Society of Chemistry",
+    "sourceUrl": "https://www.rsc.org/periodic-table/element/2/helium",
+    "related": [
+      "grundämnen",
+      "solen",
+      "kemi"
+    ],
+    "category": "Vetenskap",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992382,
+    "_verification": {
+      "sourceCount": 4,
+      "sources": [
+        {
+          "title": "Helium",
+          "url": "https://sv.wikipedia.org/wiki/Helium",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "NASA - Helium",
+          "url": "https://www.nasa.gov/helium",
+          "source": "NASA - Helium"
+        },
+        {
+          "name": "Britannica - Helium",
+          "url": "https://www.britannica.com/science/helium",
+          "source": "Britannica - Helium"
+        },
+        {
+          "name": "Chemistry LibreTexts - Helium",
+          "url": "https://chem.libretexts.org/Bookshelves/Introductory_Chemistry/Map%3A_Introductory_Chemistry_(CK-12)/15%3A_Noble_Gases/15.3%3A_Helium",
+          "source": "Chemistry LibreTexts - Helium"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 9,
+      "aiExplanation": "Helium upptäcktes först i solens spektrum innan det identifierades på jorden, och dess namn kommer från Helios, den grekiska solguden.",
+      "verified": true,
+      "verifiedAt": 1776282076945
+    }
+  },
+  {
+    "text": "Kvantmekanik säger att en partikel kan vara på två platser samtidigt — superposition. Einstein kallade det 'spöklik verkan på avstånd'.",
+    "keywords": [
+      "kvantmekanik",
+      "kvantfysik",
+      "vetenskap",
+      "einstein",
+      "fysik"
+    ],
+    "sourceName": "CERN",
+    "sourceUrl": "https://home.cern/science/physics/standard-model",
+    "related": [
+      "Einstein",
+      "fysik",
+      "partiklar"
+    ],
+    "category": "Vetenskap",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992382,
+    "_verification": {
+      "sourceCount": 5,
+      "sources": [
+        {
+          "title": "Kvantmekanik",
+          "url": "https://sv.wikipedia.org/wiki/Kvantmekanik",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "Kvantmekanikens grunder - Fysikportalen",
+          "url": "https://www.fysikportalen.se/fysik/kvantmekanik/",
+          "source": "Kvantmekanikens grunder - Fysikportalen"
+        },
+        {
+          "name": "Kvantmekanik och superposition - Nobel Prize",
+          "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/facts/",
+          "source": "Kvantmekanik och superposition - Nobel Prize"
+        },
+        {
+          "name": "Superposition och entanglement - Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/qm/",
+          "source": "Superposition och entanglement - Stanford Encyclopedia of Philosophy"
+        },
+        {
+          "name": "Einsteins kritik av kvantmekanik - BBC Future",
+          "url": "https://www.bbc.com/future/article/20201208-einsteins-ghostly-quantum-communication",
+          "source": "Einsteins kritik av kvantmekanik - BBC Future"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 9,
+      "aiExplanation": "I kvantmekanik finns fenomenet superposition, där partiklar kan existera i flera tillstånd samtidigt. Einstein kritiserade dessa idéer och refererade till 'spöklik verkan på avstånd' i kontexten av kvant entanglement.",
+      "verified": true,
+      "verifiedAt": 1776282085949
+    }
+  },
+  {
+    "text": "Antibiotika fungerar inte mot virus utan bara mot bakterier. Att ta antibiotika mot förkylning gör alltså ingen nytta och kan göra framtida antibiotikaeffekt sämre.",
+    "keywords": [
+      "antibiotika",
+      "virus",
+      "bakterier",
+      "medicin",
+      "vetenskap"
+    ],
+    "sourceName": "World Health Organization (WHO)",
+    "sourceUrl": "https://www.who.int/news-room/fact-sheets/detail/antibiotic-resistance",
+    "related": [
+      "medicin",
+      "hälsa",
+      "bakterier"
+    ],
+    "category": "Vetenskap",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992382,
+    "_verification": {
+      "sourceCount": 5,
+      "sources": [
+        {
+          "title": "Bakterier",
+          "url": "https://sv.wikipedia.org/wiki/Bakterier",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "Folkhälsomyndigheten",
+          "url": "https://www.folkhalsomyndigheten.se/smittskydd-beredskap/smittskydd/antibiotika/",
+          "source": "Folkhälsomyndigheten"
+        },
+        {
+          "name": "1177 Vårdguiden",
+          "url": "https://www.1177.se/sjukdomar/infektioner/forkylning/",
+          "source": "1177 Vårdguiden"
+        },
+        {
+          "name": "Världshälsoorganisationen (WHO)",
+          "url": "https://www.who.int/news-room/questions-and-answers/item/antibiotics-what-they-are-and-how-they-work",
+          "source": "Världshälsoorganisationen (WHO)"
+        },
+        {
+          "name": "Läkemedelsverket",
+          "url": "https://www.lakemedelsverket.se/nyheter/nyhetsarkiv/2018/antibiotika-anvandning-och-rekommendationer",
+          "source": "Läkemedelsverket"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 10,
+      "aiExplanation": "Antibiotika är effektivt mot bakterieinfektioner men inte mot virusinfektioner som förkylning. Att använda antibiotika i onödan kan leda till resistensproblem, vilket påverkar framtida behandlingar.",
+      "verified": true,
+      "verifiedAt": 1776282121075
+    }
+  },
+  {
+    "text": "Gravitationsvågor förutsågs av Einstein 1915 men detekterades inte förrän 100 år senare och kom från två kolliderande svarta hål.",
+    "keywords": [
+      "gravitationsvågor",
+      "einstein",
+      "ligo",
+      "vetenskap",
+      "fysik"
+    ],
+    "sourceName": "LIGO / Caltech",
+    "sourceUrl": "https://www.ligo.caltech.edu/",
+    "related": [
+      "Einstein",
+      "svarta hål",
+      "Nobelpriset"
+    ],
+    "category": "Mat",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992382,
+    "_verification": {
+      "sourceCount": 3,
+      "sources": [
+        {
+          "title": "Albert Einstein",
+          "url": "https://sv.wikipedia.org/wiki/Albert%20Einstein",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "NASA",
+          "url": "https://www.nasa.gov/",
+          "source": "NASA"
+        },
+        {
+          "name": "LIGO",
+          "url": "https://www.ligo.caltech.edu/",
+          "source": "LIGO"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 10,
+      "aiExplanation": "Albert Einstein förutsåg gravitationsvågor 1915 i sin allmänna relativitetsteori, och de detekterades för första gången 2015 från kollisionen mellan två svarta hål.",
+      "verified": true,
+      "verifiedAt": 1776282156618
+    }
+  },
+  {
+    "text": "Havens pH-värde har sjunkit med 30% sedan industrialiseringen på grund av koldioxidabsorption. Det kallas havsförsurning och hotar korallreven.",
+    "keywords": [
+      "havsförsurning",
+      "hav",
+      "koldioxid",
+      "klimat",
+      "vetenskap"
+    ],
+    "sourceName": "NOAA",
+    "sourceUrl": "https://www.noaa.gov/education/resource-collections/ocean-coasts/ocean-acidification",
+    "related": [
+      "klimat",
+      "havet",
+      "korallrev"
+    ],
+    "category": "Geografi",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992382,
+    "_verification": {
+      "sourceCount": 5,
+      "sources": [
+        {
+          "title": "Koldioxid",
+          "url": "https://sv.wikipedia.org/wiki/Koldioxid",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "Naturvårdsverket",
+          "url": "https://www.naturvardsverket.se/sv/aktuellt/nyheter/2020/havsforsurning-en-allvarlig-utmaning/",
+          "source": "Naturvårdsverket"
+        },
+        {
+          "name": "Havsmiljöinstitutet",
+          "url": "https://www.havsmiljoinstitutet.se/havsforsurning/",
+          "source": "Havsmiljöinstitutet"
+        },
+        {
+          "name": "National Oceanic and Atmospheric Administration (NOAA)",
+          "url": "https://www.noaa.gov/education/resource-collections/ocean-coasts-education-resources/ocean-acidification",
+          "source": "National Oceanic and Atmospheric Administration (NOAA)"
+        },
+        {
+          "name": "IPCC (Intergovernmental Panel on Climate Change)",
+          "url": "https://www.ipcc.ch/site/assets/uploads/2018/02/WG1AR5_Chapter02_FINAL.pdf",
+          "source": "IPCC (Intergovernmental Panel on Climate Change)"
+        }
+      ],
+      "aiVerdict": "partly_true",
+      "aiConfidence": 7,
+      "aiExplanation": "Havens pH har sjunkit på grund av koldioxidabsorption, men en sänkning med 30% är en överdrift; det är mer korrekt att säga att pH-värdet har minskat med cirka 0,1 enheter vilket motsvarar en ökning av surheten med 30-40% i vätejonkoncentration. Havsförsurning hotar korallrev.",
+      "verified": true,
+      "verifiedAt": 1776282176305
+    }
+  },
+  {
+    "text": "CRISPR, den revolutionerande genredigeringstekniken, upptäcktes tack vare studier av bakterier. Bakterier använder CRISPR som immunförsvar mot virus.",
+    "keywords": [
+      "crispr",
+      "genteknik",
+      "vetenskap",
+      "dna",
+      "medicin"
+    ],
+    "sourceName": "Nobel Prize / Nobelprize.org",
+    "sourceUrl": "https://www.nobelprize.org/prizes/chemistry/2020/",
+    "related": [
+      "DNA",
+      "Nobelpriset",
+      "genteknik"
+    ],
+    "category": "Historia",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992382,
+    "_verification": {
+      "sourceCount": 5,
+      "sources": [
+        {
+          "title": "Jennifer Doudna",
+          "url": "https://sv.wikipedia.org/wiki/Jennifer%20Doudna",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "Harvard University - CRISPR: A New Way to Edit DNA",
+          "url": "https://www.gardner.cambridge.org/crispr",
+          "source": "Harvard University - CRISPR: A New Way to Edit DNA"
+        },
+        {
+          "name": "Nature - The history of CRISPR",
+          "url": "https://www.nature.com/articles/d41586-019-00426-4",
+          "source": "Nature - The history of CRISPR"
+        },
+        {
+          "name": "National Institute of Health - CRISPR Basics",
+          "url": "https://www.genome.gov/about-genomics/technical-areas/CRISPR-Cas9",
+          "source": "National Institute of Health - CRISPR Basics"
+        },
+        {
+          "name": "Science - Bacteria's immune system makes gene editing easier",
+          "url": "https://www.sciencemag.org/news/2012/06/bacteria-s-immune-system-makes-gene-editing-easier",
+          "source": "Science - Bacteria's immune system makes gene editing easier"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 10,
+      "aiExplanation": "CRISPR-tekniken har sina rötter i bakteriers användning av CRISPR-systemet för att försvara sig mot virus, vilket bekräftas av många källor.",
+      "verified": true,
+      "verifiedAt": 1776282187325
+    }
+  },
+  {
+    "text": "Norrsken uppstår när laddade partiklar från solen kolliderar med gaser i atmosfären. Syre ger grönt, kväve ger lila.",
+    "keywords": [
+      "norrsken",
+      "norrskenet",
+      "polarsken",
+      "aurora",
+      "natur"
+    ],
+    "sourceName": "NASA",
+    "sourceUrl": "https://science.nasa.gov/science-research/heliophysics/aurora/",
+    "related": [
+      "solen",
+      "magnetfält",
+      "atmosfär"
+    ],
+    "category": "Vetenskap",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992382,
+    "_verification": {
+      "sourceCount": 4,
+      "sources": [
+        {
+          "title": "Polarsken",
+          "url": "https://sv.wikipedia.org/wiki/Polarsken",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "NASA",
+          "url": "https://www.nasa.gov/mission_pages/sunearth/spaceweather/Auroras.html",
+          "source": "NASA"
+        },
+        {
+          "name": "National Geographic",
+          "url": "https://www.nationalgeographic.com/science/article/aurora-borealis",
+          "source": "National Geographic"
+        },
+        {
+          "name": "Universitetet i Alberta",
+          "url": "https://www.ualberta.ca/science/learning/auroras.html",
+          "source": "Universitetet i Alberta"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 9,
+      "aiExplanation": "Norrsken uppstår när solens laddade partiklar interagerar med jordens atmosfär, där syre och kväve ger upphov till olika färger.",
+      "verified": true,
+      "verifiedAt": 1776282224640
+    }
+  },
+  {
+    "text": "Regnbågar är faktiskt hela cirklar, men vi ser bara halva från marken. Från ett flygplan kan man ibland se en hel cirkelformad regnbåge.",
+    "keywords": [
+      "regnbåge",
+      "ljus",
+      "natur",
+      "optik"
+    ],
+    "sourceName": "NOAA National Weather Service",
+    "sourceUrl": "https://www.weather.gov/jetstream/rainbow",
+    "related": [
+      "ljus",
+      "väder",
+      "optik"
+    ],
+    "category": "Natur",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992382,
+    "_verification": {
+      "sourceCount": 4,
+      "sources": [
+        {
+          "title": "Regnbåge",
+          "url": "https://sv.wikipedia.org/wiki/Regnb%C3%A5ge",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "National Geographic",
+          "url": "https://www.nationalgeographic.com/science/article/rainbow-facts",
+          "source": "National Geographic"
+        },
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/programmes/articles/5Gm7kK0jLJgC0TQXK73Gzqd/the-science-of-rainbows",
+          "source": "BBC"
+        },
+        {
+          "name": "HowStuffWorks",
+          "url": "https://science.howstuffworks.com/nature/weather-phenomena/rainbow.htm",
+          "source": "HowStuffWorks"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 9,
+      "aiExplanation": "Regnbågar är i själva verket cirkelbundna, men på grund av jordens yta ser vi bara en halva. Från luftburna höjder kan hela regnbågen observeras.",
+      "verified": true,
+      "verifiedAt": 1776282231979
+    }
+  },
+  {
+    "text": "Vulkaner kan skapa blixtar i sina askmoln. Det kallas 'smutsiga åskväder'.",
+    "keywords": [
+      "vulkan",
+      "vulkaner",
+      "blixt",
+      "åska",
+      "natur",
+      "geologi"
+    ],
+    "sourceName": "Smithsonian Global Volcanism Program",
+    "sourceUrl": "https://volcano.si.edu/",
+    "related": [
+      "geologi",
+      "blixtar",
+      "Pompei"
+    ],
+    "category": "Natur",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992382,
+    "_verification": {
+      "sourceCount": 6,
+      "sources": [
+        {
+          "title": "Vulkan",
+          "url": "https://sv.wikipedia.org/wiki/Vulkan",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "Smithsonian Institution",
+          "url": "https://www.smithsonianmag.com/science-nature/volcanic-lightning-180975043/",
+          "source": "Smithsonian Institution"
+        },
+        {
+          "name": "National Geographic",
+          "url": "https://www.nationalgeographic.com/science/article/extreme-weather-volcano-lightning-ash-clouds",
+          "source": "National Geographic"
+        },
+        {
+          "name": "Science News",
+          "url": "https://www.sciencenews.org/article/volcano-lightning-eruption",
+          "source": "Science News"
+        },
+        {
+          "name": "EarthSky",
+          "url": "https://earthsky.org/earth/volcano-lightning/",
+          "source": "EarthSky"
+        },
+        {
+          "name": "NASA",
+          "url": "https://www.nasa.gov/feature/goddard/2021/volcanoes-and-lightning",
+          "source": "NASA"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 9,
+      "aiExplanation": "Vulkanutbrott kan generera blixtar i askmoln, och fenomenet kallas ibland 'smutsiga åskväder' för att beskriva de elektriska fält som skapas av ashpartiklar.",
+      "verified": true,
+      "verifiedAt": 1776282254405
+    }
+  },
+  {
+    "text": "Sverige har över 100 000 sjöar och är därmed ett av de sjörikaste länderna i världen. Bara Kanada och Finland är i samma liga.",
+    "keywords": [
+      "sverige",
+      "sjöar",
+      "natur",
+      "geografi",
+      "vatten"
+    ],
+    "sourceName": "SMHI",
+    "sourceUrl": "https://www.smhi.se/",
+    "related": [
+      "sjöar",
+      "natur",
+      "Finland"
+    ],
+    "category": "Geografi",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992382,
+    "_verification": {
+      "sourceCount": 4,
+      "sources": [
+        {
+          "title": "Insjöar i Sverige",
+          "url": "https://sv.wikipedia.org/wiki/Insj%C3%B6ar%20i%20Sverige",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "Sveriges geologiska undersökning",
+          "url": "https://www.sgu.se/",
+          "source": "Sveriges geologiska undersökning"
+        },
+        {
+          "name": "Naturskyddsföreningen",
+          "url": "https://www.naturskyddsforeningen.se/",
+          "source": "Naturskyddsföreningen"
+        },
+        {
+          "name": "World Bank - Water Resources",
+          "url": "https://data.worldbank.org/indicator/ER.H2O.SAFE.ZS",
+          "source": "World Bank - Water Resources"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 9,
+      "aiExplanation": "Sverige har över 100 000 sjöar, vilket gör det ett av de sjörikaste länderna. Kanada och Finland är också känt för sina många sjöar.",
+      "verified": true,
+      "verifiedAt": 1776282293796
+    }
+  },
+  {
+    "text": "Sahara var grön för bara 6 000 år sedan, med sjöar, floder och rik vegetation. Klimatcykler förvandlade det till öken.",
+    "keywords": [
+      "sahara",
+      "öken",
+      "afrika",
+      "geografi",
+      "klimat",
+      "historia"
+    ],
+    "sourceName": "NASA Earth Observatory",
+    "sourceUrl": "https://earthobservatory.nasa.gov/",
+    "related": [
+      "klimat",
+      "Afrika",
+      "geologi"
+    ],
+    "category": "Natur",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992382,
+    "_verification": {
+      "sourceCount": 5,
+      "sources": [
+        {
+          "title": "Öken",
+          "url": "https://sv.wikipedia.org/wiki/%C3%96ken",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "title": "Syritta",
+          "url": "https://en.wikipedia.org/wiki/Syritta",
+          "source": "Wikipedia (EN)"
+        },
+        {
+          "name": "National Geographic",
+          "url": "https://www.nationalgeographic.com/environment/article/sahara-desert",
+          "source": "National Geographic"
+        },
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.com/news/science-environment-37290726",
+          "source": "BBC News"
+        },
+        {
+          "name": "Smithsonian Magazine",
+          "url": "https://www.smithsonianmag.com/science-nature/what-happened-sahara-180973783/",
+          "source": "Smithsonian Magazine"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 8,
+      "aiExplanation": "Forskning visar att Sahara var grönare och hade vattenkällor för cirka 6 000 år sedan, vilket stämmer överens med påståendet.",
+      "verified": true,
+      "verifiedAt": 1776282307852
+    }
+  },
+  {
+    "text": "Amazonas regnskog producerar cirka 20% av världens syre och innehåller 10% av alla kända arter på jorden.",
+    "keywords": [
+      "amazonas",
+      "regnskog",
+      "natur",
+      "syre",
+      "arter"
+    ],
+    "sourceName": "World Wildlife Fund (WWF)",
+    "sourceUrl": "https://www.worldwildlife.org/places/amazon",
+    "related": [
+      "regnskog",
+      "Brasilien",
+      "biodiversitet"
+    ],
+    "category": "Natur",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992382,
+    "_verification": {
+      "sourceCount": 4,
+      "sources": [
+        {
+          "title": "Amazonas regnskog",
+          "url": "https://sv.wikipedia.org/wiki/Amazonas%20regnskog",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "World Wildlife Fund (WWF)",
+          "url": "https://www.worldwildlife.org",
+          "source": "World Wildlife Fund (WWF)"
+        },
+        {
+          "name": "National Geographic",
+          "url": "https://www.nationalgeographic.com",
+          "source": "National Geographic"
+        },
+        {
+          "name": "Greenpeace",
+          "url": "https://www.greenpeace.org",
+          "source": "Greenpeace"
+        }
+      ],
+      "aiVerdict": "partly_true",
+      "aiConfidence": 7,
+      "aiExplanation": "Det är korrekt att Amazonas regnskog producerar en betydande mängd syre, men det är svårt att exakt fastställa att det står för 20% av världens syre. Angående artrikedom är uppskattningen att Amazonas innehåller omkring 10% av alla kända arter, vilket i stort sett stämmer.",
+      "verified": true,
+      "verifiedAt": 1776282320949
+    }
+  },
+  {
+    "text": "Mount Everest växer ungefär 4 mm per år på grund av tektoniska krafter. Berget var en gång en havsbotten och man har hittat fossil av havsdjur på toppen.",
+    "keywords": [
+      "everest",
+      "berg",
+      "natur",
+      "geologi",
+      "fossil"
+    ],
+    "sourceName": "National Geographic",
+    "sourceUrl": "https://www.nationalgeographic.com/",
+    "related": [
+      "berg",
+      "tektonik",
+      "Nepal"
+    ],
+    "category": "Natur",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992382,
+    "_verification": {
+      "sourceCount": 5,
+      "sources": [
+        {
+          "title": "Mount Everest",
+          "url": "https://sv.wikipedia.org/wiki/Mount%20Everest",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "title": "List of oldest companies",
+          "url": "https://en.wikipedia.org/wiki/List%20of%20oldest%20companies",
+          "source": "Wikipedia (EN)"
+        },
+        {
+          "name": "National Geographic",
+          "url": "https://www.nationalgeographic.com/science/article/mount-everest",
+          "source": "National Geographic"
+        },
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.com/news/science-environment-22493712",
+          "source": "BBC"
+        },
+        {
+          "name": "Smithsonian",
+          "url": "https://www.smithsonianmag.com/science-nature/mount-everest-was-once-underwater-180961180/",
+          "source": "Smithsonian"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 8,
+      "aiExplanation": "Mount Everest växer faktiskt på grund av tektoniska krafter och fossil av havsdjur har hittats på toppen, vilket indikerar att berget en gång var en del av havsbotten.",
+      "verified": true,
+      "verifiedAt": 1776282349078
+    }
+  },
+  {
+    "text": "Islandsgeysrar fick sitt namn efter den isländska geysern Geysir, som är själva ursprunget till ordet. Den har sprutat vatten sedan 1200-talet.",
+    "keywords": [
+      "geyser",
+      "island",
+      "natur",
+      "vatten",
+      "geologi"
+    ],
+    "sourceName": "Smithsonian Global Volcanism Program",
+    "sourceUrl": "https://volcano.si.edu/",
+    "related": [
+      "Island",
+      "vulkaner",
+      "geologi"
+    ],
+    "category": "Natur",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992382,
+    "_verification": {
+      "sourceCount": 4,
+      "sources": [
+        {
+          "title": "Middle Rhine",
+          "url": "https://en.wikipedia.org/wiki/Middle%20Rhine",
+          "source": "Wikipedia (EN)"
+        },
+        {
+          "name": "National Geographic",
+          "url": "https://www.nationalgeographic.com/science/article/geysers",
+          "source": "National Geographic"
+        },
+        {
+          "name": "Encyclopaedia Britannica",
+          "url": "https://www.britannica.com/science/geyser",
+          "source": "Encyclopaedia Britannica"
+        },
+        {
+          "name": "Visit Iceland",
+          "url": "https://www.visiticeland.com/article/the-geyser-where-it-all-began",
+          "source": "Visit Iceland"
+        }
+      ],
+      "aiVerdict": "partly_true",
+      "aiConfidence": 7,
+      "aiExplanation": "Namnet 'geyser' kommer från den isländska geysern Geysir, men det är osäkert om Geysir har sprutat vatten sedan 1200-talet; den har dokumenterats aktiv sedan 1800-talet.",
+      "verified": true,
+      "verifiedAt": 1776282372706
+    }
+  },
+  {
+    "text": "Det finns fler träd på jorden än stjärnor i Vintergatan. Ungefär 3 biljoner träd jämfört med 100–400 miljarder stjärnor.",
+    "keywords": [
+      "träd",
+      "skog",
+      "natur",
+      "vintergatan",
+      "antal"
+    ],
+    "sourceName": "Yale School of the Environment / Nature",
+    "sourceUrl": "https://www.nature.com/articles/nature14967",
+    "related": [
+      "skog",
+      "klimat",
+      "rymden"
+    ],
+    "category": "Natur",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992382,
+    "_verification": {
+      "sourceCount": 4,
+      "sources": [
+        {
+          "title": "Ask (träd)",
+          "url": "https://sv.wikipedia.org/wiki/Ask%20(tr%C3%A4d)",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "Nature News",
+          "url": "https://www.nature.com/articles/d41586-017-02845-5",
+          "source": "Nature News"
+        },
+        {
+          "name": "Wikipedia - Tree",
+          "url": "https://en.wikipedia.org/wiki/Tree",
+          "source": "Wikipedia - Tree"
+        },
+        {
+          "name": "NASA",
+          "url": "https://science.nasa.gov/astronomy/what-is-a-star",
+          "source": "NASA"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 9,
+      "aiExplanation": "Forskning visar att det finns uppskattningsvis 3 biljoner träd på jorden, medan antalet stjärnor i Vintergatan varierar mellan 100 och 400 miljarder, vilket bekräftar påståendet.",
+      "verified": true,
+      "verifiedAt": 1776282392948
+    }
+  },
+  {
+    "text": "Djuphavet (under 1 000 m) är mindre utforskat än Mars yta och vi vet mer om månen än om våra egna hav.",
+    "keywords": [
+      "djuphav",
+      "hav",
+      "natur",
+      "utforskning",
+      "okänt"
+    ],
+    "sourceName": "NOAA Ocean Exploration",
+    "sourceUrl": "https://oceanexplorer.noaa.gov/",
+    "related": [
+      "havet",
+      "Mariangraven",
+      "djuphav"
+    ],
+    "category": "Natur",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992382,
+    "_verification": {
+      "sourceCount": 6,
+      "sources": [
+        {
+          "title": "Ocean",
+          "url": "https://sv.wikipedia.org/wiki/Ocean",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "National Geographic - The Ocean's Depths",
+          "url": "https://www.nationalgeographic.com/science/article/ocean-depths",
+          "source": "National Geographic - The Ocean's Depths"
+        },
+        {
+          "name": "NASA - Mars Exploration",
+          "url": "https://mars.nasa.gov/",
+          "source": "NASA - Mars Exploration"
+        },
+        {
+          "name": "NOAA - Ocean Exploration",
+          "url": "https://oceanexplorer.noaa.gov/",
+          "source": "NOAA - Ocean Exploration"
+        },
+        {
+          "name": "BBC - Why we know less about the ocean than Mars",
+          "url": "https://www.bbc.com/future/article/20200928-why-do-we-know-less-about-the-ocean-than-mars",
+          "source": "BBC - Why we know less about the ocean than Mars"
+        },
+        {
+          "name": "Smithsonian Magazine - The Ocean is Less Explored Than Mars",
+          "url": "https://www.smithsonianmag.com/science-nature/ocean-less-explored-than-mars-180973276/",
+          "source": "Smithsonian Magazine - The Ocean is Less Explored Than Mars"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 8,
+      "aiExplanation": "Forskning visar att djuphavet är mindre utforskat jämfört med Mars, och det finns mer detaljerad information om månen än om oceanernas djup.",
+      "verified": true,
+      "verifiedAt": 1776282417516
+    }
+  },
+  {
+    "text": "En enda blixt kan värma luften runtomkring till 30 000°C och innehåller tillräckligt med energi för att rosta 100 000 skivor bröd.",
+    "keywords": [
+      "blixt",
+      "energi",
+      "natur",
+      "åska",
+      "temperatur"
+    ],
+    "sourceName": "NOAA",
+    "sourceUrl": "https://www.weather.gov/safety/lightning",
+    "related": [
+      "åska",
+      "väder",
+      "energi"
+    ],
+    "category": "Natur",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992382,
+    "_verification": {
+      "sourceCount": 5,
+      "sources": [
+        {
+          "title": "Danmark",
+          "url": "https://sv.wikipedia.org/wiki/Danmark",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "NASA - The Science of Lightning",
+          "url": "https://www.nasa.gov/",
+          "source": "NASA - The Science of Lightning"
+        },
+        {
+          "name": "National Weather Service - Lightning Safety",
+          "url": "https://www.weather.gov/",
+          "source": "National Weather Service - Lightning Safety"
+        },
+        {
+          "name": "Science News - Facts about Lightning",
+          "url": "https://www.sciencenews.org/",
+          "source": "Science News - Facts about Lightning"
+        },
+        {
+          "name": "National Geographic - What is Lightning?",
+          "url": "https://www.nationalgeographic.com/",
+          "source": "National Geographic - What is Lightning?"
+        }
+      ],
+      "aiVerdict": "partly_true",
+      "aiConfidence": 7,
+      "aiExplanation": "En blixt kan generera temperaturer runt 30 000°C, men påståendet om att den innehåller tillräckligt med energi för att rosta 100 000 skivor bröd kräver mer specifik beräkning och kan vara osäkert.",
+      "verified": true,
+      "verifiedAt": 1776282430201
+    }
+  },
+  {
+    "text": "Den torraste platsen på jorden är McMurdo Dry Valleys i Antarktis — inte Sahara som man skulle kunna tro. Det har inte regnat där på ungefär 2 miljoner år.",
+    "keywords": [
+      "antarktis",
+      "torrt",
+      "natur",
+      "öken",
+      "rekord"
+    ],
+    "sourceName": "British Antarctic Survey",
+    "sourceUrl": "https://www.bas.ac.uk/",
+    "related": [
+      "Antarktis",
+      "Sahara",
+      "klimat"
+    ],
+    "category": "Natur",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992382,
+    "_verification": {
+      "sourceCount": 4,
+      "sources": [
+        {
+          "title": "Madagaskar",
+          "url": "https://sv.wikipedia.org/wiki/Madagaskar",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "National Geographic",
+          "url": "https://www.nationalgeographic.com/science/article/the-driest-place-on-earth-antarctica",
+          "source": "National Geographic"
+        },
+        {
+          "name": "NASA Earth Observatory",
+          "url": "https://earthobservatory.nasa.gov/images/82169/what-is-the-driest-place-on-earth",
+          "source": "NASA Earth Observatory"
+        },
+        {
+          "name": "Britannica",
+          "url": "https://www.britannica.com/place/McMurdo-Dry-Valleys",
+          "source": "Britannica"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 9,
+      "aiExplanation": "McMurdo Dry Valleys anses vara den torraste platsen på jorden, med mycket lite nederbörd under miljontals år, vilket gör påståendet korrekt.",
+      "verified": true,
+      "verifiedAt": 1776282452954
+    }
+  },
+  {
+    "text": "Atomer är till 99,9999999% tomma. Om atomkärnan vore en ärta i mitten av en fotbollsplan, skulle elektronerna vara flugor vid läktarkanterna.",
+    "keywords": [
+      "atom",
+      "atomer",
+      "fysik",
+      "vetenskap",
+      "tomrum"
+    ],
+    "sourceName": "CERN",
+    "sourceUrl": "https://home.cern/science/physics/standard-model",
+    "related": [
+      "kvantfysik",
+      "elektroner",
+      "partiklar"
+    ],
+    "category": "Vetenskap",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992382,
+    "_verification": {
+      "sourceCount": 7,
+      "sources": [
+        {
+          "title": "Atom",
+          "url": "https://sv.wikipedia.org/wiki/Atom",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "title": "Trichloroacetic acid",
+          "url": "https://en.wikipedia.org/wiki/Trichloroacetic%20acid",
+          "source": "Wikipedia (EN)"
+        },
+        {
+          "name": "NASA",
+          "url": "https://www.nasa.gov/",
+          "source": "NASA"
+        },
+        {
+          "name": "Live Science",
+          "url": "https://www.livescience.com/",
+          "source": "Live Science"
+        },
+        {
+          "name": "Physics.org",
+          "url": "https://www.physics.org/",
+          "source": "Physics.org"
+        },
+        {
+          "name": "University of California, Santa Barbara",
+          "url": "https://www.physics.ucsb.edu/",
+          "source": "University of California, Santa Barbara"
+        },
+        {
+          "name": "Fysikaliska institutionen, Lunds universitet",
+          "url": "https://www.physics.lu.se/",
+          "source": "Fysikaliska institutionen, Lunds universitet"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 9,
+      "aiExplanation": "Atomer består till stor del av tomrum, där atomkärnan är mycket liten jämfört med hela atomens storlek, vilket stämmer överens med påståendet.",
+      "verified": true,
+      "verifiedAt": 1776282688239
+    }
+  },
+  {
+    "text": "Korallrev utgör bara 0,1% av havets yta men är hem till 25% av alla marina arter.",
+    "keywords": [
+      "korallrev",
+      "hav",
+      "natur",
+      "arter",
+      "biodiversitet"
+    ],
+    "sourceName": "NOAA Coral Reef Conservation Program",
+    "sourceUrl": "https://coralreef.noaa.gov/",
+    "related": [
+      "havet",
+      "biodiversitet",
+      "klimat"
+    ],
+    "category": "Natur",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992382,
+    "_verification": {
+      "sourceCount": 4,
+      "sources": [
+        {
+          "title": "Biotop",
+          "url": "https://sv.wikipedia.org/wiki/Biotop",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "National Geographic",
+          "url": "https://www.nationalgeographic.com/science/article/coral-reefs",
+          "source": "National Geographic"
+        },
+        {
+          "name": "World Wildlife Fund",
+          "url": "https://www.worldwildlife.org/threats/coral-reefs",
+          "source": "World Wildlife Fund"
+        },
+        {
+          "name": "NOAA",
+          "url": "https://oceanservice.noaa.gov/facts/coral.html",
+          "source": "NOAA"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 9,
+      "aiExplanation": "Korallrev täcker ungefär 0,1% av havets yta och är hem för en stor mängd marina arter, uppskattat till omkring 25% av alla kända marinarter.",
+      "verified": true,
+      "verifiedAt": 1776282720087
+    }
+  },
+  {
+    "text": "Jordens magnetfält byter polaritet ungefär var 200 000–300 000:e år. Senaste bytet var för 780 000 år sedan vilket betyder att bytet är ordentligt försenat.",
+    "keywords": [
+      "magnetfält",
+      "jorden",
+      "natur",
+      "polväxling",
+      "geologi"
+    ],
+    "sourceName": "NASA",
+    "sourceUrl": "https://science.nasa.gov/",
+    "related": [
+      "geologi",
+      "kompass",
+      "magnetism"
+    ],
+    "category": "Geografi",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992382,
+    "_verification": {
+      "sourceCount": 4,
+      "sources": [
+        {
+          "title": "Jorden",
+          "url": "https://sv.wikipedia.org/wiki/Jorden",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "USGS",
+          "url": "https://www.usgs.gov/natural-hazards/earthquake-hazards/earths-magnetic-field",
+          "source": "USGS"
+        },
+        {
+          "name": "National Geographic",
+          "url": "https://www.nationalgeographic.com/science/article/reversed-earths-magnetic-field",
+          "source": "National Geographic"
+        },
+        {
+          "name": "Smithsonian",
+          "url": "https://www.smithsonianmag.com/science-nature/what-happens-when-earths-magnetic-poles-flip-180960459/",
+          "source": "Smithsonian"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 8,
+      "aiExplanation": "Jordens magnetfält byter polaritet med ett genomsnitt på mellan 200 000 och 300 000 år, vilket innebär att det aktuella bytet är försenat sedan det senaste för 780 000 år sedan.",
+      "verified": true,
+      "verifiedAt": 1776282780529
+    }
+  },
+  {
+    "text": "Bamboo kan växa upp till 91 cm på ett enda dygn vilket gör det till det snabbast växande trädet i världen. Men tekniskt sett är det faktiskt ett gräs.",
+    "keywords": [
+      "bambu",
+      "växt",
+      "natur",
+      "snabb",
+      "tillväxt"
+    ],
+    "sourceName": "Royal Botanic Gardens, Kew",
+    "sourceUrl": "https://www.kew.org/",
+    "related": [
+      "växter",
+      "Asien",
+      "rekord"
+    ],
+    "category": "Natur",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992382,
+    "_verification": {
+      "sourceCount": 4,
+      "sources": [
+        {
+          "title": "Jättepanda",
+          "url": "https://sv.wikipedia.org/wiki/J%C3%A4ttepanda",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "National Geographic",
+          "url": "https://www.nationalgeographic.com/science/article/bamboo-fastest-growing-plant",
+          "source": "National Geographic"
+        },
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.com/news/science-environment-45811264",
+          "source": "BBC"
+        },
+        {
+          "name": "The Spruce",
+          "url": "https://www.thespruce.com/what-is-bamboo-1402847",
+          "source": "The Spruce"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 9,
+      "aiExplanation": "Bamboo kan faktiskt växa mycket snabbt, upp till 91 cm på ett dygn, och det klassas biologiskt som gräs, vilket stämmer överens med påståendet.",
+      "verified": true,
+      "verifiedAt": 1776282828979
+    }
+  },
+  {
+    "text": "Din näsa kan skilja på ungefär 1 biljon olika dofter. Mycket mer än de 10 000 som vetenskapen länge trodde.",
+    "keywords": [
+      "näsa",
+      "lukt",
+      "kroppen",
+      "sinnen",
+      "vetenskap"
+    ],
+    "sourceName": "Rockefeller University / Science Magazine",
+    "sourceUrl": "https://www.science.org/doi/10.1126/science.1249168",
+    "related": [
+      "sinnen",
+      "hjärnan",
+      "smak"
+    ],
+    "category": "Kroppen",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992382,
+    "_verification": {
+      "sourceCount": 4,
+      "sources": [
+        {
+          "title": "Näsa",
+          "url": "https://sv.wikipedia.org/wiki/N%C3%A4sa",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "Scientific American",
+          "url": "https://www.scientificamerican.com/article/how-many-scents-can-humans-smell/",
+          "source": "Scientific American"
+        },
+        {
+          "name": "National Geographic",
+          "url": "https://www.nationalgeographic.com/science/article/human-nose-can-detect-1-trillion-scents-study",
+          "source": "National Geographic"
+        },
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.com/news/science-environment-34570323",
+          "source": "BBC"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 9,
+      "aiExplanation": "Forskning visar att den mänskliga näsan kan särskilja mellan uppskattningsvis 1 biljon dofter, vilket överstiger den tidigare uppfattningen om 10 000 dofter.",
+      "verified": true,
+      "verifiedAt": 1776282853188
+    }
+  },
+  {
+    "text": "Dina ben är starkare än betong. Gram för gram kan ben motstå mer tryck än armerad betong.",
+    "keywords": [
+      "ben",
+      "skelett",
+      "kroppen",
+      "styrka"
+    ],
+    "sourceName": "University of Cambridge",
+    "sourceUrl": "https://www.doitpoms.ac.uk/tlplib/bones/structure.php",
+    "related": [
+      "skelett",
+      "muskler",
+      "kroppen"
+    ],
+    "category": "Kroppen",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992382,
+    "_verification": {
+      "sourceCount": 4,
+      "sources": [
+        {
+          "title": "Skelett",
+          "url": "https://sv.wikipedia.org/wiki/Skelett",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "Science Direct",
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S0141029613004988",
+          "source": "Science Direct"
+        },
+        {
+          "name": "National Institutes of Health",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4575948/",
+          "source": "National Institutes of Health"
+        },
+        {
+          "name": "The Conversation",
+          "url": "https://theconversation.com/why-bone-is-an-engineering-marvel-47855",
+          "source": "The Conversation"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 8,
+      "aiExplanation": "Forskning visar att mänskligt ben har högre tryckhållfasthet gram för gram jämfört med armerad betong, vilket stöder påståendet.",
+      "verified": true,
+      "verifiedAt": 1776282860437
+    }
+  },
+  {
+    "text": "Hjärnan använder ungefär 20% av kroppens energi, trots att den bara utgör 2% av kroppsvikten.",
+    "keywords": [
+      "hjärna",
+      "hjärnan",
+      "energi",
+      "kroppen",
+      "vetenskap"
+    ],
+    "sourceName": "National Institute of Neurological Disorders (NIH)",
+    "sourceUrl": "https://www.ninds.nih.gov/health-information/public-education/brain-basics/brain-basics-know-your-brain",
+    "related": [
+      "neuroner",
+      "energi",
+      "tänkande"
+    ],
+    "category": "Kroppen",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992382,
+    "_verification": {
+      "sourceCount": 4,
+      "sources": [
+        {
+          "title": "Ketonkropp",
+          "url": "https://sv.wikipedia.org/wiki/Ketonkropp",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "Harvard University - The Brain Uses 20% of Body's Energy",
+          "url": "https://www.health.harvard.edu/mind-and-mental-health/the-brain-uses-20-of-bodys-energy",
+          "source": "Harvard University - The Brain Uses 20% of Body's Energy"
+        },
+        {
+          "name": "Medical News Today - Brain Energy Consumption",
+          "url": "https://www.medicalnewstoday.com/articles/brain-energy-consumption",
+          "source": "Medical News Today - Brain Energy Consumption"
+        },
+        {
+          "name": "NPR - The Brain's Energy Use",
+          "url": "https://www.npr.org/sections/health-shots/2017/09/18/552805984/the-brains-energy-consumption-is-about-20-of-the-bodys-total",
+          "source": "NPR - The Brain's Energy Use"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 9,
+      "aiExplanation": "Flera källor bekräftar att hjärnan fordrar ungefär 20% av kroppens energi utan att väga mer än 2% av kroppsvikten.",
+      "verified": true,
+      "verifiedAt": 1776282872858
+    }
+  },
+  {
+    "text": "Det mänskliga ögat kan skilja på ungefär 10 miljoner färger. Men mantisräkan har 16 typer av färgreceptorer jämfört med våra 3.",
+    "keywords": [
+      "ögon",
+      "färg",
+      "syn",
+      "vetenskap",
+      "kroppen"
+    ],
+    "sourceName": "National Eye Institute (NIH)",
+    "sourceUrl": "https://www.nei.nih.gov/learn-about-eye-health/healthy-vision/how-eyes-work",
+    "related": [
+      "mantisräka",
+      "ljus",
+      "optik"
+    ],
+    "category": "Kroppen",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992382,
+    "_verification": {
+      "sourceCount": 4,
+      "sources": [
+        {
+          "title": "Syn",
+          "url": "https://sv.wikipedia.org/wiki/Syn",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "National Geographic",
+          "url": "https://www.nationalgeographic.com/science/article/what-is-a-mantis-shrimp",
+          "source": "National Geographic"
+        },
+        {
+          "name": "Smithsonian",
+          "url": "https://www.smithsonianmag.com/science-nature/the-mantis-shrimp-is-a-superhero-of-the-sea-180973099/",
+          "source": "Smithsonian"
+        },
+        {
+          "name": "Frontiers in Ecology and Evolution",
+          "url": "https://www.frontiersin.org/articles/10.3389/fevo.2021.794904/full",
+          "source": "Frontiers in Ecology and Evolution"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 9,
+      "aiExplanation": "Det mänskliga ögat kan uppfatta cirka 10 miljoner färger, och mantisräkan har, enligt forskning, upp till 16 typer av färgreceptorer, vilket gör att de kan se fler färger än människor.",
+      "verified": true,
+      "verifiedAt": 1776283471836
+    }
+  },
+  {
+    "text": "Du producerar ungefär 25 000 liter saliv under din livstid — tillräckligt för att fylla två simbassänger.",
+    "keywords": [
+      "saliv",
+      "kroppen",
+      "mun",
+      "vätska"
+    ],
+    "sourceName": "National Institutes of Health (NIH)",
+    "sourceUrl": "https://www.nih.gov/",
+    "related": [
+      "kroppen",
+      "matsmältning",
+      "vatten"
+    ],
+    "category": "Kroppen",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992382,
+    "_verification": {
+      "sourceCount": 4,
+      "sources": [
+        {
+          "title": "Mun",
+          "url": "https://sv.wikipedia.org/wiki/Mun",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "Cleveland Clinic",
+          "url": "https://my.clevelandclinic.org/health/diseases/15532-saliv",
+          "source": "Cleveland Clinic"
+        },
+        {
+          "name": "Healthline",
+          "url": "https://www.healthline.com/health/how-much-saliva-do-you-produce",
+          "source": "Healthline"
+        },
+        {
+          "name": "National Institutes of Health",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3471056/",
+          "source": "National Institutes of Health"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 8,
+      "aiExplanation": "Det är känt att en genomsnittlig människa producerar mellan 0,5 till 1,5 liter saliv per dag och livstidsproduktionen kan uppskattas till omkring 25 000 liter, vilket motsvarar tillräckligt för att fylla två simbassänger.",
+      "verified": true,
+      "verifiedAt": 1776283485564
+    }
+  },
+  {
+    "text": "Hjärnan kan inte känna smärta eftersom den inte har några smärtreceptorer. Det är därför hjärnkirurgi kan utföras medan patienten är vaken.",
+    "keywords": [
+      "hjärnan",
+      "smärta",
+      "kirurgi",
+      "kroppen",
+      "nerver"
+    ],
+    "sourceName": "National Institute of Neurological Disorders (NIH)",
+    "sourceUrl": "https://www.ninds.nih.gov/",
+    "related": [
+      "hjärnan",
+      "nerver",
+      "medicin"
+    ],
+    "category": "Kroppen",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992382,
+    "_verification": {
+      "sourceCount": 4,
+      "sources": [
+        {
+          "title": "Artärbråck",
+          "url": "https://sv.wikipedia.org/wiki/Art%C3%A4rbr%C3%A5ck",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "Cleveland Clinic",
+          "url": "https://my.clevelandclinic.org/health/articles/19856-brain-surgery",
+          "source": "Cleveland Clinic"
+        },
+        {
+          "name": "Mayo Clinic",
+          "url": "https://www.mayoclinic.org/tests-procedures/brain-surgery/about/pac-20375963",
+          "source": "Mayo Clinic"
+        },
+        {
+          "name": "Stanford Medicine",
+          "url": "https://med.stanford.edu/news/all-news/2023/02/brain-surgery-pain-receptors.html",
+          "source": "Stanford Medicine"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 9,
+      "aiExplanation": "Hjärnan har inte smärtreceptorer, vilket möjliggör att hjärnkirurgi kan utföras medan patienten är vaken utan att de upplever smärta.",
+      "verified": true,
+      "verifiedAt": 1776285216635
+    }
+  }
+]
