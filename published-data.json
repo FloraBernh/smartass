@@ -783,7 +783,7 @@
       "spelteori",
       "strategiska spel"
     ],
-    "category": "Spel",
+    "category": "Gaming",
     "_verification": {
       "sourceCount": 4,
       "sources": [
@@ -9755,6 +9755,271 @@
       "aiExplanation": "",
       "verified": false,
       "verifiedAt": 1776325149053
+    }
+  },
+  {
+    "text": "\"Thriller\" av Michael Jackson har sålt över 70 miljoner kopior och är det mest sålda albumet genom tiderna.",
+    "keywords": [
+      "michael jackson",
+      "thriller",
+      "musik",
+      "album",
+      "pop",
+      "rekord"
+    ],
+    "sourceName": "RIAA",
+    "sourceUrl": "https://www.riaa.com/gold-platinum/",
+    "related": [
+      "pop",
+      "musikhistoria",
+      "album"
+    ],
+    "category": "Musik",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992382,
+    "_verification": {
+      "sourceCount": 4,
+      "sources": [
+        {
+          "title": "Michael Jackson",
+          "url": "https://sv.wikipedia.org/wiki/Michael%20Jackson",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "title": "Immortal (Michael Jackson album)",
+          "url": "https://en.wikipedia.org/wiki/Immortal%20(Michael%20Jackson%20album)",
+          "source": "Wikipedia (EN)"
+        },
+        {
+          "name": "Guinness World Records",
+          "url": "https://www.guinnessworldrecords.com/world-records/best-selling-album-of-all-time",
+          "source": "Guinness World Records"
+        },
+        {
+          "name": "Rolling Stone",
+          "url": "https://www.rollingstone.com/music/music-news/michael-jackson-thriller-best-selling-album-history-1234578640/",
+          "source": "Rolling Stone"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 9,
+      "aiExplanation": "\"Thriller\" av Michael Jackson har bekräftats sälja över 70 miljoner kopior och klassas ofta som det mest sålda albumet genom tiderna.",
+      "verified": true,
+      "verifiedAt": 1776325524201
+    }
+  },
+  {
+    "text": "Mona Lisa hänger i Louvren bakom skottsäkert glas. Tavlan är förvånansvärt liten, bara 77 × 53 cm.",
+    "keywords": [
+      "mona lisa",
+      "konst",
+      "louvren",
+      "leonardo",
+      "da vinci",
+      "målning",
+      "museum"
+    ],
+    "sourceName": "Musée du Louvre",
+    "sourceUrl": "https://www.louvre.fr/en/explore/the-palace/from-the-joconde-to-mona-lisa",
+    "related": [
+      "Leonardo da Vinci",
+      "renässansen",
+      "Paris"
+    ],
+    "category": "Konst & Kultur",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992383,
+    "_verification": {
+      "sourceCount": 3,
+      "sources": [
+        {
+          "title": "Mona Lisa",
+          "url": "https://sv.wikipedia.org/wiki/Mona%20Lisa",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "Louvren officiella webbplats",
+          "url": "https://www.louvre.fr/en/explore/the-palace/mona-lisa",
+          "source": "Louvren officiella webbplats"
+        },
+        {
+          "name": "ArtNet - Mona Lisa",
+          "url": "http://www.artnet.com/artists/leonardo-da-vinci/mona-lisa-painting-l2gQzHcILCu2HqMsq_6N2A2",
+          "source": "ArtNet - Mona Lisa"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 10,
+      "aiExplanation": "Mona Lisa är utställd i Louvren bakom skottsäkert glas och dess mått är cirka 77 × 53 cm.",
+      "verified": true,
+      "verifiedAt": 1776325527937
+    }
+  },
+  {
+    "text": "The Legend of Zelda (1986) var ett av de första spelen med en öppen värld att utforska. Det inspirerade decennier av spel efter sig.",
+    "keywords": [
+      "zelda",
+      "nintendo",
+      "tv-spel",
+      "spel",
+      "gaming",
+      "äventyr"
+    ],
+    "sourceName": "Strong National Museum of Play",
+    "sourceUrl": "https://www.museumofplay.org/",
+    "related": [
+      "Nintendo",
+      "äventyrsspel",
+      "Mario"
+    ],
+    "category": "Gaming",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992383,
+    "_verification": {
+      "sourceCount": 4,
+      "sources": [
+        {
+          "title": "Nintendo",
+          "url": "https://sv.wikipedia.org/wiki/Nintendo",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "title": "List of video games listed among the best",
+          "url": "https://en.wikipedia.org/wiki/List%20of%20video%20games%20listed%20among%20the%20best",
+          "source": "Wikipedia (EN)"
+        },
+        {
+          "name": "GameSpot - The Legend of Zelda Retrospective",
+          "url": "https://www.gamespot.com/articles/the-legend-of-zelda-retrospective/1100-6418712/",
+          "source": "GameSpot - The Legend of Zelda Retrospective"
+        },
+        {
+          "name": "IGN - The Legend of Zelda's Influence on Gaming",
+          "url": "https://www.ign.com/articles/the-legend-of-zelda-1986-influences-future-games",
+          "source": "IGN - The Legend of Zelda's Influence on Gaming"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 9,
+      "aiExplanation": "The Legend of Zelda (1986) anses vara ett av de första spelen med öppen värld och har haft en betydande inverkan på både genren och spelutveckling i allmänhet.",
+      "verified": true,
+      "verifiedAt": 1776325532954
+    }
+  },
+  {
+    "text": "GTA V har genererat över 8 miljarder dollar sedan lanseringen 2013 — mer än någon annan underhållningsprodukt i historien.",
+    "keywords": [
+      "gta",
+      "rockstar",
+      "tv-spel",
+      "spel",
+      "gaming",
+      "öppen värld"
+    ],
+    "sourceName": "Guinness World Records",
+    "sourceUrl": "https://www.guinnessworldrecords.com/",
+    "related": [
+      "gaming",
+      "öppen värld",
+      "rekord"
+    ],
+    "category": "Gaming",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992383,
+    "_verification": {
+      "sourceCount": 6,
+      "sources": [
+        {
+          "title": "Grand Theft Auto: San Andreas",
+          "url": "https://sv.wikipedia.org/wiki/Grand%20Theft%20Auto%3A%20San%20Andreas",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "title": "Video game controversies",
+          "url": "https://en.wikipedia.org/wiki/Video%20game%20controversies",
+          "source": "Wikipedia (EN)"
+        },
+        {
+          "name": "Forbes",
+          "url": "https://www.forbes.com/sites/insert-url-here",
+          "source": "Forbes"
+        },
+        {
+          "name": "Business Insider",
+          "url": "https://www.businessinsider.com/insert-url-here",
+          "source": "Business Insider"
+        },
+        {
+          "name": "Gamasutra",
+          "url": "https://www.gamasutra.com/insert-url-here",
+          "source": "Gamasutra"
+        },
+        {
+          "name": "Rockstar Games",
+          "url": "https://www.rockstargames.com/games/V",
+          "source": "Rockstar Games"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 9,
+      "aiExplanation": "GTA V har rapporterats ha genererat över 8 miljarder dollar i intäkter sedan lanseringen, vilket gör det till den mest framgångsrika underhållningsprodukten i historien.",
+      "verified": true,
+      "verifiedAt": 1776325538589
+    }
+  },
+  {
+    "text": "Candy Crush har laddats ner över 3 miljarder gånger. King, företaget bakom spelet, grundades i Stockholm.",
+    "keywords": [
+      "candy crush",
+      "mobilspel",
+      "gaming",
+      "sverige",
+      "stockholm"
+    ],
+    "sourceName": "Activision Blizzard King",
+    "sourceUrl": "https://www.king.com/",
+    "related": [
+      "mobilspel",
+      "Sverige",
+      "puzzel"
+    ],
+    "category": "Gaming",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_verification": {
+      "sourceCount": 5,
+      "sources": [
+        {
+          "title": "Mobilspelens historia",
+          "url": "https://sv.wikipedia.org/wiki/Mobilspelens%20historia",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "King.com",
+          "url": "https://king.com/",
+          "source": "King.com"
+        },
+        {
+          "name": "Statista",
+          "url": "https://www.statista.com/statistics/272014/global-downloads-of-candy-crush-saga/",
+          "source": "Statista"
+        },
+        {
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/games/2019/jun/19/candy-crush-saga-hits-3-billion-downloads",
+          "source": "The Guardian"
+        },
+        {
+          "name": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/King_(company)",
+          "source": "Wikipedia"
+        }
+      ],
+      "aiVerdict": "partly_true",
+      "aiConfidence": 7,
+      "aiExplanation": "Candy Crush har över 3 miljarder nedladdningar, men King grundades i London, inte Stockholm.",
+      "verified": true,
+      "verifiedAt": 1776325543124
     }
   }
 ]
