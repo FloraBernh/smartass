@@ -1751,9 +1751,8 @@ Svara i detta format (BARA JSON, inget annat):
         function getPublished() { try { return JSON.parse(localStorage.getItem(PUBLISHED_KEY) || "[]"); } catch { return []; } }
         function savePublished(p) { localStorage.setItem(PUBLISHED_KEY, JSON.stringify(p)); }
 
-        // Load published from GitHub if localStorage is empty
+        // Always load published facts from GitHub — it's the source of truth
         async function loadPublishedFromGitHub() {
-            if (getPublished().length > 0) return; // already have data
             try {
                 const res = await fetch("published-data.json?" + Date.now());
                 if (res.ok) {
