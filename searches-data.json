@@ -1,0 +1,16 @@
+[
+  {
+    "query": "blomma",
+    "count": 1,
+    "firstSearched": "2026-04-15T20:31:34.822Z",
+    "lastSearched": "2026-04-15T20:31:34.822Z",
+    "hadResult": true
+  },
+  {
+    "query": "blommor",
+    "count": 1,
+    "firstSearched": "2026-04-15T20:31:40.997Z",
+    "lastSearched": "2026-04-15T20:31:40.997Z",
+    "hadResult": true
+  }
+]
