@@ -1,1 +1,40 @@
-[]
+[
+  {
+    "text": "En människa kan inte nysa med öppna ögon.",
+    "category": "Kroppen",
+    "sourceName": "American Academy of Ophthalmology",
+    "sourceUrl": "https://www.aao.org/",
+    "keywords": [
+      "nysa",
+      "öga",
+      "kropp"
+    ],
+    "related": [
+      "kroppen",
+      "vetenskap"
+    ],
+    "_createdAt": 1776410151249,
+    "_verification": {
+      "status": "checking"
+    }
+  },
+  {
+    "text": "Tomater är botaniskt en frukt, men i många länder betraktas de som grönsaker.",
+    "category": "Mat",
+    "sourceName": "USDA",
+    "sourceUrl": "https://www.usda.gov/",
+    "keywords": [
+      "tomat",
+      "frukt",
+      "grönsak"
+    ],
+    "related": [
+      "mat",
+      "vetenskap"
+    ],
+    "_createdAt": 1776410151249,
+    "_verification": {
+      "status": "checking"
+    }
+  }
+]
