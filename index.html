@@ -112,12 +112,42 @@
         .random-btn:hover { background: #444; }
         .random-btn:active { transform: scale(0.98); }
 
-        .fact-area {
+        .fact-nav-row {
+            display: flex;
+            align-items: center;
+            gap: 0.6rem;
             width: 100%;
             margin-bottom: 2rem;
         }
 
+        .fact-area {
+            flex: 1;
+            min-width: 0;
+        }
+
         .fact-area:empty { margin-bottom: 0; }
+
+        .nav-arrow {
+            display: none;
+            flex-shrink: 0;
+            width: 42px;
+            height: 42px;
+            border-radius: 50%;
+            border: 2px solid var(--border);
+            background: white;
+            font-size: 1.6rem;
+            cursor: pointer;
+            align-items: center;
+            justify-content: center;
+            color: var(--text);
+            transition: background 0.15s, border-color 0.15s, opacity 0.15s;
+            line-height: 1;
+            padding: 0;
+            user-select: none;
+        }
+        .nav-arrow.visible { display: flex; }
+        .nav-arrow:hover:not(:disabled) { background: var(--green); border-color: var(--green); }
+        .nav-arrow:disabled { opacity: 0.25; cursor: default; }
 
         .fact-card {
             background: var(--card-bg);
@@ -126,6 +156,7 @@
             text-align: left;
             animation: fadeIn 0.3s ease both;
             border: 1.5px solid var(--border);
+            touch-action: pan-y;
         }
 
         @keyframes fadeIn {
@@ -404,6 +435,12 @@
         <div class="profile-panel" style="position:relative;">
             <button class="profile-close" onclick="closeProfile()">✕</button>
             <div class="profile-header">
+                <div style="width:52px;height:52px;border-radius:50%;background:var(--text);display:flex;align-items:center;justify-content:center;flex-shrink:0;">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="12" cy="8" r="4"/>
+                        <path d="M4 20c0-4 3.6-7 8-7s8 3 8 7"/>
+                    </svg>
+                </div>
                 <div>
                     <div class="profile-name" id="profileName"></div>
                     <div class="profile-email" id="profileEmail"></div>
@@ -456,9 +493,13 @@
     </div>
 
     <div class="container">
-        <div class="fact-area" id="factArea"></div>
+        <div class="fact-nav-row">
+            <button class="nav-arrow" id="prevArrow" onclick="showPrevFact()" disabled title="Föregående">‹</button>
+            <div class="fact-area" id="factArea"></div>
+            <button class="nav-arrow" id="nextArrow" onclick="showNextFact()" title="Nästa">›</button>
+        </div>
 
-        <div class="search-section">
+        <div class="search-section" id="randomSection">
             <button type="button" class="random-btn" id="randomBtn">Berätta något jag inte vet</button>
         </div>
     </div>
@@ -647,6 +688,9 @@
             return !snap.empty;
         }
 
+        // Cache for saved facts so we can reference by index in onclick
+        let _savedFactsCache = [];
+
         async function loadSavedFacts() {
             if (!currentUser) return;
             const snap = await db.collection("users").doc(currentUser.uid)
@@ -654,26 +698,31 @@
 
             const list = document.getElementById("savedList");
             if (snap.empty) {
+                _savedFactsCache = [];
                 list.innerHTML = `<p style="color:var(--text-secondary);text-align:center;padding:1.5rem;font-size:0.82rem;">Inga sparade fakta ännu. Tryck ❤️ på en fakta för att spara den!</p>`;
                 return;
             }
 
-            list.innerHTML = snap.docs.map(doc => {
-                const d = doc.data();
-                const factJson = escapeHtml(JSON.stringify({ text: d.text, category: d.category, sourceName: d.sourceName, sourceUrl: d.sourceUrl, credibility: "high", keywords: [], related: [] }));
-                return `<div class="saved-fact-item" style="cursor:pointer;" onclick="openSavedFact(${doc.id ? `'${doc.id}'` : 'null'}, ${factJson})">
-                    <div class="saved-fact-text">${escapeHtml(d.text)}</div>
-                    <button class="saved-fact-remove" onclick="event.stopPropagation(); removeSaved('${doc.id}')" title="Ta bort">✕</button>
-                </div>`;
-            }).join("");
+            _savedFactsCache = snap.docs.map(doc => ({
+                id: doc.id,
+                fact: { text: doc.data().text, category: doc.data().category, sourceName: doc.data().sourceName, sourceUrl: doc.data().sourceUrl, credibility: "high", keywords: [], related: [] }
+            }));
+
+            list.innerHTML = _savedFactsCache.map((item, i) => `
+                <div class="saved-fact-item" style="cursor:pointer;" onclick="openSavedFact(${i})">
+                    <div class="saved-fact-text">${escapeHtml(item.fact.text)}</div>
+                    <button class="saved-fact-remove" onclick="event.stopPropagation(); removeSaved('${item.id}')" title="Ta bort">✕</button>
+                </div>`).join("");
         }
 
-        function openSavedFact(docId, fact) {
+        function openSavedFact(index) {
+            const item = _savedFactsCache[index];
+            if (!item) return;
             closeProfile();
-            currentFacts = [fact];
-            currentRelated = fact.related || [];
+            currentFacts = [item.fact];
+            currentRelated = [];
             currentIndex = 0;
-            currentTopic = fact.keywords?.[0] || "";
+            currentTopic = "";
             renderSingleFact();
             window.scrollTo({ top: 0, behavior: "smooth" });
         }
@@ -1237,6 +1286,8 @@
         let currentIndex = 0;
         let currentRelated = [];
         let currentTopic = "";
+        let factHistory = [];
+        let historyIndex = -1;
         let currentIsApi = false;
 
         // ========== API HELPERS ==========
@@ -1469,24 +1520,108 @@
         // ========== INIT ==========
         loadPublishedFacts();
 
+        // ========== NAV HELPERS ==========
+        function enterCardMode() {
+            document.getElementById("randomSection").style.display = "none";
+            document.getElementById("prevArrow").classList.add("visible");
+            document.getElementById("nextArrow").classList.add("visible");
+        }
+
+        function updateArrows() {
+            const prev = document.getElementById("prevArrow");
+            const next = document.getElementById("nextArrow");
+            prev.disabled = historyIndex <= 0;
+            next.disabled = false; // next always picks a new fact if at end
+        }
+
+        function pickRandomFact() {
+            const allFacts = getAllFacts();
+            if (allFacts.length === 0) return null;
+            const unseen = allFacts.filter(f => !isFactSeen(f));
+            const pool = unseen.length > 0 ? unseen : allFacts;
+            return pool[Math.floor(Math.random() * pool.length)];
+        }
+
+        function showFactFromHistory(index) {
+            const entry = factHistory[index];
+            if (!entry) return;
+            historyIndex = index;
+            currentFacts = [entry.fact];
+            currentRelated = entry.related;
+            currentIndex = 0;
+            currentTopic = entry.topic;
+            updateArrows();
+            renderSingleFact();
+        }
+
+        function showPrevFact() {
+            if (historyIndex > 0) showFactFromHistory(historyIndex - 1);
+        }
+
+        function showNextFact() {
+            // If there are future entries in history, go forward
+            if (historyIndex < factHistory.length - 1) {
+                showFactFromHistory(historyIndex + 1);
+                return;
+            }
+            // Otherwise pick a new random fact
+            const randomFact = pickRandomFact();
+            if (!randomFact) return;
+            const fact = { ...randomFact, credibility: "high" };
+            const related = fact.related || [];
+            const topic = fact.keywords?.[0] || "";
+            markFactSeen(fact);
+            factHistory.push({ fact, related, topic });
+            historyIndex = factHistory.length - 1;
+            currentFacts = [fact];
+            currentRelated = related;
+            currentIndex = 0;
+            currentTopic = topic;
+            updateArrows();
+            renderSingleFact();
+        }
+
+        // ========== SWIPE SUPPORT ==========
+        (function() {
+            let touchStartX = 0;
+            let touchStartY = 0;
+            const factArea = document.getElementById("factArea");
+            factArea.addEventListener("touchstart", e => {
+                touchStartX = e.touches[0].clientX;
+                touchStartY = e.touches[0].clientY;
+            }, { passive: true });
+            factArea.addEventListener("touchend", e => {
+                const dx = e.changedTouches[0].clientX - touchStartX;
+                const dy = e.changedTouches[0].clientY - touchStartY;
+                if (Math.abs(dx) > Math.abs(dy) && Math.abs(dx) > 50 && factHistory.length > 0) {
+                    if (dx < 0) showNextFact();
+                    else showPrevFact();
+                }
+            }, { passive: true });
+        })();
+
         // ========== EVENT LISTENERS ==========
         document.getElementById("randomBtn").addEventListener("click", async () => {
-            const allFacts = getAllFacts();
-            if (allFacts.length === 0) {
+            const randomFact = pickRandomFact();
+            if (!randomFact) {
                 document.getElementById("factArea").innerHTML = `
                     <div class="error-msg">Inga publicerade fakta ännu!</div>`;
                 return;
             }
-            const unseen = allFacts.filter(f => !isFactSeen(f));
-            const pool = unseen.length > 0 ? unseen : allFacts;
-            const randomFact = pool[Math.floor(Math.random() * pool.length)];
             const fact = { ...randomFact, credibility: "high" };
-
-            currentFacts = [fact];
-            currentRelated = fact.related || [];
-            currentIndex = 0;
-            currentTopic = fact.keywords?.[0] || "";
+            const related = fact.related || [];
+            const topic = fact.keywords?.[0] || "";
             markFactSeen(fact);
+
+            factHistory = [{ fact, related, topic }];
+            historyIndex = 0;
+            currentFacts = [fact];
+            currentRelated = related;
+            currentIndex = 0;
+            currentTopic = topic;
+
+            enterCardMode();
+            updateArrows();
             renderSingleFact();
         });
     </script>
