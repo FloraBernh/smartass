@@ -781,6 +781,9 @@
                         <span class="cred-label">${label}</span>
                     </div>
                     ${sourceHtml}
+                </div>
+                <div style="margin-top:0.9rem; padding-top:0.9rem; border-top:1px solid var(--border);">
+                    <button class="fact-action-btn" onclick="openShare(_savedFactsCache[${index}].fact)" style="font-size:0.8rem;">📩 Skicka till vän</button>
                 </div>`;
 
             document.getElementById("savedList").style.display = "none";
