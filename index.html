@@ -344,30 +344,10 @@
         .fact-action-btn:hover { border-color: var(--text); color: var(--text); }
         .fact-action-btn.saved { background: var(--green); border-color: var(--green); color: var(--text); }
 
-        /* "Jag vet redan" button */
-        .fact-known-btn {
-            font-family: 'Inter', sans-serif;
-            font-size: 0.72rem;
-            font-weight: 500;
-            color: var(--text-secondary);
-            background: none;
-            border: none;
-            cursor: pointer;
-            padding: 0.2rem 0.5rem;
-            border-radius: 20px;
-            transition: color 0.15s;
-            text-decoration: underline;
-            text-underline-offset: 3px;
-            text-decoration-color: transparent;
-        }
-        .fact-known-btn:hover:not(:disabled) {
-            color: var(--text);
-            text-decoration-color: currentColor;
-        }
+        /* "Visste redan" — extends fact-action-btn */
         .fact-known-btn.known {
-            color: var(--text-secondary);
+            opacity: 0.5;
             cursor: default;
-            text-decoration: none;
         }
 
         /* PROFILE PANEL */
@@ -813,30 +793,24 @@
         }
 
         async function markAsKnown(fact) {
-            if (!currentUser) { googleLogin(); return; }
-            const key = (fact.text || "").slice(0, 80);
+            // Always navigate to next fact immediately
+            showNextFact();
 
-            // Mark for this user (idempotent)
-            const userRef = db.collection("users").doc(currentUser.uid).collection("known").doc(key);
-            const already = await userRef.get();
-            if (already.exists) return; // already counted
-
-            await userRef.set({ markedAt: firebase.firestore.FieldValue.serverTimestamp() });
-
-            // Increment global counter
-            await db.collection("factStats").doc(key).set({
-                text: fact.text,
-                category: fact.category || "",
-                knownCount: firebase.firestore.FieldValue.increment(1),
-                lastKnownAt: firebase.firestore.FieldValue.serverTimestamp()
-            }, { merge: true });
-
-            // Update button immediately
-            const btn = document.querySelector(".fact-known-btn");
-            if (btn) {
-                btn.textContent = "✓ Visste redan det här";
-                btn.classList.add("known");
-                btn.disabled = true;
+            // Track in Firestore silently in background (only if logged in)
+            if (currentUser) {
+                try {
+                    const key = (fact.text || "").slice(0, 80);
+                    const userRef = db.collection("users").doc(currentUser.uid).collection("known").doc(key);
+                    const already = await userRef.get();
+                    if (already.exists) return;
+                    await userRef.set({ markedAt: firebase.firestore.FieldValue.serverTimestamp() });
+                    await db.collection("factStats").doc(key).set({
+                        text: fact.text,
+                        category: fact.category || "",
+                        knownCount: firebase.firestore.FieldValue.increment(1),
+                        lastKnownAt: firebase.firestore.FieldValue.serverTimestamp()
+                    }, { merge: true });
+                } catch (e) { console.warn("markAsKnown error:", e); }
             }
         }
 
@@ -1715,10 +1689,8 @@
                     <button class="fact-action-btn" onclick="openShare(currentFacts[currentIndex])">
                         📩 Skicka till vän
                     </button>
-                </div>
-                <div style="margin-top:0.5rem; text-align:center;">
-                    <button class="fact-known-btn ${isKnown ? 'known' : ''}" onclick="markAsKnown(currentFacts[currentIndex])" ${isKnown ? 'disabled' : ''}>
-                        ${isKnown ? '✓ Visste redan det här' : 'Jag vet redan det här'}
+                    <button class="fact-action-btn fact-known-btn ${isKnown ? 'known' : ''}" onclick="markAsKnown(currentFacts[currentIndex])" style="margin-left:auto;" ${isKnown ? 'disabled' : ''}>
+                        ${isKnown ? '✓ Visste' : '🧠 Visste redan'}
                     </button>
                 </div>`;
 
