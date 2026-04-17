@@ -574,6 +574,7 @@
         }
 
         function logOut() {
+            if (_inboxUnsub) { _inboxUnsub(); _inboxUnsub = null; }
             auth.signOut();
             closeProfile();
         }
@@ -600,7 +601,8 @@
                         </svg>
                     </div>
                 `;
-                loadInboxCount();
+                subscribeToInbox();
+                requestNotifPermission();
                 // Ask for username if not set yet
                 const username = await loadUsername();
                 if (!username) showUsernameModal(true);
@@ -902,11 +904,60 @@
             updateInboxBadge(0);
         }
 
-        async function loadInboxCount() {
+        // ===== REAL-TIME INBOX + NOTIFICATIONS =====
+        let _inboxUnsub = null;
+        let _lastUnreadCount = -1; // -1 = first snapshot, don't notify yet
+
+        function requestNotifPermission() {
+            if (!("Notification" in window)) return;
+            if (Notification.permission === "default") {
+                Notification.requestPermission();
+            }
+        }
+
+        function subscribeToInbox() {
             if (!currentUser) return;
-            const snap = await db.collection("users").doc(currentUser.uid)
-                .collection("inbox").where("read", "==", false).get();
-            updateInboxBadge(snap.size);
+            if (_inboxUnsub) _inboxUnsub(); // clean up old listener
+
+            _lastUnreadCount = -1;
+
+            _inboxUnsub = db.collection("users").doc(currentUser.uid)
+                .collection("inbox")
+                .where("read", "==", false)
+                .onSnapshot(snap => {
+                    const count = snap.size;
+                    updateInboxBadge(count);
+
+                    // First snapshot just sets baseline — don't notify
+                    if (_lastUnreadCount === -1) {
+                        _lastUnreadCount = count;
+                        return;
+                    }
+
+                    // New messages arrived since last snapshot
+                    if (count > _lastUnreadCount) {
+                        const newDocs = snap.docChanges()
+                            .filter(c => c.type === "added")
+                            .map(c => c.doc.data());
+
+                        newDocs.forEach(d => sendDesktopNotif(d));
+                    }
+
+                    _lastUnreadCount = count;
+                });
+        }
+
+        function sendDesktopNotif(msg) {
+            if (!("Notification" in window) || Notification.permission !== "granted") return;
+            const from = msg.fromName || "Någon";
+            const n = new Notification("📩 Ny fakta från " + from, {
+                body: msg.text ? msg.text.slice(0, 120) + (msg.text.length > 120 ? "…" : "") : "Öppna SmartAss för att läsa",
+                icon: "https://florabernh.github.io/smartass/favicon.png",
+                badge: "https://florabernh.github.io/smartass/favicon.png",
+                tag: "smartass-inbox",
+                renotify: true
+            });
+            n.onclick = () => { window.focus(); openProfile(); n.close(); };
         }
 
         function updateInboxBadge(count) {
