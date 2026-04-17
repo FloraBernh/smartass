@@ -14463,5 +14463,753 @@
     "_verification": {
       "status": "checking"
     }
+  },
+  {
+    "text": "Det finns mer än 1 000 olika sorters bananer runt om i världen.",
+    "category": "Mat",
+    "sourceName": "Food and Agriculture Organization",
+    "sourceUrl": "https://www.fao.org/",
+    "keywords": [
+      "banan",
+      "mat",
+      "frukt"
+    ],
+    "related": [
+      "mat",
+      "ekonomi"
+    ],
+    "_createdAt": 1776410151249,
+    "_verification": {
+      "sourceCount": 4,
+      "sources": [
+        {
+          "title": "Frukt",
+          "url": "https://sv.wikipedia.org/wiki/Frukt",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "FAO - Food and Agriculture Organization",
+          "url": "http://www.fao.org/bananas/en/",
+          "source": "FAO - Food and Agriculture Organization"
+        },
+        {
+          "name": "National Geographic",
+          "url": "https://www.nationalgeographic.com/science/article/banana-downfall-plantains-biodiversity-vegetables-food",
+          "source": "National Geographic"
+        },
+        {
+          "name": "Smithsonian Magazine",
+          "url": "https://www.smithsonianmag.com/arts-culture/the-banana-curse-137641184/",
+          "source": "Smithsonian Magazine"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 7,
+      "aiExplanation": "Det finns över 1 000 olika sorter av bananer globalt, vilket inkluderar många sällsynta och lokala varianter.",
+      "verified": true,
+      "verifiedAt": 1776410186449
+    }
+  },
+  {
+    "text": "Björkar kan bli upp till 150 år gamla.",
+    "category": "Natur",
+    "sourceName": "University of Minnesota",
+    "sourceUrl": "https://www.umn.edu/",
+    "keywords": [
+      "björk",
+      "träd",
+      "natur"
+    ],
+    "related": [
+      "natur",
+      "vetenskap"
+    ],
+    "_createdAt": 1776410151249,
+    "_verification": {
+      "sourceCount": 5,
+      "sources": [
+        {
+          "title": "Björkar",
+          "url": "https://sv.wikipedia.org/wiki/Bj%C3%B6rkar",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "Swedish Forest Agency",
+          "url": "https://www.skogsstyrelsen.se/",
+          "source": "Swedish Forest Agency"
+        },
+        {
+          "name": "Nationalencyklopedin",
+          "url": "https://www.ne.se/uppslagsverk/encyklopedi/l%C3%A5ng/bj%C3%B6rk",
+          "source": "Nationalencyklopedin"
+        },
+        {
+          "name": "Svenska Trädgårdsföreningen",
+          "url": "https://www.tradgard.org/",
+          "source": "Svenska Trädgårdsföreningen"
+        },
+        {
+          "name": "Kommerskollegium",
+          "url": "https://www.kommers.se/",
+          "source": "Kommerskollegium"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 9,
+      "aiExplanation": "Björkar kan bli upp till 150 år gamla enligt flera källor och de är kända för sin långvarighet och robusthet.",
+      "verified": true,
+      "verifiedAt": 1776410201555
+    }
+  },
+  {
+    "text": "Det finns över 200 olika typer av kakor i världen.",
+    "category": "Mat",
+    "sourceName": "Food and Agriculture Organization",
+    "sourceUrl": "https://www.fao.org/",
+    "keywords": [
+      "kaka",
+      "ungdomar",
+      "mat"
+    ],
+    "related": [
+      "mat",
+      "kultur"
+    ],
+    "_createdAt": 1776410151249,
+    "_verification": {
+      "sourceCount": 4,
+      "sources": [
+        {
+          "title": "Fika",
+          "url": "https://sv.wikipedia.org/wiki/Fika",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "Wikipedia - List of cookies",
+          "url": "https://en.wikipedia.org/wiki/List_of_cookies",
+          "source": "Wikipedia - List of cookies"
+        },
+        {
+          "name": "Food Network - Cookie Types",
+          "url": "https://www.foodnetwork.com/recipes/photos/types-of-cookies",
+          "source": "Food Network - Cookie Types"
+        },
+        {
+          "name": "The Spruce Eats - Cookie Varieties",
+          "url": "https://www.thespruceeats.com/types-of-cookies-1000196",
+          "source": "The Spruce Eats - Cookie Varieties"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 8,
+      "aiExplanation": "Det finns mer än 200 olika typer av kakor världen över, vilket kan bekräftas genom flera källor som listar olika kakor och dess varianter.",
+      "verified": true,
+      "verifiedAt": 1776410208504
+    }
+  },
+  {
+    "text": "Kameleonter byter färg inte bara för kamouflage, utan också för att kommunicera.",
+    "category": "Djur",
+    "sourceName": "National Geographic",
+    "sourceUrl": "https://www.nationalgeographic.com/",
+    "keywords": [
+      "kameleont",
+      "färg",
+      "kommunikation"
+    ],
+    "related": [
+      "djur",
+      "natur"
+    ],
+    "_createdAt": 1776410151249,
+    "_verification": {
+      "sourceCount": 4,
+      "sources": [
+        {
+          "title": "Vanlig kameleont",
+          "url": "https://sv.wikipedia.org/wiki/Vanlig%20kameleont",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "National Geographic",
+          "url": "https://www.nationalgeographic.com/animals/article/chameleons-color-change",
+          "source": "National Geographic"
+        },
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.com/earth/story/20151125-the-reason-chameleons-change-colour",
+          "source": "BBC"
+        },
+        {
+          "name": "Smithsonian Magazine",
+          "url": "https://www.smithsonianmag.com/science-nature/chameleons-change-color-communication-180973432/",
+          "source": "Smithsonian Magazine"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 8,
+      "aiExplanation": "Kameleonter förändrar sin färg för både kamouflage och kommunikation, som att visa känslor eller dominans.",
+      "verified": true,
+      "verifiedAt": 1776410212312
+    }
+  },
+  {
+    "text": "Många dinosaurier hade fjädrar, precis som dagens fåglar.",
+    "category": "Historia",
+    "sourceName": "Smithsonian",
+    "sourceUrl": "https://www.smithsonianmag.com/",
+    "keywords": [
+      "dinosaurier",
+      "fjädrar",
+      "historia"
+    ],
+    "related": [
+      "historia",
+      "djur"
+    ],
+    "_createdAt": 1776410151249,
+    "_verification": {
+      "sourceCount": 4,
+      "sources": [
+        {
+          "title": "Dinosaurier",
+          "url": "https://sv.wikipedia.org/wiki/Dinosaurier",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "Scientific American",
+          "url": "https://www.scientificamerican.com/article/fuzzy-dinosaurs-new-evidence-suggests-that-many-dinosaurs-had-feathers/",
+          "source": "Scientific American"
+        },
+        {
+          "name": "National Geographic",
+          "url": "https://www.nationalgeographic.com/science/article/100630-dinosaurs-feathers-birds-science",
+          "source": "National Geographic"
+        },
+        {
+          "name": "Smithsonian Magazine",
+          "url": "https://www.smithsonianmag.com/science-nature/was-the-tyrannosaurus-rex-feathered-180972905/",
+          "source": "Smithsonian Magazine"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 9,
+      "aiExplanation": "Flera forskningsstudier har visat att många dinosaurier, särskilt de närstående fåglar, hade fjädrar, vilket stöder påståendet.",
+      "verified": true,
+      "verifiedAt": 1776410234624
+    }
+  },
+  {
+    "text": "De första filmerna var bara några minuter långa och visades utan ljud.",
+    "category": "Film",
+    "sourceName": "Library of Congress",
+    "sourceUrl": "https://www.loc.gov/",
+    "keywords": [
+      "filmhistoria",
+      "tystfilm",
+      "underhållning"
+    ],
+    "related": [
+      "film",
+      "historia"
+    ],
+    "_createdAt": 1776410151249,
+    "_verification": {
+      "sourceCount": 3,
+      "sources": [
+        {
+          "name": "Wikipedia - Silent film",
+          "url": "https://sv.wikipedia.org/wiki/Tyst_film",
+          "source": "Wikipedia - Silent film"
+        },
+        {
+          "name": "History of Film",
+          "url": "https://www.history.com/topics/film/history-of-film",
+          "source": "History of Film"
+        },
+        {
+          "name": "British Film Institute - Early Cinema",
+          "url": "https://www.bfi.org.uk/features/early-cinema",
+          "source": "British Film Institute - Early Cinema"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 9,
+      "aiExplanation": "De tidiga filmerna var i själva verket korta, ofta bara några minuter långa, och visades utan ljud, vilket stämmer med det aktuella påståendet.",
+      "verified": true,
+      "verifiedAt": 1776410243492
+    }
+  },
+  {
+    "text": "Stjärnor kan ibland vara så tunga att de kollapsar till svarta hål.",
+    "category": "Rymden",
+    "sourceName": "NASA",
+    "sourceUrl": "https://www.nasa.gov/",
+    "keywords": [
+      "svart hål",
+      "stjärnor",
+      "rymd"
+    ],
+    "related": [
+      "rymd",
+      "vetenskap"
+    ],
+    "_createdAt": 1776410151249,
+    "_verification": {
+      "sourceCount": 4,
+      "sources": [
+        {
+          "title": "Svart hål",
+          "url": "https://sv.wikipedia.org/wiki/Svart%20h%C3%A5l",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "NASA",
+          "url": "https://www.nasa.gov/black-holes",
+          "source": "NASA"
+        },
+        {
+          "name": "Space.com",
+          "url": "https://www.space.com/black-holes.html",
+          "source": "Space.com"
+        },
+        {
+          "name": "European Southern Observatory",
+          "url": "https://www.eso.org/public/archives/images/screen/eso1217a.jpg",
+          "source": "European Southern Observatory"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 10,
+      "aiExplanation": "När en stjärna har förbrukat sitt bränsle och inte längre kan stödja sig själv mot gravitationen, kan den kollapsa under sin egen vikt och bilda ett svart hål om den initiala massan är tillräckligt stor.",
+      "verified": true,
+      "verifiedAt": 1776410249323
+    }
+  },
+  {
+    "text": "Människor och delfiner är de enda arterna som har sex för nöjes skull.",
+    "category": "Kroppen",
+    "sourceName": "BBC",
+    "sourceUrl": "https://www.bbc.com/",
+    "keywords": [
+      "delfin",
+      "sex",
+      "människokropp"
+    ],
+    "related": [
+      "djur",
+      "psykologi"
+    ],
+    "_createdAt": 1776410151249,
+    "_verification": {
+      "sourceCount": 4,
+      "sources": [
+        {
+          "title": "Vatten",
+          "url": "https://sv.wikipedia.org/wiki/Vatten",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "National Geographic",
+          "url": "https://www.nationalgeographic.com/science/article/dolphins-sex-play",
+          "source": "National Geographic"
+        },
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.com/news/science-environment-42678821",
+          "source": "BBC"
+        },
+        {
+          "name": "Smithsonian Magazine",
+          "url": "https://www.smithsonianmag.com/science-nature/dolphins-have-sex-180967874/",
+          "source": "Smithsonian Magazine"
+        }
+      ],
+      "aiVerdict": "partly_true",
+      "aiConfidence": 7,
+      "aiExplanation": "Även om människor och delfiner ofta nämns som exempel på arter som har sex för nöjes skull, har observationer visat att andra djurarter, såsom vissa primater och fejkfåglar, också visar liknande beteenden.",
+      "verified": true,
+      "verifiedAt": 1776410256519
+    }
+  },
+  {
+    "text": "Världens största snöflinga mättes till 38 cm i diameter.",
+    "category": "Natur",
+    "sourceName": "National Weather Service",
+    "sourceUrl": "https://www.weather.gov/",
+    "keywords": [
+      "snöflinga",
+      "rekord",
+      "väder"
+    ],
+    "related": [
+      "natur",
+      "vetenskap"
+    ],
+    "_createdAt": 1776410151249,
+    "_verification": {
+      "sourceCount": 4,
+      "sources": [
+        {
+          "title": "Åska",
+          "url": "https://sv.wikipedia.org/wiki/%C3%85ska",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "Guinness World Records",
+          "url": "https://www.guinnessworldrecords.com/world-records/largest-snowflake",
+          "source": "Guinness World Records"
+        },
+        {
+          "name": "National Geographic",
+          "url": "https://www.nationalgeographic.com/science/article/largest-snowflake-ever-recorded",
+          "source": "National Geographic"
+        },
+        {
+          "name": "Science News",
+          "url": "https://www.sciencenews.org/article/largest-snowflake-measured",
+          "source": "Science News"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 9,
+      "aiExplanation": "Påståendet stämmer då den största snöflingan som registrerats hade en diameter på 38 cm.",
+      "verified": true,
+      "verifiedAt": 1776410265059
+    }
+  },
+  {
+    "text": "Sköldpaddor kan andas genom sin bakdel.",
+    "category": "Djur",
+    "sourceName": "National Geographic",
+    "sourceUrl": "https://www.nationalgeographic.com/",
+    "keywords": [
+      "sköldpadda",
+      "andas",
+      "djur"
+    ],
+    "related": [
+      "djur",
+      "vetenskap"
+    ],
+    "_createdAt": 1776410151249,
+    "_verification": {
+      "sourceCount": 4,
+      "sources": [
+        {
+          "title": "Djur",
+          "url": "https://sv.wikipedia.org/wiki/Djur",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "National Geographic",
+          "url": "https://www.nationalgeographic.com/animals/article/turtles-breathe-through-bum",
+          "source": "National Geographic"
+        },
+        {
+          "name": "Smithsonian Magazine",
+          "url": "https://www.smithsonianmag.com/science-nature/turtles-breathe-through-their-rears-180975529/",
+          "source": "Smithsonian Magazine"
+        },
+        {
+          "name": "Live Science",
+          "url": "https://www.livescience.com/60267-turtles-breathe-bum.html",
+          "source": "Live Science"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 9,
+      "aiExplanation": "Sköldpaddor kan faktiskt andas genom sin bakdel, en process som kallas kloakandning, vilket möjliggör gasutbyte genom kloaken istället för endast genom lungorna.",
+      "verified": true,
+      "verifiedAt": 1776410272386
+    }
+  },
+  {
+    "text": "Döda havet är den lägsta punkten på jordens landyta, 430 meter under havsnivån. Salthalten är 34% vilket är tio gånger saltare än havet.",
+    "keywords": [
+      "döda havet",
+      "salt",
+      "geografi",
+      "lägst",
+      "jordanien",
+      "israel"
+    ],
+    "sourceName": "UNESCO",
+    "sourceUrl": "https://whc.unesco.org/",
+    "related": [
+      "Mellanöstern",
+      "salt",
+      "geologi"
+    ],
+    "category": "Geografi",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_verification": {
+      "sourceCount": 4,
+      "sources": [
+        {
+          "title": "Kaspiska havet",
+          "url": "https://sv.wikipedia.org/wiki/Kaspiska%20havet",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "National Geographic",
+          "url": "https://www.nationalgeographic.com/travel/destinations/middle-east/israel/dead-sea/",
+          "source": "National Geographic"
+        },
+        {
+          "name": "World Atlas",
+          "url": "https://www.worldatlas.com/articles/what-is-the-lowest-point-on-earth.html",
+          "source": "World Atlas"
+        },
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.com/news/world-middle-east-60221309",
+          "source": "BBC"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 9,
+      "aiExplanation": "Döda havet ligger 430 meter under havsnivån och har en salthalt på cirka 34%, vilket är ungefär tio gånger högre än havets salthalt.",
+      "verified": true,
+      "verifiedAt": 1776410317714
+    }
+  },
+  {
+    "text": "USB-C kontakten och skapades för att så ofta satte i den klassiska USB-A kontakten åt fel håll.",
+    "keywords": [
+      "usb",
+      "teknologi",
+      "kontakt",
+      "dator",
+      "design"
+    ],
+    "sourceName": "USB Implementers Forum",
+    "sourceUrl": "https://www.usb.org/",
+    "related": [
+      "datorer",
+      "design",
+      "standard"
+    ],
+    "category": "Teknologi",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_verification": {
+      "sourceCount": 3,
+      "sources": [
+        {
+          "title": "Playstation 3",
+          "url": "https://sv.wikipedia.org/wiki/Playstation%203",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "HowStuffWorks - USB Types Explained",
+          "url": "https://electronics.howstuffworks.com/usb-types.htm",
+          "source": "HowStuffWorks - USB Types Explained"
+        },
+        {
+          "name": "TechRadar - What is USB-C?",
+          "url": "https://www.techradar.com/news/what-is-usb-c",
+          "source": "TechRadar - What is USB-C?"
+        }
+      ],
+      "aiVerdict": "false",
+      "aiConfidence": 8,
+      "aiExplanation": "USB-C utvecklades för att erbjuda fler funktioner och högre hastighet, inte enbart för att åtgärda problemet med att USB-A kan sättas in åt fel håll.",
+      "verified": true,
+      "verifiedAt": 1776410432605
+    }
+  },
+  {
+    "text": "Manga (japansk serietidning) utgör nästan 40% av all tryckt media i Japan. Den mest sålda serien, One Piece, har sålt över 500 miljoner kopior.",
+    "keywords": [
+      "manga",
+      "japan",
+      "serietidning",
+      "one piece",
+      "litteratur",
+      "anime"
+    ],
+    "sourceName": "Publishers Association of Japan",
+    "sourceUrl": "https://www.ajpea.or.jp/",
+    "related": [
+      "anime",
+      "Japan",
+      "serier"
+    ],
+    "category": "Litteratur",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992384,
+    "_verification": {
+      "sourceCount": 4,
+      "sources": [
+        {
+          "title": "Manga",
+          "url": "https://sv.wikipedia.org/wiki/Manga",
+          "source": "Wikipedia (SV)"
+        },
+        {
+          "name": "Statista",
+          "url": "https://www.statista.com/statistics/694441/japan-manga-sales-share-of-print-media/",
+          "source": "Statista"
+        },
+        {
+          "name": "Business Insider",
+          "url": "https://www.businessinsider.com/one-piece-manga-sales-2021-10",
+          "source": "Business Insider"
+        },
+        {
+          "name": "The Japan Times",
+          "url": "https://www.japantimes.co.jp/culture/2021/07/09/general/one-piece-manga-sales-500-million/",
+          "source": "The Japan Times"
+        }
+      ],
+      "aiVerdict": "partly_true",
+      "aiConfidence": 7,
+      "aiExplanation": "Manga utgör en stor del av den tryckta media i Japan, men procentandelen kan variera beroende på källan. One Piece har sålt över 500 miljoner kopior.",
+      "verified": true,
+      "verifiedAt": 1776410451716
+    }
+  },
+  {
+    "text": "Dina pupiller vidgas när du tittar på någon du är attraherad av. Det är därför det är smart att sänka belysningen på en romantisk middag. Pupillerna vidgas då naturligt.",
+    "keywords": [
+      "pupiller",
+      "attraktion",
+      "psykologi",
+      "ögon",
+      "kärlek"
+    ],
+    "sourceName": "University of Chicago / Psychological Science",
+    "sourceUrl": "https://www.psychologicalscience.org/",
+    "related": [
+      "attraktion",
+      "ögon",
+      "kroppsspråk"
+    ],
+    "category": "Kroppen",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992385,
+    "_verification": {
+      "sourceCount": 3,
+      "sources": [
+        {
+          "name": "Psychology Today",
+          "url": "https://www.psychologytoday.com/us/blog/the-moment-youth/201407/eye-pupil-dilation",
+          "source": "Psychology Today"
+        },
+        {
+          "name": "Healthline",
+          "url": "https://www.healthline.com/health/pupil-dilation",
+          "source": "Healthline"
+        },
+        {
+          "name": "Scientific American",
+          "url": "https://www.scientificamerican.com/article/pupil-dilation-the-eye-and-the-mind/",
+          "source": "Scientific American"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 8,
+      "aiExplanation": "Pupillernas vidgning kan vara en fysiologisk reaktion på attraktion och mörker, vilket gynnas av minskad belysning.",
+      "verified": true,
+      "verifiedAt": 1776410511333
+    }
+  },
+  {
+    "text": "Musik kan bokstavligen ge dig frossa. Dopamin frigörs i hjärnan precis innan din favoritdel av en låt eftersom hjärnan förutser njutningen.",
+    "keywords": [
+      "musik",
+      "frossa",
+      "dopamin",
+      "psykologi",
+      "hjärnan"
+    ],
+    "sourceName": "McGill University / Nature Neuroscience",
+    "sourceUrl": "https://www.nature.com/neuro/",
+    "related": [
+      "musik",
+      "dopamin",
+      "njutning"
+    ],
+    "category": "Kroppen",
+    "_importedFrom": "curated",
+    "_createdAt": 1776272992385,
+    "_verification": {
+      "sourceCount": 5,
+      "sources": [
+        {
+          "name": "Harvard Health Publishing",
+          "url": "https://www.health.harvard.edu/mind-and-mood/the-neuroscience-of-music",
+          "source": "Harvard Health Publishing"
+        },
+        {
+          "name": "Frontiers in Psychology",
+          "url": "https://www.frontiersin.org/articles/10.3389/fpsyg.2013.00214/full",
+          "source": "Frontiers in Psychology"
+        },
+        {
+          "name": "The Washington Post",
+          "url": "https://www.washingtonpost.com/news/storyline/wp/2015/02/15/why-that-sweet-part-of-a-song-makes-you-feel-so-good/",
+          "source": "The Washington Post"
+        },
+        {
+          "name": "Scientific American",
+          "url": "https://www.scientificamerican.com/article/the-sweet-spot-in-music-lies-in-the-anticipation/",
+          "source": "Scientific American"
+        },
+        {
+          "name": "BBC Future",
+          "url": "https://www.bbc.com/future/article/20200810-how-music-plays-with-our-brains",
+          "source": "BBC Future"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 9,
+      "aiExplanation": "Forskning visar att musik kan frisätta dopamin i hjärnan, särskilt i förväntan av njutning, vilket bekräftar påståendet.",
+      "verified": true,
+      "verifiedAt": 1776410564821
+    }
+  },
+  {
+    "text": "Känguruns svans är extremt kraftig och fungerar som ett \"femte ben\" för balans och stöd när de rör sig framåt. Svansens storlek och benens konstruktion gör det nästan fysiskt omöjligt för dem att backa.",
+    "category": "Djur",
+    "sourceName": "Smithsonian",
+    "sourceUrl": "https://www.smithsonianmag.com/",
+    "keywords": [
+      "känguru",
+      "djurfakta",
+      "Australien"
+    ],
+    "related": [
+      "djur",
+      "natur"
+    ],
+    "_createdAt": 1776410151249,
+    "_verification": {
+      "sourceCount": 3,
+      "sources": [
+        {
+          "name": "National Geographic",
+          "url": "https://www.nationalgeographic.com/animals/mammals/facts/kangaroos",
+          "source": "National Geographic"
+        },
+        {
+          "name": "Australian Museum",
+          "url": "https://australian.museum/learn/animals/mammals/kangaroo/",
+          "source": "Australian Museum"
+        },
+        {
+          "name": "BBC Earth",
+          "url": "https://www.bbc.com/earth/story/20150504-the-importance-of-kangaroos",
+          "source": "BBC Earth"
+        }
+      ],
+      "aiVerdict": "true",
+      "aiConfidence": 8,
+      "aiExplanation": "Känguruns svans är stor och muskulös, vilket ger dem balans och stöd, och gör det svårt för dem att backa.",
+      "verified": true,
+      "verifiedAt": 1776410628531
+    }
   }
 ]
