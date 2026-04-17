@@ -115,9 +115,9 @@
         .fact-nav-row {
             display: flex;
             align-items: center;
-            gap: 0.6rem;
+            gap: 0.75rem;
             width: 100%;
-            margin-bottom: 2rem;
+            margin-bottom: 0.75rem;
         }
 
         .fact-area {
@@ -127,27 +127,29 @@
 
         .fact-area:empty { margin-bottom: 0; }
 
+        .related-area {
+            margin-bottom: 2rem;
+        }
+
         .nav-arrow {
             display: none;
             flex-shrink: 0;
-            width: 42px;
-            height: 42px;
+            width: 48px;
+            height: 48px;
             border-radius: 50%;
             border: 2px solid var(--border);
             background: white;
-            font-size: 1.6rem;
             cursor: pointer;
             align-items: center;
             justify-content: center;
             color: var(--text);
             transition: background 0.15s, border-color 0.15s, opacity 0.15s;
-            line-height: 1;
             padding: 0;
             user-select: none;
         }
         .nav-arrow.visible { display: flex; }
         .nav-arrow:hover:not(:disabled) { background: var(--green); border-color: var(--green); }
-        .nav-arrow:disabled { opacity: 0.25; cursor: default; }
+        .nav-arrow:disabled { opacity: 0.22; cursor: default; }
 
         .fact-card {
             background: var(--card-bg);
@@ -369,6 +371,32 @@
             font-size: 0.8rem; color: var(--text-secondary); padding: 0.2rem;
         }
         .saved-fact-remove:hover { color: var(--red); }
+        .saved-detail-back {
+            display: flex; align-items: center; gap: 0.4rem;
+            background: none; border: none; cursor: pointer; padding: 0;
+            font-size: 0.8rem; font-family: inherit; color: var(--text-secondary);
+            margin-bottom: 0.9rem;
+        }
+        .saved-detail-back:hover { color: var(--text); }
+        .saved-detail-card {
+            background: var(--card-bg);
+            border-radius: var(--radius);
+            padding: 1.2rem 1rem;
+            border: 1.5px solid var(--border);
+            animation: fadeIn 0.2s ease;
+        }
+        .saved-detail-text {
+            font-size: 0.88rem;
+            line-height: 1.65;
+            margin-bottom: 1rem;
+            color: var(--text);
+        }
+        .saved-detail-footer {
+            display: flex; align-items: center;
+            justify-content: space-between; flex-wrap: wrap; gap: 0.4rem;
+            padding-top: 0.7rem;
+            border-top: 1px solid var(--border);
+        }
         .inbox-item {
             padding: 0.8rem; margin-bottom: 0.5rem;
             border: 1px solid var(--border); border-radius: 8px;
@@ -453,6 +481,13 @@
             </div>
             <div class="profile-section active" id="psec-saved">
                 <div id="savedList"></div>
+                <div id="savedDetail" style="display:none;">
+                    <button class="saved-detail-back" onclick="closeSavedDetail()">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+                        Tillbaka
+                    </button>
+                    <div class="saved-detail-card" id="savedDetailCard"></div>
+                </div>
             </div>
             <div class="profile-section" id="psec-inbox">
                 <div id="inboxList"></div>
@@ -494,10 +529,15 @@
 
     <div class="container">
         <div class="fact-nav-row">
-            <button class="nav-arrow" id="prevArrow" onclick="showPrevFact()" disabled title="Föregående">‹</button>
+            <button class="nav-arrow" id="prevArrow" onclick="showPrevFact()" disabled title="Föregående">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+            </button>
             <div class="fact-area" id="factArea"></div>
-            <button class="nav-arrow" id="nextArrow" onclick="showNextFact()" title="Nästa">›</button>
+            <button class="nav-arrow" id="nextArrow" onclick="showNextFact()" title="Nästa">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+            </button>
         </div>
+        <div class="related-area" id="relatedArea"></div>
 
         <div class="search-section" id="randomSection">
             <button type="button" class="random-btn" id="randomBtn">Berätta något jag inte vet</button>
@@ -647,6 +687,11 @@
 
         function closeProfile() {
             document.getElementById("profileOverlay").classList.remove("open");
+            // Reset saved detail view for next open
+            const detail = document.getElementById("savedDetail");
+            const list = document.getElementById("savedList");
+            if (detail) detail.style.display = "none";
+            if (list) list.style.display = "block";
         }
 
         function switchProfileTab(tab) {
@@ -718,13 +763,33 @@
         function openSavedFact(index) {
             const item = _savedFactsCache[index];
             if (!item) return;
-            closeProfile();
-            currentFacts = [item.fact];
-            currentRelated = [];
-            currentIndex = 0;
-            currentTopic = "";
-            renderSingleFact();
-            window.scrollTo({ top: 0, behavior: "smooth" });
+            const fact = item.fact;
+
+            const sourceHtml = fact.sourceName
+                ? `<a href="${escapeHtml(fact.sourceUrl || '#')}" target="_blank" rel="noopener" class="source-link" style="font-size:0.75rem;">Källa: ${escapeHtml(fact.sourceName)}</a>`
+                : "";
+
+            const credClass = `cred-${fact.credibility || 'high'}`;
+            const label = credibilityLabel(fact.credibility || 'high');
+
+            document.getElementById("savedDetailCard").innerHTML = `
+                <div class="saved-detail-text">${escapeHtml(fact.text)}</div>
+                <div class="saved-detail-footer">
+                    <div class="credibility ${credClass}" style="font-size:0.75rem;">
+                        <span class="cred-dot"></span>
+                        <span>Trovärdighet: </span>
+                        <span class="cred-label">${label}</span>
+                    </div>
+                    ${sourceHtml}
+                </div>`;
+
+            document.getElementById("savedList").style.display = "none";
+            document.getElementById("savedDetail").style.display = "block";
+        }
+
+        function closeSavedDetail() {
+            document.getElementById("savedDetail").style.display = "none";
+            document.getElementById("savedList").style.display = "block";
         }
 
         async function removeSaved(docId) {
@@ -1466,6 +1531,7 @@
 
         async function renderSingleFact() {
             const factArea = document.getElementById("factArea");
+            const relatedArea = document.getElementById("relatedArea");
             const fact = currentFacts[currentIndex];
             const credClass = `cred-${fact.credibility}`;
             const label = credibilityLabel(fact.credibility);
@@ -1490,7 +1556,8 @@
                     </button>
                 </div>`;
 
-            let html = `
+            // Render just the card into factArea (so arrows align to card height only)
+            factArea.innerHTML = `
                 <div class="fact-card">
                     <div class="fact-text">${escapeHtml(fact.text)}</div>
                     <div class="fact-footer">
@@ -1504,17 +1571,18 @@
                     ${actionsHtml}
                 </div>`;
 
+            // Render related topics separately below the nav row
             if (currentRelated.length > 0) {
-                html += `
+                relatedArea.innerHTML = `
                     <div class="related-section">
                         <div class="related-label">Utforska vidare</div>
                         <div class="related-topics">
                             ${currentRelated.map(t => `<button class="topic-pill" onclick="searchFacts('${escapeHtml(t.replace(/'/g, "\\'"))}')">${escapeHtml(t)}</button>`).join("")}
                         </div>
                     </div>`;
+            } else {
+                relatedArea.innerHTML = "";
             }
-
-            factArea.innerHTML = html;
         }
 
         // ========== INIT ==========
