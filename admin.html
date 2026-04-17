@@ -495,6 +495,7 @@
             <button class="tab" data-tab="duplicates">Dubletter <span id="dupBadge" style="background:#FF8383;color:white;border-radius:10px;padding:0 5px;font-size:0.6rem;margin-left:2px;display:none;">0</span></button>
             <button class="tab" data-tab="trash">Papperskorg</button>
             <button class="tab" data-tab="searches">Sökningar</button>
+            <button class="tab" data-tab="known">Kända fakta</button>
             <button class="tab" data-tab="generate">Generera</button>
         </div>
 
@@ -606,6 +607,20 @@
             <div id="searchesList"></div>
         </div>
 
+        <!-- KNOWN FACTS -->
+        <div class="tab-panel" id="panel-known">
+            <div class="bulk-bar">
+                <span class="count" id="knownCount">Laddar...</span>
+                <div class="bulk-actions">
+                    <button class="btn btn-sm" onclick="loadKnownStats()" style="background:var(--text);color:#fff;">↻ Uppdatera</button>
+                </div>
+            </div>
+            <p style="font-size:0.78rem;color:var(--text-secondary);margin-bottom:1rem;">
+                Fakta som användare har markerat som "Jag vet redan det här". Sortera på antal för att hitta fakta som inte är tillräckligt unika och ta bort dem.
+            </p>
+            <div id="knownList"></div>
+        </div>
+
         <!-- TRASH -->
         <div class="tab-panel" id="panel-trash">
             <div class="bulk-bar">
@@ -619,8 +634,23 @@
 
     </div>
 
+    <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-auth-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore-compat.js"></script>
     <script src="https://js.puter.com/v2/"></script>
     <script src="facts.js"></script>
+    <script>
+        // ===== FIREBASE (for factStats) =====
+        const _fb = firebase.initializeApp({
+            apiKey: "AIzaSyBb564Dfem8IPMrKxV54AOsqLB6x8wqpu4",
+            authDomain: "smartass-54b33.firebaseapp.com",
+            projectId: "smartass-54b33",
+            storageBucket: "smartass-54b33.firebasestorage.app",
+            messagingSenderId: "802864537973",
+            appId: "1:802864537973:web:bfea158ded445ff04fb33c"
+        }, "admin");
+        const _db = _fb.firestore();
+    </script>
     <script>
         // ========== CATEGORIES ==========
         const DEFAULT_CATEGORIES = [
@@ -2141,6 +2171,7 @@ Svara i detta format (BARA JSON, inget annat):
                 openTab(tab.dataset.tab);
                 if (tab.dataset.tab === "published") { renderPublishedFilters(); renderPublished(); }
                 if (tab.dataset.tab === "searches") { renderSearches(); }
+                if (tab.dataset.tab === "known") { loadKnownStats(); }
             });
         });
 
@@ -2229,6 +2260,63 @@ Svara i detta format (BARA JSON, inget annat):
                 renderSearches();
             }
         });
+
+        // ========== KNOWN FACTS STATS ==========
+        async function loadKnownStats() {
+            const container = document.getElementById("knownList");
+            const countEl = document.getElementById("knownCount");
+            container.innerHTML = `<p style="color:var(--text-secondary);text-align:center;padding:2rem;">Laddar...</p>`;
+
+            try {
+                const snap = await _db.collection("factStats").orderBy("knownCount", "desc").get();
+
+                if (snap.empty) {
+                    countEl.textContent = "Inga kända fakta ännu";
+                    container.innerHTML = `<p style="color:var(--text-secondary);text-align:center;padding:2rem;">Ingen har klickat "Jag vet redan det här" ännu.</p>`;
+                    return;
+                }
+
+                countEl.textContent = `${snap.size} fakta med "kända"-klick`;
+
+                container.innerHTML = snap.docs.map(doc => {
+                    const d = doc.data();
+                    const count = d.knownCount || 0;
+                    const hue = count >= 10 ? "var(--red)" : count >= 4 ? "var(--yellow)" : "var(--green)";
+                    const pubFacts = getPublished();
+                    const isPublished = pubFacts.some(f => (f.text || "").slice(0, 80) === doc.id);
+
+                    return `
+                        <div style="display:flex;gap:0.8rem;align-items:flex-start;padding:0.9rem;background:white;border:1px solid var(--border);border-radius:10px;margin-bottom:0.5rem;">
+                            <div style="flex-shrink:0;min-width:44px;text-align:center;background:${hue};border-radius:8px;padding:0.3rem 0.5rem;">
+                                <div style="font-size:1.1rem;font-weight:700;">${count}</div>
+                                <div style="font-size:0.6rem;font-weight:500;">kända</div>
+                            </div>
+                            <div style="flex:1;min-width:0;">
+                                <div style="font-size:0.85rem;line-height:1.5;margin-bottom:0.4rem;">${escapeHtml(d.text || "")}</div>
+                                <div style="display:flex;gap:0.4rem;flex-wrap:wrap;align-items:center;">
+                                    ${d.category ? `<span class="badge badge-category">${escapeHtml(d.category)}</span>` : ""}
+                                    ${isPublished ? `<span class="badge badge-approved">Publicerad</span>` : `<span class="badge" style="background:#eee;color:#888;">Ej publicerad</span>`}
+                                    ${isPublished ? `<button class="btn btn-sm btn-delete" onclick="removeKnownFact('${doc.id}')">Ta bort från publicerade</button>` : ""}
+                                </div>
+                            </div>
+                        </div>`;
+                }).join("");
+
+            } catch (e) {
+                container.innerHTML = `<p style="color:var(--red);padding:1rem;">Fel: ${e.message}</p>`;
+            }
+        }
+
+        function removeKnownFact(factKey) {
+            const pub = getPublished();
+            const idx = pub.findIndex(f => (f.text || "").slice(0, 80) === factKey);
+            if (idx === -1) return;
+            if (!confirm(`Ta bort faktan från publicerade?\n\n"${pub[idx].text.slice(0, 80)}..."`)) return;
+            pub.splice(idx, 1);
+            localStorage.setItem("smartass_published", JSON.stringify(pub));
+            alert("Borttagen från publicerade. Glöm inte att synka till GitHub!");
+            loadKnownStats(); // re-render
+        }
 
         // ========== AI GENERATION ==========
         function withTimeout(promise, ms, label) {
