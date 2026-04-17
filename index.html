@@ -97,12 +97,12 @@
 
         .random-btn {
             width: 100%;
-            padding: 1.1rem 1.5rem;
+            padding: 1.3rem 1.5rem;
             background: var(--text);
             color: var(--bg);
             border: none;
-            border-radius: var(--radius);
-            font-size: 1rem;
+            border-radius: 100px;
+            font-size: 1.1rem;
             font-weight: 600;
             font-family: 'Inter', sans-serif;
             cursor: pointer;
@@ -404,10 +404,10 @@
         <div class="profile-panel" style="position:relative;">
             <button class="profile-close" onclick="closeProfile()">✕</button>
             <div class="profile-header">
-                <img class="profile-photo" id="profilePhoto" src="" alt="">
                 <div>
                     <div class="profile-name" id="profileName"></div>
                     <div class="profile-email" id="profileEmail"></div>
+                    <button onclick="showUsernameModal()" style="margin-top:0.3rem;background:none;border:none;font-size:0.72rem;color:var(--text-secondary);cursor:pointer;padding:0;font-family:inherit;text-decoration:underline;">Byt användarnamn</button>
                 </div>
             </div>
             <div class="profile-tab-bar">
@@ -423,6 +423,21 @@
             <div style="margin-top:1.5rem; padding-top:1rem; border-top:1px solid var(--border); text-align:center;">
                 <button class="auth-btn" onclick="logOut()" style="color:var(--red); border-color:var(--red);">Logga ut</button>
             </div>
+        </div>
+    </div>
+
+    <!-- USERNAME MODAL -->
+    <div class="share-modal" id="usernameModal">
+        <div class="share-box">
+            <h3>👤 Välj användarnamn</h3>
+            <p style="font-size:0.78rem;color:var(--text-secondary);margin-bottom:0.8rem;">Välj ett unikt användarnamn. Vänner hittar dig med detta namn.</p>
+            <input class="share-input" id="usernameInput" type="text" placeholder="t.ex. coolkatt99" maxlength="20" oninput="this.value=this.value.toLowerCase().replace(/[^a-z0-9_.]/g,'')">
+            <div class="share-status" id="usernameStatus"></div>
+            <div class="share-actions">
+                <button class="auth-btn" id="usernameCancelBtn" onclick="closeUsernameModal()">Avbryt</button>
+                <button class="auth-btn" onclick="saveUsername()" style="background:var(--text);color:white;border-color:var(--text);">Spara</button>
+            </div>
+            <p style="font-size:0.68rem;color:var(--text-secondary);margin-top:0.6rem;">Endast a-z, 0-9, punkt och underscore. Max 20 tecken.</p>
         </div>
     </div>
 
@@ -505,6 +520,9 @@
                     </div>
                 `;
                 loadInboxCount();
+                // Ask for username if not set yet
+                const username = await loadUsername();
+                if (!username) showUsernameModal(true);
             } else {
                 area.innerHTML = `
                     <button class="auth-btn" id="loginBtn" onclick="googleLogin()">
@@ -517,11 +535,69 @@
             if (currentFacts.length > 0) renderSingleFact();
         });
 
+        // ===== USERNAME =====
+        async function loadUsername() {
+            if (!currentUser) return null;
+            const doc = await db.collection("users").doc(currentUser.uid).get();
+            return doc.exists ? doc.data().username || null : null;
+        }
+
+        function showUsernameModal(required = false) {
+            const cancelBtn = document.getElementById("usernameCancelBtn");
+            cancelBtn.style.display = required ? "none" : "";
+            document.getElementById("usernameInput").value = "";
+            document.getElementById("usernameStatus").textContent = "";
+            document.getElementById("usernameModal").classList.add("open");
+            document.getElementById("usernameInput").focus();
+        }
+
+        function closeUsernameModal() {
+            document.getElementById("usernameModal").classList.remove("open");
+        }
+
+        async function saveUsername() {
+            const input = document.getElementById("usernameInput").value.trim().toLowerCase();
+            const status = document.getElementById("usernameStatus");
+
+            if (input.length < 3) {
+                status.textContent = "Minst 3 tecken krävs.";
+                status.style.color = "var(--red)"; return;
+            }
+
+            // Check uniqueness
+            status.textContent = "Kontrollerar...";
+            status.style.color = "var(--text-secondary)";
+
+            const existing = await db.collection("usernames").doc(input).get();
+            if (existing.exists && existing.data().uid !== currentUser.uid) {
+                status.textContent = "❌ Det användarnamnet är redan taget.";
+                status.style.color = "var(--red)"; return;
+            }
+
+            // Free old username
+            const userDoc = await db.collection("users").doc(currentUser.uid).get();
+            const oldUsername = userDoc.exists ? userDoc.data().username : null;
+            if (oldUsername && oldUsername !== input) {
+                await db.collection("usernames").doc(oldUsername).delete();
+            }
+
+            // Save new username
+            await db.collection("usernames").doc(input).set({ uid: currentUser.uid });
+            await db.collection("users").doc(currentUser.uid).update({ username: input });
+
+            status.textContent = "✅ Sparat!";
+            status.style.color = "var(--green)";
+            setTimeout(() => {
+                closeUsernameModal();
+                openProfile();
+            }, 800);
+        }
+
         // ===== PROFILE =====
-        function openProfile() {
+        async function openProfile() {
             if (!currentUser) return;
-            document.getElementById("profilePhoto").src = currentUser.photoURL || "";
-            document.getElementById("profileName").textContent = currentUser.displayName || "Användare";
+            const username = await loadUsername();
+            document.getElementById("profileName").textContent = username ? `@${username}` : (currentUser.displayName || "Användare");
             document.getElementById("profileEmail").textContent = currentUser.email || "";
             document.getElementById("profileOverlay").classList.add("open");
             loadSavedFacts();
@@ -1394,17 +1470,11 @@
         loadPublishedFacts();
 
         // ========== EVENT LISTENERS ==========
-        document.getElementById("searchForm").addEventListener("submit", (e) => {
-            e.preventDefault();
-            const topic = document.getElementById("searchInput").value.trim();
-            if (topic) searchFacts(topic);
-        });
-
         document.getElementById("randomBtn").addEventListener("click", async () => {
             const allFacts = getAllFacts();
             if (allFacts.length === 0) {
                 document.getElementById("factArea").innerHTML = `
-                    <div class="error-msg">Inga publicerade fakta ännu. Godkänn och publicera fakta via admin-panelen!</div>`;
+                    <div class="error-msg">Inga publicerade fakta ännu!</div>`;
                 return;
             }
             const unseen = allFacts.filter(f => !isFactSeen(f));
@@ -1416,7 +1486,6 @@
             currentRelated = fact.related || [];
             currentIndex = 0;
             currentTopic = fact.keywords?.[0] || "";
-            document.getElementById("searchInput").value = "";
             markFactSeen(fact);
             renderSingleFact();
         });

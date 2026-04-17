@@ -5,6 +5,12 @@ rules_version = '2';
 service cloud.firestore {
   match /databases/{database}/documents {
 
+    // Usernames — unique index
+    match /usernames/{username} {
+      allow read: if request.auth != null;
+      allow write: if request.auth != null;
+    }
+
     // Users can read/write their own profile
     match /users/{userId} {
       allow read: if request.auth != null;
