@@ -477,7 +477,7 @@
             const provider = new firebase.auth.GoogleAuthProvider();
             auth.signInWithPopup(provider).catch(e => {
                 console.error("Login error:", e);
-                alert("Inloggning misslyckades. Försök igen!");
+                alert("Fel: " + e.code + "\n" + e.message);
             });
         }
 
